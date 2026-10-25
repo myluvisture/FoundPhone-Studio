@@ -10,7 +10,8 @@
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "apple-wwdc26",
+    "passcode": "1118"
   },
   "installedApps": [
     "appstore",
@@ -89,10 +90,10 @@
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "rikku",
+      "name": "リク",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "bio": ""
     }
   ],
   "chats": [
@@ -225,22 +226,22 @@
       ]
     },
     {
-      "id": "test-chat-kakao",
+      "id": "rikku-kakao",
       "app": "kakao",
-      "title": "测试会话",
+      "title": "リク",
       "participants": [
         "owner",
-        "test-contact"
+        "rikku"
       ],
       "messages": [
         {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "rikku-msg-1",
+          "body": "こんにちは",
+          "senderId": "rikku"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
+          "id": "rikku-msg-2",
+          "body": "元気？",
           "senderId": "owner"
         }
       ]
