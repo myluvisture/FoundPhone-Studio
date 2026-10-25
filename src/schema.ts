@@ -101,6 +101,8 @@ export const workSchema = z.object({
       .optional(),
     passcode: z.string().max(12),
     wallpaper: z.string(),
+    lockWallpaper: z.string().optional(),
+    homeWallpaper: z.string().optional(),
     theme: z.enum(["light", "dark"]),
     time: z.string(),
     battery: z.number().min(0).max(100),

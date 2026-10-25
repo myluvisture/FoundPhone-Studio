@@ -11,7 +11,9 @@
     "battery": 94,
     "network": "5G",
     "wallpaper": "user-p2",
-    "passcode": "1118"
+    "passcode": "1118",
+    "lockWallpaper": "p1",
+    "homeWallpaper": "p2"
   },
   "installedApps": [
     "appstore",
