@@ -41,7 +41,6 @@
     "messages": [
       {"id":"kakao-riku-msg-01","title":"リク","body":"你不解释一下昨天晚上的事","senderId":"rikku","time":"昨天 23:14"},
       {"id":"kakao-riku-msg-02","title":"リク","body":"你喝多了","senderId":"owner","time":"昨天 23:15"},
-      {"id":"kakao-riku-msg-03","title":"リク","body":"你昨天不是挺爽的吗","senderId":"rikku","time":"昨天 23:15"},
       {"id":"kakao-riku-msg-04","title":"リク","body":"现在撇清关系是什么意思","senderId":"rikku","time":"昨天 23:16"},
       {"id":"kakao-riku-msg-05","title":"リク","body":"这次是我做错了","senderId":"owner","time":"昨天 23:18"},
       {"id":"kakao-riku-msg-06","title":"リク","body":"以后不会发生这种事情了","senderId":"owner","time":"昨天 23:18"},
