@@ -4918,3 +4918,8 @@ label {
   background: #e34f58;
   transform: rotate(135deg);
 }
+
+
+/* User-provided iPhone wallpapers: home screen P2, lock screen P1. */
+.wallpaper-user-p2 { background-image: url('./story-assets/p2.jpg') !important; background-position: center; background-size: cover !important; }
+.wallpaper-user-p2.is-locked { background-image: url('./story-assets/p1.jpg') !important; background-position: center; background-size: cover !important; }

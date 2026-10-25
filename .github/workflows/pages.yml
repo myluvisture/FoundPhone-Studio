@@ -19,6 +19,12 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - name: Restore supplied wallpaper and avatar assets
+        run: |
+          mkdir -p src/story-assets
+          unzip -p FoundPhone-Studio-modified.zip FoundPhone-Studio-main/public/story-assets/p1.jpg > src/story-assets/p1.jpg
+          unzip -p FoundPhone-Studio-modified.zip FoundPhone-Studio-main/public/story-assets/p2.jpg > src/story-assets/p2.jpg
+          unzip -p FoundPhone-Studio-modified.zip FoundPhone-Studio-main/public/story-assets/p3.jpg > src/story-assets/p3.jpg
       - run: npm ci
       - run: npm run typecheck
       - run: npm run lint

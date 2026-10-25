@@ -10,7 +10,7 @@
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26",
+    "wallpaper": "user-p2",
     "passcode": "1118"
   },
   "installedApps": [
@@ -93,7 +93,8 @@
       "id": "rikku",
       "name": "リク",
       "phone": "",
-      "bio": ""
+      "bio": "",
+      "avatar": "./story-assets/p3.jpg"
     }
   ],
   "chats": [
