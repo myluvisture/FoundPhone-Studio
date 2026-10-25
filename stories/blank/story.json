@@ -32,21 +32,27 @@
       "avatar": ""
     }
   ],
-  "chats": [],
-  "content": {
-    "kakao": [
-      {
-        "id": "kakao-riku-contact",
-        "title": "リク",
-        "body": "",
-        "sender": "リク",
-        "folder": "好友",
-        "avatar": "",
-        "meta": {
-          "contactId": "rikku"
-        }
-      }
+  "chats": [
+  {
+    "id": "kakao-riku-chat",
+    "app": "kakao",
+    "title": "リク",
+    "participants": ["rikku", "owner"],
+    "messages": [
+      {"id":"kakao-riku-msg-01","title":"リク","body":"你不解释一下昨天晚上的事","senderId":"rikku","time":"昨天 23:14"},
+      {"id":"kakao-riku-msg-02","title":"リク","body":"你喝多了","senderId":"owner","time":"昨天 23:15"},
+      {"id":"kakao-riku-msg-03","title":"リク","body":"你昨天不是挺爽的吗","senderId":"rikku","time":"昨天 23:15"},
+      {"id":"kakao-riku-msg-04","title":"リク","body":"现在撇清关系是什么意思","senderId":"rikku","time":"昨天 23:16"},
+      {"id":"kakao-riku-msg-05","title":"リク","body":"这次是我做错了","senderId":"owner","time":"昨天 23:18"},
+      {"id":"kakao-riku-msg-06","title":"リク","body":"以后不会发生这种事情了","senderId":"owner","time":"昨天 23:18"},
+      {"id":"kakao-riku-msg-07","title":"リク","body":"？就这样","senderId":"rikku","time":"昨天 23:19"},
+      {"id":"kakao-riku-msg-08","title":"リク","body":"你想我说什么","senderId":"owner","time":"昨天 23:20"},
+      {"id":"kakao-riku-msg-09","title":"リク","body":"你是不是不喜欢我谈恋爱","senderId":"rikku","time":"昨天 23:21"},
+      {"id":"kakao-riku-msg-10","title":"リク","body":"有爱豆职业操守的人应该都不会做这种事","senderId":"owner","time":"昨天 23:22"},
+      {"id":"kakao-riku-msg-11","title":"リク","body":"那你刚开始为什么要管","senderId":"rikku","time":"昨天 23:23"}
     ]
+  }
+],
   },
   "variables": {},
   "events": [],
