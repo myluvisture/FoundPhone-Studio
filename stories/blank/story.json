@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 5,
+  "revision": 6,
   "phone": {
     "owner": "机主",
     "date": "2026-10-25",
@@ -57,60 +57,130 @@
           "time": "09:13"
         },
         {
-          "id": "kakao-riku-msg-04",
+          "id": "kakao-riku-msg-03",
           "title": "リク",
           "body": "现在撇清关系是什么意思",
           "senderId": "rikku",
-          "time": "昨天 23:16"
+          "time": "09:16"
+        },
+        {
+          "id": "kakao-riku-msg-04",
+          "title": "リク",
+          "body": "这次是我做错了",
+          "senderId": "owner",
+          "time": "09:19"
         },
         {
           "id": "kakao-riku-msg-05",
           "title": "リク",
-          "body": "这次是我做错了",
+          "body": "以后不会发生这种事情了",
           "senderId": "owner",
-          "time": "昨天 23:18"
+          "time": "09:20"
         },
         {
           "id": "kakao-riku-msg-06",
           "title": "リク",
-          "body": "以后不会发生这种事情了",
-          "senderId": "owner",
-          "time": "昨天 23:18"
+          "body": "？就这样",
+          "senderId": "rikku",
+          "time": "09:22"
         },
         {
           "id": "kakao-riku-msg-07",
           "title": "リク",
-          "body": "？就这样",
-          "senderId": "rikku",
-          "time": "昨天 23:19"
+          "body": "你想我说什么",
+          "senderId": "owner",
+          "time": "09:25"
         },
         {
           "id": "kakao-riku-msg-08",
           "title": "リク",
-          "body": "你想我说什么",
-          "senderId": "owner",
-          "time": "昨天 23:20"
+          "body": "你是不是不喜欢我谈恋爱",
+          "senderId": "rikku",
+          "time": "09:28"
         },
         {
           "id": "kakao-riku-msg-09",
           "title": "リク",
-          "body": "你是不是不喜欢我谈恋爱",
-          "senderId": "rikku",
-          "time": "昨天 23:21"
+          "body": "有爱豆职业操守的人应该都不会做这种事",
+          "senderId": "owner",
+          "time": "09:32"
         },
         {
           "id": "kakao-riku-msg-10",
           "title": "リク",
-          "body": "有爱豆职业操守的人应该都不会做这种事",
-          "senderId": "owner",
-          "time": "昨天 23:22"
+          "body": "那你刚开始为什么要管",
+          "senderId": "rikku",
+          "time": "09:35"
         },
         {
           "id": "kakao-riku-msg-11",
           "title": "リク",
-          "body": "那你刚开始为什么要管",
+          "body": "不是你让我帮你的吗",
+          "senderId": "owner",
+          "time": "09:38"
+        },
+        {
+          "id": "kakao-riku-msg-12",
+          "title": "リク",
+          "body": "我让你帮你就帮",
           "senderId": "rikku",
-          "time": "昨天 23:23"
+          "time": "09:41"
+        },
+        {
+          "id": "kakao-riku-msg-13",
+          "title": "リク",
+          "body": "现在把我弄得一团乱之后自己一走了之",
+          "senderId": "rikku",
+          "time": "09:44"
+        },
+        {
+          "id": "kakao-riku-msg-14",
+          "title": "リク",
+          "body": "还要我想方设法来找你 你才理我",
+          "senderId": "rikku",
+          "time": "09:47"
+        },
+        {
+          "id": "kakao-riku-msg-15",
+          "title": "リク",
+          "body": "你是不是觉得我喜欢男生就可以随便对待我",
+          "senderId": "rikku",
+          "time": "09:51"
+        },
+        {
+          "id": "kakao-riku-msg-16",
+          "title": "リク",
+          "body": "很得意吗？心情很好吗？",
+          "senderId": "rikku",
+          "time": "09:54"
+        },
+        {
+          "id": "kakao-riku-msg-17",
+          "title": "リク",
+          "body": "你应该是觉得 反正都是男生睡了之后也不用负责",
+          "senderId": "rikku",
+          "time": "09:58"
+        },
+        {
+          "id": "kakao-riku-msg-18",
+          "title": "リク",
+          "body": "我讨厌你",
+          "senderId": "rikku",
+          "time": "10:02"
+        },
+        {
+          "id": "kakao-riku-msg-19",
+          "title": "リク",
+          "body": "你到底是什么意思",
+          "senderId": "rikku",
+          "time": "10:07"
+        },
+        {
+          "id": "kakao-riku-msg-20",
+          "title": "リク",
+          "body": "为什么不理我",
+          "senderId": "rikku",
+          "time": "10:12"
         }
       ]
     }
