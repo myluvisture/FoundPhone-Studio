@@ -1324,3 +1324,14 @@
   grid-template-rows: repeat(6, 99px);
   grid-auto-rows: 99px;
 }
+
+/* Custom story wallpapers are rendered by Phone.tsx; keep system layers transparent. */
+.ios18 .phone-screen.custom-wallpaper {
+  background-color: #111;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.ios18 .phone-screen.custom-wallpaper .device-lock {
+  background: transparent;
+}
