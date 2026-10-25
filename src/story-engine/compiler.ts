@@ -177,6 +177,32 @@ export function compileStory(raw: unknown): { story: Story; work: Work } {
         `contacts.${n}`,
       );
   });
+  // Mirror known contacts into KakaoTalk's friend/chat list. The Kakao skin
+  // derives its visible friends from Kakao items, not from the system Contacts app.
+  if (installed.has("kakao")) {
+    s.contacts.forEach((contact, n) => {
+      const hasKakaoEntry = (s.content.kakao ?? []).some(
+        (item) => item.title === contact.name,
+      ) || s.chats.some(
+        (chat) => chat.app === "kakao" && chat.title === contact.name,
+      );
+      if (!hasKakaoEntry) {
+        add(
+          "kakao",
+          {
+            id: contact.id + "-kakao-friend",
+            title: contact.name,
+            body: contact.bio || "已添加为好友",
+            sender: contact.name,
+            avatar: contact.avatar,
+            time: s.phone.date + " " + (s.phone.time || "21:41"),
+            meta: { friendOnly: "true" },
+          },
+          `contacts.${n}.kakaoFriend`,
+        );
+      }
+    });
+  }
   s.chats.forEach((chat, n) => {
     unique(chat.id, `chats.${n}.id`);
     if (!registry.some((a) => a.id === chat.app && a.engine === "messaging"))
