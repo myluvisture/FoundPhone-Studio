@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 4,
+  "revision": 5,
   "phone": {
     "owner": "机主",
     "date": "2026-10-25",
@@ -47,14 +47,14 @@
           "title": "リク",
           "body": "你不解释一下昨天晚上的事",
           "senderId": "rikku",
-          "time": "昨天 23:14"
+          "time": "09:12"
         },
         {
           "id": "kakao-riku-msg-02",
           "title": "リク",
           "body": "你喝多了",
           "senderId": "owner",
-          "time": "昨天 23:15"
+          "time": "09:13"
         },
         {
           "id": "kakao-riku-msg-04",
