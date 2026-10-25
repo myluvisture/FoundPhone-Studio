@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 7,
+  "revision": 8,
   "phone": {
     "owner": "机主",
     "date": "2026-10-25",
@@ -226,17 +226,6 @@
       },
       {
         "id": "music-track-04",
-        "title": "그녀를 사랑해줘요",
-        "body": "하동균",
-        "sender": "하동균",
-        "time": "资料库",
-        "folder": "歌曲",
-        "meta": {
-          "artist": "하동균"
-        }
-      },
-      {
-        "id": "music-track-05",
         "title": "drunk text",
         "body": "Henry Moodie",
         "sender": "Henry Moodie",
@@ -247,7 +236,7 @@
         }
       },
       {
-        "id": "music-track-06",
+        "id": "music-track-05",
         "title": "거리에서",
         "body": "leellamarz",
         "sender": "leellamarz",
@@ -258,40 +247,7 @@
         }
       },
       {
-        "id": "music-track-07",
-        "title": "Vancouver",
-        "body": "BIG Naughty",
-        "sender": "BIG Naughty",
-        "time": "资料库",
-        "folder": "歌曲",
-        "meta": {
-          "artist": "BIG Naughty"
-        }
-      },
-      {
-        "id": "music-track-08",
-        "title": "Vancouver 2",
-        "body": "BIG Naughty",
-        "sender": "BIG Naughty",
-        "time": "资料库",
-        "folder": "歌曲",
-        "meta": {
-          "artist": "BIG Naughty"
-        }
-      },
-      {
-        "id": "music-track-09",
-        "title": "마지막 시 (One Last Poem)",
-        "body": "BIG Naughty",
-        "sender": "BIG Naughty",
-        "time": "资料库",
-        "folder": "歌曲",
-        "meta": {
-          "artist": "BIG Naughty"
-        }
-      },
-      {
-        "id": "music-track-10",
+        "id": "music-track-06",
         "title": "歌うたいのバラッド",
         "body": "斋藤和羲",
         "sender": "斋藤和羲",
@@ -302,7 +258,7 @@
         }
       },
       {
-        "id": "music-track-11",
+        "id": "music-track-07",
         "title": "あなたといたい",
         "body": "Ayumulmazu",
         "sender": "Ayumulmazu",
@@ -313,7 +269,7 @@
         }
       },
       {
-        "id": "music-track-12",
+        "id": "music-track-08",
         "title": "部屋",
         "body": "Shytaupe",
         "sender": "Shytaupe",
@@ -324,7 +280,7 @@
         }
       },
       {
-        "id": "music-track-13",
+        "id": "music-track-09",
         "title": "WA-R-R",
         "body": "Colde",
         "sender": "Colde",
@@ -335,7 +291,7 @@
         }
       },
       {
-        "id": "music-track-14",
+        "id": "music-track-10",
         "title": "I'm In Love",
         "body": "Colde",
         "sender": "Colde",
@@ -346,7 +302,7 @@
         }
       },
       {
-        "id": "music-track-15",
+        "id": "music-track-11",
         "title": "걘 아니야",
         "body": "ZICO",
         "sender": "ZICO",
