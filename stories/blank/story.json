@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 1,
+  "revision": 2,
   "phone": {
     "owner": "机主",
     "date": "2026-10-25",
@@ -11,7 +11,7 @@
     "battery": 94,
     "network": "5G",
     "wallpaper": "apple-wwdc26",
-"passcode": "1118"
+    "passcode": "1118"
   },
   "installedApps": [
     "appstore",
@@ -20,9 +20,18 @@
     "photos",
     "notes",
     "safari",
-    "settings"
+    "settings",
+    "kakao"
   ],
-  "contacts": [],
+  "contacts": [
+    {
+      "id": "rikku",
+      "name": "リク",
+      "phone": "",
+      "bio": "",
+      "avatar": ""
+    }
+  ],
   "chats": [],
   "content": {},
   "variables": {},
