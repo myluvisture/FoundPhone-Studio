@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 6,
+  "revision": 7,
   "phone": {
     "owner": "机主",
     "date": "2026-10-25",
@@ -21,7 +21,8 @@
     "notes",
     "safari",
     "settings",
-    "kakao"
+    "kakao",
+    "music"
   ],
   "contacts": [
     {
@@ -187,5 +188,174 @@
   ],
   "variables": {},
   "events": [],
-  "tests": []
+  "tests": [],
+  "content": {
+    "music": [
+      {
+        "id": "music-track-01",
+        "title": "Happy End",
+        "body": "back number",
+        "sender": "back number",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "back number"
+        }
+      },
+      {
+        "id": "music-track-02",
+        "title": "スポンジ・ボブのテーマ",
+        "body": "RIP SLYME",
+        "sender": "RIP SLYME",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "RIP SLYME"
+        }
+      },
+      {
+        "id": "music-track-03",
+        "title": "Wish you were here",
+        "body": "B.I",
+        "sender": "B.I",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "B.I"
+        }
+      },
+      {
+        "id": "music-track-04",
+        "title": "그녀를 사랑해줘요",
+        "body": "하동균",
+        "sender": "하동균",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "하동균"
+        }
+      },
+      {
+        "id": "music-track-05",
+        "title": "drunk text",
+        "body": "Henry Moodie",
+        "sender": "Henry Moodie",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Henry Moodie"
+        }
+      },
+      {
+        "id": "music-track-06",
+        "title": "거리에서",
+        "body": "leellamarz",
+        "sender": "leellamarz",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "leellamarz"
+        }
+      },
+      {
+        "id": "music-track-07",
+        "title": "Vancouver",
+        "body": "BIG Naughty",
+        "sender": "BIG Naughty",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "BIG Naughty"
+        }
+      },
+      {
+        "id": "music-track-08",
+        "title": "Vancouver 2",
+        "body": "BIG Naughty",
+        "sender": "BIG Naughty",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "BIG Naughty"
+        }
+      },
+      {
+        "id": "music-track-09",
+        "title": "마지막 시 (One Last Poem)",
+        "body": "BIG Naughty",
+        "sender": "BIG Naughty",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "BIG Naughty"
+        }
+      },
+      {
+        "id": "music-track-10",
+        "title": "歌うたいのバラッド",
+        "body": "斋藤和羲",
+        "sender": "斋藤和羲",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "斋藤和羲"
+        }
+      },
+      {
+        "id": "music-track-11",
+        "title": "あなたといたい",
+        "body": "Ayumulmazu",
+        "sender": "Ayumulmazu",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Ayumulmazu"
+        }
+      },
+      {
+        "id": "music-track-12",
+        "title": "部屋",
+        "body": "Shytaupe",
+        "sender": "Shytaupe",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Shytaupe"
+        }
+      },
+      {
+        "id": "music-track-13",
+        "title": "WA-R-R",
+        "body": "Colde",
+        "sender": "Colde",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Colde"
+        }
+      },
+      {
+        "id": "music-track-14",
+        "title": "I'm In Love",
+        "body": "Colde",
+        "sender": "Colde",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Colde"
+        }
+      },
+      {
+        "id": "music-track-15",
+        "title": "걘 아니야",
+        "body": "ZICO",
+        "sender": "ZICO",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "ZICO"
+        }
+      }
+    ]
+  }
 }
