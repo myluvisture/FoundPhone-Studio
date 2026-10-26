@@ -51,6 +51,8 @@ export function messageRun(items: Item[], index: number) {
 }
 const read = (p: SkinProps, i: Item) =>
   p.creator || i.password ? p.onItem(i) : p.onRead(i.id);
+const rikuAvatar = "./story-assets/p3.jpg";
+const isRiku = (value: string) => /リク|陸|riku/i.test(value);
 function Blank() {
   return <p className="mymy-empty">暂无内容</p>;
 }
@@ -129,7 +131,7 @@ export function MymyKakao(p: SkinProps) {
                   {!m.outgoing && run.first && (
                     <>
                       <div className="kzmav">
-                        <Avatar name={m.sender} src={m.avatar || (p.thread === "リク" ? "./story-assets/p3.jpg" : "")} />
+                        <Avatar name={m.sender} src={m.avatar || (isRiku(p.thread) || isRiku(m.sender) || isRiku(m.title) ? rikuAvatar : "")} />
                       </div>
                       <div className="kzmn">{m.sender}</div>
                     </>
@@ -269,7 +271,7 @@ export function MymyKakao(p: SkinProps) {
                     key={g.title}
                     onClick={() => p.onThread(g.title)}
                   >
-                    <Avatar name={last.sender || g.title} src={last.avatar || (g.title === "リク" ? "./story-assets/p3.jpg" : "")} />
+                    <Avatar name={last.sender || g.title} src={last.avatar || (isRiku(g.title) || isRiku(last.sender) || isRiku(last.title) ? rikuAvatar : "")} />
                     <span className="kzkn">
                       <b>{g.title}</b>
                       <small>{tab === "好友" ? last.sender : last.body}</small>
