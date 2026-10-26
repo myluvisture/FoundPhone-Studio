@@ -551,12 +551,29 @@ export function ClockSkin(p: Props) {
   const { tab, setTab, items } = useContent(p, "闹钟");
   const [enabled, setEnabled] = useSkinState<string[]>(p, "alarms", []),
     [seconds, setSeconds] = useState(0),
-    [running, setRunning] = useState(false);
+    [running, setRunning] = useState(false),
+    [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const timer = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(timer);
+  }, []);
   useEffect(() => {
     if (!running) return;
     const timer = setInterval(() => setSeconds((s) => s + 1), 1000);
     return () => clearInterval(timer);
   }, [running]);
+  const worldCities = [
+    { name: "韩国首尔", zone: "Asia/Seoul" },
+    { name: "日本埼玉", zone: "Asia/Tokyo" },
+  ];
+  const cityTime = (zone: string) =>
+    new Intl.DateTimeFormat("zh-CN", {
+      timeZone: zone, hour: "2-digit", minute: "2-digit", hour12: false,
+    }).format(now);
+  const cityDate = (zone: string) =>
+    new Intl.DateTimeFormat("zh-CN", {
+      timeZone: zone, weekday: "short", month: "numeric", day: "numeric",
+    }).format(now);
   return (
     <div className="catalog-skin native-clock">
       <Header p={p} />
@@ -569,57 +586,47 @@ export function ClockSkin(p: Props) {
               {String(seconds % 60).padStart(2, "0")}
             </output>
             <div>
-              <button
-                onClick={() => {
-                  setSeconds(0);
-                  setRunning(false);
-                }}
-              >
-                复位
-              </button>
-              <button onClick={() => setRunning(!running)}>
-                {running ? "暂停" : "开始"}
-              </button>
+              <button onClick={() => { setSeconds(0); setRunning(false); }}>复位</button>
+              <button onClick={() => setRunning(!running)}>{running ? "暂停" : "开始"}</button>
             </div>
           </div>
         ) : (
-          items.map((i) => (
-            <div className="alarm-row" key={i.id}>
-              <button onClick={() => p.onItem(i)}>
-                <time>{meta(i, "clock", i.time.slice(-5))}</time>
-                <small>
-                  {tab === "世界时钟" ? meta(i, "city", i.title) : i.title}
-                </small>
-              </button>
-              {tab === "闹钟" ? (
-                <button
-                  role="switch"
-                  aria-label={`闹钟${i.title}`}
-                  aria-checked={enabled.includes(i.id)}
-                  className={`native-switch ${enabled.includes(i.id) ? "on" : ""}`}
-                  onClick={() =>
-                    setEnabled(
+          <>
+            {tab === "世界时钟" && worldCities.map((city) => (
+              <div className="alarm-row" key={city.zone}>
+                <div>
+                  <time>{cityTime(city.zone)}</time>
+                  <small>{city.name} · {cityDate(city.zone)}</small>
+                </div>
+                <Clock size={35} />
+              </div>
+            ))}
+            {items.map((i) => (
+              <div className="alarm-row" key={i.id}>
+                <button onClick={() => p.onItem(i)}>
+                  <time>{meta(i, "clock", i.time.slice(-5))}</time>
+                  <small>{tab === "世界时钟" ? meta(i, "city", i.title) : i.title}</small>
+                </button>
+                {tab === "闹钟" ? (
+                  <button
+                    role="switch"
+                    aria-label={`闹钟${i.title}`}
+                    aria-checked={enabled.includes(i.id)}
+                    className={`native-switch ${enabled.includes(i.id) ? "on" : ""}`}
+                    onClick={() => setEnabled(
                       enabled.includes(i.id)
                         ? enabled.filter((x) => x !== i.id)
                         : [...enabled, i.id],
-                    )
-                  }
-                >
-                  <span />
-                </button>
-              ) : (
-                <Clock size={35} />
-              )}
-            </div>
-          ))
+                    )}
+                  ><span /></button>
+                ) : <Clock size={35} />}
+              </div>
+            ))}
+          </>
         )}
       </div>
-      <Tabs
-        tabs={["世界时钟", "闹钟", "秒表"]}
-        value={tab}
-        set={setTab}
-        icons={[<Globe />, <Clock />, <Clock />]}
-      />
+      <Tabs tabs={["世界时钟", "闹钟", "秒表"]} value={tab} set={setTab}
+        icons={[<Globe />, <Clock />, <Clock />]} />
     </div>
   );
 }
