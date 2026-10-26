@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 10,
+  "revision": 11,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -205,6 +205,73 @@
           "senderId": "rikku",
           "time": "10:12",
           "avatar": "./story-assets/p3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "kakao-takuya-chat",
+      "app": "kakao",
+      "title": "拓弥",
+      "participants": [
+        "takuya",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kakao-takuya-msg-01",
+          "title": "拓弥",
+          "body": "你跟riku哥吵架了？",
+          "senderId": "takuya",
+          "time": "16:07"
+        },
+        {
+          "id": "kakao-takuya-msg-02",
+          "title": "拓弥",
+          "body": "什么",
+          "senderId": "owner",
+          "time": "16:09"
+        },
+        {
+          "id": "kakao-takuya-msg-03",
+          "title": "拓弥",
+          "body": "你们一整天都没说话啊",
+          "senderId": "takuya",
+          "time": "16:10"
+        },
+        {
+          "id": "kakao-takuya-msg-04",
+          "title": "拓弥",
+          "body": "这怎么了",
+          "senderId": "owner",
+          "time": "16:12"
+        },
+        {
+          "id": "kakao-takuya-msg-05",
+          "title": "拓弥",
+          "body": "很奇怪",
+          "senderId": "takuya",
+          "time": "16:14"
+        },
+        {
+          "id": "kakao-takuya-msg-06",
+          "title": "拓弥",
+          "body": "你们俩是不是有什么秘密",
+          "senderId": "takuya",
+          "time": "16:16"
+        },
+        {
+          "id": "kakao-takuya-msg-07",
+          "title": "拓弥",
+          "body": "没有 没吵架也没秘密",
+          "senderId": "owner",
+          "time": "16:18"
+        },
+        {
+          "id": "kakao-takuya-msg-08",
+          "title": "拓弥",
+          "body": "骗人",
+          "senderId": "takuya",
+          "time": "16:21"
         }
       ]
     }
