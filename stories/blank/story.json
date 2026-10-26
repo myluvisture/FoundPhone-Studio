@@ -876,7 +876,7 @@
         }
       },
       {
-        "id": "phone-contact-mama",
+        "id": "phone-contact-mama-new",
         "title": "ママ",
         "body": "",
         "sender": "ママ",
@@ -887,7 +887,7 @@
         }
       },
       {
-        "id": "phone-contact-papa",
+        "id": "phone-contact-papa-new",
         "title": "パパ",
         "body": "",
         "sender": "パパ",
@@ -898,7 +898,7 @@
         }
       },
       {
-        "id": "phone-contact-rikku",
+        "id": "phone-contact-rikku-new",
         "title": "リク",
         "body": "",
         "sender": "リク",
@@ -909,7 +909,7 @@
         }
       },
       {
-        "id": "phone-contact-takuya",
+        "id": "phone-contact-takuya-new",
         "title": "拓弥",
         "body": "",
         "sender": "拓弥",
@@ -920,7 +920,7 @@
         }
       },
       {
-        "id": "phone-contact-kenta",
+        "id": "phone-contact-kenta-new",
         "title": "健太",
         "body": "",
         "sender": "健太",
@@ -931,7 +931,7 @@
         }
       },
       {
-        "id": "phone-contact-manager",
+        "id": "phone-contact-manager-new",
         "title": "매니저 형",
         "body": "",
         "sender": "매니저 형",
