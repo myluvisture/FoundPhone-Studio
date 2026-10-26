@@ -1242,7 +1242,7 @@ function AppContent({
                 </div>
                 <div>
                   <strong style={app.id === "phone" && /^\+?[\d\s-]+$/.test(i.title.trim()) ? { color: "#e5484d" } : undefined}>{i.title}</strong>
-                  <p style={app.id === "phone" && i.meta?.callStatus === "missed" ? { color: "#e5484d" } : undefined}>{i.body.split("\n")[0]}</p>
+                  <p style={app.id === "phone" && /^\\+?[\\d\\s-]+$/.test(i.title.trim()) ? { color: "#e5484d" } : undefined}>{i.body.split("\n")[0]}</p>
                   <small>
                     {i.time} {i.folder && `· ${i.folder}`}
                   </small>
