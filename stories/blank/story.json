@@ -1165,6 +1165,24 @@
         "sender": "+82 030 2673 9739",
         "kind": "text",
         "meta": {}
+      },
+      {
+        "id": "messages-contact8-chat-1",
+        "body": "你站在舞台上的样子真的很耀眼",
+        "time": "17:40",
+        "title": "+82 030 2673 9739",
+        "sender": "+82 030 2673 9739",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact8-chat-2",
+        "body": "我会永远支持你",
+        "time": "17:41",
+        "title": "+82 030 2673 9739",
+        "sender": "+82 030 2673 9739",
+        "kind": "text",
+        "meta": {}
       }
     ]
   }
