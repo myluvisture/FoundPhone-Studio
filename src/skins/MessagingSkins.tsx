@@ -38,7 +38,6 @@ function Bubbles({
 }) {
   return (
     <div className={`catalog-bubbles ${className}`}>
-      <time className="bubble-date">{items[0]?.time.slice(0, 10)}</time>
       {items.map((i) => (
         <div
           className={`catalog-message ${i.outgoing ? "outgoing" : ""}`}
@@ -50,10 +49,7 @@ function Bubbles({
             ) : (
               i.body
             )}
-            <small>
-              {i.time.slice(-5)}
-              {i.read && <CheckCheck size={10} />}
-            </small>
+            {i.read && <small className="message-read"><CheckCheck size={10} /></small>}
           </button>
         </div>
       ))}
@@ -99,7 +95,6 @@ function ChatRows({
               <strong>{name}</strong>
               <p>{last.body}</p>
             </span>
-            <time>{last.time.slice(-5)}</time>
           </button>
         );
       })}
