@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 15,
+  "revision": 16,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -28,6 +28,20 @@
   ],
   "contacts": [
     {
+      "id": "mama",
+      "name": "ママ",
+      "phone": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "papa",
+      "name": "パパ",
+      "phone": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
       "id": "rikku",
       "name": "リク",
       "phone": "",
@@ -37,6 +51,20 @@
     {
       "id": "takuya",
       "name": "拓弥",
+      "phone": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "kenta",
+      "name": "健太",
+      "phone": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "manager",
+      "name": "매니저 형",
       "phone": "",
       "bio": "",
       "avatar": ""
