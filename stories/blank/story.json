@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 20,
+  "revision": 21,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -448,6 +448,204 @@
           "senderId": "rikku",
           "time": "00:21",
           "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-51",
+          "title": "リク",
+          "body": "riku",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-52",
+          "title": "リク",
+          "body": "想清楚了？",
+          "senderId": "rikku",
+          "time": "20xx.09.11 10:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-53",
+          "title": "リク",
+          "body": "我只是觉得拍challenge",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-54",
+          "title": "リク",
+          "body": "两个人不需要靠那么近",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-55",
+          "title": "リク",
+          "body": "🙄️",
+          "senderId": "rikku",
+          "time": "20xx.09.11 10:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-56",
+          "title": "リク",
+          "body": "又不是跟你靠那么近",
+          "senderId": "rikku",
+          "time": "20xx.09.11 10:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-57",
+          "title": "リク",
+          "body": "我的意思就是你们俩！",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-58",
+          "title": "リク",
+          "body": "不应该这么近",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-59",
+          "title": "リク",
+          "body": "…",
+          "senderId": "rikku",
+          "time": "20xx.09.11 10:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-60",
+          "title": "リク",
+          "body": "为什么不跟我一起吃午饭",
+          "senderId": "owner",
+          "time": "20xx.09.11 12:30"
+        },
+        {
+          "id": "kakao-riku-msg-61",
+          "title": "リク",
+          "body": "不想",
+          "senderId": "rikku",
+          "time": "20xx.09.11 12:30",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-62",
+          "title": "リク",
+          "body": "ㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.11 12:30"
+        },
+        {
+          "id": "kakao-riku-msg-63",
+          "title": "リク",
+          "body": "最近有好看的电影吗？",
+          "senderId": "owner",
+          "time": "20xx.09.12 17:00"
+        },
+        {
+          "id": "kakao-riku-msg-64",
+          "title": "リク",
+          "body": "自己去搜",
+          "senderId": "rikku",
+          "time": "20xx.09.12 17:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-65",
+          "title": "リク",
+          "body": "ㅠㅠ ㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.12 17:00"
+        },
+        {
+          "id": "kakao-riku-msg-66",
+          "title": "リク",
+          "body": "riku哥！",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-67",
+          "title": "リク",
+          "body": "要不要吃早饭",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-68",
+          "title": "リク",
+          "body": "我现在去买",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-69",
+          "title": "リク",
+          "body": "不要",
+          "senderId": "rikku",
+          "time": "20xx.09.13 08:30",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-70",
+          "title": "リク",
+          "body": "我回来给你烧怎么样？",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-71",
+          "title": "リク",
+          "body": "更加不要！！！",
+          "senderId": "rikku",
+          "time": "20xx.09.13 08:30",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-72",
+          "title": "リク",
+          "body": "🥹",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-73",
+          "title": "リク",
+          "body": "我买了蜘蛛侠的游戏",
+          "senderId": "owner",
+          "time": "20xx.09.14 13:05"
+        },
+        {
+          "id": "kakao-riku-msg-74",
+          "title": "リク",
+          "body": "要玩吗？",
+          "senderId": "owner",
+          "time": "20xx.09.14 13:05"
+        },
+        {
+          "id": "kakao-riku-msg-75",
+          "title": "リク",
+          "body": "不感兴趣",
+          "senderId": "rikku",
+          "time": "20xx.09.14 13:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-76",
+          "title": "リク",
+          "body": "很有意思的",
+          "senderId": "owner",
+          "time": "20xx.09.14 13:05"
+        },
+        {
+          "id": "kakao-riku-msg-77",
+          "title": "リク",
+          "body": "我可以教你😁",
+          "senderId": "owner",
+          "time": "20xx.09.14 13:05"
         }
       ]
     },
