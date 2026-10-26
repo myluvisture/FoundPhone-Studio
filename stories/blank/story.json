@@ -1056,6 +1056,42 @@
         "time": "2026-10-26 21:13",
         "kind": "text",
         "meta": {}
+      },
+      {
+        "id": "messages-contact2-chat-1",
+        "title": "+82 078 1933 0943",
+        "body": "哥哥是你吧",
+        "sender": "+82 078 1933 0943",
+        "time": "2026-10-26 17:12",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact2-chat-2",
+        "title": "+82 078 1933 0943",
+        "body": "最近好帅 好想你",
+        "sender": "+82 078 1933 0943",
+        "time": "2026-10-26 17:14",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact2-chat-3",
+        "title": "+82 078 1933 0943",
+        "body": "以后也要多多见面～",
+        "sender": "+82 078 1933 0943",
+        "time": "2026-10-26 17:16",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact2-chat-4",
+        "title": "+82 078 1933 0943",
+        "body": "在东京的拼盘和巡演我都会去哦",
+        "sender": "+82 078 1933 0943",
+        "time": "2026-10-26 17:18",
+        "kind": "text",
+        "meta": {}
       }
     ]
   }
