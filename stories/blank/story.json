@@ -24,7 +24,8 @@
     "safari",
     "settings",
     "kakao",
-    "music"
+    "music",
+    "line"
   ],
   "contacts": [
     {
@@ -925,6 +926,52 @@
         "folder": "通讯录",
         "meta": {
           "phone": ""
+        }
+      }
+    ],
+    "line": [
+      {
+        "id": "line-contact-riku",
+        "title": "陸",
+        "sender": "陸",
+        "body": "",
+        "time": "2026-10-26 21:10",
+        "folder": "好友",
+        "meta": {
+          "contact": true
+        }
+      },
+      {
+        "id": "line-contact-mama",
+        "title": "ママ",
+        "sender": "ママ",
+        "body": "",
+        "time": "2026-10-26 21:10",
+        "folder": "好友",
+        "meta": {
+          "contact": true
+        }
+      },
+      {
+        "id": "line-contact-papa",
+        "title": "パパ",
+        "sender": "パパ",
+        "body": "",
+        "time": "2026-10-26 21:10",
+        "folder": "好友",
+        "meta": {
+          "contact": true
+        }
+      },
+      {
+        "id": "line-contact-imouto",
+        "title": "イモウト",
+        "sender": "イモウト",
+        "body": "",
+        "time": "2026-10-26 21:10",
+        "folder": "好友",
+        "meta": {
+          "contact": true
         }
       }
     ]
