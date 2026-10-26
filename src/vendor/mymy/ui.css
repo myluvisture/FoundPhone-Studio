@@ -896,3 +896,16 @@
 .mymy-ui .kzxx {
   white-space: pre-line;
 }
+
+.mymy-ui .kz-date-separator {
+  align-self: center;
+  width: fit-content;
+  margin: 14px auto 10px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  background: rgba(65, 75, 90, 0.16);
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.3;
+  text-align: center;
+}
