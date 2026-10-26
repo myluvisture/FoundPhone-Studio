@@ -720,6 +720,162 @@
     ],
     "phone": [
       {
+        "id": "recent-call-1",
+        "title": "+82 010 923 6683",
+        "body": "未接来电",
+        "sender": "+82 010 923 6683",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-2",
+        "title": "+82 043 537 1738",
+        "body": "未接来电",
+        "sender": "+82 043 537 1738",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-3",
+        "title": "ママ",
+        "body": "通话 1:24",
+        "sender": "ママ",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "1:24"
+        }
+      },
+      {
+        "id": "recent-call-4",
+        "title": "매니저 형",
+        "body": "通话 0:12",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "0:12"
+        }
+      },
+      {
+        "id": "recent-call-5",
+        "title": "매니저 형",
+        "body": "通话 1:56",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "1:56"
+        }
+      },
+      {
+        "id": "recent-call-6",
+        "title": "매니저 형",
+        "body": "通话 0:32",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "0:32"
+        }
+      },
+      {
+        "id": "recent-call-7",
+        "title": "+82 052 628 5783",
+        "body": "未接来电",
+        "sender": "+82 052 628 5783",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-8",
+        "title": "リク",
+        "body": "通话 2:08",
+        "sender": "リク",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "2:08"
+        }
+      },
+      {
+        "id": "recent-call-9",
+        "title": "リク",
+        "body": "未接来电",
+        "sender": "リク",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-10",
+        "title": "+82 070 732 6473",
+        "body": "未接来电",
+        "sender": "+82 070 732 6473",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-11",
+        "title": "+82 070 732 6473",
+        "body": "未接来电",
+        "sender": "+82 070 732 6473",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-12",
+        "title": "ママ",
+        "body": "通话 0:46",
+        "sender": "ママ",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "0:46"
+        }
+      },
+      {
+        "id": "recent-call-13",
+        "title": "매니저 형",
+        "body": "通话 1:01",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "1:01"
+        }
+      },
+      {
         "id": "phone-contact-mama",
         "title": "ママ",
         "body": "",
