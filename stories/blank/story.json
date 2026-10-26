@@ -938,7 +938,7 @@
         "time": "2026-10-26 21:10",
         "folder": "好友",
         "meta": {
-          "contact": true
+          "contact": "true"
         }
       },
       {
@@ -949,7 +949,7 @@
         "time": "2026-10-26 21:10",
         "folder": "好友",
         "meta": {
-          "contact": true
+          "contact": "true"
         }
       },
       {
@@ -960,7 +960,7 @@
         "time": "2026-10-26 21:10",
         "folder": "好友",
         "meta": {
-          "contact": true
+          "contact": "true"
         }
       },
       {
@@ -971,7 +971,7 @@
         "time": "2026-10-26 21:10",
         "folder": "好友",
         "meta": {
-          "contact": true
+          "contact": "true"
         }
       }
     ]
