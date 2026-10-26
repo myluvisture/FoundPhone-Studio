@@ -466,6 +466,60 @@
           "time": "22:16"
         }
       ]
+    },
+    {
+      "id": "messages-contact-1",
+      "app": "messages",
+      "title": "+82 042 6293 6728",
+      "participants": [
+        "owner"
+      ],
+      "messages": []
+    },
+    {
+      "id": "messages-contact-2",
+      "app": "messages",
+      "title": "+82 078 1933 0943",
+      "participants": [
+        "owner"
+      ],
+      "messages": []
+    },
+    {
+      "id": "messages-contact-3",
+      "app": "messages",
+      "title": "+82 010 3150 0176",
+      "participants": [
+        "owner"
+      ],
+      "messages": []
+    },
+    {
+      "id": "messages-contact-4",
+      "app": "messages",
+      "title": "+82 012 1234 5677",
+      "participants": [
+        "owner"
+      ],
+      "messages": []
+    },
+    {
+      "id": "messages-contact-5",
+      "app": "messages",
+      "title": "+82 093 5271 9472",
+      "participants": [
+        "owner"
+      ],
+      "messages": []
+    },
+    {
+      "id": "messages-contact-6",
+      "app": "messages",
+      "title": "+82 011 9373 5293",
+      "participants": [
+        "owner"
+      ],
+      "messages": []
     }
   ],
   "variables": {},
