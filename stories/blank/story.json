@@ -1045,6 +1045,251 @@
           "body": "我等你呀",
           "senderId": "owner",
           "time": "20xx.09.15 22:15"
+        },
+        {
+          "id": "kakao-riku-msg-131",
+          "title": "リク",
+          "body": "醒了吗",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:30"
+        },
+        {
+          "id": "kakao-riku-msg-132",
+          "title": "リク",
+          "body": "我跟拓弥去回公司",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:31"
+        },
+        {
+          "id": "kakao-riku-msg-133",
+          "title": "リク",
+          "body": "有什么想吃的给你带回来",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:32"
+        },
+        {
+          "id": "kakao-riku-msg-134",
+          "title": "リク",
+          "body": "好累",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:34",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-135",
+          "title": "リク",
+          "body": "随便买点",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:34",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-136",
+          "title": "リク",
+          "body": "ㅋㅋㅋㅋㅋㅋ",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:35"
+        },
+        {
+          "id": "kakao-riku-msg-137",
+          "title": "リク",
+          "body": "笑什么！",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:35",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-138",
+          "title": "リク",
+          "body": "体力好差",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:36"
+        },
+        {
+          "id": "kakao-riku-msg-139",
+          "title": "リク",
+          "body": "😒",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:36",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-140",
+          "title": "リク",
+          "body": "休假我要回福井",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:38",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-141",
+          "title": "リク",
+          "body": "昨晚说好了去迪士尼！",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:39"
+        },
+        {
+          "id": "kakao-riku-msg-142",
+          "title": "リク",
+          "body": "怎么突然反悔",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:39"
+        },
+        {
+          "id": "kakao-riku-msg-143",
+          "title": "リク",
+          "body": "有人惹我生气",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:41",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-144",
+          "title": "リク",
+          "body": "不想去了",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:41",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-145",
+          "title": "リク",
+          "body": "不要嘛",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:42"
+        },
+        {
+          "id": "kakao-riku-msg-146",
+          "title": "リク",
+          "body": "这段时间一定会好好服侍好我最亲爱的riku哥的❤️",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:43"
+        },
+        {
+          "id": "kakao-riku-msg-147",
+          "title": "リク",
+          "body": "不要生气了ㅠㅠㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:30"
+        },
+        {
+          "id": "kakao-riku-msg-148",
+          "title": "リク",
+          "body": "这就是你说的让我？",
+          "senderId": "rikku",
+          "time": "20xx.09.17 17:31",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-149",
+          "title": "リク",
+          "body": "十个回合被你打死十次",
+          "senderId": "rikku",
+          "time": "20xx.09.17 17:32",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-150",
+          "title": "リク",
+          "body": "再也不要和你玩游戏！",
+          "senderId": "rikku",
+          "time": "20xx.09.17 17:32",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-151",
+          "title": "リク",
+          "body": "对不起ㅠㅠㅠㅠㅠㅠㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:33"
+        },
+        {
+          "id": "kakao-riku-msg-152",
+          "title": "リク",
+          "body": "再给我一次机会ㅠㅠㅠㅠㅠㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:34"
+        },
+        {
+          "id": "kakao-riku-msg-153",
+          "title": "リク",
+          "body": "我这次真的会坏坏发挥的ㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:35"
+        },
+        {
+          "id": "kakao-riku-msg-154",
+          "title": "リク",
+          "body": "买了迪软巧来领罪ㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.18 15:00"
+        },
+        {
+          "id": "kakao-riku-msg-155",
+          "title": "リク",
+          "body": "自己拿过来我房间",
+          "senderId": "rikku",
+          "time": "20xx.09.18 15:02",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-156",
+          "title": "リク",
+          "body": "알겠어~",
+          "senderId": "owner",
+          "time": "20xx.09.18 15:03"
+        },
+        {
+          "id": "kakao-riku-msg-157",
+          "title": "リク",
+          "body": "行李收拾好了吗",
+          "senderId": "rikku",
+          "time": "20xx.09.19 20:30",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-158",
+          "title": "リク",
+          "body": "快了",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:31"
+        },
+        {
+          "id": "kakao-riku-msg-159",
+          "title": "リク",
+          "body": "还差一点衣服放进去",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:32"
+        },
+        {
+          "id": "kakao-riku-msg-160",
+          "title": "リク",
+          "body": "收拾完来我房间吧",
+          "senderId": "rikku",
+          "time": "20xx.09.19 20:34",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-161",
+          "title": "リク",
+          "body": "😳",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:35"
+        },
+        {
+          "id": "kakao-riku-msg-162",
+          "title": "リク",
+          "body": "健太今晚就先回日本",
+          "senderId": "rikku",
+          "time": "20xx.09.19 20:36",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-163",
+          "title": "リク",
+          "body": "ㅋㅋ 네~",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:37"
         }
       ]
     },
