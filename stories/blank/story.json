@@ -646,6 +646,405 @@
           "body": "我可以教你😁",
           "senderId": "owner",
           "time": "20xx.09.14 13:05"
+        },
+        {
+          "id": "kakao-riku-msg-78",
+          "title": "リク",
+          "body": "一起回宿舍都不行吗",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:50"
+        },
+        {
+          "id": "kakao-riku-msg-79",
+          "title": "リク",
+          "body": "你想清楚了吗",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:50",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-80",
+          "title": "リク",
+          "body": "没有",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:51"
+        },
+        {
+          "id": "kakao-riku-msg-81",
+          "title": "リク",
+          "body": "那你还来找我？",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:51",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-82",
+          "title": "リク",
+          "body": "riku你呢",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:52"
+        },
+        {
+          "id": "kakao-riku-msg-83",
+          "title": "リク",
+          "body": "干嘛扯到我身上",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:52",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-84",
+          "title": "リク",
+          "body": "riku想要我想清楚什么",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:53"
+        },
+        {
+          "id": "kakao-riku-msg-85",
+          "title": "リク",
+          "body": "riku你明明也没有给我答案啊",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:53"
+        },
+        {
+          "id": "kakao-riku-msg-86",
+          "title": "リク",
+          "body": "那晚之后你是怎么想的",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:54"
+        },
+        {
+          "id": "kakao-riku-msg-87",
+          "title": "リク",
+          "body": "我不想跟你说",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:54",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-88",
+          "title": "リク",
+          "body": "为什么",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:55"
+        },
+        {
+          "id": "kakao-riku-msg-89",
+          "title": "リク",
+          "body": "丢人",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:55",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-90",
+          "title": "リク",
+          "body": "什么意思",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:55"
+        },
+        {
+          "id": "kakao-riku-msg-91",
+          "title": "リク",
+          "body": "你对我没有想法吧",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:56",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-92",
+          "title": "リク",
+          "body": "你不喜欢我吧",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:56",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-93",
+          "title": "リク",
+          "body": "你只是把我当哥哥吧",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:56",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-94",
+          "title": "リク",
+          "body": "要我怎么说",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:57",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-95",
+          "title": "リク",
+          "body": "我要说我在有男朋友的时候对你也产生好感了吗",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:57",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-96",
+          "title": "リク",
+          "body": "坏男人",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:58"
+        },
+        {
+          "id": "kakao-riku-msg-97",
+          "title": "リク",
+          "body": "你不是？！",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:58",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-98",
+          "title": "リク",
+          "body": "你对我更坏吧",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:58",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-99",
+          "title": "リク",
+          "body": "那天真的对不起嘛🥹",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:59"
+        },
+        {
+          "id": "kakao-riku-msg-100",
+          "title": "リク",
+          "body": "那天早上为什么跑走",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-101",
+          "title": "リク",
+          "body": "我不是故意的",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:00"
+        },
+        {
+          "id": "kakao-riku-msg-102",
+          "title": "リク",
+          "body": "一醒来看到你睡在我旁边",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:01"
+        },
+        {
+          "id": "kakao-riku-msg-103",
+          "title": "リク",
+          "body": "然后打开手机就看到经纪人哥的消息",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:01"
+        },
+        {
+          "id": "kakao-riku-msg-104",
+          "title": "リク",
+          "body": "我就去公司了",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:02"
+        },
+        {
+          "id": "kakao-riku-msg-105",
+          "title": "リク",
+          "body": "那后面呢？",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:02",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-106",
+          "title": "リク",
+          "body": "我给你发那么多消息",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:03",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-107",
+          "title": "リク",
+          "body": "为什么都不理我",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:03",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-108",
+          "title": "リク",
+          "body": "我有点害怕",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:04"
+        },
+        {
+          "id": "kakao-riku-msg-109",
+          "title": "リク",
+          "body": "怕什么",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:04",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-110",
+          "title": "リク",
+          "body": "你要是叫我当情人我要不要答应…",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:05"
+        },
+        {
+          "id": "kakao-riku-msg-111",
+          "title": "リク",
+          "body": "？？？",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-112",
+          "title": "リク",
+          "body": "你脑子里装的什么",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-113",
+          "title": "リク",
+          "body": "不过幸好😁",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:06"
+        },
+        {
+          "id": "kakao-riku-msg-114",
+          "title": "リク",
+          "body": "riku你已经分手了",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:06"
+        },
+        {
+          "id": "kakao-riku-msg-115",
+          "title": "リク",
+          "body": "分手了跟你有什么关系",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:07",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-116",
+          "title": "リク",
+          "body": "你刚才不是已经跟我表白了吗！",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:07"
+        },
+        {
+          "id": "kakao-riku-msg-117",
+          "title": "リク",
+          "body": "才不算",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:08",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-118",
+          "title": "リク",
+          "body": "我根本没消气",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:08",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-119",
+          "title": "リク",
+          "body": "我哄了你那么多天还没有消气嘛ㅜㅜ",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:09"
+        },
+        {
+          "id": "kakao-riku-msg-120",
+          "title": "リク",
+          "body": "从哪里开始是在哄我？",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:09",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-121",
+          "title": "リク",
+          "body": "从你分手后的每一天ㅠㅠㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:10"
+        },
+        {
+          "id": "kakao-riku-msg-122",
+          "title": "リク",
+          "body": "…",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:10",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-123",
+          "title": "リク",
+          "body": "没看出来",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:11",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-124",
+          "title": "リク",
+          "body": "那我找你当面说",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:11"
+        },
+        {
+          "id": "kakao-riku-msg-125",
+          "title": "リク",
+          "body": "不要！",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:12",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-126",
+          "title": "リク",
+          "body": "怎么了",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:12"
+        },
+        {
+          "id": "kakao-riku-msg-127",
+          "title": "リク",
+          "body": "健太在房间",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:13",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-128",
+          "title": "リク",
+          "body": "ㅋㅋㅋ 原来是riku想来我这",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:13"
+        },
+        {
+          "id": "kakao-riku-msg-129",
+          "title": "リク",
+          "body": "你再说",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:14",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-130",
+          "title": "リク",
+          "body": "我等你呀",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:15"
         }
       ]
     },
