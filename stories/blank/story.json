@@ -1291,6 +1291,62 @@
           "body": "ok",
           "senderId": "owner",
           "time": "20xx.09.01 19:40"
+        },
+        {
+          "id": "kakao-kenta-msg-18",
+          "title": "健太",
+          "body": "昨天riku在你房间",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:12"
+        },
+        {
+          "id": "kakao-kenta-msg-19",
+          "title": "健太",
+          "body": "嗯",
+          "senderId": "owner",
+          "time": "20xx.09.16 11:13"
+        },
+        {
+          "id": "kakao-kenta-msg-20",
+          "title": "健太",
+          "body": "你们和好了？",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:13"
+        },
+        {
+          "id": "kakao-kenta-msg-21",
+          "title": "健太",
+          "body": "我们哪有吵架",
+          "senderId": "owner",
+          "time": "20xx.09.16 11:14"
+        },
+        {
+          "id": "kakao-kenta-msg-22",
+          "title": "健太",
+          "body": "很明显好吗",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:14"
+        },
+        {
+          "id": "kakao-kenta-msg-23",
+          "title": "健太",
+          "body": "还以为你们要绝交了",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:15"
+        },
+        {
+          "id": "kakao-kenta-msg-24",
+          "title": "健太",
+          "body": "你不懂我们之间的感情",
+          "senderId": "owner",
+          "time": "20xx.09.16 11:16"
+        },
+        {
+          "id": "kakao-kenta-msg-25",
+          "title": "健太",
+          "body": "ㅗ",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:16"
         }
       ]
     },
