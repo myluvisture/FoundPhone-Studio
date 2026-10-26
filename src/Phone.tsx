@@ -903,11 +903,20 @@ function AppContent({
   const filtered =
     tab === "收藏"
       ? shown.filter((i) => i.favorite)
-      : tab === app.tabs[0]
-        ? app.id === "phone" ? shown.filter((i) => i.folder !== "通讯录") : shown
-        : app.id === "phone" && tab === "通讯录"
-          ? shown.filter((i) => i.folder === "通讯录" && !/\d/.test(i.title) && !/\d/.test(i.body) && !/\d/.test(String(i.meta?.phone ?? "")))
-          : shown.filter((i) => i.folder === tab);
+      : app.id === "phone" && tab === app.tabs[0]
+        ? shown.filter((i) => i.folder !== "通讯录")
+        : app.id === "phone" && tab === app.tabs[1]
+          ? shown.filter(
+              (i) =>
+                i.folder === "通讯录" &&
+                !/[0-9０-９]/.test(i.title) &&
+                !/[0-9０-９]/.test(i.body) &&
+                !/[0-9０-９]/.test(String(i.meta?.phone ?? "")) &&
+                !/^\s*[+＋]?\d[\d\s().-]*\s*$/.test(i.title),
+            )
+          : tab === app.tabs[0]
+            ? shown
+            : shown.filter((i) => i.folder === tab);
   const read = (i: Item) => {
     if (creator) {
       onEdit(i);
