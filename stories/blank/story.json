@@ -348,6 +348,104 @@
           "senderId": "rikku",
           "time": "23:29",
           "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-38",
+          "title": "リク",
+          "body": "对不起…",
+          "senderId": "owner",
+          "time": "00:01"
+        },
+        {
+          "id": "kakao-riku-msg-39",
+          "title": "リク",
+          "body": "除了对不起你就没别的想说了",
+          "senderId": "rikku",
+          "time": "00:02",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-40",
+          "title": "リク",
+          "body": "我不知道怎么说",
+          "senderId": "owner",
+          "time": "00:04"
+        },
+        {
+          "id": "kakao-riku-msg-41",
+          "title": "リク",
+          "body": "也不知道怎么做",
+          "senderId": "owner",
+          "time": "00:05"
+        },
+        {
+          "id": "kakao-riku-msg-42",
+          "title": "リク",
+          "body": "……",
+          "senderId": "rikku",
+          "time": "00:07",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-43",
+          "title": "リク",
+          "body": "所以你真的只是因为拓弥才来找我吗",
+          "senderId": "rikku",
+          "time": "00:09",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-44",
+          "title": "リク",
+          "body": "응…",
+          "senderId": "owner",
+          "time": "00:10"
+        },
+        {
+          "id": "kakao-riku-msg-45",
+          "title": "リク",
+          "body": "我还以为你找借口",
+          "senderId": "rikku",
+          "time": "00:12",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-46",
+          "title": "リク",
+          "body": "又是我在自作多情了啊",
+          "senderId": "rikku",
+          "time": "00:13",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-47",
+          "title": "リク",
+          "body": "不是这样的",
+          "senderId": "owner",
+          "time": "00:15"
+        },
+        {
+          "id": "kakao-riku-msg-48",
+          "title": "リク",
+          "body": "我也想跟你道歉来着",
+          "senderId": "owner",
+          "time": "00:17"
+        },
+        {
+          "id": "kakao-riku-msg-49",
+          "title": "リク",
+          "body": "不想听了",
+          "senderId": "rikku",
+          "time": "00:19",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-50",
+          "title": "リク",
+          "body": "你自己没想清楚之前不要来找我",
+          "senderId": "rikku",
+          "time": "00:21",
+          "avatar": "./story-assets/p3.jpg"
         }
       ]
     },
