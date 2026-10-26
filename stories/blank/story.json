@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 19,
+  "revision": 20,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -26,7 +26,8 @@
     "kakao",
     "music",
     "line",
-    "weather"
+    "weather",
+    "clock"
   ],
   "contacts": [
     {
@@ -1606,6 +1607,164 @@
           "sunrise": "06:05",
           "hourly": "[{\"time\":\"现在\",\"temperature\":\"14\"},{\"time\":\"10时\",\"temperature\":\"15\"},{\"time\":\"11时\",\"temperature\":\"16\"},{\"time\":\"12时\",\"temperature\":\"17\"},{\"time\":\"13时\",\"temperature\":\"16\"},{\"time\":\"日落\",\"temperature\":\"14\"}]",
           "daily": "[{\"label\":\"今天\",\"low\":\"10\",\"high\":\"17\"},{\"label\":\"周三\",\"low\":\"9\",\"high\":\"16\"},{\"label\":\"周四\",\"low\":\"8\",\"high\":\"15\"}]"
+        }
+      }
+    ],
+    "clock": [
+      {
+        "id": "alarm-0550",
+        "title": "闹钟 05:50",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "05:50",
+        "meta": {
+          "clock": "05:50",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0615",
+        "title": "闹钟 06:15",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "06:15",
+        "meta": {
+          "clock": "06:15",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0630",
+        "title": "闹钟 06:30",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "06:30",
+        "meta": {
+          "clock": "06:30",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0655",
+        "title": "闹钟 06:55",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "06:55",
+        "meta": {
+          "clock": "06:55",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0700",
+        "title": "闹钟 07:00",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "07:00",
+        "meta": {
+          "clock": "07:00",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0730",
+        "title": "闹钟 07:30",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "07:30",
+        "meta": {
+          "clock": "07:30",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0735",
+        "title": "闹钟 07:35",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "07:35",
+        "meta": {
+          "clock": "07:35",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0745",
+        "title": "闹钟 07:45",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "07:45",
+        "meta": {
+          "clock": "07:45",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0800",
+        "title": "闹钟 08:00",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "08:00",
+        "meta": {
+          "clock": "08:00",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0830",
+        "title": "闹钟 08:30",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "08:30",
+        "meta": {
+          "clock": "08:30",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0900",
+        "title": "闹钟 09:00",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "09:00",
+        "meta": {
+          "clock": "09:00",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0925",
+        "title": "闹钟 09:25",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "09:25",
+        "meta": {
+          "clock": "09:25",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0945",
+        "title": "闹钟 09:45",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "09:45",
+        "meta": {
+          "clock": "09:45",
+          "enabled": "false"
         }
       }
     ]
