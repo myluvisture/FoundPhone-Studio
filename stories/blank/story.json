@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 17,
+  "revision": 18,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -466,60 +466,6 @@
           "time": "22:16"
         }
       ]
-    },
-    {
-      "id": "messages-contact-1",
-      "app": "messages",
-      "title": "+82 042 6293 6728",
-      "participants": [
-        "owner"
-      ],
-      "messages": []
-    },
-    {
-      "id": "messages-contact-2",
-      "app": "messages",
-      "title": "+82 078 1933 0943",
-      "participants": [
-        "owner"
-      ],
-      "messages": []
-    },
-    {
-      "id": "messages-contact-3",
-      "app": "messages",
-      "title": "+82 010 3150 0176",
-      "participants": [
-        "owner"
-      ],
-      "messages": []
-    },
-    {
-      "id": "messages-contact-4",
-      "app": "messages",
-      "title": "+82 012 1234 5677",
-      "participants": [
-        "owner"
-      ],
-      "messages": []
-    },
-    {
-      "id": "messages-contact-5",
-      "app": "messages",
-      "title": "+82 093 5271 9472",
-      "participants": [
-        "owner"
-      ],
-      "messages": []
-    },
-    {
-      "id": "messages-contact-6",
-      "app": "messages",
-      "title": "+82 011 9373 5293",
-      "participants": [
-        "owner"
-      ],
-      "messages": []
     }
   ],
   "variables": {},
@@ -1027,6 +973,62 @@
         "meta": {
           "contact": "true"
         }
+      }
+    ],
+    "messages": [
+      {
+        "id": "messages-contact-1",
+        "title": "+82 042 6293 6728",
+        "body": "",
+        "sender": "+82 042 6293 6728",
+        "time": "2026-10-26 21:10",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-2",
+        "title": "+82 078 1933 0943",
+        "body": "",
+        "sender": "+82 078 1933 0943",
+        "time": "2026-10-26 21:10",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-3",
+        "title": "+82 010 3150 0176",
+        "body": "",
+        "sender": "+82 010 3150 0176",
+        "time": "2026-10-26 21:10",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-4",
+        "title": "+82 012 1234 5677",
+        "body": "",
+        "sender": "+82 012 1234 5677",
+        "time": "2026-10-26 21:10",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-5",
+        "title": "+82 093 5271 9472",
+        "body": "",
+        "sender": "+82 093 5271 9472",
+        "time": "2026-10-26 21:10",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-6",
+        "title": "+82 011 9373 5293",
+        "body": "",
+        "sender": "+82 011 9373 5293",
+        "time": "2026-10-26 21:10",
+        "kind": "text",
+        "meta": {}
       }
     ]
   }
