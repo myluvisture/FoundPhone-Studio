@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 14,
+  "revision": 15,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -204,6 +204,134 @@
           "body": "为什么不理我",
           "senderId": "rikku",
           "time": "10:12",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-21",
+          "title": "リク",
+          "body": "拓弥来找你过了吗",
+          "senderId": "owner",
+          "time": "23:04"
+        },
+        {
+          "id": "kakao-riku-msg-22",
+          "title": "リク",
+          "body": "关你什么事",
+          "senderId": "rikku",
+          "time": "23:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-23",
+          "title": "リク",
+          "body": "你跟他说了吗",
+          "senderId": "owner",
+          "time": "23:07"
+        },
+        {
+          "id": "kakao-riku-msg-24",
+          "title": "リク",
+          "body": "我们俩",
+          "senderId": "owner",
+          "time": "23:08"
+        },
+        {
+          "id": "kakao-riku-msg-25",
+          "title": "リク",
+          "body": "我们俩有什么事",
+          "senderId": "rikku",
+          "time": "23:10",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-26",
+          "title": "リク",
+          "body": "我不是那个意思",
+          "senderId": "owner",
+          "time": "23:11"
+        },
+        {
+          "id": "kakao-riku-msg-27",
+          "title": "リク",
+          "body": "对不起",
+          "senderId": "owner",
+          "time": "23:12"
+        },
+        {
+          "id": "kakao-riku-msg-28",
+          "title": "リク",
+          "body": "哪件事对不起",
+          "senderId": "rikku",
+          "time": "23:14",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-29",
+          "title": "リク",
+          "body": "睡我？不理我？还是我分手",
+          "senderId": "rikku",
+          "time": "23:15",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-30",
+          "title": "リク",
+          "body": "你分手了？",
+          "senderId": "owner",
+          "time": "23:17"
+        },
+        {
+          "id": "kakao-riku-msg-31",
+          "title": "リク",
+          "body": "因为我吗",
+          "senderId": "owner",
+          "time": "23:18"
+        },
+        {
+          "id": "kakao-riku-msg-32",
+          "title": "リク",
+          "body": "你想多了",
+          "senderId": "rikku",
+          "time": "23:20",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-33",
+          "title": "リク",
+          "body": "我发现他手机里一直跟不同的人聊天",
+          "senderId": "rikku",
+          "time": "23:22",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-34",
+          "title": "リク",
+          "body": "甚至还跟女生说认识我啊",
+          "senderId": "rikku",
+          "time": "23:24",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-35",
+          "title": "リク",
+          "body": "可以帮她要签名",
+          "senderId": "rikku",
+          "time": "23:25",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-36",
+          "title": "リク",
+          "body": "真是混蛋啊",
+          "senderId": "owner",
+          "time": "23:27"
+        },
+        {
+          "id": "kakao-riku-msg-37",
+          "title": "リク",
+          "body": "你以为你不是？",
+          "senderId": "rikku",
+          "time": "23:29",
           "avatar": "./story-assets/p3.jpg"
         }
       ]
