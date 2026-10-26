@@ -1,7 +1,7 @@
 /* React/data adapters for dudwo5/Mymy UI templates: kt/ktn/KHD/bub,
  * igHome/igProfile/igDM/igSheet, xHome. See NOTICE.txt for permission.
  * Author content, DOM globals, timers and media dependencies are excluded. */
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import {
   ArrowLeft,
   Search,
@@ -125,7 +125,7 @@ export function MymyKakao(p: SkinProps) {
               const previousDate = previousTime.match(/^20xx\.(\d{2})\.(\d{2})/)?.[0] || "";
               const dateLabel = dateMatch ? `${Number(dateMatch[1])}月${Number(dateMatch[2])}日` : "";
               return (
-                <React.Fragment key={m.id}>
+                <Fragment key={m.id}>
                   {dateKey && dateKey !== previousDate && (
                     <div className="kz-date-separator">{dateLabel}</div>
                   )}
@@ -163,7 +163,7 @@ export function MymyKakao(p: SkinProps) {
                       <span className="kzt">{m.time.slice(-5)}</span>
                     )}
                   </div>
-                </React.Fragment>
+                </Fragment>
               );
             })}
             {!messages.length && <Blank />}
