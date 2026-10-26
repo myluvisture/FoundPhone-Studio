@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 12,
+  "revision": 13,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -403,7 +403,7 @@
         }
       }
     ],
-    "safariHistory": [
+    "safari": [
       {
         "id": "safari-history-01",
         "title": "东京迪士尼约会攻略",
