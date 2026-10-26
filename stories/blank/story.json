@@ -28,20 +28,6 @@
   ],
   "contacts": [
     {
-      "id": "mama",
-      "name": "ママ",
-      "phone": "",
-      "bio": "",
-      "avatar": ""
-    },
-    {
-      "id": "papa",
-      "name": "パパ",
-      "phone": "",
-      "bio": "",
-      "avatar": ""
-    },
-    {
       "id": "rikku",
       "name": "リク",
       "phone": "",
