@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 11,
+  "revision": 12,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -400,6 +400,116 @@
         "folder": "歌曲",
         "meta": {
           "artist": "ZICO"
+        }
+      }
+    ],
+    "safariHistory": [
+      {
+        "id": "safari-history-01",
+        "title": "东京迪士尼约会攻略",
+        "body": "东京迪士尼约会攻略",
+        "sender": "サクヤ",
+        "time": "16:32",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "东京迪士尼约会攻略"
+        }
+      },
+      {
+        "id": "safari-history-02",
+        "title": "首尔约会餐厅",
+        "body": "首尔约会餐厅",
+        "sender": "サクヤ",
+        "time": "16:35",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "首尔约会餐厅"
+        }
+      },
+      {
+        "id": "safari-history-03",
+        "title": "怎么跟巨蟹男和好",
+        "body": "怎么跟巨蟹男和好",
+        "sender": "サクヤ",
+        "time": "16:41",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "怎么跟巨蟹男和好"
+        }
+      },
+      {
+        "id": "safari-history-04",
+        "title": "求和话术",
+        "body": "求和话术",
+        "sender": "サクヤ",
+        "time": "16:44",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "求和话术"
+        }
+      },
+      {
+        "id": "safari-history-05",
+        "title": "巨蟹男喜欢年上还是年下",
+        "body": "巨蟹男喜欢年上还是年下",
+        "sender": "サクヤ",
+        "time": "16:49",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "巨蟹男喜欢年上还是年下"
+        }
+      },
+      {
+        "id": "safari-history-06",
+        "title": "埼玉到福井线路推荐",
+        "body": "埼玉到福井线路推荐",
+        "sender": "サクヤ",
+        "time": "17:03",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "埼玉到福井线路推荐"
+        }
+      },
+      {
+        "id": "safari-history-07",
+        "title": "天蝎座和巨蟹座的匹配指数",
+        "body": "天蝎座和巨蟹座的匹配指数",
+        "sender": "サクヤ",
+        "time": "17:08",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "天蝎座和巨蟹座的匹配指数"
+        }
+      },
+      {
+        "id": "safari-history-08",
+        "title": "跟男生不小心亲嘴之后，心脏跳很快正常的吗？我也是男的",
+        "body": "跟男生不小心亲嘴之后，心脏跳很快正常的吗？我也是男的",
+        "sender": "サクヤ",
+        "time": "17:16",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "跟男生不小心亲嘴之后，心脏跳很快正常的吗？我也是男的"
+        }
+      },
+      {
+        "id": "safari-history-09",
+        "title": "撞见合租的男生和男朋友亲热好尴尬",
+        "body": "撞见合租的男生和男朋友亲热好尴尬",
+        "sender": "サクヤ",
+        "time": "17:24",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "撞见合租的男生和男朋友亲热好尴尬"
         }
       }
     ]
