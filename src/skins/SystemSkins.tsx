@@ -127,7 +127,7 @@ export function PhoneSkin(p: Props) {
                     {meta(i, "status", "通话记录")}
                   </small>
                 </span>
-                <time>{i.time.slice(5, 10)}</time>
+
               </button>
             ))}
             <Empty items={list} />
