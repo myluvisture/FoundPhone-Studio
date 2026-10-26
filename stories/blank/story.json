@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 9,
+  "revision": 10,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -57,7 +57,8 @@
           "title": "リク",
           "body": "你不解释一下昨天晚上的事",
           "senderId": "rikku",
-          "time": "09:12"
+          "time": "09:12",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-02",
@@ -71,7 +72,8 @@
           "title": "リク",
           "body": "现在撇清关系是什么意思",
           "senderId": "rikku",
-          "time": "09:16"
+          "time": "09:16",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-04",
@@ -92,7 +94,8 @@
           "title": "リク",
           "body": "？就这样",
           "senderId": "rikku",
-          "time": "09:22"
+          "time": "09:22",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-07",
@@ -106,7 +109,8 @@
           "title": "リク",
           "body": "你是不是不喜欢我谈恋爱",
           "senderId": "rikku",
-          "time": "09:28"
+          "time": "09:28",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-09",
@@ -120,7 +124,8 @@
           "title": "リク",
           "body": "那你刚开始为什么要管",
           "senderId": "rikku",
-          "time": "09:35"
+          "time": "09:35",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-11",
@@ -134,63 +139,72 @@
           "title": "リク",
           "body": "我让你帮你就帮",
           "senderId": "rikku",
-          "time": "09:41"
+          "time": "09:41",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-13",
           "title": "リク",
           "body": "现在把我弄得一团乱之后自己一走了之",
           "senderId": "rikku",
-          "time": "09:44"
+          "time": "09:44",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-14",
           "title": "リク",
           "body": "还要我想方设法来找你 你才理我",
           "senderId": "rikku",
-          "time": "09:47"
+          "time": "09:47",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-15",
           "title": "リク",
           "body": "你是不是觉得我喜欢男生就可以随便对待我",
           "senderId": "rikku",
-          "time": "09:51"
+          "time": "09:51",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-16",
           "title": "リク",
           "body": "很得意吗？心情很好吗？",
           "senderId": "rikku",
-          "time": "09:54"
+          "time": "09:54",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-17",
           "title": "リク",
           "body": "你应该是觉得 反正都是男生睡了之后也不用负责",
           "senderId": "rikku",
-          "time": "09:58"
+          "time": "09:58",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-18",
           "title": "リク",
           "body": "我讨厌你",
           "senderId": "rikku",
-          "time": "10:02"
+          "time": "10:02",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-19",
           "title": "リク",
           "body": "你到底是什么意思",
           "senderId": "rikku",
-          "time": "10:07"
+          "time": "10:07",
+          "avatar": "./story-assets/p3.jpg"
         },
         {
           "id": "kakao-riku-msg-20",
           "title": "リク",
           "body": "为什么不理我",
           "senderId": "rikku",
-          "time": "10:12"
+          "time": "10:12",
+          "avatar": "./story-assets/p3.jpg"
         }
       ]
     }
