@@ -1539,6 +1539,74 @@
         "kind": "text",
         "meta": {}
       }
+    ],
+    "weather": [
+      {
+        "id": "weather-seoul",
+        "title": "首尔",
+        "body": "多云，天气晴冷。",
+        "sender": "天气",
+        "kind": "text",
+        "time": "09:41",
+        "meta": {
+          "locationLabel": "韩国 · 首尔",
+          "temperature": "16",
+          "high": "19",
+          "low": "11",
+          "condition": "多云",
+          "aqi": "42",
+          "aqiLabel": "空气优良",
+          "rain": "10%",
+          "wind": "12 km/h",
+          "sunrise": "06:45",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"16\"},{\"time\":\"10时\",\"temperature\":\"17\"},{\"time\":\"11时\",\"temperature\":\"18\"},{\"time\":\"12时\",\"temperature\":\"19\"},{\"time\":\"13时\",\"temperature\":\"18\"},{\"time\":\"日落\",\"temperature\":\"16\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"11\",\"high\":\"19\"},{\"label\":\"周三\",\"low\":\"10\",\"high\":\"18\"},{\"label\":\"周四\",\"low\":\"9\",\"high\":\"17\"}]"
+        }
+      },
+      {
+        "id": "weather-saitama",
+        "title": "埼玉",
+        "body": "晴间多云。",
+        "sender": "天气",
+        "kind": "text",
+        "time": "09:41",
+        "meta": {
+          "locationLabel": "日本 · 埼玉",
+          "temperature": "18",
+          "high": "21",
+          "low": "12",
+          "condition": "晴间多云",
+          "aqi": "35",
+          "aqiLabel": "空气良好",
+          "rain": "10%",
+          "wind": "8 km/h",
+          "sunrise": "06:02",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"18\"},{\"time\":\"10时\",\"temperature\":\"19\"},{\"time\":\"11时\",\"temperature\":\"20\"},{\"time\":\"12时\",\"temperature\":\"21\"},{\"time\":\"13时\",\"temperature\":\"20\"},{\"time\":\"日落\",\"temperature\":\"18\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"12\",\"high\":\"21\"},{\"label\":\"周三\",\"low\":\"11\",\"high\":\"20\"},{\"label\":\"周四\",\"low\":\"10\",\"high\":\"19\"}]"
+        }
+      },
+      {
+        "id": "weather-fukui",
+        "title": "福井",
+        "body": "阴，局部有阵雨。",
+        "sender": "天气",
+        "kind": "text",
+        "time": "09:41",
+        "meta": {
+          "locationLabel": "日本 · 福井",
+          "temperature": "14",
+          "high": "17",
+          "low": "10",
+          "condition": "阴，局部有阵雨",
+          "aqi": "28",
+          "aqiLabel": "空气良好",
+          "rain": "40%",
+          "wind": "16 km/h",
+          "sunrise": "06:05",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"14\"},{\"time\":\"10时\",\"temperature\":\"15\"},{\"time\":\"11时\",\"temperature\":\"16\"},{\"time\":\"12时\",\"temperature\":\"17\"},{\"time\":\"13时\",\"temperature\":\"16\"},{\"time\":\"日落\",\"temperature\":\"14\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"10\",\"high\":\"17\"},{\"label\":\"周三\",\"low\":\"9\",\"high\":\"16\"},{\"label\":\"周四\",\"low\":\"8\",\"high\":\"15\"}]"
+        }
+      }
     ]
   }
 }
