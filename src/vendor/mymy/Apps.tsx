@@ -138,11 +138,12 @@ export function MymyKakao(p: SkinProps) {
                   >
                     {!m.outgoing && run.first && (
                       <>
-                        {(m.avatar || isRiku(p.thread) || isRiku(m.sender) || isRiku(m.title)) && (
-                          <div className="kzmav">
-                            <Avatar name={m.sender} src={m.avatar || (isRiku(p.thread) || isRiku(m.sender) || isRiku(m.title) ? rikuAvatar : "")} />
-                          </div>
-                        )}
+                        <div className="kzmav">
+                          <Avatar
+                            name={m.sender}
+                            src={isRiku(p.thread) || isRiku(m.sender) || isRiku(m.title) ? rikuAvatar : ""}
+                          />
+                        </div>
                         <div className="kzmn">{m.sender}</div>
                       </>
                     )}
