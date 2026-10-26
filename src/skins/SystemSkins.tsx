@@ -601,7 +601,7 @@ export function ClockSkin(p: Props) {
                 <Clock size={35} />
               </div>
             ))}
-            {items.map((i) => (
+            {tab !== "世界时钟" && items.map((i) => (
               <div className="alarm-row" key={i.id}>
                 <button onClick={() => p.onItem(i)}>
                   <time>{meta(i, "clock", i.time.slice(-5))}</time>
