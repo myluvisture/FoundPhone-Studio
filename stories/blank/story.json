@@ -1149,6 +1149,22 @@
         "time": "17:35",
         "kind": "text",
         "meta": {}
+      },
+      {
+        "id": "messages-contact7",
+        "title": "+86 123 4567 8900",
+        "body": "",
+        "sender": "+86 123 4567 8900",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact8",
+        "title": "+82 030 2673 9739",
+        "body": "",
+        "sender": "+82 030 2673 9739",
+        "kind": "text",
+        "meta": {}
       }
     ]
   }
