@@ -129,7 +129,7 @@ export function MymyKakao(p: SkinProps) {
                   {!m.outgoing && run.first && (
                     <>
                       <div className="kzmav">
-                        <Avatar name={m.sender} src={m.avatar} />
+                        <Avatar name={m.sender} src={m.avatar || (p.thread === "リク" ? "./story-assets/p3.jpg" : "")} />
                       </div>
                       <div className="kzmn">{m.sender}</div>
                     </>
@@ -269,7 +269,7 @@ export function MymyKakao(p: SkinProps) {
                     key={g.title}
                     onClick={() => p.onThread(g.title)}
                   >
-                    <Avatar name={last.sender || g.title} src={last.avatar} />
+                    <Avatar name={last.sender || g.title} src={last.avatar || (g.title === "リク" ? "./story-assets/p3.jpg" : "")} />
                     <span className="kzkn">
                       <b>{g.title}</b>
                       <small>{tab === "好友" ? last.sender : last.body}</small>
