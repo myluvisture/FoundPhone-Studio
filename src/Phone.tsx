@@ -905,7 +905,9 @@ function AppContent({
       ? shown.filter((i) => i.favorite)
       : tab === app.tabs[0]
         ? app.id === "phone" ? shown.filter((i) => i.folder !== "通讯录") : shown
-        : shown.filter((i) => i.folder === tab);
+        : app.id === "phone" && tab === "通讯录"
+          ? shown.filter((i) => i.folder === "通讯录" && !/^\\+?[\\d\\s-]+$/.test(i.title.trim()))
+          : shown.filter((i) => i.folder === tab);
   const read = (i: Item) => {
     if (creator) {
       onEdit(i);
