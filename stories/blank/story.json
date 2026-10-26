@@ -564,6 +564,144 @@
           "time": "22:16"
         }
       ]
+    },
+    {
+      "id": "kakao-kenta-chat",
+      "app": "kakao",
+      "title": "健太",
+      "participants": [
+        "kenta",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kakao-kenta-msg-01",
+          "title": "健太",
+          "body": "game？",
+          "senderId": "kenta",
+          "time": "20xx.07.23 20:14",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-kenta-msg-02",
+          "title": "健太",
+          "body": "gogo",
+          "senderId": "owner",
+          "time": "20xx.07.23 20:16"
+        },
+        {
+          "id": "kakao-kenta-msg-03",
+          "title": "健太",
+          "body": "splatoon、",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:03"
+        },
+        {
+          "id": "kakao-kenta-msg-04",
+          "title": "健太",
+          "body": "gogo？",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:04"
+        },
+        {
+          "id": "kakao-kenta-msg-05",
+          "title": "健太",
+          "body": "最近有点累啊",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:07",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-kenta-msg-06",
+          "title": "健太",
+          "body": "不在回归期也累？",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:09"
+        },
+        {
+          "id": "kakao-kenta-msg-07",
+          "title": "健太",
+          "body": "riku最近总半夜打电话",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:12",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-kenta-msg-08",
+          "title": "健太",
+          "body": "跟谁？",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:13"
+        },
+        {
+          "id": "kakao-kenta-msg-09",
+          "title": "健太",
+          "body": "不知道 听不太清楚",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:16",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-kenta-msg-10",
+          "title": "健太",
+          "body": "要跟我换房间吗",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:18"
+        },
+        {
+          "id": "kakao-kenta-msg-11",
+          "title": "健太",
+          "body": "saku长大了",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:21",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-kenta-msg-12",
+          "title": "健太",
+          "body": "不用啦",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:22",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-kenta-msg-13",
+          "title": "健太",
+          "body": "好吧",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:24"
+        },
+        {
+          "id": "kakao-kenta-msg-14",
+          "title": "健太",
+          "body": "跟riku在一起吗？",
+          "senderId": "kenta",
+          "time": "20xx.09.01 19:36",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-kenta-msg-15",
+          "title": "健太",
+          "body": "嗯",
+          "senderId": "owner",
+          "time": "20xx.09.01 19:37"
+        },
+        {
+          "id": "kakao-kenta-msg-16",
+          "title": "健太",
+          "body": "经纪人哥找他",
+          "senderId": "kenta",
+          "time": "20xx.09.01 19:39",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-kenta-msg-17",
+          "title": "健太",
+          "body": "ok",
+          "senderId": "owner",
+          "time": "20xx.09.01 19:40"
+        }
+      ]
     }
   ],
   "variables": {},
