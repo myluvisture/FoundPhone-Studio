@@ -3,15 +3,17 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 8,
+  "revision": 9,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
     "time": "09:41",
     "battery": 94,
     "network": "5G",
-    "wallpaper": "apple-wwdc26",
-    "passcode": "1118"
+    "wallpaper": "user-p2",
+    "passcode": "1118",
+    "lockWallpaper": "p1",
+    "homeWallpaper": "p2"
   },
   "installedApps": [
     "appstore",
@@ -30,7 +32,7 @@
       "name": "リク",
       "phone": "",
       "bio": "",
-      "avatar": ""
+      "avatar": "./story-assets/p3.jpg"
     },
     {
       "id": "takuya",
