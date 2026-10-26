@@ -1183,6 +1183,15 @@
         "sender": "+82 030 2673 9739",
         "kind": "text",
         "meta": {}
+      },
+      {
+        "id": "messages-contact7-chat-1",
+        "title": "+86 123 4567 8900",
+        "sender": "+86 123 4567 8900",
+        "body": "被我抓到了",
+        "time": "17:45",
+        "kind": "text",
+        "meta": {}
       }
     ]
   }
