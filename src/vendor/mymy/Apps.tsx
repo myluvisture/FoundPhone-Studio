@@ -119,40 +119,51 @@ export function MymyKakao(p: SkinProps) {
           <div className="msgs kk" ref={scroll}>
             {messages.map((m, i) => {
               const run = messageRun(messages, i);
+              const dateMatch = m.time.match(/^20xx\.(\d{2})\.(\d{2})/);
+              const dateKey = dateMatch ? dateMatch[0] : "";
+              const previousTime = i > 0 ? messages[i - 1].time : "";
+              const previousDate = previousTime.match(/^20xx\.(\d{2})\.(\d{2})/)?.[0] || "";
+              const dateLabel = dateMatch ? `${Number(dateMatch[1])}月${Number(dateMatch[2])}日` : "";
               return (
-                <div
-                  key={m.id}
-                  className={
-                    "kzm " +
-                    (m.outgoing ? "kzmy" : "kzot") +
-                    (run.first ? " first" : "")
-                  }
-                >
-                  {!m.outgoing && run.first && (
-                    <>
-                      <div className="kzmav">
-                        <Avatar name={m.sender} src={m.avatar || (isRiku(p.thread) || isRiku(m.sender) || isRiku(m.title) ? rikuAvatar : "")} />
-                      </div>
-                      <div className="kzmn">{m.sender}</div>
-                    </>
+                <React.Fragment key={m.id}>
+                  {dateKey && dateKey !== previousDate && (
+                    <div className="kz-date-separator">{dateLabel}</div>
                   )}
-                  {m.outgoing && run.last && (
-                    <span className="kzt">
-                      {m.meta.unread || ""}
-                      <br />
-                      {m.time.slice(-5)}
-                    </span>
-                  )}
-                  <button
-                    className={"kzbub" + (m.media ? " kzimg" : "")}
-                    onClick={() => m.meta.local !== "true" && read(p, m)}
+                  <div
+                    className={
+                      "kzm " +
+                      (m.outgoing ? "kzmy" : "kzot") +
+                      (run.first ? " first" : "")
+                    }
                   >
-                    {m.media ? <Media item={m} /> : m.body}
-                  </button>
-                  {!m.outgoing && run.last && (
-                    <span className="kzt">{m.time.slice(-5)}</span>
-                  )}
-                </div>
+                    {!m.outgoing && run.first && (
+                      <>
+                        {(m.avatar || isRiku(p.thread) || isRiku(m.sender) || isRiku(m.title)) && (
+                          <div className="kzmav">
+                            <Avatar name={m.sender} src={m.avatar || (isRiku(p.thread) || isRiku(m.sender) || isRiku(m.title) ? rikuAvatar : "")} />
+                          </div>
+                        )}
+                        <div className="kzmn">{m.sender}</div>
+                      </>
+                    )}
+                    {m.outgoing && run.last && (
+                      <span className="kzt">
+                        {m.meta.unread || ""}
+                        <br />
+                        {m.time.slice(-5)}
+                      </span>
+                    )}
+                    <button
+                      className={"kzbub" + (m.media ? " kzimg" : "")}
+                      onClick={() => m.meta.local !== "true" && read(p, m)}
+                    >
+                      {m.media ? <Media item={m} /> : m.body}
+                    </button>
+                    {!m.outgoing && run.last && (
+                      <span className="kzt">{m.time.slice(-5)}</span>
+                    )}
+                  </div>
+                </React.Fragment>
               );
             })}
             {!messages.length && <Blank />}
