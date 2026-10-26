@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 13,
+  "revision": 14,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -272,6 +272,55 @@
           "body": "骗人",
           "senderId": "takuya",
           "time": "16:21"
+        },
+        {
+          "id": "kakao-takuya-msg-09",
+          "title": "拓弥",
+          "body": "原来是这样啊",
+          "senderId": "takuya",
+          "time": "22:08"
+        },
+        {
+          "id": "kakao-takuya-msg-10",
+          "title": "拓弥",
+          "body": "我说你怎么不告诉我",
+          "senderId": "takuya",
+          "time": "22:09"
+        },
+        {
+          "id": "kakao-takuya-msg-11",
+          "title": "我",
+          "body": "？",
+          "senderId": "owner",
+          "time": "22:11"
+        },
+        {
+          "id": "kakao-takuya-msg-12",
+          "title": "我",
+          "body": "你去找riku了？",
+          "senderId": "owner",
+          "time": "22:11"
+        },
+        {
+          "id": "kakao-takuya-msg-13",
+          "title": "我",
+          "body": "…喂",
+          "senderId": "owner",
+          "time": "22:12"
+        },
+        {
+          "id": "kakao-takuya-msg-14",
+          "title": "我",
+          "body": "和你说什么了",
+          "senderId": "owner",
+          "time": "22:13"
+        },
+        {
+          "id": "kakao-takuya-msg-15",
+          "title": "拓弥",
+          "body": "秘密哦😁",
+          "senderId": "takuya",
+          "time": "22:16"
         }
       ]
     }
