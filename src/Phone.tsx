@@ -1009,7 +1009,7 @@ function AppContent({
               ui={state.ui?.[app.id]}
               onUi={creator ? undefined : onUi}
               name={name}
-              items={shown}
+              items={app.id === "phone" ? filtered : shown}
               creator={creator}
               onRead={onRead}
               onItem={read}
