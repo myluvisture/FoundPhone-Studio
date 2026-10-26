@@ -904,7 +904,7 @@ function AppContent({
     tab === "收藏"
       ? shown.filter((i) => i.favorite)
       : tab === app.tabs[0]
-        ? shown
+        ? app.id === "phone" ? shown.filter((i) => i.folder !== "通讯录") : shown
         : shown.filter((i) => i.folder === tab);
   const read = (i: Item) => {
     if (creator) {
@@ -1228,7 +1228,7 @@ function AppContent({
             filtered.map((i) => (
               <button
                 key={i.id}
-                className={`record-row ${app.engine === "document" ? "document-row" : ""}`}
+                className={`record-row ${app.engine === "document" ? "document-row" : ""} ${app.id === "phone" && i.meta?.callStatus === "missed" ? "missed-call-row" : ""}`}
                 onClick={() => read(i)}
               >
                 <div className="record-symbol">
@@ -1239,8 +1239,8 @@ function AppContent({
                   )}
                 </div>
                 <div>
-                  <strong>{i.title}</strong>
-                  <p>{i.body.split("\n")[0]}</p>
+                  <strong style={app.id === "phone" && i.meta?.callStatus === "missed" ? { color: "#e5484d" } : undefined}>{i.title}</strong>
+                  <p style={app.id === "phone" && i.meta?.callStatus === "missed" ? { color: "#e5484d" } : undefined}>{i.body.split("\n")[0]}</p>
                   <small>
                     {i.time} {i.folder && `· ${i.folder}`}
                   </small>
