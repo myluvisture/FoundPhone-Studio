@@ -1104,6 +1104,33 @@
         "time": "2026-10-26 17:22",
         "kind": "text",
         "meta": {}
+      },
+      {
+        "id": "messages-contact4-chat-1",
+        "title": "+82 012 1234 5677",
+        "body": "打听到你的电话很不容易呢",
+        "sender": "+82 012 1234 5677",
+        "time": "2026-10-26 17:25",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact4-chat-2",
+        "title": "+82 012 1234 5677",
+        "body": "到今天这种程度真的很不容易吧",
+        "sender": "+82 012 1234 5677",
+        "time": "2026-10-26 17:26",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact4-chat-3",
+        "title": "+82 012 1234 5677",
+        "body": "爱豆好好做吧",
+        "sender": "+82 012 1234 5677",
+        "time": "2026-10-26 17:27",
+        "kind": "text",
+        "meta": {}
       }
     ]
   }
