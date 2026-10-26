@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 18,
+  "revision": 19,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -1027,6 +1027,33 @@
         "body": "",
         "sender": "+82 011 9373 5293",
         "time": "2026-10-26 21:10",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-riku-chat-1",
+        "title": "+82 042 6293 6728",
+        "body": "当粉丝都是傻子吗？",
+        "sender": "+82 042 6293 6728",
+        "time": "2026-10-26 21:11",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-riku-chat-2",
+        "title": "+82 042 6293 6728",
+        "body": "做错事了为什么不直接摊牌",
+        "sender": "+82 042 6293 6728",
+        "time": "2026-10-26 21:12",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-riku-chat-3",
+        "title": "+82 042 6293 6728",
+        "body": "你们俩做的这些事不会还瞒着公司吧？",
+        "sender": "+82 042 6293 6728",
+        "time": "2026-10-26 21:13",
         "kind": "text",
         "meta": {}
       }
