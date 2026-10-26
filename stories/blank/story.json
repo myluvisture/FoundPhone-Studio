@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 16,
+  "revision": 17,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -715,6 +715,74 @@
         "meta": {
           "type": "search",
           "query": "撞见合租的男生和男朋友亲热好尴尬"
+        }
+      }
+    ],
+    "phone": [
+      {
+        "id": "phone-contact-mama",
+        "title": "ママ",
+        "body": "",
+        "sender": "ママ",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-papa",
+        "title": "パパ",
+        "body": "",
+        "sender": "パパ",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-rikku",
+        "title": "リク",
+        "body": "",
+        "sender": "リク",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-takuya",
+        "title": "拓弥",
+        "body": "",
+        "sender": "拓弥",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-kenta",
+        "title": "健太",
+        "body": "",
+        "sender": "健太",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-manager",
+        "title": "매니저 형",
+        "body": "",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
         }
       }
     ]
