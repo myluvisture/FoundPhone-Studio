@@ -85,7 +85,13 @@ jobs:
                 image/jpeg)
                   echo "Instagram post image $name is already a valid JPEG."
                   ;;
-                image/png|image/webp|image/gif|image/tiff|image/bmp|image/heic|image/heif|image/avif)
+                image/heic|image/heif|image/heic-sequence|image/heif-sequence)
+                  temp="public/story-assets/${name%.jpg}.converted.jpg"
+                  echo "Converting Instagram post image $name from $mime to JPEG with heif-convert."
+                  heif-convert "$post_image" "$temp"
+                  mv "$temp" "$post_image"
+                  ;;
+                image/png|image/webp|image/gif|image/tiff|image/bmp|image/avif)
                   temp="public/story-assets/${name%.jpg}.converted.jpg"
                   echo "Converting Instagram post image $name from $mime to JPEG."
                   convert "$post_image" -auto-orient -background white -alpha remove -alpha off -strip -quality 92 "$temp"
