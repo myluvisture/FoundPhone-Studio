@@ -338,6 +338,7 @@ export function MymyInstagram(p: SkinProps) {
     [story, setStory] = useState(0),
     [draft, setDraft] = useState(""),
     [pop, setPop] = useState("");
+  const [relationshipList, setRelationshipList] = useState<"粉丝" | "关注" | null>(null);
   // This entry carries account/profile metadata; it is not a published post.
   const posts = p.items.filter(
       (i) =>
@@ -500,14 +501,14 @@ export function MymyInstagram(p: SkinProps) {
                     <b>{posts.length}</b>
                     <small>帖子</small>
                   </div>
-                  <div>
-                    <b>11</b>
+                  <button type="button" onClick={() => setRelationshipList("粉丝")}>
+                    <b>12</b>
                     <small>粉丝</small>
-                  </div>
-                  <div>
-                    <b>18</b>
+                  </button>
+                  <button type="button" onClick={() => setRelationshipList("关注")}>
+                    <b>19</b>
                     <small>关注</small>
-                  </div>
+                  </button>
                 </div>
               </div>
               <p className="pn">{p.owner}</p>
@@ -572,6 +573,36 @@ export function MymyInstagram(p: SkinProps) {
           ))}
         </nav>
       </div>
+      {relationshipList && (
+        <div className="kzcs">
+          <button
+            className="kzbk"
+            aria-label="关闭列表"
+            onClick={() => setRelationshipList(null)}
+          />
+          <section className="kzsh" role="dialog" aria-label={"Instagram" + relationshipList}>
+            <div className="mymy-sheet-handle" />
+            <header>
+              <b>{relationshipList}</b>
+              <button
+                aria-label="关闭列表面板"
+                onClick={() => setRelationshipList(null)}
+              >
+                <X />
+              </button>
+            </header>
+            <div className="mymy-comments">
+              <div className="kzkr mymy-relationship-row">
+                <Avatar name="ri_ku_03" src="./story-assets/riku-avatar.jpg" />
+                <span className="kzkn">
+                  <b>ri_ku_03</b>
+                  <small>{relationshipList === "粉丝" ? "关注了你" : "你正在关注"}</small>
+                </span>
+              </div>
+            </div>
+          </section>
+        </div>
+      )}
       {sheet && (
         <div className="kzcs">
           <button
