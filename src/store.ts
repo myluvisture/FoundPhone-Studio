@@ -38,6 +38,31 @@ export const useStudio = create<Store>((set, get) => ({
         const w = createWork();
         await db.works.put(w);
         works = [w];
+      } else {
+        // Migrate existing local drafts: older drafts were seeded with photo
+        // placeholders that had no media URL, so the UI fell back to title cards.
+        const assetFiles = [
+          "photo-04.jpg", "photo-07.jpg",
+          "pig-01.jpg", "pig-02.jpg", "pig-03.jpg", "pig-04.jpg",
+          "pig-05.jpg", "pig-06.jpg", "pig-07.jpg", "pig-010.jpg",
+        ];
+        const migrated = works.map((work) => {
+          const photos = work.data.photos ?? [];
+          let changed = false;
+          const nextPhotos = photos.map((item, index) => {
+            if (item.kind !== "image" || item.media) return item;
+            const file = assetFiles[index % assetFiles.length];
+            changed = true;
+            return { ...item, media: `/FoundPhone-Studio/story-assets/${file}` };
+          });
+          if (changed) {
+            const next = { ...work, data: { ...work.data, photos: nextPhotos }, updatedAt: Date.now() };
+            void db.works.put(next);
+            return next;
+          }
+          return work;
+        });
+        works = migrated;
       }
       set({ works, work: works[0], status: "已保存到本机" });
     } catch (e) {
