@@ -2674,7 +2674,7 @@
         "sender": "相机",
         "time": "2026-10-01",
         "kind": "image",
-        "media": "story-assets/baby-panda.jpg",
+        "media": "./story-assets/baby-panda.jpg",
         "meta": {}
       },
       {
@@ -2684,7 +2684,7 @@
         "sender": "相机",
         "time": "2026-10-02",
         "kind": "image",
-        "media": "story-assets/riku-selfie.jpg",
+        "media": "./story-assets/riku-selfie.jpg",
         "meta": {}
       },
       {
@@ -2694,7 +2694,7 @@
         "sender": "相机",
         "time": "2026-10-03",
         "kind": "image",
-        "media": "story-assets/baby-cute.jpg",
+        "media": "./story-assets/baby-cute.jpg",
         "meta": {}
       },
       {
@@ -2704,7 +2704,7 @@
         "sender": "相机",
         "time": "2026-10-04",
         "kind": "image",
-        "media": "story-assets/photo-03.jpg",
+        "media": "./story-assets/photo-03.jpg",
         "meta": {}
       },
       {
@@ -2714,7 +2714,7 @@
         "sender": "相机",
         "time": "2026-10-05",
         "kind": "image",
-        "media": "story-assets/photo-04.jpg",
+        "media": "./story-assets/photo-04.jpg",
         "meta": {}
       },
       {
@@ -2724,7 +2724,7 @@
         "sender": "相机",
         "time": "2026-10-06",
         "kind": "image",
-        "media": "story-assets/photo-06.jpg",
+        "media": "./story-assets/photo-06.jpg",
         "meta": {}
       },
       {
@@ -2734,7 +2734,7 @@
         "sender": "相机",
         "time": "2026-10-07",
         "kind": "image",
-        "media": "story-assets/photo-07.jpg",
+        "media": "./story-assets/photo-07.jpg",
         "meta": {}
       },
       {
@@ -2744,7 +2744,7 @@
         "sender": "相机",
         "time": "2026-10-08",
         "kind": "image",
-        "media": "story-assets/photo-08.jpg",
+        "media": "./story-assets/photo-08.jpg",
         "meta": {}
       },
       {
@@ -2754,7 +2754,7 @@
         "sender": "相机",
         "time": "2026-10-09",
         "kind": "image",
-        "media": "story-assets/photo-09.jpg",
+        "media": "./story-assets/photo-09.jpg",
         "meta": {}
       },
       {
@@ -2764,7 +2764,7 @@
         "sender": "相机",
         "time": "2026-10-10",
         "kind": "image",
-        "media": "story-assets/photo-10.jpg",
+        "media": "./story-assets/photo-10.jpg",
         "meta": {}
       },
       {
@@ -2774,7 +2774,7 @@
         "sender": "相机",
         "time": "2026-10-11",
         "kind": "image",
-        "media": "story-assets/photo-11.jpg",
+        "media": "./story-assets/photo-11.jpg",
         "meta": {}
       },
       {
@@ -2784,7 +2784,7 @@
         "sender": "相机",
         "time": "2026-10-12",
         "kind": "image",
-        "media": "story-assets/photo-12.JPG",
+        "media": "./story-assets/photo-12.JPG",
         "meta": {}
       },
       {
@@ -2794,7 +2794,7 @@
         "sender": "相机",
         "time": "2026-10-13",
         "kind": "image",
-        "media": "story-assets/photo-13.JPG",
+        "media": "./story-assets/photo-13.JPG",
         "meta": {}
       },
       {
@@ -2804,7 +2804,7 @@
         "sender": "相机",
         "time": "2026-10-14",
         "kind": "image",
-        "media": "story-assets/photo-14.jpg",
+        "media": "./story-assets/photo-14.jpg",
         "meta": {}
       },
       {
@@ -2814,7 +2814,7 @@
         "sender": "相机",
         "time": "2026-10-15",
         "kind": "image",
-        "media": "story-assets/photo-15.jpg",
+        "media": "./story-assets/photo-15.jpg",
         "meta": {}
       },
       {
@@ -2824,7 +2824,7 @@
         "sender": "相机",
         "time": "2026-10-27",
         "kind": "image",
-        "media": "story-assets/pig-01.jpg",
+        "media": "./story-assets/pig-01.jpg",
         "folder": "🐽🐽",
         "meta": {}
       },
@@ -2835,7 +2835,7 @@
         "sender": "相机",
         "time": "2026-10-28",
         "kind": "image",
-        "media": "story-assets/pig-02.jpg",
+        "media": "./story-assets/pig-02.jpg",
         "folder": "🐽🐽",
         "meta": {}
       },
@@ -2846,7 +2846,7 @@
         "sender": "相机",
         "time": "2026-10-29",
         "kind": "image",
-        "media": "story-assets/pig-03.jpg",
+        "media": "./story-assets/pig-03.jpg",
         "folder": "🐽🐽",
         "meta": {}
       },
@@ -2857,7 +2857,7 @@
         "sender": "相机",
         "time": "2026-10-30",
         "kind": "image",
-        "media": "story-assets/pig-04.jpg",
+        "media": "./story-assets/pig-04.jpg",
         "folder": "🐽🐽",
         "meta": {}
       },
@@ -2868,7 +2868,7 @@
         "sender": "相机",
         "time": "2026-10-31",
         "kind": "image",
-        "media": "story-assets/pig-05.jpg",
+        "media": "./story-assets/pig-05.jpg",
         "folder": "🐽🐽",
         "meta": {}
       },
@@ -2879,7 +2879,7 @@
         "sender": "相机",
         "time": "2026-11-01",
         "kind": "image",
-        "media": "story-assets/pig-06.jpg",
+        "media": "./story-assets/pig-06.jpg",
         "folder": "🐽🐽",
         "meta": {}
       },
@@ -2890,7 +2890,7 @@
         "sender": "相机",
         "time": "2026-11-02",
         "kind": "image",
-        "media": "story-assets/pig-07.jpg",
+        "media": "./story-assets/pig-07.jpg",
         "folder": "🐽🐽",
         "meta": {}
       },
@@ -2901,7 +2901,7 @@
         "sender": "相机",
         "time": "2026-11-03",
         "kind": "image",
-        "media": "story-assets/pig-08.jpg",
+        "media": "./story-assets/pig-08.jpg",
         "folder": "🐽🐽",
         "meta": {}
       },
@@ -2912,7 +2912,7 @@
         "sender": "相机",
         "time": "2026-11-04",
         "kind": "image",
-        "media": "story-assets/pig-09.jpg",
+        "media": "./story-assets/pig-09.jpg",
         "folder": "🐽🐽",
         "meta": {}
       },
@@ -2923,7 +2923,7 @@
         "sender": "相机",
         "time": "2026-11-05",
         "kind": "image",
-        "media": "story-assets/pig-010.jpg",
+        "media": "./story-assets/pig-010.jpg",
         "folder": "🐽🐽",
         "meta": {}
       }
