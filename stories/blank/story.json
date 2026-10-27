@@ -3,7 +3,7 @@
  "id": "blank-phone",
  "title": "捡手机",
  "description": "",
- "revision": 51,
+ "revision": 52,
  "phone": {
   "owner": "サクヤ",
   "date": "2026-10-25",
@@ -2964,7 +2964,17 @@
     "kind": "image",
     "media": "/FoundPhone-Studio/story-assets/saku-post-shiritai.jpg",
     "likes": 1744,
-    "meta": {}
+    "meta": {},
+    "comments": [
+     "soft_petal_01：？？？？？",
+     "moonlit.diary：是不是疯了",
+     "quiet_bloom_7：嫂子竟是队友",
+     "lilac_mood_：这人就在这里，不躲，不藏，不逃，稳稳地接住男友",
+     "cozy_echo_9：？？？？？认真的",
+     "dreamy_fern_03：媳妇开枪 我教过你的",
+     "cloudy_soda_8：我亲手养大的玫瑰你还真特么长出刺了",
+     "blushpetal：而我呢，只是一个唯粉，一座梦女，一片用户，一只老百姓，一粒普通人。"
+    ]
    },
    {
     "id": "instagram-post-riku-redhair",
