@@ -490,7 +490,7 @@ export function MymyInstagram(p: SkinProps) {
           {!selected && tab === "个人主页" && (
             <>
               <div className="pf">
-                <Avatar name={p.owner || "机主"} />
+                <Avatar name="sakusakusaku_07" src="./story-assets/instagram-avatar.jpg" />
                 <div className="ps">
                   <div>
                     <b>{posts.length}</b>
