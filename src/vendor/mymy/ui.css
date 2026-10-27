@@ -929,6 +929,18 @@
   gap: 12px;
   cursor: default;
 }
+.mymy-ui button.mymy-relationship-row {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.mymy-ui button.mymy-relationship-row:hover {
+  background: #f7f7f7;
+}
 .mymy-ui .mymy-relationship-row .catalog-avatar {
   width: 42px;
   height: 42px;
