@@ -30,12 +30,14 @@ jobs:
           for name in baby-panda.jpg riku-selfie.jpg baby-cute.jpg photo-03.jpg photo-04.jpg photo-06.jpg photo-07.jpg photo-08.jpg photo-09.jpg photo-10.jpg photo-11.jpg photo-12.JPG photo-13.JPG photo-14.jpg photo-15.jpg pig-01.jpg pig-02.jpg pig-03.jpg pig-04.jpg pig-05.jpg pig-06.jpg pig-07.jpg pig-08.jpg pig-09.jpg pig-010.jpg; do
             cp "story-assets/$name" "public/story-assets/$name"
           done
-          # Optional image for the Disney Instagram post. Upload it to story-assets/disney-post.jpg.
-          if [ -f "story-assets/disney-post.jpg" ]; then
-            cp "story-assets/disney-post.jpg" "public/story-assets/disney-post.jpg"
-          else
-            echo "Disney post photo not uploaded yet; expected story-assets/disney-post.jpg"
-          fi
+          # Optional Instagram post images are uploaded into the repository-root story-assets folder.
+          for name in disney-post.jpg fukui-post.jpg; do
+            if [ -f "story-assets/$name" ]; then
+              cp "story-assets/$name" "public/story-assets/$name"
+            else
+              echo "Optional Instagram post image not uploaded yet: story-assets/$name"
+            fi
+          done
       - name: Convert mislabeled HEIC photos to browser-compatible JPEG
         run: |
           sudo apt-get update
@@ -74,27 +76,28 @@ jobs:
           else
             echo "Instagram avatar not uploaded yet; skipping avatar conversion."
           fi
-          # Convert the optional Disney post image to a real JPEG if it was uploaded
-          # with PNG/WebP/etc. bytes under the expected .jpg filename.
-          post_image="public/story-assets/disney-post.jpg"
-          if [ -f "$post_image" ]; then
-            mime="$(file --mime-type -b "$post_image")"
-            case "$mime" in
-              image/jpeg)
-                echo "Disney post image is already a valid JPEG."
-                ;;
-              image/png|image/webp|image/gif|image/tiff|image/bmp|image/heic|image/heif|image/avif)
-                temp="public/story-assets/disney-post.converted.jpg"
-                echo "Converting Disney post image from $mime to JPEG."
-                convert "$post_image" -auto-orient -background white -alpha remove -alpha off -strip -quality 92 "$temp"
-                mv "$temp" "$post_image"
-                ;;
-              *)
-                echo "Unsupported Disney post image MIME type: $mime"
-                exit 1
-                ;;
-            esac
-          fi
+          # Ensure each optional Instagram post image is really a JPEG, not merely named .jpg.
+          for name in disney-post.jpg fukui-post.jpg; do
+            post_image="public/story-assets/$name"
+            if [ -f "$post_image" ]; then
+              mime="$(file --mime-type -b "$post_image")"
+              case "$mime" in
+                image/jpeg)
+                  echo "Instagram post image $name is already a valid JPEG."
+                  ;;
+                image/png|image/webp|image/gif|image/tiff|image/bmp|image/heic|image/heif|image/avif)
+                  temp="public/story-assets/${name%.jpg}.converted.jpg"
+                  echo "Converting Instagram post image $name from $mime to JPEG."
+                  convert "$post_image" -auto-orient -background white -alpha remove -alpha off -strip -quality 92 "$temp"
+                  mv "$temp" "$post_image"
+                  ;;
+                *)
+                  echo "Unsupported Instagram post image MIME type for $name: $mime"
+                  exit 1
+                  ;;
+              esac
+            fi
+          done
       - run: npm ci
       - run: npm run typecheck
       - run: npm run lint
@@ -110,14 +113,16 @@ jobs:
             mime="$(file --mime-type -b "$path")"
             test "$mime" = "image/jpeg" || { echo "Not browser-ready JPEG: $name ($mime)"; exit 1; }
           done
-          if [ -f "story-assets/disney-post.jpg" ]; then
-            path="dist/story-assets/disney-post.jpg"
-            test -s "$path" || { echo "Missing published Disney post image: $path"; exit 1; }
-            mime="$(file --mime-type -b "$path")"
-            test "$mime" = "image/jpeg" || { echo "Disney post image is not a valid JPEG: $mime"; exit 1; }
-          else
-            echo "Disney post image is not uploaded yet; the post will display its image placeholder until story-assets/disney-post.jpg is added."
-          fi
+          for name in disney-post.jpg fukui-post.jpg; do
+            if [ -f "story-assets/$name" ]; then
+              path="dist/story-assets/$name"
+              test -s "$path" || { echo "Missing published Instagram post image: $path"; exit 1; }
+              mime="$(file --mime-type -b "$path")"
+              test "$mime" = "image/jpeg" || { echo "Instagram post image $name is not a valid JPEG: $mime"; exit 1; }
+            else
+              echo "Optional Instagram post image not uploaded yet: story-assets/$name"
+            fi
+          done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
