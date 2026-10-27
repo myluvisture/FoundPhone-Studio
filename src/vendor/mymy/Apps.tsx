@@ -672,19 +672,25 @@ export function MymyInstagram(p: SkinProps) {
                   .filter((r) => r.startsWith(sheet.id + "\t"))
                   .map((r) => r.split("\t").slice(1).join("\t")),
               ].map((c, n) => {
-                const author = c.startsWith("ri_ku_03回复")
+                const rawAuthor = c.startsWith("ri_ku_03回复")
                   ? "ri_ku_03"
-                  : c.split(/[：:]/)[0];
+                  : c.startsWith("sakusakusaku_07回复")
+                    ? "sakusakusaku_07"
+                    : c.split(/[：:]/)[0];
+                const author = /^(?:Riku|riku|リク)$/i.test(rawAuthor)
+                  ? "ri_ku_03"
+                  : /^(?:Saku|saku|サクヤ)$/i.test(rawAuthor)
+                    ? "sakusakusaku_07"
+                    : rawAuthor;
+                const avatarSrc =
+                  author === "ri_ku_03"
+                    ? "./story-assets/riku-avatar.jpg"
+                    : author === "sakusakusaku_07"
+                      ? "./story-assets/instagram-avatar.jpg"
+                      : "";
                 return (
                   <p key={n}>
-                    <Avatar
-                      name={author}
-                      src={
-                        author === "ri_ku_03"
-                          ? "./story-assets/riku-avatar.jpg"
-                          : ""
-                      }
-                    />
+                    <Avatar name={author} src={avatarSrc} />
                     {c}
                   </p>
                 );
