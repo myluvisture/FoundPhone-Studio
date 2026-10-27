@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 38,
+  "revision": 39,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2955,18 +2955,6 @@
         }
       },
       {
-        "id": "instagram-post-saku-birthday",
-        "title": "誕生日が一番好き",
-        "body": "誕生日が一番好き",
-        "sender": "sakusakusaku_07",
-        "time": "20xx-11-18 01:26",
-        "avatar": "./story-assets/instagram-avatar.jpg",
-        "kind": "image",
-        "media": "/FoundPhone-Studio/story-assets/saku-post-birthday.jpg",
-        "likes": 10,
-        "meta": {}
-      },
-      {
         "id": "instagram-post-umai",
         "title": "うまい",
         "body": "うまい",
@@ -3002,6 +2990,18 @@
         "kind": "image",
         "media": "/FoundPhone-Studio/story-assets/fukui-post.jpg",
         "likes": 5,
+        "meta": {}
+      },
+      {
+        "id": "instagram-post-saku-birthday",
+        "title": "誕生日が一番好き",
+        "body": "誕生日が一番好き",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-11-18 01:26",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-birthday.jpg",
+        "likes": 10,
         "meta": {}
       },
       {
