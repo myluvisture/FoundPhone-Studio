@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 25,
+  "revision": 26,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2935,7 +2935,7 @@
         "title": "sakusakusaku_07",
         "body": "个人主页",
         "sender": "sakusakusaku_07",
-        "kind": "profile",
+        "kind": "text",
         "meta": {
           "username": "sakusakusaku_07",
           "handle": "sakusakusaku_07"
