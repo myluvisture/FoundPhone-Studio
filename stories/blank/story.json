@@ -3,7 +3,7 @@
  "id": "blank-phone",
  "title": "捡手机",
  "description": "",
- "revision": 56,
+ "revision": 57,
  "phone": {
   "owner": "サクヤ",
   "date": "2026-10-25",
@@ -3311,6 +3311,230 @@
     "kind": "text",
     "folder": "私信",
     "meta": {}
+   },
+   {
+    "id": "instagram-dm-message-noa-pale-01",
+    "title": "noa.pale",
+    "body": "666",
+    "sender": "noa.pale",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "noa.pale",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-noa-pale-02",
+    "title": "noa.pale",
+    "body": "你们俩要不要脸？",
+    "sender": "noa.pale",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "noa.pale",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-shiho-gray-01",
+    "title": "shiho.gray",
+    "body": "大哥你什么意思？",
+    "sender": "shiho.gray",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "shiho.gray",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-shiho-gray-02",
+    "title": "shiho.gray",
+    "body": "完全肆意",
+    "sender": "shiho.gray",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "shiho.gray",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-shiho-gray-03",
+    "title": "shiho.gray",
+    "body": "你不如直接公开怎么样？",
+    "sender": "shiho.gray",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "shiho.gray",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-suzu9-01",
+    "title": "suzu9",
+    "body": "飒飒飒",
+    "sender": "suzu9",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "suzu9",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-suzu9-02",
+    "title": "suzu9",
+    "body": "真当粉丝都是傻子",
+    "sender": "suzu9",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "suzu9",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-akari_dark_4-01",
+    "title": "akari_dark_4",
+    "body": "送个玩偶那副不值钱的样子",
+    "sender": "akari_dark_4",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "akari_dark_4",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-sena_mono_-01",
+    "title": "sena_mono_",
+    "body": "去迪士尼发发还不够",
+    "sender": "sena_mono_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "sena_mono_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-sena_mono_-02",
+    "title": "sena_mono_",
+    "body": "去福井还要炫",
+    "sender": "sena_mono_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "sena_mono_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-sena_mono_-03",
+    "title": "sena_mono_",
+    "body": "够了没",
+    "sender": "sena_mono_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "sena_mono_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-rin_neutral_-01",
+    "title": "rin_neutral_",
+    "body": "saku？",
+    "sender": "rin_neutral_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "rin_neutral_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-rin_neutral_-02",
+    "title": "rin_neutral_",
+    "body": "是你吧",
+    "sender": "rin_neutral_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "rin_neutral_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-rin_neutral_-03",
+    "title": "rin_neutral_",
+    "body": "想你🥰",
+    "sender": "rin_neutral_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "rin_neutral_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-_yua-01",
+    "title": "_yua",
+    "body": "这是第几个小号了ㅋㅋ",
+    "sender": "_yua",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "_yua",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-_yua-02",
+    "title": "_yua",
+    "body": "久しぶり～",
+    "sender": "_yua",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "_yua",
+     "dmDirection": "incoming"
+    }
    }
   ]
  }
