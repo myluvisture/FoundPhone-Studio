@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 26,
+  "revision": 27,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2940,6 +2940,18 @@
           "username": "sakusakusaku_07",
           "handle": "sakusakusaku_07"
         }
+      },
+      {
+        "id": "instagram-post-disney",
+        "title": "Disney",
+        "body": "Disney",
+        "sender": "sakusakusaku_07",
+        "time": "2026-10-25 09:41",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/disney-post.jpg",
+        "likes": 3,
+        "meta": {}
       }
     ]
   }
