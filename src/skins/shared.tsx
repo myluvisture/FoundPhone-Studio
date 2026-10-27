@@ -110,15 +110,24 @@ export function Media({
   item: Item;
   className?: string;
 }) {
-  const safeSrc = safeMedia(item.media);
-  // Resolve story assets against Vite base for GitHub Pages and previews.
-  const src = safeSrc.startsWith("/FoundPhone-Studio/story-assets/")
-    ? `${import.meta.env.BASE_URL}story-assets/${safeSrc.split("/").pop()}`
-    : safeSrc.startsWith("/story-assets/")
-      ? `${import.meta.env.BASE_URL}story-assets/${safeSrc.split("/").pop()}`
-      : safeSrc.startsWith("story-assets/")
-        ? `${import.meta.env.BASE_URL}${safeSrc}`
-        : safeSrc;
+  // Resolve known bundled photo filenames even when a legacy saved work item
+  // has an empty/unsupported media field. The blank story's photo titles are
+  // the asset basenames, so old local saves remain renderable.
+  const raw = String(item.media || "").trim();
+  const base = import.meta.env.BASE_URL;
+  const basename = (raw || item.title).split("/").pop() || "";
+  const knownAsset = /^[a-zA-Z0-9._-]+\\.(png|jpe?g|webp|gif)$/i.test(basename)
+    ? basename
+    : /^[a-zA-Z0-9._-]+$/i.test(item.title)
+      ? `${item.title}.jpg`
+      : "";
+  const src = raw.startsWith("data:")
+    ? safeMedia(raw)
+    : raw.includes("story-assets/")
+      ? `${base}story-assets/${basename}`
+      : knownAsset
+        ? `${base}story-assets/${knownAsset}`
+        : safeMedia(raw);
   return src ? (
     item.kind === "audio" ? (
       <audio className={className} controls src={src} />
@@ -131,7 +140,18 @@ export function Media({
         onClick={(e) => e.stopPropagation()}
       />
     ) : (
-      <img className={className} loading="lazy" alt={item.title} src={src} />
+      <img
+        className={className}
+        loading="lazy"
+        alt={item.title}
+        src={src}
+        onError={(e) => {
+          const image = e.currentTarget;
+          image.style.display = "none";
+          const fallback = image.nextElementSibling;
+          if (fallback instanceof HTMLElement) fallback.style.display = "grid";
+        }}
+      />
     )
   ) : (
     <div className={`catalog-art ${className}`}>
