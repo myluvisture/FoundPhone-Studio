@@ -335,6 +335,7 @@ export function MymyInstagram(p: SkinProps) {
     [seen, setSeen] = useSkinState<string[]>(p, "mymySeen", []);
   const [sheet, setSheet] = useState<Item | null>(null),
     [selected, setSelected] = useState<Item | null>(null),
+    [selectedDm, setSelectedDm] = useState(""),
     [story, setStory] = useState(0),
     [draft, setDraft] = useState(""),
     [pop, setPop] = useState("");
@@ -349,6 +350,13 @@ export function MymyInstagram(p: SkinProps) {
     ),
     stories = p.items.filter((i) => i.meta.story === "true"),
     dms = p.items.filter((i) => i.folder === "私信"),
+    dmContacts = dms.filter(
+      (i, index, all) =>
+        all.findIndex((candidate) => candidate.title === i.title) === index,
+    ),
+    dmThread = dms.filter(
+      (i) => i.title === selectedDm && i.body.trim() !== "",
+    ),
     active = stories[story - 1];
   const accountForItem = (i: Item): "sakusakusaku_07" | "ri_ku_03" =>
     i.meta.account === "ri_ku_03" || i.sender === "ri_ku_03"
@@ -477,14 +485,17 @@ export function MymyInstagram(p: SkinProps) {
         <header className="igh">
           <button
             aria-label={
-              selected
-                ? "返回Instagram动态"
-                : tab === "个人主页" && isRikuProfile
-                  ? "返回Saku主页"
-                  : "关闭当前App"
+              selectedDm
+                ? "返回Instagram私信列表"
+                : selected
+                  ? "返回Instagram动态"
+                  : tab === "个人主页" && isRikuProfile
+                    ? "返回Saku主页"
+                    : "关闭当前App"
             }
             onClick={() => {
-              if (selected) setSelected(null);
+              if (selectedDm) setSelectedDm("");
+              else if (selected) setSelected(null);
               else if (tab === "个人主页" && isRikuProfile)
                 setProfileUser("sakusakusaku_07");
               else p.onBack();
@@ -495,11 +506,13 @@ export function MymyInstagram(p: SkinProps) {
           <span className="igl2">
             {selected
               ? "帖子"
-              : tab === "主页"
-                ? "Instagram"
-                : tab === "个人主页"
-                  ? profileUser
-                  : tab}
+              : selectedDm
+                ? selectedDm
+                : tab === "主页"
+                  ? "Instagram"
+                  : tab === "个人主页"
+                    ? profileUser
+                    : tab}
           </span>
           <button aria-label="打开私信" onClick={() => setTab("私信")}>
             <Send />
@@ -563,19 +576,50 @@ export function MymyInstagram(p: SkinProps) {
               </div>
             </>
           )}
-          {!selected && tab === "私信" && (
+          {!selected && tab === "私信" && !selectedDm && (
             <>
-              {dms.map((i) => (
-                <button className="kzkr" key={i.id} onClick={() => openPost(i)}>
-                  <Avatar name={i.sender} src={i.avatar} />
-                  <span className="kzkn">
-                    <b>{i.title}</b>
-                    <small>{i.body}</small>
-                  </span>
-                </button>
-              ))}
-              {!dms.length && <Blank />}
+              {dmContacts.map((contact) => {
+                const messages = dms.filter(
+                  (item) => item.title === contact.title && item.body.trim() !== "",
+                );
+                const latest = messages[messages.length - 1];
+                return (
+                  <button
+                    className="kzkr"
+                    key={contact.id}
+                    onClick={() => setSelectedDm(contact.title)}
+                  >
+                    <Avatar name={contact.title} src={contact.avatar} />
+                    <span className="kzkn">
+                      <b>{contact.title}</b>
+                      <small>{latest?.body || "点击查看聊天"}</small>
+                    </span>
+                  </button>
+                );
+              })}
+              {!dmContacts.length && <Blank />}
             </>
+          )}
+          {!selected && tab === "私信" && !!selectedDm && (
+            <section className="mymy-ig-dm-thread" aria-label={selectedDm + "聊天记录"}>
+              <div className="mymy-ig-dm-messages">
+                {dmThread.map((message) => {
+                  const outgoing = message.meta.dmDirection === "outgoing";
+                  return (
+                    <div
+                      key={message.id}
+                      className={"mymy-ig-dm-row " + (outgoing ? "outgoing" : "incoming")}
+                    >
+                      {!outgoing && (
+                        <Avatar name={selectedDm} src={message.avatar} />
+                      )}
+                      <div className="mymy-ig-dm-bubble">{message.body}</div>
+                    </div>
+                  );
+                })}
+                {!dmThread.length && <Blank />}
+              </div>
+            </section>
           )}
           {!selected && tab === "搜索" && (
             <>
@@ -602,6 +646,7 @@ export function MymyInstagram(p: SkinProps) {
               }
               onClick={() => {
                 setSelected(null);
+                setSelectedDm("");
                 if (n === 3) setProfileUser("sakusakusaku_07");
                 setTab(["主页", "搜索", "私信", "个人主页"][n]);
               }}
