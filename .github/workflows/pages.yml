@@ -37,6 +37,11 @@ jobs:
       - run: npm run story:validate
       - run: npm run story:test
       - run: npm run build
+      - name: Verify published story image assets
+        run: |
+          for name in photo-04.jpg photo-07.jpg pig-01.jpg pig-02.jpg pig-03.jpg pig-04.jpg pig-05.jpg pig-06.jpg pig-07.jpg pig-010.jpg; do
+            test -s "dist/story-assets/$name" || { echo "Missing published image: $name"; exit 1; }
+          done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
