@@ -127,6 +127,18 @@ export function createWork(title = "雨停之前"): Work {
       folder: "私人笔记",
     }),
   ];
+  const photoAssets = [
+    ["photo-04.jpg", "photo-04"],
+    ["photo-07.jpg", "photo-07"],
+    ["pig-01.jpg", "pig-01"],
+    ["pig-02.jpg", "pig-02"],
+    ["pig-03.jpg", "pig-03"],
+    ["pig-04.jpg", "pig-04"],
+    ["pig-05.jpg", "pig-05"],
+    ["pig-06.jpg", "pig-06"],
+    ["pig-07.jpg", "pig-07"],
+    ["pig-010.jpg", "pig-10"],
+  ];
   w.data.photos = [
     makeItem({
       id: "photo-ticket",
@@ -134,13 +146,24 @@ export function createWork(title = "雨停之前"): Work {
       body: "开往城南的最后一班车。背面写着：记得赴约。",
       kind: "image",
       hidden: true,
+      media: "/FoundPhone-Studio/story-assets/photo-04.jpg",
     }),
     makeItem({
       id: "photo-rain",
       title: "窗外的雨",
       body: "2026 年 9 月 1 日 · 城南",
       kind: "image",
+      media: "/FoundPhone-Studio/story-assets/photo-07.jpg",
     }),
+    ...photoAssets.map(([file, name]) =>
+      makeItem({
+        id: `photo-${name}`,
+        title: name,
+        body: "",
+        kind: "image",
+        media: `/FoundPhone-Studio/story-assets/${file}`,
+      }),
+    ),
   ];
   w.data.instagram = [
     makeItem({
