@@ -212,17 +212,16 @@ export function PhotosSkin(p: Props) {
         <h1>{album || tab}</h1>
         {tab === "相簿" && !album ? (
           <div className="album-grid">
-            {groupItems(items, "未分类").map((g) => (
-              <button key={g} onClick={() => setAlbum(g)}>
-                <Media
-                  item={items.find((i) => (i.folder || "未分类") === g)!}
-                />
-                <strong>{g}</strong>
-                <small>
-                  {items.filter((i) => (i.folder || "未分类") === g).length} 项
-                </small>
-              </button>
-            ))}
+            {[...new Set([...groupItems(items, "未分类"), "🐽🐽"])].map((g) => {
+              const albumItems = items.filter((i) => (i.folder || "未分类") === g);
+              return (
+                <button key={g} onClick={() => setAlbum(g)}>
+                  {albumItems[0] ? <Media item={albumItems[0]} /> : <div className="album-empty-cover" />}
+                  <strong>{g}</strong>
+                  <small>{albumItems.length} 项</small>
+                </button>
+              );
+            })}
           </div>
         ) : (
           <>
