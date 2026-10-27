@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 22,
+  "revision": 23,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2815,6 +2815,116 @@
         "time": "2026-10-15",
         "kind": "image",
         "media": "story-assets/photo-15.jpg",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-01",
+        "title": "pig-01",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-27",
+        "kind": "image",
+        "media": "story-assets/pig-01.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-02",
+        "title": "pig-02",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-28",
+        "kind": "image",
+        "media": "story-assets/pig-02.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-03",
+        "title": "pig-03",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-29",
+        "kind": "image",
+        "media": "story-assets/pig-03.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-04",
+        "title": "pig-04",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-30",
+        "kind": "image",
+        "media": "story-assets/pig-04.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-05",
+        "title": "pig-05",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-31",
+        "kind": "image",
+        "media": "story-assets/pig-05.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-06",
+        "title": "pig-06",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-32",
+        "kind": "image",
+        "media": "story-assets/pig-06.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-07",
+        "title": "pig-07",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-33",
+        "kind": "image",
+        "media": "story-assets/pig-07.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-08",
+        "title": "pig-08",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-34",
+        "kind": "image",
+        "media": "story-assets/pig-08.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-09",
+        "title": "pig-09",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-35",
+        "kind": "image",
+        "media": "story-assets/pig-09.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-10",
+        "title": "pig-10",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-36",
+        "kind": "image",
+        "media": "story-assets/pig-10.jpg",
+        "folder": "🐽🐽",
         "meta": {}
       }
     ]
