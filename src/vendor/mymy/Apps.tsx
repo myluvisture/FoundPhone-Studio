@@ -338,8 +338,12 @@ export function MymyInstagram(p: SkinProps) {
     [story, setStory] = useState(0),
     [draft, setDraft] = useState(""),
     [pop, setPop] = useState("");
+  // This entry carries account/profile metadata; it is not a published post.
   const posts = p.items.filter(
-      (i) => i.folder !== "私信" && i.meta.story !== "true",
+      (i) =>
+        i.id !== "instagram-profile" &&
+        i.folder !== "私信" &&
+        i.meta.story !== "true",
     ),
     stories = p.items.filter((i) => i.meta.story === "true"),
     dms = p.items.filter((i) => i.folder === "私信"),
