@@ -3,7 +3,7 @@
  "id": "blank-phone",
  "title": "捡手机",
  "description": "",
- "revision": 54,
+ "revision": 55,
  "phone": {
   "owner": "サクヤ",
   "date": "2026-10-25",
@@ -3006,7 +3006,11 @@
     "likes": 2,
     "meta": {
      "account": "ri_ku_03"
-    }
+    },
+    "comments": [
+     "sakusakusaku_07：僕が一番目の客だ！",
+     "ri_ku_03回复sakusakusaku_07：ㅋㅋㅋㅋ"
+    ]
    },
    {
     "id": "instagram-post-saku-cake",
@@ -3018,7 +3022,11 @@
     "kind": "image",
     "media": "/FoundPhone-Studio/story-assets/saku-post-cake.jpg",
     "likes": 5,
-    "meta": {}
+    "meta": {},
+    "comments": [
+     "ri_ku_03：얼마나 좋아하냐 ㅋㅋㅋ",
+     "sakusakusaku_07回复ri_ku_03：우주"
+    ]
    },
    {
     "id": "instagram-post-riku-thanks",
@@ -3032,7 +3040,12 @@
     "likes": 9,
     "meta": {
      "account": "ri_ku_03"
-    }
+    },
+    "comments": [
+     "itsuki_rain_：誕生日おめでとう！",
+     "ao_zora_：また成長したね",
+     "minato_fog_：lovelyちゃん お誕生日おめでとう～"
+    ]
    },
    {
     "id": "instagram-post-saku-diet",
@@ -3044,7 +3057,11 @@
     "kind": "image",
     "media": "/FoundPhone-Studio/story-assets/saku-post-diet.jpg",
     "likes": 1,
-    "meta": {}
+    "meta": {},
+    "comments": [
+     "ri_ku_03：かわいそう",
+     "sakusakusaku_07回复ri_ku_03：😭"
+    ]
    },
    {
     "id": "instagram-post-riku-rest",
@@ -3070,7 +3087,10 @@
     "kind": "image",
     "media": "/FoundPhone-Studio/story-assets/saku-post-similar.jpg",
     "likes": 5,
-    "meta": {}
+    "meta": {},
+    "comments": [
+     "ri_ku_03：똑같아"
+    ]
    },
    {
     "id": "instagram-post-umai",
@@ -3122,7 +3142,11 @@
     "likes": 2,
     "meta": {
      "account": "ri_ku_03"
-    }
+    },
+    "comments": [
+     "sakusakusaku_07：来年も再来年も、未来もよろしくね😁",
+     "ri_ku_03回复sakusakusaku_07：피곤해"
+    ]
    },
    {
     "id": "instagram-post-saku-santa",
@@ -3134,7 +3158,11 @@
     "kind": "image",
     "media": "/FoundPhone-Studio/story-assets/saku-post-santa.jpg",
     "likes": 3,
-    "meta": {}
+    "meta": {},
+    "comments": [
+     "ri_ku_03：まだ子どもじゃん",
+     "sakusakusaku_07回复ri_ku_03：大好き"
+    ]
    },
    {
     "id": "instagram-post-riku-05",
@@ -3160,7 +3188,12 @@
     "kind": "image",
     "media": "/FoundPhone-Studio/story-assets/saku-post-birthday.jpg",
     "likes": 10,
-    "meta": {}
+    "meta": {},
+    "comments": [
+     "tsuki_tear_6：생일 축하해！",
+     "hikari_sole：体に気をつけてね",
+     "yoru_shizuku：🎂🎂"
+    ]
    },
    {
     "id": "instagram-post-riku-02",
