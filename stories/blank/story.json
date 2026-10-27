@@ -3,7 +3,7 @@
  "id": "blank-phone",
  "title": "捡手机",
  "description": "",
- "revision": 52,
+ "revision": 53,
  "phone": {
   "owner": "サクヤ",
   "date": "2026-10-25",
@@ -2988,7 +2988,11 @@
     "likes": 7,
     "meta": {
      "account": "ri_ku_03"
-    }
+    },
+    "comments": [
+     "sora_no_oto：イケメン",
+     "ri_ku_03：😁"
+    ]
    },
    {
     "id": "instagram-post-riku-sweets-shop",
