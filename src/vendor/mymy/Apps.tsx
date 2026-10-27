@@ -339,16 +339,30 @@ export function MymyInstagram(p: SkinProps) {
     [draft, setDraft] = useState(""),
     [pop, setPop] = useState("");
   const [relationshipList, setRelationshipList] = useState<"粉丝" | "关注" | null>(null);
-  // This entry carries account/profile metadata; it is not a published post.
+  const [profileUser, setProfileUser] = useState<"sakusakusaku_07" | "ri_ku_03">("sakusakusaku_07");
+  // Profile records are metadata, not published posts.
   const posts = p.items.filter(
       (i) =>
-        i.id !== "instagram-profile" &&
+        !i.id.startsWith("instagram-profile") &&
         i.folder !== "私信" &&
         i.meta.story !== "true",
     ),
     stories = p.items.filter((i) => i.meta.story === "true"),
     dms = p.items.filter((i) => i.folder === "私信"),
     active = stories[story - 1];
+  const accountForItem = (i: Item): "sakusakusaku_07" | "ri_ku_03" =>
+    i.meta.account === "ri_ku_03" || i.sender === "ri_ku_03"
+      ? "ri_ku_03"
+      : "sakusakusaku_07";
+  const isRikuProfile = profileUser === "ri_ku_03";
+  const profilePosts = posts.filter((i) => accountForItem(i) === profileUser);
+  const profileAvatar = isRikuProfile
+    ? "./story-assets/riku-avatar.jpg"
+    : "./story-assets/instagram-avatar.jpg";
+  const relationshipTarget = isRikuProfile ? "sakusakusaku_07" : "ri_ku_03";
+  const relationshipTargetAvatar = isRikuProfile
+    ? "./story-assets/instagram-avatar.jpg"
+    : "./story-assets/riku-avatar.jpg";
   const toggle = (id: string, values: string[], set: (v: string[]) => void) =>
     set(values.includes(id) ? values.filter((v) => v !== id) : [...values, id]);
   useEffect(() => {
@@ -377,7 +391,13 @@ export function MymyInstagram(p: SkinProps) {
       <header className="igph">
         <Avatar name={i.sender} src={i.avatar} />
         <div className="igpn">
-          <button onClick={() => setTab("个人主页")}>
+          <button
+            onClick={() => {
+              setProfileUser(accountForItem(i));
+              setSelected(null);
+              setTab("个人主页");
+            }}
+          >
             <b>{i.sender}</b>
           </button>
           <small>{i.meta.location || i.time}</small>
@@ -456,13 +476,30 @@ export function MymyInstagram(p: SkinProps) {
       <div className="ig">
         <header className="igh">
           <button
-            aria-label={selected ? "返回Instagram动态" : "关闭当前App"}
-            onClick={() => (selected ? setSelected(null) : p.onBack())}
+            aria-label={
+              selected
+                ? "返回Instagram动态"
+                : tab === "个人主页" && isRikuProfile
+                  ? "返回Saku主页"
+                  : "关闭当前App"
+            }
+            onClick={() => {
+              if (selected) setSelected(null);
+              else if (tab === "个人主页" && isRikuProfile)
+                setProfileUser("sakusakusaku_07");
+              else p.onBack();
+            }}
           >
             <ArrowLeft />
           </button>
           <span className="igl2">
-            {selected ? "帖子" : tab === "主页" ? "Instagram" : tab}
+            {selected
+              ? "帖子"
+              : tab === "主页"
+                ? "Instagram"
+                : tab === "个人主页"
+                  ? profileUser
+                  : tab}
           </span>
           <button aria-label="打开私信" onClick={() => setTab("私信")}>
             <Send />
@@ -495,30 +532,30 @@ export function MymyInstagram(p: SkinProps) {
           {!selected && tab === "个人主页" && (
             <>
               <div className="pf">
-                <Avatar name="sakusakusaku_07" src="./story-assets/instagram-avatar.jpg" />
+                <Avatar name={profileUser} src={profileAvatar} />
                 <div className="ps">
                   <div>
-                    <b>{posts.length}</b>
+                    <b>{profilePosts.length}</b>
                     <small>帖子</small>
                   </div>
                   <button type="button" onClick={() => setRelationshipList("粉丝")}>
-                    <b>12</b>
+                    <b>{isRikuProfile ? 1 : 12}</b>
                     <small>粉丝</small>
                   </button>
                   <button type="button" onClick={() => setRelationshipList("关注")}>
-                    <b>19</b>
+                    <b>{isRikuProfile ? 1 : 19}</b>
                     <small>关注</small>
                   </button>
                 </div>
               </div>
-              <p className="pn">{p.owner}</p>
+              <p className="pn">{isRikuProfile ? "リク" : p.owner}</p>
               <div className="ptab">
                 <div className="on">
                   <Grid />
                 </div>
               </div>
               <div className="pg2">
-                {posts.map((i) => (
+                {profilePosts.map((i) => (
                   <button key={i.id} onClick={() => openPost(i)}>
                     <Media item={i} />
                   </button>
@@ -565,6 +602,7 @@ export function MymyInstagram(p: SkinProps) {
               }
               onClick={() => {
                 setSelected(null);
+                if (n === 3) setProfileUser("sakusakusaku_07");
                 setTab(["主页", "搜索", "私信", "个人主页"][n]);
               }}
             >
@@ -592,13 +630,22 @@ export function MymyInstagram(p: SkinProps) {
               </button>
             </header>
             <div className="mymy-comments">
-              <div className="kzkr mymy-relationship-row">
-                <Avatar name="ri_ku_03" src="./story-assets/riku-avatar.jpg" />
+              <button
+                type="button"
+                className="kzkr mymy-relationship-row"
+                onClick={() => {
+                  setRelationshipList(null);
+                  setSelected(null);
+                  setProfileUser(relationshipTarget);
+                  setTab("个人主页");
+                }}
+              >
+                <Avatar name={relationshipTarget} src={relationshipTargetAvatar} />
                 <span className="kzkn">
-                  <b>ri_ku_03</b>
+                  <b>{relationshipTarget}</b>
                   <small>{relationshipList === "粉丝" ? "关注了你" : "你正在关注"}</small>
                 </span>
-              </div>
+              </button>
             </div>
           </section>
         </div>
