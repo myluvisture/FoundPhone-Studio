@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 24,
+  "revision": 25,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -27,7 +27,8 @@
     "music",
     "line",
     "weather",
-    "clock"
+    "clock",
+    "instagram"
   ],
   "contacts": [
     {
@@ -2926,6 +2927,19 @@
         "media": "/FoundPhone-Studio/story-assets/pig-010.jpg",
         "folder": "🐽🐽",
         "meta": {}
+      }
+    ],
+    "instagram": [
+      {
+        "id": "instagram-profile",
+        "title": "sakusakusaku_07",
+        "body": "个人主页",
+        "sender": "sakusakusaku_07",
+        "kind": "profile",
+        "meta": {
+          "username": "sakusakusaku_07",
+          "handle": "sakusakusaku_07"
+        }
       }
     ]
   }
