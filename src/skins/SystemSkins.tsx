@@ -223,6 +223,13 @@ export function PhotosSkin(p: Props) {
                 </small>
               </button>
             ))}
+            <button key="custom-album-pig" onClick={() => setAlbum("🐽🐽")}>
+              <div className="album-placeholder">
+                <Image size={42} />
+              </div>
+              <strong>🐽🐽</strong>
+              <small>0 项</small>
+            </button>
           </div>
         ) : (
           <>
