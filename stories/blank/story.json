@@ -3,7 +3,7 @@
  "id": "blank-phone",
  "title": "捡手机",
  "description": "",
- "revision": 50,
+ "revision": 51,
  "phone": {
   "owner": "サクヤ",
   "date": "2026-10-25",
@@ -2953,6 +2953,18 @@
      "handle": "ri_ku_03",
      "account": "ri_ku_03"
     }
+   },
+   {
+    "id": "instagram-post-saku-shiritai",
+    "title": "君たちが知りたいこと",
+    "body": "君たちが知りたいこと",
+    "sender": "sakusakusaku_07",
+    "time": "20xx-8-5 00:26",
+    "avatar": "./story-assets/instagram-avatar.jpg",
+    "kind": "image",
+    "media": "/FoundPhone-Studio/story-assets/saku-post-shiritai.jpg",
+    "likes": 1744,
+    "meta": {}
    },
    {
     "id": "instagram-post-riku-redhair",
