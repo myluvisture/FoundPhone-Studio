@@ -3,7 +3,7 @@
  "id": "blank-phone",
  "title": "捡手机",
  "description": "",
- "revision": 53,
+ "revision": 54,
  "phone": {
   "owner": "サクヤ",
   "date": "2026-10-25",
@@ -2991,7 +2991,7 @@
     },
     "comments": [
      "sora_no_oto：イケメン",
-     "ri_ku_03：😁"
+     "ri_ku_03回复sora_no_oto：😁"
     ]
    },
    {
