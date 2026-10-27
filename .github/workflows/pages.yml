@@ -32,7 +32,7 @@ jobs:
           done
           # Optional Instagram post images are uploaded into the repository-root story-assets folder.
           # Any file named *-post.jpg is published automatically, including future posts.
-          for source in story-assets/*-post.jpg; do
+          for source in story-assets/*-post*.jpg; do
             [ -f "$source" ] || continue
             name="${source##*/}"
             cp "$source" "public/story-assets/$name"
@@ -111,7 +111,7 @@ jobs:
           fi
           # Ensure each optional Instagram post image is really a JPEG, not merely named .jpg.
           # The wildcard keeps new posts upload-only: no workflow edit is needed for each image.
-          for post_image in public/story-assets/*-post.jpg; do
+          for post_image in public/story-assets/*-post*.jpg; do
             [ -f "$post_image" ] || continue
             name="${post_image##*/}"
             mime="$(file --mime-type -b "$post_image")"
@@ -152,7 +152,7 @@ jobs:
             mime="$(file --mime-type -b "$path")"
             test "$mime" = "image/jpeg" || { echo "Not browser-ready JPEG: $name ($mime)"; exit 1; }
           done
-          for source in story-assets/*-post.jpg; do
+          for source in story-assets/*-post*.jpg; do
             [ -f "$source" ] || continue
             name="${source##*/}"
             path="dist/story-assets/$name"
