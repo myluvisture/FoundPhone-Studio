@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 30,
+  "revision": 31,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2940,6 +2940,18 @@
           "username": "sakusakusaku_07",
           "handle": "sakusakusaku_07"
         }
+      },
+      {
+        "id": "instagram-post-umai",
+        "title": "うまい",
+        "body": "うまい",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-4-3 13:56",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/umai-post.jpg",
+        "likes": 1,
+        "meta": {}
       },
       {
         "id": "instagram-post-fukui",
