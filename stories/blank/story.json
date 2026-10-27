@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 47,
+  "revision": 48,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2953,6 +2953,18 @@
           "handle": "ri_ku_03",
           "account": "ri_ku_03"
         }
+      },
+      {
+        "id": "instagram-post-saku-cake",
+        "title": "ケーキよりやっぱり…",
+        "body": "ケーキよりやっぱり…",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-6-28 17:12",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-cake.jpg",
+        "likes": 5,
+        "meta": {}
       },
       {
         "id": "instagram-post-riku-thanks",
