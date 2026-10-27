@@ -30,6 +30,21 @@ jobs:
           for name in baby-panda.jpg riku-selfie.jpg baby-cute.jpg photo-03.jpg photo-04.jpg photo-06.jpg photo-07.jpg photo-08.jpg photo-09.jpg photo-10.jpg photo-11.jpg photo-12.JPG photo-13.JPG photo-14.jpg photo-15.jpg pig-01.jpg pig-02.jpg pig-03.jpg pig-04.jpg pig-05.jpg pig-06.jpg pig-07.jpg pig-08.jpg pig-09.jpg pig-010.jpg; do
             cp "story-assets/$name" "public/story-assets/$name"
           done
+      - name: Convert mislabeled HEIC photos to browser-compatible JPEG
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libheif-examples
+          for name in baby-panda.jpg riku-selfie.jpg baby-cute.jpg photo-03.jpg photo-04.jpg photo-06.jpg photo-07.jpg photo-08.jpg photo-09.jpg photo-10.jpg photo-11.jpg photo-12.JPG photo-13.JPG photo-14.jpg photo-15.jpg pig-01.jpg pig-02.jpg pig-03.jpg pig-04.jpg pig-05.jpg pig-06.jpg pig-07.jpg pig-08.jpg pig-09.jpg pig-010.jpg; do
+            source="story-assets/$name"
+            target="public/story-assets/$name"
+            description="$(file -b "$source")"
+            if echo "$description" | grep -qiE 'HEIF|HEIC'; then
+              temp="public/story-assets/${name%.*}.converted.jpg"
+              echo "Converting mislabeled HEIC photo: $name"
+              heif-convert "$source" "$temp"
+              mv "$temp" "$target"
+            fi
+          done
       - run: npm ci
       - run: npm run typecheck
       - run: npm run lint
@@ -37,10 +52,13 @@ jobs:
       - run: npm run story:validate
       - run: npm run story:test
       - run: npm run build
-      - name: Verify published story image assets
+      - name: Verify published story image assets are real JPEGs
         run: |
-          for name in photo-04.jpg photo-07.jpg pig-01.jpg pig-02.jpg pig-03.jpg pig-04.jpg pig-05.jpg pig-06.jpg pig-07.jpg pig-010.jpg; do
-            test -s "dist/story-assets/$name" || { echo "Missing published image: $name"; exit 1; }
+          for name in baby-panda.jpg riku-selfie.jpg baby-cute.jpg photo-03.jpg photo-04.jpg photo-06.jpg photo-07.jpg photo-08.jpg photo-09.jpg photo-10.jpg photo-11.jpg photo-12.JPG photo-13.JPG photo-14.jpg photo-15.jpg pig-01.jpg pig-02.jpg pig-03.jpg pig-04.jpg pig-05.jpg pig-06.jpg pig-07.jpg pig-08.jpg pig-09.jpg pig-010.jpg; do
+            path="dist/story-assets/$name"
+            test -s "$path" || { echo "Missing published image: $name"; exit 1; }
+            mime="$(file --mime-type -b "$path")"
+            test "$mime" = "image/jpeg" || { echo "Not browser-ready JPEG: $name ($mime)"; exit 1; }
           done
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
