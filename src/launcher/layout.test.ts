@@ -11,10 +11,12 @@ import {
 } from "./layout";
 const work = () => compileStory(blank).work;
 describe("device layout", () => {
-  it("keeps all 47 apps and only defaults installed", () => {
+  it("keeps all registered apps and respects the story's installed-app set", () => {
     const l = defaultLayout(work());
     expect(l.apps).toHaveLength(49);
-    expect(l.apps.filter((a) => a.installed)).toHaveLength(12);
+    expect(l.apps.filter((a) => a.installed)).toHaveLength(
+      blank.installedApps.length,
+    );
   });
   it("packs different widget sizes and pages without overlap", () => {
     const l = defaultLayout(work());
@@ -68,21 +70,21 @@ describe("device layout", () => {
     });
     expect(() => validateLayout(t, w)).toThrow("Dock");
   });
-});
-it("preserves free grid gaps and rejects colliding fixed placements", () => {
-  const w = work(),
-    l = defaultLayout(w);
-  l.positions.photos = { page: 0, x: 2, y: 4 };
-  const pages = packHome(homeEntries(l), l.positions);
-  expect(pages[0].find((c) => c.entry.key === "photos")).toMatchObject({
-    x: 2,
-    y: 4,
+  it("preserves free grid gaps and rejects colliding fixed placements", () => {
+    const w = work(),
+      l = defaultLayout(w);
+    l.positions.photos = { page: 0, x: 2, y: 4 };
+    const pages = packHome(homeEntries(l), l.positions);
+    expect(pages[0].find((c) => c.entry.key === "photos")).toMatchObject({
+      x: 2,
+      y: 4,
+    });
+    l.positions.notes = { page: 0, x: 2, y: 4 };
+    expect(() => validateLayout(l, w)).toThrow("位置冲突");
   });
-  l.positions.notes = { page: 0, x: 2, y: 4 };
-  expect(() => validateLayout(l, w)).toThrow("位置冲突");
 });
 
-it("adds store to legacy work without changing author data or other app states", () => {
+it("preserves App Store availability for legacy work without changing author data or other app states", () => {
   const w = work();
   w.apps = w.apps.filter((a) => a.id !== "appstore");
   const before = JSON.stringify(w);
