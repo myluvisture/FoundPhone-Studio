@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 42,
+  "revision": 43,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -3005,6 +3005,18 @@
         "meta": {
           "account": "ri_ku_03"
         }
+      },
+      {
+        "id": "instagram-post-saku-santa",
+        "title": "今でもサンタクロースがいるって信じてる",
+        "body": "今でもサンタクロースがいるって信じてる",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-12-25 22:06",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-santa.jpg",
+        "likes": 3,
+        "meta": {}
       },
       {
         "id": "instagram-post-riku-05",
