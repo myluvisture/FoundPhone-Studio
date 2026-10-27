@@ -110,7 +110,15 @@ export function Media({
   item: Item;
   className?: string;
 }) {
-  const src = safeMedia(item.media);
+  const safeSrc = safeMedia(item.media);
+  // Resolve story assets against Vite base for GitHub Pages and previews.
+  const src = safeSrc.startsWith("/FoundPhone-Studio/story-assets/")
+    ? `${import.meta.env.BASE_URL}story-assets/${safeSrc.split("/").pop()}`
+    : safeSrc.startsWith("/story-assets/")
+      ? `${import.meta.env.BASE_URL}story-assets/${safeSrc.split("/").pop()}`
+      : safeSrc.startsWith("story-assets/")
+        ? `${import.meta.env.BASE_URL}${safeSrc}`
+        : safeSrc;
   return src ? (
     item.kind === "audio" ? (
       <audio className={className} controls src={src} />
