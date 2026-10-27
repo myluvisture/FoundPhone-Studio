@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 45,
+  "revision": 46,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2953,6 +2953,18 @@
           "handle": "ri_ku_03",
           "account": "ri_ku_03"
         }
+      },
+      {
+        "id": "instagram-post-saku-diet",
+        "title": "ダイエット ㅠㅠ",
+        "body": "ダイエット ㅠㅠ",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-6-14 11:34",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-diet.jpg",
+        "likes": 1,
+        "meta": {}
       },
       {
         "id": "instagram-post-riku-rest",
