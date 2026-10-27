@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 33,
+  "revision": 34,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2977,6 +2977,20 @@
         "media": "/FoundPhone-Studio/story-assets/fukui-post.jpg",
         "likes": 5,
         "meta": {}
+      },
+      {
+        "id": "instagram-post-riku-02",
+        "title": "ディズニーランド💗",
+        "body": "ディズニーランド💗",
+        "sender": "ri_ku_03",
+        "time": "20xx-9-22 23:02",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post-02.jpg",
+        "likes": 4,
+        "meta": {
+          "account": "ri_ku_03"
+        }
       },
       {
         "id": "instagram-post-disney",
