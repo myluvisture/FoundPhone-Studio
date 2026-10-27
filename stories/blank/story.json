@@ -3,7 +3,7 @@
  "id": "blank-phone",
  "title": "捡手机",
  "description": "",
- "revision": 57,
+ "revision": 58,
  "phone": {
   "owner": "サクヤ",
   "date": "2026-10-25",
@@ -3535,6 +3535,83 @@
      "dmContact": "_yua",
      "dmDirection": "incoming"
     }
+   },
+   {
+    "id": "instagram-dm-momo_glow_",
+    "title": "momo_glow_",
+    "body": "",
+    "sender": "momo_glow_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {}
+   },
+   {
+    "id": "instagram-dm-aoi_sugar",
+    "title": "aoi_sugar",
+    "body": "",
+    "sender": "aoi_sugar",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {}
+   },
+   {
+    "id": "instagram-dm-haru_lily",
+    "title": "haru_lily",
+    "body": "",
+    "sender": "haru_lily",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {}
+   },
+   {
+    "id": "instagram-dm-hina_",
+    "title": "hina_",
+    "body": "",
+    "sender": "hina_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {}
+   },
+   {
+    "id": "instagram-dm-yuna_petal_",
+    "title": "yuna_petal_",
+    "body": "",
+    "sender": "yuna_petal_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {}
+   },
+   {
+    "id": "instagram-dm-sakura_03",
+    "title": "sakura_03",
+    "body": "",
+    "sender": "sakura_03",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {}
+   },
+   {
+    "id": "instagram-dm-koto",
+    "title": "koto",
+    "body": "",
+    "sender": "koto",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {}
    }
   ]
  }
