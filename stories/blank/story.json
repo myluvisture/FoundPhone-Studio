@@ -3,7 +3,7 @@
  "id": "blank-phone",
  "title": "捡手机",
  "description": "",
- "revision": 58,
+ "revision": 59,
  "phone": {
   "owner": "サクヤ",
   "date": "2026-10-25",
@@ -3612,6 +3612,202 @@
     "kind": "text",
     "folder": "私信",
     "meta": {}
+   },
+   {
+    "id": "instagram-dm-message-momo_glow_-01",
+    "title": "momo_glow_",
+    "body": "误入大床房",
+    "sender": "momo_glow_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "momo_glow_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-momo_glow_-02",
+    "title": "momo_glow_",
+    "body": "小生这厢打扰了",
+    "sender": "momo_glow_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "momo_glow_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-aoi_sugar-01",
+    "title": "aoi_sugar",
+    "body": "美人嗔怒 爽哉爽哉",
+    "sender": "aoi_sugar",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "aoi_sugar",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-haru_lily-01",
+    "title": "haru_lily",
+    "body": "你特么让那群cpf爽死了好吧",
+    "sender": "haru_lily",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "haru_lily",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-haru_lily-02",
+    "title": "haru_lily",
+    "body": "爸爸 别这样",
+    "sender": "haru_lily",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "haru_lily",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-hina_-01",
+    "title": "hina_",
+    "body": "签售的时候不是说最爱我吗",
+    "sender": "hina_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "hina_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-hina_-02",
+    "title": "hina_",
+    "body": "还钱！",
+    "sender": "hina_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "hina_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-yuna_petal_-01",
+    "title": "yuna_petal_",
+    "body": "良心父母",
+    "sender": "yuna_petal_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "yuna_petal_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-yuna_petal_-02",
+    "title": "yuna_petal_",
+    "body": "你们俩继续不要停",
+    "sender": "yuna_petal_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "yuna_petal_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-yuna_petal_-03",
+    "title": "yuna_petal_",
+    "body": "亲嘴照有没有？",
+    "sender": "yuna_petal_",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "yuna_petal_",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-sakura_03-01",
+    "title": "sakura_03",
+    "body": "这几天我要仰天长笑了",
+    "sender": "sakura_03",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "sakura_03",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-sakura_03-02",
+    "title": "sakura_03",
+    "body": "父父我耐你们呀",
+    "sender": "sakura_03",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "sakura_03",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-koto-01",
+    "title": "koto",
+    "body": "给你俩扔把中药去调理一下吧",
+    "sender": "koto",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "koto",
+     "dmDirection": "incoming"
+    }
+   },
+   {
+    "id": "instagram-dm-message-koto-02",
+    "title": "koto",
+    "body": "🤢",
+    "sender": "koto",
+    "time": "",
+    "avatar": "",
+    "kind": "text",
+    "folder": "私信",
+    "meta": {
+     "dmContact": "koto",
+     "dmDirection": "incoming"
+    }
    }
   ]
  }
