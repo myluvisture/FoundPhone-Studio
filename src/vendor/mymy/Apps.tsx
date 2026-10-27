@@ -630,9 +630,6 @@ export function MymyInstagram(p: SkinProps) {
                 value={draft}
                 onChange={(e) => setDraft(e.target.value)}
               />
-              {posts
-                .filter((i) => (i.title + i.body + i.sender).includes(draft))
-                .map(post)}
             </>
           )}
         </div>
