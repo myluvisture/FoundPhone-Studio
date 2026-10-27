@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 21,
+  "revision": 22,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2675,7 +2675,6 @@
         "time": "2026-10-01",
         "kind": "image",
         "media": "story-assets/baby-panda.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2686,7 +2685,6 @@
         "time": "2026-10-02",
         "kind": "image",
         "media": "story-assets/riku-selfie.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2697,7 +2695,6 @@
         "time": "2026-10-03",
         "kind": "image",
         "media": "story-assets/baby-cute.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2708,7 +2705,6 @@
         "time": "2026-10-04",
         "kind": "image",
         "media": "story-assets/photo-03.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2719,7 +2715,6 @@
         "time": "2026-10-05",
         "kind": "image",
         "media": "story-assets/photo-04.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2730,7 +2725,6 @@
         "time": "2026-10-06",
         "kind": "image",
         "media": "story-assets/photo-06.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2741,7 +2735,6 @@
         "time": "2026-10-07",
         "kind": "image",
         "media": "story-assets/photo-07.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2752,7 +2745,6 @@
         "time": "2026-10-08",
         "kind": "image",
         "media": "story-assets/photo-08.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2763,7 +2755,6 @@
         "time": "2026-10-09",
         "kind": "image",
         "media": "story-assets/photo-09.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2774,7 +2765,6 @@
         "time": "2026-10-10",
         "kind": "image",
         "media": "story-assets/photo-10.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2785,7 +2775,6 @@
         "time": "2026-10-11",
         "kind": "image",
         "media": "story-assets/photo-11.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2796,7 +2785,6 @@
         "time": "2026-10-12",
         "kind": "image",
         "media": "story-assets/photo-12.JPG",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2807,7 +2795,6 @@
         "time": "2026-10-13",
         "kind": "image",
         "media": "story-assets/photo-13.JPG",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2818,7 +2805,6 @@
         "time": "2026-10-14",
         "kind": "image",
         "media": "story-assets/photo-14.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       },
       {
@@ -2829,7 +2815,6 @@
         "time": "2026-10-15",
         "kind": "image",
         "media": "story-assets/photo-15.jpg",
-        "folder": "🐽🐽",
         "meta": {}
       }
     ]
