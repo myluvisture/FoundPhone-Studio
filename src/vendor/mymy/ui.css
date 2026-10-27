@@ -909,3 +909,34 @@
   line-height: 1.3;
   text-align: center;
 }
+
+/* Interactive Instagram follower/following list */
+.mymy-ui .ps button {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.mymy-ui .ps button:focus-visible {
+  outline: 2px solid #3897f0;
+  outline-offset: 3px;
+}
+.mymy-ui .mymy-relationship-row {
+  align-items: center;
+  gap: 12px;
+  cursor: default;
+}
+.mymy-ui .mymy-relationship-row .catalog-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  flex: none;
+}
+.mymy-ui .mymy-relationship-row .kzkn {
+  flex: 1;
+  min-width: 0;
+}
+
