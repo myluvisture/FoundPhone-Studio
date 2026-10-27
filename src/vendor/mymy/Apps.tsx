@@ -552,11 +552,11 @@ export function MymyInstagram(p: SkinProps) {
                     <small>帖子</small>
                   </div>
                   <button type="button" onClick={() => setRelationshipList("粉丝")}>
-                    <b>{isRikuProfile ? 1 : 12}</b>
+                    <b>{isRikuProfile ? 15 : 12}</b>
                     <small>粉丝</small>
                   </button>
                   <button type="button" onClick={() => setRelationshipList("关注")}>
-                    <b>{isRikuProfile ? 1 : 19}</b>
+                    <b>{isRikuProfile ? 20 : 19}</b>
                     <small>关注</small>
                   </button>
                 </div>
