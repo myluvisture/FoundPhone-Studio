@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 28,
+  "revision": 29,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2951,6 +2951,18 @@
         "kind": "image",
         "media": "/FoundPhone-Studio/story-assets/disney-post.jpg",
         "likes": 3,
+        "meta": {}
+      },
+      {
+        "id": "instagram-post-fukui",
+        "title": "fukui",
+        "body": "fukui",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-1-12 17:03",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/fukui-post.jpg",
+        "likes": 5,
         "meta": {}
       }
     ]
