@@ -628,3 +628,51 @@
   width: 25px;
   height: 25px;
 }
+
+/* Instagram direct-message conversation view */
+.mymy-ui .mymy-ig-dm-thread {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background: #fff;
+}
+.mymy-ui .mymy-ig-dm-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px 12px 24px;
+}
+.mymy-ui .mymy-ig-dm-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  max-width: 92%;
+}
+.mymy-ui .mymy-ig-dm-row.outgoing {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+.mymy-ui .mymy-ig-dm-row .catalog-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  flex: none;
+}
+.mymy-ui .mymy-ig-dm-bubble {
+  max-width: min(330px, 74vw);
+  padding: 10px 14px;
+  border: 1px solid #e5e5ea;
+  border-radius: 19px;
+  background: #f1f1f3;
+  color: #111;
+  font-size: 14px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.mymy-ui .mymy-ig-dm-row.outgoing .mymy-ig-dm-bubble {
+  background: #3797f0;
+  border-color: #3797f0;
+  color: #fff;
+}
+
