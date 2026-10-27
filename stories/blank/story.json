@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 27,
+  "revision": 28,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2946,7 +2946,7 @@
         "title": "Disney",
         "body": "Disney",
         "sender": "sakusakusaku_07",
-        "time": "2026-10-25 09:41",
+        "time": "20xx-9-22 22:43",
         "avatar": "./story-assets/instagram-avatar.jpg",
         "kind": "image",
         "media": "/FoundPhone-Studio/story-assets/disney-post.jpg",
