@@ -37,6 +37,12 @@ jobs:
             name="${source##*/}"
             cp "$source" "public/story-assets/$name"
           done
+          # Optional avatar for ri_ku_03 in Saku's Instagram follower/following lists.
+          if [ -f "story-assets/riku-avatar.jpg" ]; then
+            cp "story-assets/riku-avatar.jpg" "public/story-assets/riku-avatar.jpg"
+          else
+            echo "Optional Riku avatar not uploaded yet: story-assets/riku-avatar.jpg"
+          fi
       - name: Convert mislabeled HEIC photos to browser-compatible JPEG
         run: |
           sudo apt-get update
@@ -74,6 +80,34 @@ jobs:
             esac
           else
             echo "Instagram avatar not uploaded yet; skipping avatar conversion."
+          fi
+          # Optional Instagram relationship avatar. Convert based on actual file format, not extension.
+          riku_avatar="public/story-assets/riku-avatar.jpg"
+          if [ -f "$riku_avatar" ]; then
+            mime="$(file --mime-type -b "$riku_avatar")"
+            case "$mime" in
+              image/jpeg)
+                echo "Riku avatar is already a valid JPEG."
+                ;;
+              image/heic|image/heif|image/heic-sequence|image/heif-sequence)
+                temp="public/story-assets/riku-avatar.converted.jpg"
+                echo "Converting Riku avatar from $mime to JPEG with heif-convert."
+                heif-convert "$riku_avatar" "$temp"
+                mv "$temp" "$riku_avatar"
+                ;;
+              image/png|image/webp|image/gif|image/tiff|image/bmp|image/avif)
+                temp="public/story-assets/riku-avatar.converted.jpg"
+                echo "Converting Riku avatar from $mime to JPEG."
+                convert "$riku_avatar" -auto-orient -background white -alpha remove -alpha off -strip -quality 92 "$temp"
+                mv "$temp" "$riku_avatar"
+                ;;
+              *)
+                echo "Unsupported Riku avatar MIME type: $mime"
+                exit 1
+                ;;
+            esac
+          else
+            echo "Optional Riku avatar not uploaded yet; skipping avatar conversion."
           fi
           # Ensure each optional Instagram post image is really a JPEG, not merely named .jpg.
           # The wildcard keeps new posts upload-only: no workflow edit is needed for each image.
@@ -126,6 +160,14 @@ jobs:
             mime="$(file --mime-type -b "$path")"
             test "$mime" = "image/jpeg" || { echo "Instagram post image $name is not a valid JPEG: $mime"; exit 1; }
           done
+          if [ -f "story-assets/riku-avatar.jpg" ]; then
+            path="dist/story-assets/riku-avatar.jpg"
+            test -s "$path" || { echo "Missing published Riku avatar: $path"; exit 1; }
+            mime="$(file --mime-type -b "$path")"
+            test "$mime" = "image/jpeg" || { echo "Riku avatar is not a valid JPEG: $mime"; exit 1; }
+          else
+            echo "Optional Riku avatar not uploaded yet; skipping avatar verification."
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
