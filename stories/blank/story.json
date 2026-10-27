@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 31,
+  "revision": 32,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2939,6 +2939,33 @@
         "meta": {
           "username": "sakusakusaku_07",
           "handle": "sakusakusaku_07"
+        }
+      },
+      {
+        "id": "instagram-profile-riku",
+        "title": "ri_ku_03",
+        "body": "个人主页",
+        "sender": "ri_ku_03",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "text",
+        "meta": {
+          "username": "ri_ku_03",
+          "handle": "ri_ku_03",
+          "account": "ri_ku_03"
+        }
+      },
+      {
+        "id": "instagram-post-riku-01",
+        "title": "甘いもの好き",
+        "body": "甘いもの好き",
+        "sender": "ri_ku_03",
+        "time": "20xx-8-13 13:22",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post.jpg",
+        "likes": 6,
+        "meta": {
+          "account": "ri_ku_03"
         }
       },
       {
