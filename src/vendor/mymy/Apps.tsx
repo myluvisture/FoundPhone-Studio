@@ -671,12 +671,24 @@ export function MymyInstagram(p: SkinProps) {
                 ...replies
                   .filter((r) => r.startsWith(sheet.id + "\t"))
                   .map((r) => r.split("\t").slice(1).join("\t")),
-              ].map((c, n) => (
-                <p key={n}>
-                  <Avatar name={c.split(":")[0]} />
-                  {c}
-                </p>
-              ))}
+              ].map((c, n) => {
+                const author = c.startsWith("ri_ku_03回复")
+                  ? "ri_ku_03"
+                  : c.split(/[：:]/)[0];
+                return (
+                  <p key={n}>
+                    <Avatar
+                      name={author}
+                      src={
+                        author === "ri_ku_03"
+                          ? "./story-assets/riku-avatar.jpg"
+                          : ""
+                      }
+                    />
+                    {c}
+                  </p>
+                );
+              })}
             </div>
             <form
               className="cmb2"
