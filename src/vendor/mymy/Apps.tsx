@@ -497,11 +497,11 @@ export function MymyInstagram(p: SkinProps) {
                     <small>帖子</small>
                   </div>
                   <div>
-                    <b>—</b>
+                    <b>11</b>
                     <small>粉丝</small>
                   </div>
                   <div>
-                    <b>—</b>
+                    <b>18</b>
                     <small>关注</small>
                   </div>
                 </div>
