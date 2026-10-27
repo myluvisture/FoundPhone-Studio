@@ -2665,6 +2665,173 @@
           "enabled": "false"
         }
       }
+    ],
+    "photos": [
+      {
+        "id": "photo-album-01",
+        "title": "baby-panda",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-01",
+        "kind": "image",
+        "media": "story-assets/baby-panda.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-02",
+        "title": "riku-selfie",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-02",
+        "kind": "image",
+        "media": "story-assets/riku-selfie.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-03",
+        "title": "baby-cute",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-03",
+        "kind": "image",
+        "media": "story-assets/baby-cute.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-04",
+        "title": "photo-03",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-04",
+        "kind": "image",
+        "media": "story-assets/photo-03.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-05",
+        "title": "photo-04",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-05",
+        "kind": "image",
+        "media": "story-assets/photo-04.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-06",
+        "title": "photo-06",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-06",
+        "kind": "image",
+        "media": "story-assets/photo-06.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-07",
+        "title": "photo-07",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-07",
+        "kind": "image",
+        "media": "story-assets/photo-07.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-08",
+        "title": "photo-08",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-08",
+        "kind": "image",
+        "media": "story-assets/photo-08.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-09",
+        "title": "photo-09",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-09",
+        "kind": "image",
+        "media": "story-assets/photo-09.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-10",
+        "title": "photo-10",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-10",
+        "kind": "image",
+        "media": "story-assets/photo-10.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-11",
+        "title": "photo-11",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-11",
+        "kind": "image",
+        "media": "story-assets/photo-11.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-12",
+        "title": "photo-12",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-12",
+        "kind": "image",
+        "media": "story-assets/photo-12.JPG",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-13",
+        "title": "photo-13",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-13",
+        "kind": "image",
+        "media": "story-assets/photo-13.JPG",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-14",
+        "title": "photo-14",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-14",
+        "kind": "image",
+        "media": "story-assets/photo-14.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-15",
+        "title": "photo-15",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-15",
+        "kind": "image",
+        "media": "story-assets/photo-15.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      }
     ]
   }
 }
