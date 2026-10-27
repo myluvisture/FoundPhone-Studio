@@ -27,7 +27,7 @@ jobs:
             cp "public/story-assets/$name" "src/story-assets/$name"
           done
           # Publish uploaded Photos-library images as static assets too.
-          for name in baby-panda.jpg riku-selfie.jpg baby-cute.jpg photo-03.jpg photo-04.jpg photo-06.jpg photo-07.jpg photo-08.jpg photo-09.jpg photo-10.jpg photo-11.jpg photo-12.JPG photo-13.JPG photo-14.jpg photo-15.jpg pig-01.jpg pig-02.jpg pig-03.jpg pig-04.jpg pig-05.jpg pig-06.jpg pig-07.jpg pig-08.jpg pig-09.jpg pig-10.jpg; do
+          for name in baby-panda.jpg riku-selfie.jpg baby-cute.jpg photo-03.jpg photo-04.jpg photo-06.jpg photo-07.jpg photo-08.jpg photo-09.jpg photo-10.jpg photo-11.jpg photo-12.JPG photo-13.JPG photo-14.jpg photo-15.jpg pig-01.jpg pig-02.jpg pig-03.jpg pig-04.jpg pig-05.jpg pig-06.jpg pig-07.jpg pig-08.jpg pig-09.jpg pig-010.jpg; do
             cp "story-assets/$name" "public/story-assets/$name"
           done
       - run: npm ci
