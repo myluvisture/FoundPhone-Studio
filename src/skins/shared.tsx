@@ -137,15 +137,25 @@ export function Media({
     if (!autoPlayVideo || item.kind !== "video") return;
     const video = videoRef.current;
     if (!video) return;
+    let cancelled = false;
     if (active) {
-      // Muted playback is allowed by browser autoplay policies.
-      video.muted = true;
+      // Try with sound first. If the browser blocks audible autoplay, fall back
+      // to muted playback; the first direct tap can enable sound without pausing.
+      video.muted = false;
       const playback = video.play();
-      if (playback) void playback.catch(() => {});
+      if (playback) {
+        void playback.catch(() => {
+          if (cancelled) return;
+          video.muted = true;
+          const fallback = video.play();
+          if (fallback) void fallback.catch(() => {});
+        });
+      }
     } else {
       video.pause();
     }
     return () => {
+      cancelled = true;
       video.pause();
     };
   }, [active, autoPlayVideo, item.id, item.kind, src]);
@@ -158,7 +168,7 @@ export function Media({
         className={className}
         controls={!autoPlayVideo}
         autoPlay={autoPlayVideo && active}
-        muted={autoPlayVideo}
+        muted={false}
         loop={autoPlayVideo}
         playsInline
         src={src}
@@ -166,6 +176,12 @@ export function Media({
           e.stopPropagation();
           if (!autoPlayVideo) return;
           const video = e.currentTarget;
+          // If autoplay had to fall back to muted mode, the first tap unmutes
+          // immediately and keeps playback going. Subsequent taps toggle play/pause.
+          if (video.muted && !video.paused) {
+            video.muted = false;
+            return;
+          }
           if (video.paused) {
             video.muted = false;
             const playback = video.play();
