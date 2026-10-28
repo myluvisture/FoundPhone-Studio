@@ -1,3814 +1,3852 @@
 {
- "scriptVersion": 1,
- "id": "blank-phone",
- "title": "捡手机",
- "description": "",
- "revision": 60,
- "phone": {
-  "owner": "サクヤ",
-  "date": "2026-10-25",
-  "time": "09:41",
-  "battery": 94,
-  "network": "5G",
-  "wallpaper": "user-p2",
-  "passcode": "1118",
-  "lockWallpaper": "p1",
-  "homeWallpaper": "p2"
- },
- "installedApps": [
-  "appstore",
-  "phone",
-  "messages",
-  "photos",
-  "notes",
-  "safari",
-  "settings",
-  "kakao",
-  "music",
-  "line",
-  "weather",
-  "clock",
-  "instagram"
- ],
- "contacts": [
-  {
-   "id": "rikku",
-   "name": "リク",
-   "phone": "",
-   "bio": "",
-   "avatar": "./story-assets/p3.jpg"
+  "scriptVersion": 1,
+  "id": "blank-phone",
+  "title": "捡手机",
+  "description": "",
+  "revision": 61,
+  "phone": {
+    "owner": "サクヤ",
+    "date": "2026-10-25",
+    "time": "09:41",
+    "battery": 94,
+    "network": "5G",
+    "wallpaper": "user-p2",
+    "passcode": "1118",
+    "lockWallpaper": "p1",
+    "homeWallpaper": "p2"
   },
-  {
-   "id": "takuya",
-   "name": "拓弥",
-   "phone": "",
-   "bio": "",
-   "avatar": ""
-  },
-  {
-   "id": "kenta",
-   "name": "健太",
-   "phone": "",
-   "bio": "",
-   "avatar": ""
-  },
-  {
-   "id": "manager",
-   "name": "매니저 형",
-   "phone": "",
-   "bio": "",
-   "avatar": ""
+  "installedApps": [
+    "appstore",
+    "phone",
+    "messages",
+    "photos",
+    "notes",
+    "safari",
+    "settings",
+    "kakao",
+    "music",
+    "line",
+    "weather",
+    "clock",
+    "instagram"
+  ],
+  "contacts": [
+    {
+      "id": "rikku",
+      "name": "リク",
+      "phone": "",
+      "bio": "",
+      "avatar": "./story-assets/p3.jpg"
+    },
+    {
+      "id": "takuya",
+      "name": "拓弥",
+      "phone": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "kenta",
+      "name": "健太",
+      "phone": "",
+      "bio": "",
+      "avatar": ""
+    },
+    {
+      "id": "manager",
+      "name": "매니저 형",
+      "phone": "",
+      "bio": "",
+      "avatar": ""
+    }
+  ],
+  "chats": [
+    {
+      "id": "kakao-riku-chat",
+      "app": "kakao",
+      "title": "リク",
+      "participants": [
+        "rikku",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kakao-riku-msg-01",
+          "title": "リク",
+          "body": "你不解释一下昨天晚上的事",
+          "senderId": "rikku",
+          "time": "09:12",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-02",
+          "title": "リク",
+          "body": "你喝多了",
+          "senderId": "owner",
+          "time": "09:13"
+        },
+        {
+          "id": "kakao-riku-msg-03",
+          "title": "リク",
+          "body": "现在撇清关系是什么意思",
+          "senderId": "rikku",
+          "time": "09:16",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-04",
+          "title": "リク",
+          "body": "这次是我做错了",
+          "senderId": "owner",
+          "time": "09:19"
+        },
+        {
+          "id": "kakao-riku-msg-05",
+          "title": "リク",
+          "body": "以后不会发生这种事情了",
+          "senderId": "owner",
+          "time": "09:20"
+        },
+        {
+          "id": "kakao-riku-msg-06",
+          "title": "リク",
+          "body": "？就这样",
+          "senderId": "rikku",
+          "time": "09:22",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-07",
+          "title": "リク",
+          "body": "你想我说什么",
+          "senderId": "owner",
+          "time": "09:25"
+        },
+        {
+          "id": "kakao-riku-msg-08",
+          "title": "リク",
+          "body": "你是不是不喜欢我谈恋爱",
+          "senderId": "rikku",
+          "time": "09:28",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-09",
+          "title": "リク",
+          "body": "有爱豆职业操守的人应该都不会做这种事",
+          "senderId": "owner",
+          "time": "09:32"
+        },
+        {
+          "id": "kakao-riku-msg-10",
+          "title": "リク",
+          "body": "那你刚开始为什么要管",
+          "senderId": "rikku",
+          "time": "09:35",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-11",
+          "title": "リク",
+          "body": "不是你让我帮你的吗",
+          "senderId": "owner",
+          "time": "09:38"
+        },
+        {
+          "id": "kakao-riku-msg-12",
+          "title": "リク",
+          "body": "我让你帮你就帮",
+          "senderId": "rikku",
+          "time": "09:41",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-13",
+          "title": "リク",
+          "body": "现在把我弄得一团乱之后自己一走了之",
+          "senderId": "rikku",
+          "time": "09:44",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-14",
+          "title": "リク",
+          "body": "还要我想方设法来找你 你才理我",
+          "senderId": "rikku",
+          "time": "09:47",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-15",
+          "title": "リク",
+          "body": "你是不是觉得我喜欢男生就可以随便对待我",
+          "senderId": "rikku",
+          "time": "09:51",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-16",
+          "title": "リク",
+          "body": "很得意吗？心情很好吗？",
+          "senderId": "rikku",
+          "time": "09:54",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-17",
+          "title": "リク",
+          "body": "你应该是觉得 反正都是男生睡了之后也不用负责",
+          "senderId": "rikku",
+          "time": "09:58",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-18",
+          "title": "リク",
+          "body": "我讨厌你",
+          "senderId": "rikku",
+          "time": "10:02",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-19",
+          "title": "リク",
+          "body": "你到底是什么意思",
+          "senderId": "rikku",
+          "time": "10:07",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-20",
+          "title": "リク",
+          "body": "为什么不理我",
+          "senderId": "rikku",
+          "time": "10:12",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-21",
+          "title": "リク",
+          "body": "拓弥来找你过了吗",
+          "senderId": "owner",
+          "time": "23:04"
+        },
+        {
+          "id": "kakao-riku-msg-22",
+          "title": "リク",
+          "body": "关你什么事",
+          "senderId": "rikku",
+          "time": "23:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-23",
+          "title": "リク",
+          "body": "你跟他说了吗",
+          "senderId": "owner",
+          "time": "23:07"
+        },
+        {
+          "id": "kakao-riku-msg-24",
+          "title": "リク",
+          "body": "我们俩",
+          "senderId": "owner",
+          "time": "23:08"
+        },
+        {
+          "id": "kakao-riku-msg-25",
+          "title": "リク",
+          "body": "我们俩有什么事",
+          "senderId": "rikku",
+          "time": "23:10",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-26",
+          "title": "リク",
+          "body": "我不是那个意思",
+          "senderId": "owner",
+          "time": "23:11"
+        },
+        {
+          "id": "kakao-riku-msg-27",
+          "title": "リク",
+          "body": "对不起",
+          "senderId": "owner",
+          "time": "23:12"
+        },
+        {
+          "id": "kakao-riku-msg-28",
+          "title": "リク",
+          "body": "哪件事对不起",
+          "senderId": "rikku",
+          "time": "23:14",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-29",
+          "title": "リク",
+          "body": "睡我？不理我？还是我分手",
+          "senderId": "rikku",
+          "time": "23:15",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-30",
+          "title": "リク",
+          "body": "你分手了？",
+          "senderId": "owner",
+          "time": "23:17"
+        },
+        {
+          "id": "kakao-riku-msg-31",
+          "title": "リク",
+          "body": "因为我吗",
+          "senderId": "owner",
+          "time": "23:18"
+        },
+        {
+          "id": "kakao-riku-msg-32",
+          "title": "リク",
+          "body": "你想多了",
+          "senderId": "rikku",
+          "time": "23:20",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-33",
+          "title": "リク",
+          "body": "我发现他手机里一直跟不同的人聊天",
+          "senderId": "rikku",
+          "time": "23:22",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-34",
+          "title": "リク",
+          "body": "甚至还跟女生说认识我啊",
+          "senderId": "rikku",
+          "time": "23:24",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-35",
+          "title": "リク",
+          "body": "可以帮她要签名",
+          "senderId": "rikku",
+          "time": "23:25",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-36",
+          "title": "リク",
+          "body": "真是混蛋啊",
+          "senderId": "owner",
+          "time": "23:27"
+        },
+        {
+          "id": "kakao-riku-msg-37",
+          "title": "リク",
+          "body": "你以为你不是？",
+          "senderId": "rikku",
+          "time": "23:29",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-38",
+          "title": "リク",
+          "body": "对不起…",
+          "senderId": "owner",
+          "time": "00:01"
+        },
+        {
+          "id": "kakao-riku-msg-39",
+          "title": "リク",
+          "body": "除了对不起你就没别的想说了",
+          "senderId": "rikku",
+          "time": "00:02",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-40",
+          "title": "リク",
+          "body": "我不知道怎么说",
+          "senderId": "owner",
+          "time": "00:04"
+        },
+        {
+          "id": "kakao-riku-msg-41",
+          "title": "リク",
+          "body": "也不知道怎么做",
+          "senderId": "owner",
+          "time": "00:05"
+        },
+        {
+          "id": "kakao-riku-msg-42",
+          "title": "リク",
+          "body": "……",
+          "senderId": "rikku",
+          "time": "00:07",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-43",
+          "title": "リク",
+          "body": "所以你真的只是因为拓弥才来找我吗",
+          "senderId": "rikku",
+          "time": "00:09",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-44",
+          "title": "リク",
+          "body": "응…",
+          "senderId": "owner",
+          "time": "00:10"
+        },
+        {
+          "id": "kakao-riku-msg-45",
+          "title": "リク",
+          "body": "我还以为你找借口",
+          "senderId": "rikku",
+          "time": "00:12",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-46",
+          "title": "リク",
+          "body": "又是我在自作多情了啊",
+          "senderId": "rikku",
+          "time": "00:13",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-47",
+          "title": "リク",
+          "body": "不是这样的",
+          "senderId": "owner",
+          "time": "00:15"
+        },
+        {
+          "id": "kakao-riku-msg-48",
+          "title": "リク",
+          "body": "我也想跟你道歉来着",
+          "senderId": "owner",
+          "time": "00:17"
+        },
+        {
+          "id": "kakao-riku-msg-49",
+          "title": "リク",
+          "body": "不想听了",
+          "senderId": "rikku",
+          "time": "00:19",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-50",
+          "title": "リク",
+          "body": "你自己没想清楚之前不要来找我",
+          "senderId": "rikku",
+          "time": "00:21",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-51",
+          "title": "リク",
+          "body": "riku",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-52",
+          "title": "リク",
+          "body": "想清楚了？",
+          "senderId": "rikku",
+          "time": "20xx.09.11 10:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-53",
+          "title": "リク",
+          "body": "我只是觉得拍challenge",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-54",
+          "title": "リク",
+          "body": "两个人不需要靠那么近",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-55",
+          "title": "リク",
+          "body": "🙄️",
+          "senderId": "rikku",
+          "time": "20xx.09.11 10:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-56",
+          "title": "リク",
+          "body": "又不是跟你靠那么近",
+          "senderId": "rikku",
+          "time": "20xx.09.11 10:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-57",
+          "title": "リク",
+          "body": "我的意思就是你们俩！",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-58",
+          "title": "リク",
+          "body": "不应该这么近",
+          "senderId": "owner",
+          "time": "20xx.09.11 10:00"
+        },
+        {
+          "id": "kakao-riku-msg-59",
+          "title": "リク",
+          "body": "…",
+          "senderId": "rikku",
+          "time": "20xx.09.11 10:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-60",
+          "title": "リク",
+          "body": "为什么不跟我一起吃午饭",
+          "senderId": "owner",
+          "time": "20xx.09.11 12:30"
+        },
+        {
+          "id": "kakao-riku-msg-61",
+          "title": "リク",
+          "body": "不想",
+          "senderId": "rikku",
+          "time": "20xx.09.11 12:30",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-62",
+          "title": "リク",
+          "body": "ㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.11 12:30"
+        },
+        {
+          "id": "kakao-riku-msg-63",
+          "title": "リク",
+          "body": "最近有好看的电影吗？",
+          "senderId": "owner",
+          "time": "20xx.09.12 17:00"
+        },
+        {
+          "id": "kakao-riku-msg-64",
+          "title": "リク",
+          "body": "自己去搜",
+          "senderId": "rikku",
+          "time": "20xx.09.12 17:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-65",
+          "title": "リク",
+          "body": "ㅠㅠ ㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.12 17:00"
+        },
+        {
+          "id": "kakao-riku-msg-66",
+          "title": "リク",
+          "body": "riku哥！",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-67",
+          "title": "リク",
+          "body": "要不要吃早饭",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-68",
+          "title": "リク",
+          "body": "我现在去买",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-69",
+          "title": "リク",
+          "body": "不要",
+          "senderId": "rikku",
+          "time": "20xx.09.13 08:30",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-70",
+          "title": "リク",
+          "body": "我回来给你烧怎么样？",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-71",
+          "title": "リク",
+          "body": "更加不要！！！",
+          "senderId": "rikku",
+          "time": "20xx.09.13 08:30",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-72",
+          "title": "リク",
+          "body": "🥹",
+          "senderId": "owner",
+          "time": "20xx.09.13 08:30"
+        },
+        {
+          "id": "kakao-riku-msg-73",
+          "title": "リク",
+          "body": "我买了蜘蛛侠的游戏",
+          "senderId": "owner",
+          "time": "20xx.09.14 13:05"
+        },
+        {
+          "id": "kakao-riku-msg-74",
+          "title": "リク",
+          "body": "要玩吗？",
+          "senderId": "owner",
+          "time": "20xx.09.14 13:05"
+        },
+        {
+          "id": "kakao-riku-msg-75",
+          "title": "リク",
+          "body": "不感兴趣",
+          "senderId": "rikku",
+          "time": "20xx.09.14 13:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-76",
+          "title": "リク",
+          "body": "很有意思的",
+          "senderId": "owner",
+          "time": "20xx.09.14 13:05"
+        },
+        {
+          "id": "kakao-riku-msg-77",
+          "title": "リク",
+          "body": "我可以教你😁",
+          "senderId": "owner",
+          "time": "20xx.09.14 13:05"
+        },
+        {
+          "id": "kakao-riku-msg-78",
+          "title": "リク",
+          "body": "一起回宿舍都不行吗",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:50"
+        },
+        {
+          "id": "kakao-riku-msg-79",
+          "title": "リク",
+          "body": "你想清楚了吗",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:50",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-80",
+          "title": "リク",
+          "body": "没有",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:51"
+        },
+        {
+          "id": "kakao-riku-msg-81",
+          "title": "リク",
+          "body": "那你还来找我？",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:51",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-82",
+          "title": "リク",
+          "body": "riku你呢",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:52"
+        },
+        {
+          "id": "kakao-riku-msg-83",
+          "title": "リク",
+          "body": "干嘛扯到我身上",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:52",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-84",
+          "title": "リク",
+          "body": "riku想要我想清楚什么",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:53"
+        },
+        {
+          "id": "kakao-riku-msg-85",
+          "title": "リク",
+          "body": "riku你明明也没有给我答案啊",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:53"
+        },
+        {
+          "id": "kakao-riku-msg-86",
+          "title": "リク",
+          "body": "那晚之后你是怎么想的",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:54"
+        },
+        {
+          "id": "kakao-riku-msg-87",
+          "title": "リク",
+          "body": "我不想跟你说",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:54",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-88",
+          "title": "リク",
+          "body": "为什么",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:55"
+        },
+        {
+          "id": "kakao-riku-msg-89",
+          "title": "リク",
+          "body": "丢人",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:55",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-90",
+          "title": "リク",
+          "body": "什么意思",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:55"
+        },
+        {
+          "id": "kakao-riku-msg-91",
+          "title": "リク",
+          "body": "你对我没有想法吧",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:56",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-92",
+          "title": "リク",
+          "body": "你不喜欢我吧",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:56",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-93",
+          "title": "リク",
+          "body": "你只是把我当哥哥吧",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:56",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-94",
+          "title": "リク",
+          "body": "要我怎么说",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:57",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-95",
+          "title": "リク",
+          "body": "我要说我在有男朋友的时候对你也产生好感了吗",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:57",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-96",
+          "title": "リク",
+          "body": "坏男人",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:58"
+        },
+        {
+          "id": "kakao-riku-msg-97",
+          "title": "リク",
+          "body": "你不是？！",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:58",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-98",
+          "title": "リク",
+          "body": "你对我更坏吧",
+          "senderId": "rikku",
+          "time": "20xx.09.15 21:58",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-99",
+          "title": "リク",
+          "body": "那天真的对不起嘛🥹",
+          "senderId": "owner",
+          "time": "20xx.09.15 21:59"
+        },
+        {
+          "id": "kakao-riku-msg-100",
+          "title": "リク",
+          "body": "那天早上为什么跑走",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-101",
+          "title": "リク",
+          "body": "我不是故意的",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:00"
+        },
+        {
+          "id": "kakao-riku-msg-102",
+          "title": "リク",
+          "body": "一醒来看到你睡在我旁边",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:01"
+        },
+        {
+          "id": "kakao-riku-msg-103",
+          "title": "リク",
+          "body": "然后打开手机就看到经纪人哥的消息",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:01"
+        },
+        {
+          "id": "kakao-riku-msg-104",
+          "title": "リク",
+          "body": "我就去公司了",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:02"
+        },
+        {
+          "id": "kakao-riku-msg-105",
+          "title": "リク",
+          "body": "那后面呢？",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:02",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-106",
+          "title": "リク",
+          "body": "我给你发那么多消息",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:03",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-107",
+          "title": "リク",
+          "body": "为什么都不理我",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:03",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-108",
+          "title": "リク",
+          "body": "我有点害怕",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:04"
+        },
+        {
+          "id": "kakao-riku-msg-109",
+          "title": "リク",
+          "body": "怕什么",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:04",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-110",
+          "title": "リク",
+          "body": "你要是叫我当情人我要不要答应…",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:05"
+        },
+        {
+          "id": "kakao-riku-msg-111",
+          "title": "リク",
+          "body": "？？？",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-112",
+          "title": "リク",
+          "body": "你脑子里装的什么",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-113",
+          "title": "リク",
+          "body": "不过幸好😁",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:06"
+        },
+        {
+          "id": "kakao-riku-msg-114",
+          "title": "リク",
+          "body": "riku你已经分手了",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:06"
+        },
+        {
+          "id": "kakao-riku-msg-115",
+          "title": "リク",
+          "body": "分手了跟你有什么关系",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:07",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-116",
+          "title": "リク",
+          "body": "你刚才不是已经跟我表白了吗！",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:07"
+        },
+        {
+          "id": "kakao-riku-msg-117",
+          "title": "リク",
+          "body": "才不算",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:08",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-118",
+          "title": "リク",
+          "body": "我根本没消气",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:08",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-119",
+          "title": "リク",
+          "body": "我哄了你那么多天还没有消气嘛ㅜㅜ",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:09"
+        },
+        {
+          "id": "kakao-riku-msg-120",
+          "title": "リク",
+          "body": "从哪里开始是在哄我？",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:09",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-121",
+          "title": "リク",
+          "body": "从你分手后的每一天ㅠㅠㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:10"
+        },
+        {
+          "id": "kakao-riku-msg-122",
+          "title": "リク",
+          "body": "…",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:10",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-123",
+          "title": "リク",
+          "body": "没看出来",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:11",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-124",
+          "title": "リク",
+          "body": "那我找你当面说",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:11"
+        },
+        {
+          "id": "kakao-riku-msg-125",
+          "title": "リク",
+          "body": "不要！",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:12",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-126",
+          "title": "リク",
+          "body": "怎么了",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:12"
+        },
+        {
+          "id": "kakao-riku-msg-127",
+          "title": "リク",
+          "body": "健太在房间",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:13",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-128",
+          "title": "リク",
+          "body": "ㅋㅋㅋ 原来是riku想来我这",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:13"
+        },
+        {
+          "id": "kakao-riku-msg-129",
+          "title": "リク",
+          "body": "你再说",
+          "senderId": "rikku",
+          "time": "20xx.09.15 22:14",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-130",
+          "title": "リク",
+          "body": "我等你呀",
+          "senderId": "owner",
+          "time": "20xx.09.15 22:15"
+        },
+        {
+          "id": "kakao-riku-msg-131",
+          "title": "リク",
+          "body": "醒了吗",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:30"
+        },
+        {
+          "id": "kakao-riku-msg-132",
+          "title": "リク",
+          "body": "我跟拓弥去回公司",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:31"
+        },
+        {
+          "id": "kakao-riku-msg-133",
+          "title": "リク",
+          "body": "有什么想吃的给你带回来",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:32"
+        },
+        {
+          "id": "kakao-riku-msg-134",
+          "title": "リク",
+          "body": "好累",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:34",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-135",
+          "title": "リク",
+          "body": "随便买点",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:34",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-136",
+          "title": "リク",
+          "body": "ㅋㅋㅋㅋㅋㅋ",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:35"
+        },
+        {
+          "id": "kakao-riku-msg-137",
+          "title": "リク",
+          "body": "笑什么！",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:35",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-138",
+          "title": "リク",
+          "body": "体力好差",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:36"
+        },
+        {
+          "id": "kakao-riku-msg-139",
+          "title": "リク",
+          "body": "😒",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:36",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-140",
+          "title": "リク",
+          "body": "休假我要回福井",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:38",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-141",
+          "title": "リク",
+          "body": "昨晚说好了去迪士尼！",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:39"
+        },
+        {
+          "id": "kakao-riku-msg-142",
+          "title": "リク",
+          "body": "怎么突然反悔",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:39"
+        },
+        {
+          "id": "kakao-riku-msg-143",
+          "title": "リク",
+          "body": "有人惹我生气",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:41",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-144",
+          "title": "リク",
+          "body": "不想去了",
+          "senderId": "rikku",
+          "time": "20xx.09.16 13:41",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-145",
+          "title": "リク",
+          "body": "不要嘛",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:42"
+        },
+        {
+          "id": "kakao-riku-msg-146",
+          "title": "リク",
+          "body": "这段时间一定会好好服侍好我最亲爱的riku哥的❤️",
+          "senderId": "owner",
+          "time": "20xx.09.16 13:43"
+        },
+        {
+          "id": "kakao-riku-msg-147",
+          "title": "リク",
+          "body": "不要生气了ㅠㅠㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:30"
+        },
+        {
+          "id": "kakao-riku-msg-148",
+          "title": "リク",
+          "body": "这就是你说的让我？",
+          "senderId": "rikku",
+          "time": "20xx.09.17 17:31",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-149",
+          "title": "リク",
+          "body": "十个回合被你打死十次",
+          "senderId": "rikku",
+          "time": "20xx.09.17 17:32",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-150",
+          "title": "リク",
+          "body": "再也不要和你玩游戏！",
+          "senderId": "rikku",
+          "time": "20xx.09.17 17:32",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-151",
+          "title": "リク",
+          "body": "对不起ㅠㅠㅠㅠㅠㅠㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:33"
+        },
+        {
+          "id": "kakao-riku-msg-152",
+          "title": "リク",
+          "body": "再给我一次机会ㅠㅠㅠㅠㅠㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:34"
+        },
+        {
+          "id": "kakao-riku-msg-153",
+          "title": "リク",
+          "body": "我这次真的会坏坏发挥的ㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:35"
+        },
+        {
+          "id": "kakao-riku-msg-154",
+          "title": "リク",
+          "body": "买了迪软巧来领罪ㅠㅠ",
+          "senderId": "owner",
+          "time": "20xx.09.18 15:00"
+        },
+        {
+          "id": "kakao-riku-msg-155",
+          "title": "リク",
+          "body": "自己拿过来我房间",
+          "senderId": "rikku",
+          "time": "20xx.09.18 15:02",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-156",
+          "title": "リク",
+          "body": "알겠어~",
+          "senderId": "owner",
+          "time": "20xx.09.18 15:03"
+        },
+        {
+          "id": "kakao-riku-msg-157",
+          "title": "リク",
+          "body": "行李收拾好了吗",
+          "senderId": "rikku",
+          "time": "20xx.09.19 20:30",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-158",
+          "title": "リク",
+          "body": "快了",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:31"
+        },
+        {
+          "id": "kakao-riku-msg-159",
+          "title": "リク",
+          "body": "还差一点衣服放进去",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:32"
+        },
+        {
+          "id": "kakao-riku-msg-160",
+          "title": "リク",
+          "body": "收拾完来我房间吧",
+          "senderId": "rikku",
+          "time": "20xx.09.19 20:34",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-161",
+          "title": "リク",
+          "body": "😳",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:35"
+        },
+        {
+          "id": "kakao-riku-msg-162",
+          "title": "リク",
+          "body": "健太今晚就先回日本",
+          "senderId": "rikku",
+          "time": "20xx.09.19 20:36",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-163",
+          "title": "リク",
+          "body": "ㅋㅋ 네~",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:37"
+        }
+      ]
+    },
+    {
+      "id": "kakao-takuya-chat",
+      "app": "kakao",
+      "title": "拓弥",
+      "participants": [
+        "takuya",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kakao-takuya-msg-01",
+          "title": "拓弥",
+          "body": "你跟riku哥吵架了？",
+          "senderId": "takuya",
+          "time": "16:07"
+        },
+        {
+          "id": "kakao-takuya-msg-02",
+          "title": "拓弥",
+          "body": "什么",
+          "senderId": "owner",
+          "time": "16:09"
+        },
+        {
+          "id": "kakao-takuya-msg-03",
+          "title": "拓弥",
+          "body": "你们一整天都没说话啊",
+          "senderId": "takuya",
+          "time": "16:10"
+        },
+        {
+          "id": "kakao-takuya-msg-04",
+          "title": "拓弥",
+          "body": "这怎么了",
+          "senderId": "owner",
+          "time": "16:12"
+        },
+        {
+          "id": "kakao-takuya-msg-05",
+          "title": "拓弥",
+          "body": "很奇怪",
+          "senderId": "takuya",
+          "time": "16:14"
+        },
+        {
+          "id": "kakao-takuya-msg-06",
+          "title": "拓弥",
+          "body": "你们俩是不是有什么秘密",
+          "senderId": "takuya",
+          "time": "16:16"
+        },
+        {
+          "id": "kakao-takuya-msg-07",
+          "title": "拓弥",
+          "body": "没有 没吵架也没秘密",
+          "senderId": "owner",
+          "time": "16:18"
+        },
+        {
+          "id": "kakao-takuya-msg-08",
+          "title": "拓弥",
+          "body": "骗人",
+          "senderId": "takuya",
+          "time": "16:21"
+        },
+        {
+          "id": "kakao-takuya-msg-09",
+          "title": "拓弥",
+          "body": "原来是这样啊",
+          "senderId": "takuya",
+          "time": "22:08"
+        },
+        {
+          "id": "kakao-takuya-msg-10",
+          "title": "拓弥",
+          "body": "我说你怎么不告诉我",
+          "senderId": "takuya",
+          "time": "22:09"
+        },
+        {
+          "id": "kakao-takuya-msg-11",
+          "title": "我",
+          "body": "？",
+          "senderId": "owner",
+          "time": "22:11"
+        },
+        {
+          "id": "kakao-takuya-msg-12",
+          "title": "我",
+          "body": "你去找riku了？",
+          "senderId": "owner",
+          "time": "22:11"
+        },
+        {
+          "id": "kakao-takuya-msg-13",
+          "title": "我",
+          "body": "…喂",
+          "senderId": "owner",
+          "time": "22:12"
+        },
+        {
+          "id": "kakao-takuya-msg-14",
+          "title": "我",
+          "body": "和你说什么了",
+          "senderId": "owner",
+          "time": "22:13"
+        },
+        {
+          "id": "kakao-takuya-msg-15",
+          "title": "拓弥",
+          "body": "秘密哦😁",
+          "senderId": "takuya",
+          "time": "22:16"
+        }
+      ]
+    },
+    {
+      "id": "kakao-kenta-chat",
+      "app": "kakao",
+      "title": "健太",
+      "participants": [
+        "kenta",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kakao-kenta-msg-01",
+          "title": "健太",
+          "body": "game？",
+          "senderId": "kenta",
+          "time": "20xx.07.23 20:14"
+        },
+        {
+          "id": "kakao-kenta-msg-02",
+          "title": "健太",
+          "body": "gogo",
+          "senderId": "owner",
+          "time": "20xx.07.23 20:16"
+        },
+        {
+          "id": "kakao-kenta-msg-03",
+          "title": "健太",
+          "body": "splatoon、",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:03"
+        },
+        {
+          "id": "kakao-kenta-msg-04",
+          "title": "健太",
+          "body": "gogo？",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:04"
+        },
+        {
+          "id": "kakao-kenta-msg-05",
+          "title": "健太",
+          "body": "最近有点累啊",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:07"
+        },
+        {
+          "id": "kakao-kenta-msg-06",
+          "title": "健太",
+          "body": "不在回归期也累？",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:09"
+        },
+        {
+          "id": "kakao-kenta-msg-07",
+          "title": "健太",
+          "body": "riku最近总半夜打电话",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:12"
+        },
+        {
+          "id": "kakao-kenta-msg-08",
+          "title": "健太",
+          "body": "跟谁？",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:13"
+        },
+        {
+          "id": "kakao-kenta-msg-09",
+          "title": "健太",
+          "body": "不知道 听不太清楚",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:16"
+        },
+        {
+          "id": "kakao-kenta-msg-10",
+          "title": "健太",
+          "body": "要跟我换房间吗",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:18"
+        },
+        {
+          "id": "kakao-kenta-msg-11",
+          "title": "健太",
+          "body": "saku长大了",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:21"
+        },
+        {
+          "id": "kakao-kenta-msg-12",
+          "title": "健太",
+          "body": "不用啦",
+          "senderId": "kenta",
+          "time": "20xx.08.25 22:22"
+        },
+        {
+          "id": "kakao-kenta-msg-13",
+          "title": "健太",
+          "body": "好吧",
+          "senderId": "owner",
+          "time": "20xx.08.25 22:24"
+        },
+        {
+          "id": "kakao-kenta-msg-14",
+          "title": "健太",
+          "body": "跟riku在一起吗？",
+          "senderId": "kenta",
+          "time": "20xx.09.01 19:36"
+        },
+        {
+          "id": "kakao-kenta-msg-15",
+          "title": "健太",
+          "body": "嗯",
+          "senderId": "owner",
+          "time": "20xx.09.01 19:37"
+        },
+        {
+          "id": "kakao-kenta-msg-16",
+          "title": "健太",
+          "body": "经纪人哥找他",
+          "senderId": "kenta",
+          "time": "20xx.09.01 19:39"
+        },
+        {
+          "id": "kakao-kenta-msg-17",
+          "title": "健太",
+          "body": "ok",
+          "senderId": "owner",
+          "time": "20xx.09.01 19:40"
+        },
+        {
+          "id": "kakao-kenta-msg-18",
+          "title": "健太",
+          "body": "昨天riku在你房间",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:12"
+        },
+        {
+          "id": "kakao-kenta-msg-19",
+          "title": "健太",
+          "body": "嗯",
+          "senderId": "owner",
+          "time": "20xx.09.16 11:13"
+        },
+        {
+          "id": "kakao-kenta-msg-20",
+          "title": "健太",
+          "body": "你们和好了？",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:13"
+        },
+        {
+          "id": "kakao-kenta-msg-21",
+          "title": "健太",
+          "body": "我们哪有吵架",
+          "senderId": "owner",
+          "time": "20xx.09.16 11:14"
+        },
+        {
+          "id": "kakao-kenta-msg-22",
+          "title": "健太",
+          "body": "很明显好吗",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:14"
+        },
+        {
+          "id": "kakao-kenta-msg-23",
+          "title": "健太",
+          "body": "还以为你们要绝交了",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:15"
+        },
+        {
+          "id": "kakao-kenta-msg-24",
+          "title": "健太",
+          "body": "你不懂我们之间的感情",
+          "senderId": "owner",
+          "time": "20xx.09.16 11:16"
+        },
+        {
+          "id": "kakao-kenta-msg-25",
+          "title": "健太",
+          "body": "ㅗ",
+          "senderId": "kenta",
+          "time": "20xx.09.16 11:16"
+        }
+      ]
+    },
+    {
+      "id": "kakao-manager-chat",
+      "app": "kakao",
+      "title": "매니저 형",
+      "participants": [
+        "manager",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kakao-manager-msg-01",
+          "title": "매니저 형",
+          "body": "明天要录节目哦",
+          "senderId": "manager",
+          "time": "20xx.07.29 18:42",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-02",
+          "title": "매니저 형",
+          "body": "ok",
+          "senderId": "owner",
+          "time": "20xx.07.29 18:44"
+        },
+        {
+          "id": "kakao-manager-msg-03",
+          "title": "매니저 형",
+          "body": "最近有点胖了",
+          "senderId": "manager",
+          "time": "20xx.08.01 14:16",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-04",
+          "title": "매니저 형",
+          "body": "要注意饮食",
+          "senderId": "manager",
+          "time": "20xx.08.01 14:17",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-05",
+          "title": "매니저 형",
+          "body": "好的哥",
+          "senderId": "owner",
+          "time": "20xx.08.01 14:21"
+        },
+        {
+          "id": "kakao-manager-msg-06",
+          "title": "매니저 형",
+          "body": "好好练舞 下次有机会让你出外勤",
+          "senderId": "manager",
+          "time": "20xx.08.11 19:08",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-07",
+          "title": "매니저 형",
+          "body": "好 谢谢哥",
+          "senderId": "owner",
+          "time": "20xx.08.11 19:12"
+        },
+        {
+          "id": "kakao-manager-msg-08",
+          "title": "매니저 형",
+          "body": "riku在你身边吗",
+          "senderId": "manager",
+          "time": "20xx.09.01 16:37",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-09",
+          "title": "매니저 형",
+          "body": "我联系不上他",
+          "senderId": "manager",
+          "time": "20xx.09.01 16:39",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-10",
+          "title": "매니저 형",
+          "body": "你跟riku人去哪了",
+          "senderId": "manager",
+          "time": "20xx.09.09 23:00",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-11",
+          "title": "매니저 형",
+          "body": "回来之后给我一个解释",
+          "senderId": "manager",
+          "time": "20xx.09.09 23:03",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-12",
+          "title": "매니저 형",
+          "body": "哥 昨晚真的有原因",
+          "senderId": "owner",
+          "time": "20xx.09.10 08:00"
+        },
+        {
+          "id": "kakao-manager-msg-13",
+          "title": "매니저 형",
+          "body": "先来公司",
+          "senderId": "manager",
+          "time": "20xx.09.10 08:02",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-14",
+          "title": "매니저 형",
+          "body": "好...",
+          "senderId": "owner",
+          "time": "20xx.09.10 08:04"
+        },
+        {
+          "id": "kakao-manager-msg-15",
+          "title": "매니저 형",
+          "body": "你跟riku明天的机票订好了",
+          "senderId": "manager",
+          "time": "20xx.09.19 20:54",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-16",
+          "title": "매니저 형",
+          "body": "谢谢哥！",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:55"
+        },
+        {
+          "id": "kakao-manager-msg-17",
+          "title": "매니저 형",
+          "body": "休假回来记得带点特产给哥",
+          "senderId": "manager",
+          "time": "20xx.09.19 20:56",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-18",
+          "title": "매니저 형",
+          "body": "了解",
+          "senderId": "owner",
+          "time": "20xx.09.19 20:57"
+        },
+        {
+          "id": "kakao-manager-msg-19",
+          "title": "매니저 형",
+          "body": "好好休息吧",
+          "senderId": "manager",
+          "time": "20xx.09.19 20:58",
+          "avatar": ""
+        }
+      ]
+    }
+  ],
+  "variables": {},
+  "events": [],
+  "tests": [],
+  "content": {
+    "music": [
+      {
+        "id": "music-track-01",
+        "title": "Happy End",
+        "body": "back number",
+        "sender": "back number",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "back number"
+        }
+      },
+      {
+        "id": "music-track-02",
+        "title": "スポンジ・ボブのテーマ",
+        "body": "RIP SLYME",
+        "sender": "RIP SLYME",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "RIP SLYME"
+        }
+      },
+      {
+        "id": "music-track-03",
+        "title": "Wish you were here",
+        "body": "B.I",
+        "sender": "B.I",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "B.I"
+        }
+      },
+      {
+        "id": "music-track-04",
+        "title": "drunk text",
+        "body": "Henry Moodie",
+        "sender": "Henry Moodie",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Henry Moodie"
+        }
+      },
+      {
+        "id": "music-track-05",
+        "title": "거리에서",
+        "body": "leellamarz",
+        "sender": "leellamarz",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "leellamarz"
+        }
+      },
+      {
+        "id": "music-track-06",
+        "title": "歌うたいのバラッド",
+        "body": "斋藤和羲",
+        "sender": "斋藤和羲",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "斋藤和羲"
+        }
+      },
+      {
+        "id": "music-track-07",
+        "title": "あなたといたい",
+        "body": "Ayumulmazu",
+        "sender": "Ayumulmazu",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Ayumulmazu"
+        }
+      },
+      {
+        "id": "music-track-08",
+        "title": "部屋",
+        "body": "Shytaupe",
+        "sender": "Shytaupe",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Shytaupe"
+        }
+      },
+      {
+        "id": "music-track-09",
+        "title": "WA-R-R",
+        "body": "Colde",
+        "sender": "Colde",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Colde"
+        }
+      },
+      {
+        "id": "music-track-10",
+        "title": "I'm In Love",
+        "body": "Colde",
+        "sender": "Colde",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "Colde"
+        }
+      },
+      {
+        "id": "music-track-11",
+        "title": "걘 아니야",
+        "body": "ZICO",
+        "sender": "ZICO",
+        "time": "资料库",
+        "folder": "歌曲",
+        "meta": {
+          "artist": "ZICO"
+        }
+      }
+    ],
+    "safari": [
+      {
+        "id": "safari-history-01",
+        "title": "东京迪士尼约会攻略",
+        "body": "东京迪士尼约会攻略",
+        "sender": "サクヤ",
+        "time": "16:32",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "东京迪士尼约会攻略"
+        }
+      },
+      {
+        "id": "safari-history-02",
+        "title": "首尔约会餐厅",
+        "body": "首尔约会餐厅",
+        "sender": "サクヤ",
+        "time": "16:35",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "首尔约会餐厅"
+        }
+      },
+      {
+        "id": "safari-history-03",
+        "title": "怎么跟巨蟹男和好",
+        "body": "怎么跟巨蟹男和好",
+        "sender": "サクヤ",
+        "time": "16:41",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "怎么跟巨蟹男和好"
+        }
+      },
+      {
+        "id": "safari-history-04",
+        "title": "求和话术",
+        "body": "求和话术",
+        "sender": "サクヤ",
+        "time": "16:44",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "求和话术"
+        }
+      },
+      {
+        "id": "safari-history-05",
+        "title": "巨蟹男喜欢年上还是年下",
+        "body": "巨蟹男喜欢年上还是年下",
+        "sender": "サクヤ",
+        "time": "16:49",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "巨蟹男喜欢年上还是年下"
+        }
+      },
+      {
+        "id": "safari-history-06",
+        "title": "埼玉到福井线路推荐",
+        "body": "埼玉到福井线路推荐",
+        "sender": "サクヤ",
+        "time": "17:03",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "埼玉到福井线路推荐"
+        }
+      },
+      {
+        "id": "safari-history-07",
+        "title": "天蝎座和巨蟹座的匹配指数",
+        "body": "天蝎座和巨蟹座的匹配指数",
+        "sender": "サクヤ",
+        "time": "17:08",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "天蝎座和巨蟹座的匹配指数"
+        }
+      },
+      {
+        "id": "safari-history-08",
+        "title": "跟男生不小心亲嘴之后，心脏跳很快正常的吗？我也是男的",
+        "body": "跟男生不小心亲嘴之后，心脏跳很快正常的吗？我也是男的",
+        "sender": "サクヤ",
+        "time": "17:16",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "跟男生不小心亲嘴之后，心脏跳很快正常的吗？我也是男的"
+        }
+      },
+      {
+        "id": "safari-history-09",
+        "title": "撞见合租的男生和男朋友亲热好尴尬",
+        "body": "撞见合租的男生和男朋友亲热好尴尬",
+        "sender": "サクヤ",
+        "time": "17:24",
+        "folder": "历史记录",
+        "meta": {
+          "type": "search",
+          "query": "撞见合租的男生和男朋友亲热好尴尬"
+        }
+      }
+    ],
+    "phone": [
+      {
+        "id": "recent-call-1",
+        "title": "+82 010 923 6683",
+        "body": "未接来电",
+        "sender": "+82 010 923 6683",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-2",
+        "title": "+82 043 537 1738",
+        "body": "未接来电",
+        "sender": "+82 043 537 1738",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-3",
+        "title": "ママ",
+        "body": "通话 1:24",
+        "sender": "ママ",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "1:24"
+        }
+      },
+      {
+        "id": "recent-call-4",
+        "title": "매니저 형",
+        "body": "通话 0:12",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "0:12"
+        }
+      },
+      {
+        "id": "recent-call-5",
+        "title": "매니저 형",
+        "body": "通话 1:56",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "1:56"
+        }
+      },
+      {
+        "id": "recent-call-6",
+        "title": "매니저 형",
+        "body": "通话 0:32",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "0:32"
+        }
+      },
+      {
+        "id": "recent-call-7",
+        "title": "+82 052 628 5783",
+        "body": "未接来电",
+        "sender": "+82 052 628 5783",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-8",
+        "title": "リク",
+        "body": "通话 2:08",
+        "sender": "リク",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "2:08"
+        }
+      },
+      {
+        "id": "recent-call-9",
+        "title": "リク",
+        "body": "未接来电",
+        "sender": "リク",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-10",
+        "title": "+82 070 732 6473",
+        "body": "未接来电",
+        "sender": "+82 070 732 6473",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-11",
+        "title": "+82 070 732 6473",
+        "body": "未接来电",
+        "sender": "+82 070 732 6473",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "missed",
+          "duration": ""
+        }
+      },
+      {
+        "id": "recent-call-12",
+        "title": "ママ",
+        "body": "通话 0:46",
+        "sender": "ママ",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "0:46"
+        }
+      },
+      {
+        "id": "recent-call-13",
+        "title": "매니저 형",
+        "body": "通话 1:01",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "kind": "text",
+        "meta": {
+          "callStatus": "answered",
+          "duration": "1:01"
+        }
+      },
+      {
+        "id": "phone-contact-mama-new",
+        "title": "ママ",
+        "body": "",
+        "sender": "ママ",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-papa-new",
+        "title": "パパ",
+        "body": "",
+        "sender": "パパ",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-rikku-new",
+        "title": "リク",
+        "body": "",
+        "sender": "リク",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-takuya-new",
+        "title": "拓弥",
+        "body": "",
+        "sender": "拓弥",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-kenta-new",
+        "title": "健太",
+        "body": "",
+        "sender": "健太",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      },
+      {
+        "id": "phone-contact-manager-new",
+        "title": "매니저 형",
+        "body": "",
+        "sender": "매니저 형",
+        "time": "2026-10-25 21:41",
+        "folder": "通讯录",
+        "meta": {
+          "phone": ""
+        }
+      }
+    ],
+    "line": [
+      {
+        "id": "line-contact-riku",
+        "title": "陸",
+        "sender": "陸",
+        "body": "",
+        "time": "2026-10-26 21:10",
+        "folder": "好友",
+        "meta": {
+          "contact": "true"
+        }
+      },
+      {
+        "id": "line-contact-mama",
+        "title": "ママ",
+        "sender": "ママ",
+        "body": "",
+        "time": "2026-10-26 21:10",
+        "folder": "好友",
+        "meta": {
+          "contact": "true"
+        }
+      },
+      {
+        "id": "line-contact-papa",
+        "title": "パパ",
+        "sender": "パパ",
+        "body": "",
+        "time": "2026-10-26 21:10",
+        "folder": "好友",
+        "meta": {
+          "contact": "true"
+        }
+      },
+      {
+        "id": "line-contact-imouto",
+        "title": "イモウト",
+        "sender": "イモウト",
+        "body": "",
+        "time": "2026-10-26 21:10",
+        "folder": "好友",
+        "meta": {
+          "contact": "true"
+        }
+      }
+    ],
+    "messages": [
+      {
+        "id": "messages-contact-1",
+        "title": "+82 042 6293 6728",
+        "body": "",
+        "sender": "+82 042 6293 6728",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-2",
+        "title": "+82 078 1933 0943",
+        "body": "",
+        "sender": "+82 078 1933 0943",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-3",
+        "title": "+82 010 3150 0176",
+        "body": "",
+        "sender": "+82 010 3150 0176",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-4",
+        "title": "+82 012 1234 5677",
+        "body": "",
+        "sender": "+82 012 1234 5677",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-5",
+        "title": "+82 093 5271 9472",
+        "body": "",
+        "sender": "+82 093 5271 9472",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact-6",
+        "title": "+82 011 9373 5293",
+        "body": "",
+        "sender": "+82 011 9373 5293",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-riku-chat-1",
+        "title": "+82 042 6293 6728",
+        "body": "当粉丝都是傻子吗？",
+        "sender": "+82 042 6293 6728",
+        "time": "2026-10-26 21:11",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-riku-chat-2",
+        "title": "+82 042 6293 6728",
+        "body": "做错事了为什么不直接摊牌",
+        "sender": "+82 042 6293 6728",
+        "time": "2026-10-26 21:12",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-riku-chat-3",
+        "title": "+82 042 6293 6728",
+        "body": "你们俩做的这些事不会还瞒着公司吧？",
+        "sender": "+82 042 6293 6728",
+        "time": "2026-10-26 21:13",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact2-chat-1",
+        "title": "+82 078 1933 0943",
+        "body": "哥哥是你吧",
+        "sender": "+82 078 1933 0943",
+        "time": "2026-10-26 17:12",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact2-chat-2",
+        "title": "+82 078 1933 0943",
+        "body": "最近好帅 好想你",
+        "sender": "+82 078 1933 0943",
+        "time": "2026-10-26 17:14",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact2-chat-3",
+        "title": "+82 078 1933 0943",
+        "body": "以后也要多多见面～",
+        "sender": "+82 078 1933 0943",
+        "time": "2026-10-26 17:16",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact2-chat-4",
+        "title": "+82 078 1933 0943",
+        "body": "在东京的拼盘和巡演我都会去哦",
+        "sender": "+82 078 1933 0943",
+        "time": "2026-10-26 17:18",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact3-chat-1",
+        "title": "+82 010 3150 0176",
+        "body": "下次再装没看见我试试",
+        "sender": "+82 010 3150 0176",
+        "time": "2026-10-26 17:21",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact3-chat-2",
+        "title": "+82 010 3150 0176",
+        "body": "我会把你们的事全部说出去的",
+        "sender": "+82 010 3150 0176",
+        "time": "2026-10-26 17:22",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact4-chat-1",
+        "title": "+82 012 1234 5677",
+        "body": "打听到你的电话很不容易呢",
+        "sender": "+82 012 1234 5677",
+        "time": "2026-10-26 17:25",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact4-chat-2",
+        "title": "+82 012 1234 5677",
+        "body": "到今天这种程度真的很不容易吧",
+        "sender": "+82 012 1234 5677",
+        "time": "2026-10-26 17:26",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact4-chat-3",
+        "title": "+82 012 1234 5677",
+        "body": "爱豆好好做吧",
+        "sender": "+82 012 1234 5677",
+        "time": "2026-10-26 17:27",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact5-chat-1",
+        "title": "+82 093 5271 9472",
+        "body": "我爱你 我恨你",
+        "sender": "+82 093 5271 9472",
+        "time": "2026-10-26 17:30",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact6-chat-1",
+        "title": "+82 011 9373 5293",
+        "sender": "+82 011 9373 5293",
+        "body": "外卖已经放在门口了，客人记得取餐「照片」",
+        "time": "17:35",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact7",
+        "title": "+86 123 4567 8900",
+        "body": "",
+        "sender": "+86 123 4567 8900",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact8",
+        "title": "+82 030 2673 9739",
+        "body": "",
+        "sender": "+82 030 2673 9739",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact8-chat-1",
+        "body": "你站在舞台上的样子真的很耀眼",
+        "time": "17:40",
+        "title": "+82 030 2673 9739",
+        "sender": "+82 030 2673 9739",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact8-chat-2",
+        "body": "我会永远支持你",
+        "time": "17:41",
+        "title": "+82 030 2673 9739",
+        "sender": "+82 030 2673 9739",
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "messages-contact7-chat-1",
+        "title": "+86 123 4567 8900",
+        "sender": "+86 123 4567 8900",
+        "body": "被我抓到了",
+        "time": "17:45",
+        "kind": "text",
+        "meta": {}
+      }
+    ],
+    "weather": [
+      {
+        "id": "weather-seoul",
+        "title": "首尔",
+        "body": "多云，天气晴冷。",
+        "sender": "天气",
+        "kind": "text",
+        "time": "09:41",
+        "meta": {
+          "locationLabel": "韩国 · 首尔",
+          "temperature": "16",
+          "high": "19",
+          "low": "11",
+          "condition": "多云",
+          "aqi": "42",
+          "aqiLabel": "空气优良",
+          "rain": "10%",
+          "wind": "12 km/h",
+          "sunrise": "06:45",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"16\"},{\"time\":\"10时\",\"temperature\":\"17\"},{\"time\":\"11时\",\"temperature\":\"18\"},{\"time\":\"12时\",\"temperature\":\"19\"},{\"time\":\"13时\",\"temperature\":\"18\"},{\"time\":\"日落\",\"temperature\":\"16\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"11\",\"high\":\"19\"},{\"label\":\"周三\",\"low\":\"10\",\"high\":\"18\"},{\"label\":\"周四\",\"low\":\"9\",\"high\":\"17\"}]"
+        }
+      },
+      {
+        "id": "weather-saitama",
+        "title": "埼玉",
+        "body": "晴间多云。",
+        "sender": "天气",
+        "kind": "text",
+        "time": "09:41",
+        "meta": {
+          "locationLabel": "日本 · 埼玉",
+          "temperature": "18",
+          "high": "21",
+          "low": "12",
+          "condition": "晴间多云",
+          "aqi": "35",
+          "aqiLabel": "空气良好",
+          "rain": "10%",
+          "wind": "8 km/h",
+          "sunrise": "06:02",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"18\"},{\"time\":\"10时\",\"temperature\":\"19\"},{\"time\":\"11时\",\"temperature\":\"20\"},{\"time\":\"12时\",\"temperature\":\"21\"},{\"time\":\"13时\",\"temperature\":\"20\"},{\"time\":\"日落\",\"temperature\":\"18\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"12\",\"high\":\"21\"},{\"label\":\"周三\",\"low\":\"11\",\"high\":\"20\"},{\"label\":\"周四\",\"low\":\"10\",\"high\":\"19\"}]"
+        }
+      },
+      {
+        "id": "weather-fukui",
+        "title": "福井",
+        "body": "阴，局部有阵雨。",
+        "sender": "天气",
+        "kind": "text",
+        "time": "09:41",
+        "meta": {
+          "locationLabel": "日本 · 福井",
+          "temperature": "14",
+          "high": "17",
+          "low": "10",
+          "condition": "阴，局部有阵雨",
+          "aqi": "28",
+          "aqiLabel": "空气良好",
+          "rain": "40%",
+          "wind": "16 km/h",
+          "sunrise": "06:05",
+          "hourly": "[{\"time\":\"现在\",\"temperature\":\"14\"},{\"time\":\"10时\",\"temperature\":\"15\"},{\"time\":\"11时\",\"temperature\":\"16\"},{\"time\":\"12时\",\"temperature\":\"17\"},{\"time\":\"13时\",\"temperature\":\"16\"},{\"time\":\"日落\",\"temperature\":\"14\"}]",
+          "daily": "[{\"label\":\"今天\",\"low\":\"10\",\"high\":\"17\"},{\"label\":\"周三\",\"low\":\"9\",\"high\":\"16\"},{\"label\":\"周四\",\"low\":\"8\",\"high\":\"15\"}]"
+        }
+      }
+    ],
+    "clock": [
+      {
+        "id": "alarm-0550",
+        "title": "闹钟 05:50",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "05:50",
+        "meta": {
+          "clock": "05:50",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0615",
+        "title": "闹钟 06:15",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "06:15",
+        "meta": {
+          "clock": "06:15",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0630",
+        "title": "闹钟 06:30",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "06:30",
+        "meta": {
+          "clock": "06:30",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0655",
+        "title": "闹钟 06:55",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "06:55",
+        "meta": {
+          "clock": "06:55",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0700",
+        "title": "闹钟 07:00",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "07:00",
+        "meta": {
+          "clock": "07:00",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0730",
+        "title": "闹钟 07:30",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "07:30",
+        "meta": {
+          "clock": "07:30",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0735",
+        "title": "闹钟 07:35",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "07:35",
+        "meta": {
+          "clock": "07:35",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0745",
+        "title": "闹钟 07:45",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "07:45",
+        "meta": {
+          "clock": "07:45",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0800",
+        "title": "闹钟 08:00",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "08:00",
+        "meta": {
+          "clock": "08:00",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0830",
+        "title": "闹钟 08:30",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "08:30",
+        "meta": {
+          "clock": "08:30",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0900",
+        "title": "闹钟 09:00",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "09:00",
+        "meta": {
+          "clock": "09:00",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0925",
+        "title": "闹钟 09:25",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "09:25",
+        "meta": {
+          "clock": "09:25",
+          "enabled": "false"
+        }
+      },
+      {
+        "id": "alarm-0945",
+        "title": "闹钟 09:45",
+        "body": "",
+        "sender": "时钟",
+        "kind": "text",
+        "time": "09:45",
+        "meta": {
+          "clock": "09:45",
+          "enabled": "false"
+        }
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-album-01",
+        "title": "baby-panda",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-01",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/baby-panda.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-02",
+        "title": "riku-selfie",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-02",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-selfie.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-03",
+        "title": "baby-cute",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-03",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/baby-cute.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-04",
+        "title": "photo-03",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-04",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-03.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-05",
+        "title": "photo-04",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-05",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-04.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-06",
+        "title": "photo-06",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-06",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-06.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-07",
+        "title": "photo-07",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-07",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-07.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-08",
+        "title": "photo-08",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-08",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-08.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-09",
+        "title": "photo-09",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-09",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-09.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-10",
+        "title": "photo-10",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-10",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-10.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-11",
+        "title": "photo-11",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-11",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-11.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-12",
+        "title": "photo-12",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-12",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-12.JPG",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-13",
+        "title": "photo-13",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-13",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-13.JPG",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-14",
+        "title": "photo-14",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-14",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-14.jpg",
+        "meta": {}
+      },
+      {
+        "id": "photo-album-15",
+        "title": "photo-15",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-15",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/photo-15.jpg",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-01",
+        "title": "pig-01",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-27",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-01.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-02",
+        "title": "pig-02",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-28",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-02.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-03",
+        "title": "pig-03",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-29",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-03.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-04",
+        "title": "pig-04",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-30",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-04.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-05",
+        "title": "pig-05",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-10-31",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-05.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-06",
+        "title": "pig-06",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-11-01",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-06.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-07",
+        "title": "pig-07",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-11-02",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-07.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-08",
+        "title": "pig-08",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-11-03",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-08.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-09",
+        "title": "pig-09",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-11-04",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-09.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      },
+      {
+        "id": "pig-album-10",
+        "title": "pig-10",
+        "body": "",
+        "sender": "相机",
+        "time": "2026-11-05",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/pig-010.jpg",
+        "folder": "🐽🐽",
+        "meta": {}
+      }
+    ],
+    "instagram": [
+      {
+        "id": "instagram-profile",
+        "title": "sakusakusaku_07",
+        "body": "个人主页",
+        "sender": "sakusakusaku_07",
+        "kind": "text",
+        "meta": {
+          "username": "sakusakusaku_07",
+          "handle": "sakusakusaku_07"
+        }
+      },
+      {
+        "id": "instagram-profile-riku",
+        "title": "ri_ku_03",
+        "body": "个人主页",
+        "sender": "ri_ku_03",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "text",
+        "meta": {
+          "username": "ri_ku_03",
+          "handle": "ri_ku_03",
+          "account": "ri_ku_03"
+        }
+      },
+      {
+        "id": "instagram-dm-momo_glow_",
+        "title": "momo_glow_",
+        "body": "",
+        "sender": "momo_glow_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-aoi_sugar",
+        "title": "aoi_sugar",
+        "body": "",
+        "sender": "aoi_sugar",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-haru_lily",
+        "title": "haru_lily",
+        "body": "",
+        "sender": "haru_lily",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-hina_",
+        "title": "hina_",
+        "body": "",
+        "sender": "hina_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-yuna_petal_",
+        "title": "yuna_petal_",
+        "body": "",
+        "sender": "yuna_petal_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-sakura_03",
+        "title": "sakura_03",
+        "body": "",
+        "sender": "sakura_03",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-koto",
+        "title": "koto",
+        "body": "",
+        "sender": "koto",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-post-saku-shiritai",
+        "title": "君たちが知りたいこと",
+        "body": "君たちが知りたいこと",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-8-5 00:26",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-shiritai.jpg",
+        "likes": 1744,
+        "meta": {},
+        "comments": [
+          "soft_petal_01：？？？？？",
+          "moonlit.diary：是不是疯了",
+          "quiet_bloom_7：嫂子竟是队友",
+          "lilac_mood_：这人就在这里，不躲，不藏，不逃，稳稳地接住男友",
+          "cozy_echo_9：？？？？？认真的",
+          "dreamy_fern_03：媳妇开枪 我教过你的",
+          "cloudy_soda_8：我亲手养大的玫瑰你还真特么长出刺了",
+          "blushpetal：而我呢，只是一个唯粉，一座梦女，一片用户，一只老百姓，一粒普通人。"
+        ]
+      },
+      {
+        "id": "instagram-post-riku-redhair",
+        "title": "赤髪どう",
+        "body": "赤髪どう",
+        "sender": "ri_ku_03",
+        "time": "20xx-8-1 20:06",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post-redhair.jpg",
+        "likes": 7,
+        "meta": {
+          "account": "ri_ku_03"
+        },
+        "comments": [
+          "sora_no_oto：イケメン",
+          "ri_ku_03回复sora_no_oto：😁"
+        ]
+      },
+      {
+        "id": "instagram-post-riku-sweets-shop",
+        "title": "将来、スイーツのお店を開くのはどう？",
+        "body": "将来、スイーツのお店を開くのはどう？",
+        "sender": "ri_ku_03",
+        "time": "20xx-7-30 13:07",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post-sweets-shop.jpg",
+        "likes": 2,
+        "meta": {
+          "account": "ri_ku_03"
+        },
+        "comments": [
+          "sakusakusaku_07：僕が一番目の客だ！",
+          "ri_ku_03回复sakusakusaku_07：ㅋㅋㅋㅋ"
+        ]
+      },
+      {
+        "id": "instagram-post-saku-cake",
+        "title": "ケーキよりやっぱり…",
+        "body": "ケーキよりやっぱり…",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-6-28 17:12",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-cake.jpg",
+        "likes": 5,
+        "meta": {},
+        "comments": [
+          "ri_ku_03：얼마나 좋아하냐 ㅋㅋㅋ",
+          "sakusakusaku_07回复ri_ku_03：우주"
+        ]
+      },
+      {
+        "id": "instagram-post-riku-thanks",
+        "title": "みんな、ありがとう!!!❤️",
+        "body": "みんな、ありがとう!!!❤️",
+        "sender": "ri_ku_03",
+        "time": "20xx-6-28 02:06",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post-thanks.jpg",
+        "likes": 9,
+        "meta": {
+          "account": "ri_ku_03"
+        },
+        "comments": [
+          "itsuki_rain_：誕生日おめでとう！",
+          "ao_zora_：また成長したね",
+          "minato_fog_：lovelyちゃん お誕生日おめでとう～"
+        ]
+      },
+      {
+        "id": "instagram-post-saku-diet",
+        "title": "ダイエット ㅠㅠ",
+        "body": "ダイエット ㅠㅠ",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-6-14 11:34",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-diet.jpg",
+        "likes": 1,
+        "meta": {},
+        "comments": [
+          "ri_ku_03：かわいそう",
+          "sakusakusaku_07回复ri_ku_03：😭"
+        ]
+      },
+      {
+        "id": "instagram-post-riku-rest",
+        "title": "休み",
+        "body": "休み",
+        "sender": "ri_ku_03",
+        "time": "20xx-6-11 18:03",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post-rest.jpg",
+        "likes": 2,
+        "meta": {
+          "account": "ri_ku_03"
+        }
+      },
+      {
+        "id": "instagram-post-saku-similar",
+        "title": "私に似てる？へへへ",
+        "body": "私に似てる？へへへ",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-5-20 12:26",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-similar.jpg",
+        "likes": 5,
+        "meta": {},
+        "comments": [
+          "ri_ku_03：똑같아"
+        ]
+      },
+      {
+        "id": "instagram-post-umai",
+        "title": "うまい",
+        "body": "うまい",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-4-3 13:56",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/umai-post.jpg",
+        "likes": 1,
+        "meta": {}
+      },
+      {
+        "id": "instagram-post-riku-04",
+        "title": "豚カツが美味しい",
+        "body": "豚カツが美味しい",
+        "sender": "ri_ku_03",
+        "time": "20xx-01-12 18:43",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post-04.jpg",
+        "likes": 3,
+        "meta": {
+          "account": "ri_ku_03"
+        }
+      },
+      {
+        "id": "instagram-post-fukui",
+        "title": "fukui",
+        "body": "fukui",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-1-12 17:03",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/fukui-post.jpg",
+        "likes": 5,
+        "meta": {}
+      },
+      {
+        "id": "instagram-post-riku-03",
+        "title": "よろしく~~",
+        "body": "よろしく~~",
+        "sender": "ri_ku_03",
+        "time": "20xx-01-01 00:06",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post-03.jpg",
+        "likes": 2,
+        "meta": {
+          "account": "ri_ku_03"
+        },
+        "comments": [
+          "sakusakusaku_07：来年も再来年も、未来もよろしくね😁",
+          "ri_ku_03回复sakusakusaku_07：피곤해"
+        ]
+      },
+      {
+        "id": "instagram-post-saku-santa",
+        "title": "今でもサンタクロースがいるって信じてる",
+        "body": "今でもサンタクロースがいるって信じてる",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-12-25 22:06",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-santa.jpg",
+        "likes": 3,
+        "meta": {},
+        "comments": [
+          "ri_ku_03：まだ子どもじゃん",
+          "sakusakusaku_07回复ri_ku_03：大好き"
+        ]
+      },
+      {
+        "id": "instagram-post-riku-05",
+        "title": "🎂",
+        "body": "🎂",
+        "sender": "ri_ku_03",
+        "time": "20xx-11-18 02:45",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post-05.jpg",
+        "likes": 2,
+        "meta": {
+          "account": "ri_ku_03"
+        }
+      },
+      {
+        "id": "instagram-post-saku-birthday",
+        "title": "誕生日が一番好き",
+        "body": "誕生日が一番好き",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-11-18 01:26",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-birthday.jpg",
+        "likes": 10,
+        "meta": {},
+        "comments": [
+          "tsuki_tear_6：생일 축하해！",
+          "hikari_sole：体に気をつけてね",
+          "yoru_shizuku：🎂🎂"
+        ]
+      },
+      {
+        "id": "instagram-post-riku-02",
+        "title": "ディズニーランド💗",
+        "body": "ディズニーランド💗",
+        "sender": "ri_ku_03",
+        "time": "20xx-9-22 23:02",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post-02.jpg",
+        "likes": 4,
+        "meta": {
+          "account": "ri_ku_03"
+        }
+      },
+      {
+        "id": "instagram-post-disney",
+        "title": "Disney",
+        "body": "Disney",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-9-22 22:43",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/disney-post.jpg",
+        "likes": 3,
+        "meta": {}
+      },
+      {
+        "id": "instagram-post-riku-01",
+        "title": "甘いもの好き",
+        "body": "甘いもの好き",
+        "sender": "ri_ku_03",
+        "time": "20xx-8-13 13:22",
+        "avatar": "./story-assets/riku-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/riku-post.jpg",
+        "likes": 6,
+        "meta": {
+          "account": "ri_ku_03"
+        }
+      },
+      {
+        "id": "instagram-dm-noa-pale",
+        "title": "noa.pale",
+        "body": "",
+        "sender": "noa.pale",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-shiho-gray",
+        "title": "shiho.gray",
+        "body": "",
+        "sender": "shiho.gray",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-suzu9",
+        "title": "suzu9",
+        "body": "",
+        "sender": "suzu9",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-akari_dark_4",
+        "title": "akari_dark_4",
+        "body": "",
+        "sender": "akari_dark_4",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-sena_mono_",
+        "title": "sena_mono_",
+        "body": "",
+        "sender": "sena_mono_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-rin_neutral_",
+        "title": "rin_neutral_",
+        "body": "",
+        "sender": "rin_neutral_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-_yua",
+        "title": "_yua",
+        "body": "",
+        "sender": "_yua",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {}
+      },
+      {
+        "id": "instagram-dm-message-noa-pale-01",
+        "title": "noa.pale",
+        "body": "666",
+        "sender": "noa.pale",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "noa.pale",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-noa-pale-02",
+        "title": "noa.pale",
+        "body": "你们俩要不要脸？",
+        "sender": "noa.pale",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "noa.pale",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-shiho-gray-01",
+        "title": "shiho.gray",
+        "body": "大哥你什么意思？",
+        "sender": "shiho.gray",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "shiho.gray",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-shiho-gray-02",
+        "title": "shiho.gray",
+        "body": "完全肆意",
+        "sender": "shiho.gray",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "shiho.gray",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-shiho-gray-03",
+        "title": "shiho.gray",
+        "body": "你不如直接公开怎么样？",
+        "sender": "shiho.gray",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "shiho.gray",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-suzu9-01",
+        "title": "suzu9",
+        "body": "飒飒飒",
+        "sender": "suzu9",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "suzu9",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-suzu9-02",
+        "title": "suzu9",
+        "body": "真当粉丝都是傻子",
+        "sender": "suzu9",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "suzu9",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-akari_dark_4-01",
+        "title": "akari_dark_4",
+        "body": "送个玩偶那副不值钱的样子",
+        "sender": "akari_dark_4",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "akari_dark_4",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-sena_mono_-01",
+        "title": "sena_mono_",
+        "body": "去迪士尼发发还不够",
+        "sender": "sena_mono_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "sena_mono_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-sena_mono_-02",
+        "title": "sena_mono_",
+        "body": "去福井还要炫",
+        "sender": "sena_mono_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "sena_mono_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-sena_mono_-03",
+        "title": "sena_mono_",
+        "body": "够了没",
+        "sender": "sena_mono_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "sena_mono_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-rin_neutral_-01",
+        "title": "rin_neutral_",
+        "body": "saku？",
+        "sender": "rin_neutral_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "rin_neutral_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-rin_neutral_-02",
+        "title": "rin_neutral_",
+        "body": "是你吧",
+        "sender": "rin_neutral_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "rin_neutral_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-rin_neutral_-03",
+        "title": "rin_neutral_",
+        "body": "想你🥰",
+        "sender": "rin_neutral_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "rin_neutral_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-_yua-01",
+        "title": "_yua",
+        "body": "这是第几个小号了ㅋㅋ",
+        "sender": "_yua",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "_yua",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-_yua-02",
+        "title": "_yua",
+        "body": "久しぶり～",
+        "sender": "_yua",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "_yua",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-momo_glow_-01",
+        "title": "momo_glow_",
+        "body": "误入大床房",
+        "sender": "momo_glow_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "momo_glow_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-momo_glow_-02",
+        "title": "momo_glow_",
+        "body": "小生这厢打扰了",
+        "sender": "momo_glow_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "momo_glow_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-aoi_sugar-01",
+        "title": "aoi_sugar",
+        "body": "美人嗔怒 爽哉爽哉",
+        "sender": "aoi_sugar",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "aoi_sugar",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-haru_lily-01",
+        "title": "haru_lily",
+        "body": "你特么让那群cpf爽死了好吧",
+        "sender": "haru_lily",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "haru_lily",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-haru_lily-02",
+        "title": "haru_lily",
+        "body": "爸爸 别这样",
+        "sender": "haru_lily",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "haru_lily",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-hina_-01",
+        "title": "hina_",
+        "body": "签售的时候不是说最爱我吗",
+        "sender": "hina_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "hina_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-hina_-02",
+        "title": "hina_",
+        "body": "还钱！",
+        "sender": "hina_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "hina_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-yuna_petal_-01",
+        "title": "yuna_petal_",
+        "body": "良心父母",
+        "sender": "yuna_petal_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "yuna_petal_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-yuna_petal_-02",
+        "title": "yuna_petal_",
+        "body": "你们俩继续不要停",
+        "sender": "yuna_petal_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "yuna_petal_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-yuna_petal_-03",
+        "title": "yuna_petal_",
+        "body": "亲嘴照有没有？",
+        "sender": "yuna_petal_",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "yuna_petal_",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-sakura_03-01",
+        "title": "sakura_03",
+        "body": "这几天我要仰天长笑了",
+        "sender": "sakura_03",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "sakura_03",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-sakura_03-02",
+        "title": "sakura_03",
+        "body": "父父我耐你们呀",
+        "sender": "sakura_03",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "sakura_03",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-koto-01",
+        "title": "koto",
+        "body": "给你俩扔把中药去调理一下吧",
+        "sender": "koto",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "koto",
+          "dmDirection": "incoming"
+        }
+      },
+      {
+        "id": "instagram-dm-message-koto-02",
+        "title": "koto",
+        "body": "🤢",
+        "sender": "koto",
+        "time": "",
+        "avatar": "",
+        "kind": "text",
+        "folder": "私信",
+        "meta": {
+          "dmContact": "koto",
+          "dmDirection": "incoming"
+        }
+      }
+    ]
   }
- ],
- "chats": [
-  {
-   "id": "kakao-riku-chat",
-   "app": "kakao",
-   "title": "リク",
-   "participants": [
-    "rikku",
-    "owner"
-   ],
-   "messages": [
-    {
-     "id": "kakao-riku-msg-01",
-     "title": "リク",
-     "body": "你不解释一下昨天晚上的事",
-     "senderId": "rikku",
-     "time": "09:12",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-02",
-     "title": "リク",
-     "body": "你喝多了",
-     "senderId": "owner",
-     "time": "09:13"
-    },
-    {
-     "id": "kakao-riku-msg-03",
-     "title": "リク",
-     "body": "现在撇清关系是什么意思",
-     "senderId": "rikku",
-     "time": "09:16",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-04",
-     "title": "リク",
-     "body": "这次是我做错了",
-     "senderId": "owner",
-     "time": "09:19"
-    },
-    {
-     "id": "kakao-riku-msg-05",
-     "title": "リク",
-     "body": "以后不会发生这种事情了",
-     "senderId": "owner",
-     "time": "09:20"
-    },
-    {
-     "id": "kakao-riku-msg-06",
-     "title": "リク",
-     "body": "？就这样",
-     "senderId": "rikku",
-     "time": "09:22",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-07",
-     "title": "リク",
-     "body": "你想我说什么",
-     "senderId": "owner",
-     "time": "09:25"
-    },
-    {
-     "id": "kakao-riku-msg-08",
-     "title": "リク",
-     "body": "你是不是不喜欢我谈恋爱",
-     "senderId": "rikku",
-     "time": "09:28",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-09",
-     "title": "リク",
-     "body": "有爱豆职业操守的人应该都不会做这种事",
-     "senderId": "owner",
-     "time": "09:32"
-    },
-    {
-     "id": "kakao-riku-msg-10",
-     "title": "リク",
-     "body": "那你刚开始为什么要管",
-     "senderId": "rikku",
-     "time": "09:35",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-11",
-     "title": "リク",
-     "body": "不是你让我帮你的吗",
-     "senderId": "owner",
-     "time": "09:38"
-    },
-    {
-     "id": "kakao-riku-msg-12",
-     "title": "リク",
-     "body": "我让你帮你就帮",
-     "senderId": "rikku",
-     "time": "09:41",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-13",
-     "title": "リク",
-     "body": "现在把我弄得一团乱之后自己一走了之",
-     "senderId": "rikku",
-     "time": "09:44",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-14",
-     "title": "リク",
-     "body": "还要我想方设法来找你 你才理我",
-     "senderId": "rikku",
-     "time": "09:47",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-15",
-     "title": "リク",
-     "body": "你是不是觉得我喜欢男生就可以随便对待我",
-     "senderId": "rikku",
-     "time": "09:51",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-16",
-     "title": "リク",
-     "body": "很得意吗？心情很好吗？",
-     "senderId": "rikku",
-     "time": "09:54",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-17",
-     "title": "リク",
-     "body": "你应该是觉得 反正都是男生睡了之后也不用负责",
-     "senderId": "rikku",
-     "time": "09:58",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-18",
-     "title": "リク",
-     "body": "我讨厌你",
-     "senderId": "rikku",
-     "time": "10:02",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-19",
-     "title": "リク",
-     "body": "你到底是什么意思",
-     "senderId": "rikku",
-     "time": "10:07",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-20",
-     "title": "リク",
-     "body": "为什么不理我",
-     "senderId": "rikku",
-     "time": "10:12",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-21",
-     "title": "リク",
-     "body": "拓弥来找你过了吗",
-     "senderId": "owner",
-     "time": "23:04"
-    },
-    {
-     "id": "kakao-riku-msg-22",
-     "title": "リク",
-     "body": "关你什么事",
-     "senderId": "rikku",
-     "time": "23:05",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-23",
-     "title": "リク",
-     "body": "你跟他说了吗",
-     "senderId": "owner",
-     "time": "23:07"
-    },
-    {
-     "id": "kakao-riku-msg-24",
-     "title": "リク",
-     "body": "我们俩",
-     "senderId": "owner",
-     "time": "23:08"
-    },
-    {
-     "id": "kakao-riku-msg-25",
-     "title": "リク",
-     "body": "我们俩有什么事",
-     "senderId": "rikku",
-     "time": "23:10",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-26",
-     "title": "リク",
-     "body": "我不是那个意思",
-     "senderId": "owner",
-     "time": "23:11"
-    },
-    {
-     "id": "kakao-riku-msg-27",
-     "title": "リク",
-     "body": "对不起",
-     "senderId": "owner",
-     "time": "23:12"
-    },
-    {
-     "id": "kakao-riku-msg-28",
-     "title": "リク",
-     "body": "哪件事对不起",
-     "senderId": "rikku",
-     "time": "23:14",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-29",
-     "title": "リク",
-     "body": "睡我？不理我？还是我分手",
-     "senderId": "rikku",
-     "time": "23:15",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-30",
-     "title": "リク",
-     "body": "你分手了？",
-     "senderId": "owner",
-     "time": "23:17"
-    },
-    {
-     "id": "kakao-riku-msg-31",
-     "title": "リク",
-     "body": "因为我吗",
-     "senderId": "owner",
-     "time": "23:18"
-    },
-    {
-     "id": "kakao-riku-msg-32",
-     "title": "リク",
-     "body": "你想多了",
-     "senderId": "rikku",
-     "time": "23:20",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-33",
-     "title": "リク",
-     "body": "我发现他手机里一直跟不同的人聊天",
-     "senderId": "rikku",
-     "time": "23:22",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-34",
-     "title": "リク",
-     "body": "甚至还跟女生说认识我啊",
-     "senderId": "rikku",
-     "time": "23:24",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-35",
-     "title": "リク",
-     "body": "可以帮她要签名",
-     "senderId": "rikku",
-     "time": "23:25",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-36",
-     "title": "リク",
-     "body": "真是混蛋啊",
-     "senderId": "owner",
-     "time": "23:27"
-    },
-    {
-     "id": "kakao-riku-msg-37",
-     "title": "リク",
-     "body": "你以为你不是？",
-     "senderId": "rikku",
-     "time": "23:29",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-38",
-     "title": "リク",
-     "body": "对不起…",
-     "senderId": "owner",
-     "time": "00:01"
-    },
-    {
-     "id": "kakao-riku-msg-39",
-     "title": "リク",
-     "body": "除了对不起你就没别的想说了",
-     "senderId": "rikku",
-     "time": "00:02",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-40",
-     "title": "リク",
-     "body": "我不知道怎么说",
-     "senderId": "owner",
-     "time": "00:04"
-    },
-    {
-     "id": "kakao-riku-msg-41",
-     "title": "リク",
-     "body": "也不知道怎么做",
-     "senderId": "owner",
-     "time": "00:05"
-    },
-    {
-     "id": "kakao-riku-msg-42",
-     "title": "リク",
-     "body": "……",
-     "senderId": "rikku",
-     "time": "00:07",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-43",
-     "title": "リク",
-     "body": "所以你真的只是因为拓弥才来找我吗",
-     "senderId": "rikku",
-     "time": "00:09",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-44",
-     "title": "リク",
-     "body": "응…",
-     "senderId": "owner",
-     "time": "00:10"
-    },
-    {
-     "id": "kakao-riku-msg-45",
-     "title": "リク",
-     "body": "我还以为你找借口",
-     "senderId": "rikku",
-     "time": "00:12",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-46",
-     "title": "リク",
-     "body": "又是我在自作多情了啊",
-     "senderId": "rikku",
-     "time": "00:13",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-47",
-     "title": "リク",
-     "body": "不是这样的",
-     "senderId": "owner",
-     "time": "00:15"
-    },
-    {
-     "id": "kakao-riku-msg-48",
-     "title": "リク",
-     "body": "我也想跟你道歉来着",
-     "senderId": "owner",
-     "time": "00:17"
-    },
-    {
-     "id": "kakao-riku-msg-49",
-     "title": "リク",
-     "body": "不想听了",
-     "senderId": "rikku",
-     "time": "00:19",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-50",
-     "title": "リク",
-     "body": "你自己没想清楚之前不要来找我",
-     "senderId": "rikku",
-     "time": "00:21",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-51",
-     "title": "リク",
-     "body": "riku",
-     "senderId": "owner",
-     "time": "20xx.09.11 10:00"
-    },
-    {
-     "id": "kakao-riku-msg-52",
-     "title": "リク",
-     "body": "想清楚了？",
-     "senderId": "rikku",
-     "time": "20xx.09.11 10:00",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-53",
-     "title": "リク",
-     "body": "我只是觉得拍challenge",
-     "senderId": "owner",
-     "time": "20xx.09.11 10:00"
-    },
-    {
-     "id": "kakao-riku-msg-54",
-     "title": "リク",
-     "body": "两个人不需要靠那么近",
-     "senderId": "owner",
-     "time": "20xx.09.11 10:00"
-    },
-    {
-     "id": "kakao-riku-msg-55",
-     "title": "リク",
-     "body": "🙄️",
-     "senderId": "rikku",
-     "time": "20xx.09.11 10:00",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-56",
-     "title": "リク",
-     "body": "又不是跟你靠那么近",
-     "senderId": "rikku",
-     "time": "20xx.09.11 10:00",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-57",
-     "title": "リク",
-     "body": "我的意思就是你们俩！",
-     "senderId": "owner",
-     "time": "20xx.09.11 10:00"
-    },
-    {
-     "id": "kakao-riku-msg-58",
-     "title": "リク",
-     "body": "不应该这么近",
-     "senderId": "owner",
-     "time": "20xx.09.11 10:00"
-    },
-    {
-     "id": "kakao-riku-msg-59",
-     "title": "リク",
-     "body": "…",
-     "senderId": "rikku",
-     "time": "20xx.09.11 10:00",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-60",
-     "title": "リク",
-     "body": "为什么不跟我一起吃午饭",
-     "senderId": "owner",
-     "time": "20xx.09.11 12:30"
-    },
-    {
-     "id": "kakao-riku-msg-61",
-     "title": "リク",
-     "body": "不想",
-     "senderId": "rikku",
-     "time": "20xx.09.11 12:30",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-62",
-     "title": "リク",
-     "body": "ㅠㅠ",
-     "senderId": "owner",
-     "time": "20xx.09.11 12:30"
-    },
-    {
-     "id": "kakao-riku-msg-63",
-     "title": "リク",
-     "body": "最近有好看的电影吗？",
-     "senderId": "owner",
-     "time": "20xx.09.12 17:00"
-    },
-    {
-     "id": "kakao-riku-msg-64",
-     "title": "リク",
-     "body": "自己去搜",
-     "senderId": "rikku",
-     "time": "20xx.09.12 17:00",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-65",
-     "title": "リク",
-     "body": "ㅠㅠ ㅠㅠ",
-     "senderId": "owner",
-     "time": "20xx.09.12 17:00"
-    },
-    {
-     "id": "kakao-riku-msg-66",
-     "title": "リク",
-     "body": "riku哥！",
-     "senderId": "owner",
-     "time": "20xx.09.13 08:30"
-    },
-    {
-     "id": "kakao-riku-msg-67",
-     "title": "リク",
-     "body": "要不要吃早饭",
-     "senderId": "owner",
-     "time": "20xx.09.13 08:30"
-    },
-    {
-     "id": "kakao-riku-msg-68",
-     "title": "リク",
-     "body": "我现在去买",
-     "senderId": "owner",
-     "time": "20xx.09.13 08:30"
-    },
-    {
-     "id": "kakao-riku-msg-69",
-     "title": "リク",
-     "body": "不要",
-     "senderId": "rikku",
-     "time": "20xx.09.13 08:30",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-70",
-     "title": "リク",
-     "body": "我回来给你烧怎么样？",
-     "senderId": "owner",
-     "time": "20xx.09.13 08:30"
-    },
-    {
-     "id": "kakao-riku-msg-71",
-     "title": "リク",
-     "body": "更加不要！！！",
-     "senderId": "rikku",
-     "time": "20xx.09.13 08:30",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-72",
-     "title": "リク",
-     "body": "🥹",
-     "senderId": "owner",
-     "time": "20xx.09.13 08:30"
-    },
-    {
-     "id": "kakao-riku-msg-73",
-     "title": "リク",
-     "body": "我买了蜘蛛侠的游戏",
-     "senderId": "owner",
-     "time": "20xx.09.14 13:05"
-    },
-    {
-     "id": "kakao-riku-msg-74",
-     "title": "リク",
-     "body": "要玩吗？",
-     "senderId": "owner",
-     "time": "20xx.09.14 13:05"
-    },
-    {
-     "id": "kakao-riku-msg-75",
-     "title": "リク",
-     "body": "不感兴趣",
-     "senderId": "rikku",
-     "time": "20xx.09.14 13:05",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-76",
-     "title": "リク",
-     "body": "很有意思的",
-     "senderId": "owner",
-     "time": "20xx.09.14 13:05"
-    },
-    {
-     "id": "kakao-riku-msg-77",
-     "title": "リク",
-     "body": "我可以教你😁",
-     "senderId": "owner",
-     "time": "20xx.09.14 13:05"
-    },
-    {
-     "id": "kakao-riku-msg-78",
-     "title": "リク",
-     "body": "一起回宿舍都不行吗",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:50"
-    },
-    {
-     "id": "kakao-riku-msg-79",
-     "title": "リク",
-     "body": "你想清楚了吗",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:50",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-80",
-     "title": "リク",
-     "body": "没有",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:51"
-    },
-    {
-     "id": "kakao-riku-msg-81",
-     "title": "リク",
-     "body": "那你还来找我？",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:51",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-82",
-     "title": "リク",
-     "body": "riku你呢",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:52"
-    },
-    {
-     "id": "kakao-riku-msg-83",
-     "title": "リク",
-     "body": "干嘛扯到我身上",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:52",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-84",
-     "title": "リク",
-     "body": "riku想要我想清楚什么",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:53"
-    },
-    {
-     "id": "kakao-riku-msg-85",
-     "title": "リク",
-     "body": "riku你明明也没有给我答案啊",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:53"
-    },
-    {
-     "id": "kakao-riku-msg-86",
-     "title": "リク",
-     "body": "那晚之后你是怎么想的",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:54"
-    },
-    {
-     "id": "kakao-riku-msg-87",
-     "title": "リク",
-     "body": "我不想跟你说",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:54",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-88",
-     "title": "リク",
-     "body": "为什么",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:55"
-    },
-    {
-     "id": "kakao-riku-msg-89",
-     "title": "リク",
-     "body": "丢人",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:55",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-90",
-     "title": "リク",
-     "body": "什么意思",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:55"
-    },
-    {
-     "id": "kakao-riku-msg-91",
-     "title": "リク",
-     "body": "你对我没有想法吧",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:56",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-92",
-     "title": "リク",
-     "body": "你不喜欢我吧",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:56",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-93",
-     "title": "リク",
-     "body": "你只是把我当哥哥吧",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:56",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-94",
-     "title": "リク",
-     "body": "要我怎么说",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:57",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-95",
-     "title": "リク",
-     "body": "我要说我在有男朋友的时候对你也产生好感了吗",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:57",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-96",
-     "title": "リク",
-     "body": "坏男人",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:58"
-    },
-    {
-     "id": "kakao-riku-msg-97",
-     "title": "リク",
-     "body": "你不是？！",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:58",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-98",
-     "title": "リク",
-     "body": "你对我更坏吧",
-     "senderId": "rikku",
-     "time": "20xx.09.15 21:58",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-99",
-     "title": "リク",
-     "body": "那天真的对不起嘛🥹",
-     "senderId": "owner",
-     "time": "20xx.09.15 21:59"
-    },
-    {
-     "id": "kakao-riku-msg-100",
-     "title": "リク",
-     "body": "那天早上为什么跑走",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:00",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-101",
-     "title": "リク",
-     "body": "我不是故意的",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:00"
-    },
-    {
-     "id": "kakao-riku-msg-102",
-     "title": "リク",
-     "body": "一醒来看到你睡在我旁边",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:01"
-    },
-    {
-     "id": "kakao-riku-msg-103",
-     "title": "リク",
-     "body": "然后打开手机就看到经纪人哥的消息",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:01"
-    },
-    {
-     "id": "kakao-riku-msg-104",
-     "title": "リク",
-     "body": "我就去公司了",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:02"
-    },
-    {
-     "id": "kakao-riku-msg-105",
-     "title": "リク",
-     "body": "那后面呢？",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:02",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-106",
-     "title": "リク",
-     "body": "我给你发那么多消息",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:03",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-107",
-     "title": "リク",
-     "body": "为什么都不理我",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:03",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-108",
-     "title": "リク",
-     "body": "我有点害怕",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:04"
-    },
-    {
-     "id": "kakao-riku-msg-109",
-     "title": "リク",
-     "body": "怕什么",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:04",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-110",
-     "title": "リク",
-     "body": "你要是叫我当情人我要不要答应…",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:05"
-    },
-    {
-     "id": "kakao-riku-msg-111",
-     "title": "リク",
-     "body": "？？？",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:05",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-112",
-     "title": "リク",
-     "body": "你脑子里装的什么",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:05",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-113",
-     "title": "リク",
-     "body": "不过幸好😁",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:06"
-    },
-    {
-     "id": "kakao-riku-msg-114",
-     "title": "リク",
-     "body": "riku你已经分手了",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:06"
-    },
-    {
-     "id": "kakao-riku-msg-115",
-     "title": "リク",
-     "body": "分手了跟你有什么关系",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:07",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-116",
-     "title": "リク",
-     "body": "你刚才不是已经跟我表白了吗！",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:07"
-    },
-    {
-     "id": "kakao-riku-msg-117",
-     "title": "リク",
-     "body": "才不算",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:08",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-118",
-     "title": "リク",
-     "body": "我根本没消气",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:08",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-119",
-     "title": "リク",
-     "body": "我哄了你那么多天还没有消气嘛ㅜㅜ",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:09"
-    },
-    {
-     "id": "kakao-riku-msg-120",
-     "title": "リク",
-     "body": "从哪里开始是在哄我？",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:09",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-121",
-     "title": "リク",
-     "body": "从你分手后的每一天ㅠㅠㅠㅠ",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:10"
-    },
-    {
-     "id": "kakao-riku-msg-122",
-     "title": "リク",
-     "body": "…",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:10",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-123",
-     "title": "リク",
-     "body": "没看出来",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:11",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-124",
-     "title": "リク",
-     "body": "那我找你当面说",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:11"
-    },
-    {
-     "id": "kakao-riku-msg-125",
-     "title": "リク",
-     "body": "不要！",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:12",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-126",
-     "title": "リク",
-     "body": "怎么了",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:12"
-    },
-    {
-     "id": "kakao-riku-msg-127",
-     "title": "リク",
-     "body": "健太在房间",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:13",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-128",
-     "title": "リク",
-     "body": "ㅋㅋㅋ 原来是riku想来我这",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:13"
-    },
-    {
-     "id": "kakao-riku-msg-129",
-     "title": "リク",
-     "body": "你再说",
-     "senderId": "rikku",
-     "time": "20xx.09.15 22:14",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-130",
-     "title": "リク",
-     "body": "我等你呀",
-     "senderId": "owner",
-     "time": "20xx.09.15 22:15"
-    },
-    {
-     "id": "kakao-riku-msg-131",
-     "title": "リク",
-     "body": "醒了吗",
-     "senderId": "owner",
-     "time": "20xx.09.16 13:30"
-    },
-    {
-     "id": "kakao-riku-msg-132",
-     "title": "リク",
-     "body": "我跟拓弥去回公司",
-     "senderId": "owner",
-     "time": "20xx.09.16 13:31"
-    },
-    {
-     "id": "kakao-riku-msg-133",
-     "title": "リク",
-     "body": "有什么想吃的给你带回来",
-     "senderId": "owner",
-     "time": "20xx.09.16 13:32"
-    },
-    {
-     "id": "kakao-riku-msg-134",
-     "title": "リク",
-     "body": "好累",
-     "senderId": "rikku",
-     "time": "20xx.09.16 13:34",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-135",
-     "title": "リク",
-     "body": "随便买点",
-     "senderId": "rikku",
-     "time": "20xx.09.16 13:34",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-136",
-     "title": "リク",
-     "body": "ㅋㅋㅋㅋㅋㅋ",
-     "senderId": "owner",
-     "time": "20xx.09.16 13:35"
-    },
-    {
-     "id": "kakao-riku-msg-137",
-     "title": "リク",
-     "body": "笑什么！",
-     "senderId": "rikku",
-     "time": "20xx.09.16 13:35",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-138",
-     "title": "リク",
-     "body": "体力好差",
-     "senderId": "owner",
-     "time": "20xx.09.16 13:36"
-    },
-    {
-     "id": "kakao-riku-msg-139",
-     "title": "リク",
-     "body": "😒",
-     "senderId": "rikku",
-     "time": "20xx.09.16 13:36",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-140",
-     "title": "リク",
-     "body": "休假我要回福井",
-     "senderId": "rikku",
-     "time": "20xx.09.16 13:38",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-141",
-     "title": "リク",
-     "body": "昨晚说好了去迪士尼！",
-     "senderId": "owner",
-     "time": "20xx.09.16 13:39"
-    },
-    {
-     "id": "kakao-riku-msg-142",
-     "title": "リク",
-     "body": "怎么突然反悔",
-     "senderId": "owner",
-     "time": "20xx.09.16 13:39"
-    },
-    {
-     "id": "kakao-riku-msg-143",
-     "title": "リク",
-     "body": "有人惹我生气",
-     "senderId": "rikku",
-     "time": "20xx.09.16 13:41",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-144",
-     "title": "リク",
-     "body": "不想去了",
-     "senderId": "rikku",
-     "time": "20xx.09.16 13:41",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-145",
-     "title": "リク",
-     "body": "不要嘛",
-     "senderId": "owner",
-     "time": "20xx.09.16 13:42"
-    },
-    {
-     "id": "kakao-riku-msg-146",
-     "title": "リク",
-     "body": "这段时间一定会好好服侍好我最亲爱的riku哥的❤️",
-     "senderId": "owner",
-     "time": "20xx.09.16 13:43"
-    },
-    {
-     "id": "kakao-riku-msg-147",
-     "title": "リク",
-     "body": "不要生气了ㅠㅠㅠㅠ",
-     "senderId": "owner",
-     "time": "20xx.09.17 17:30"
-    },
-    {
-     "id": "kakao-riku-msg-148",
-     "title": "リク",
-     "body": "这就是你说的让我？",
-     "senderId": "rikku",
-     "time": "20xx.09.17 17:31",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-149",
-     "title": "リク",
-     "body": "十个回合被你打死十次",
-     "senderId": "rikku",
-     "time": "20xx.09.17 17:32",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-150",
-     "title": "リク",
-     "body": "再也不要和你玩游戏！",
-     "senderId": "rikku",
-     "time": "20xx.09.17 17:32",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-151",
-     "title": "リク",
-     "body": "对不起ㅠㅠㅠㅠㅠㅠㅠㅠ",
-     "senderId": "owner",
-     "time": "20xx.09.17 17:33"
-    },
-    {
-     "id": "kakao-riku-msg-152",
-     "title": "リク",
-     "body": "再给我一次机会ㅠㅠㅠㅠㅠㅠㅠ",
-     "senderId": "owner",
-     "time": "20xx.09.17 17:34"
-    },
-    {
-     "id": "kakao-riku-msg-153",
-     "title": "リク",
-     "body": "我这次真的会坏坏发挥的ㅠㅠ",
-     "senderId": "owner",
-     "time": "20xx.09.17 17:35"
-    },
-    {
-     "id": "kakao-riku-msg-154",
-     "title": "リク",
-     "body": "买了迪软巧来领罪ㅠㅠ",
-     "senderId": "owner",
-     "time": "20xx.09.18 15:00"
-    },
-    {
-     "id": "kakao-riku-msg-155",
-     "title": "リク",
-     "body": "自己拿过来我房间",
-     "senderId": "rikku",
-     "time": "20xx.09.18 15:02",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-156",
-     "title": "リク",
-     "body": "알겠어~",
-     "senderId": "owner",
-     "time": "20xx.09.18 15:03"
-    },
-    {
-     "id": "kakao-riku-msg-157",
-     "title": "リク",
-     "body": "行李收拾好了吗",
-     "senderId": "rikku",
-     "time": "20xx.09.19 20:30",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-158",
-     "title": "リク",
-     "body": "快了",
-     "senderId": "owner",
-     "time": "20xx.09.19 20:31"
-    },
-    {
-     "id": "kakao-riku-msg-159",
-     "title": "リク",
-     "body": "还差一点衣服放进去",
-     "senderId": "owner",
-     "time": "20xx.09.19 20:32"
-    },
-    {
-     "id": "kakao-riku-msg-160",
-     "title": "リク",
-     "body": "收拾完来我房间吧",
-     "senderId": "rikku",
-     "time": "20xx.09.19 20:34",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-161",
-     "title": "リク",
-     "body": "😳",
-     "senderId": "owner",
-     "time": "20xx.09.19 20:35"
-    },
-    {
-     "id": "kakao-riku-msg-162",
-     "title": "リク",
-     "body": "健太今晚就先回日本",
-     "senderId": "rikku",
-     "time": "20xx.09.19 20:36",
-     "avatar": "./story-assets/p3.jpg"
-    },
-    {
-     "id": "kakao-riku-msg-163",
-     "title": "リク",
-     "body": "ㅋㅋ 네~",
-     "senderId": "owner",
-     "time": "20xx.09.19 20:37"
-    }
-   ]
-  },
-  {
-   "id": "kakao-takuya-chat",
-   "app": "kakao",
-   "title": "拓弥",
-   "participants": [
-    "takuya",
-    "owner"
-   ],
-   "messages": [
-    {
-     "id": "kakao-takuya-msg-01",
-     "title": "拓弥",
-     "body": "你跟riku哥吵架了？",
-     "senderId": "takuya",
-     "time": "16:07"
-    },
-    {
-     "id": "kakao-takuya-msg-02",
-     "title": "拓弥",
-     "body": "什么",
-     "senderId": "owner",
-     "time": "16:09"
-    },
-    {
-     "id": "kakao-takuya-msg-03",
-     "title": "拓弥",
-     "body": "你们一整天都没说话啊",
-     "senderId": "takuya",
-     "time": "16:10"
-    },
-    {
-     "id": "kakao-takuya-msg-04",
-     "title": "拓弥",
-     "body": "这怎么了",
-     "senderId": "owner",
-     "time": "16:12"
-    },
-    {
-     "id": "kakao-takuya-msg-05",
-     "title": "拓弥",
-     "body": "很奇怪",
-     "senderId": "takuya",
-     "time": "16:14"
-    },
-    {
-     "id": "kakao-takuya-msg-06",
-     "title": "拓弥",
-     "body": "你们俩是不是有什么秘密",
-     "senderId": "takuya",
-     "time": "16:16"
-    },
-    {
-     "id": "kakao-takuya-msg-07",
-     "title": "拓弥",
-     "body": "没有 没吵架也没秘密",
-     "senderId": "owner",
-     "time": "16:18"
-    },
-    {
-     "id": "kakao-takuya-msg-08",
-     "title": "拓弥",
-     "body": "骗人",
-     "senderId": "takuya",
-     "time": "16:21"
-    },
-    {
-     "id": "kakao-takuya-msg-09",
-     "title": "拓弥",
-     "body": "原来是这样啊",
-     "senderId": "takuya",
-     "time": "22:08"
-    },
-    {
-     "id": "kakao-takuya-msg-10",
-     "title": "拓弥",
-     "body": "我说你怎么不告诉我",
-     "senderId": "takuya",
-     "time": "22:09"
-    },
-    {
-     "id": "kakao-takuya-msg-11",
-     "title": "我",
-     "body": "？",
-     "senderId": "owner",
-     "time": "22:11"
-    },
-    {
-     "id": "kakao-takuya-msg-12",
-     "title": "我",
-     "body": "你去找riku了？",
-     "senderId": "owner",
-     "time": "22:11"
-    },
-    {
-     "id": "kakao-takuya-msg-13",
-     "title": "我",
-     "body": "…喂",
-     "senderId": "owner",
-     "time": "22:12"
-    },
-    {
-     "id": "kakao-takuya-msg-14",
-     "title": "我",
-     "body": "和你说什么了",
-     "senderId": "owner",
-     "time": "22:13"
-    },
-    {
-     "id": "kakao-takuya-msg-15",
-     "title": "拓弥",
-     "body": "秘密哦😁",
-     "senderId": "takuya",
-     "time": "22:16"
-    }
-   ]
-  },
-  {
-   "id": "kakao-kenta-chat",
-   "app": "kakao",
-   "title": "健太",
-   "participants": [
-    "kenta",
-    "owner"
-   ],
-   "messages": [
-    {
-     "id": "kakao-kenta-msg-01",
-     "title": "健太",
-     "body": "game？",
-     "senderId": "kenta",
-     "time": "20xx.07.23 20:14"
-    },
-    {
-     "id": "kakao-kenta-msg-02",
-     "title": "健太",
-     "body": "gogo",
-     "senderId": "owner",
-     "time": "20xx.07.23 20:16"
-    },
-    {
-     "id": "kakao-kenta-msg-03",
-     "title": "健太",
-     "body": "splatoon、",
-     "senderId": "owner",
-     "time": "20xx.08.25 22:03"
-    },
-    {
-     "id": "kakao-kenta-msg-04",
-     "title": "健太",
-     "body": "gogo？",
-     "senderId": "owner",
-     "time": "20xx.08.25 22:04"
-    },
-    {
-     "id": "kakao-kenta-msg-05",
-     "title": "健太",
-     "body": "最近有点累啊",
-     "senderId": "kenta",
-     "time": "20xx.08.25 22:07"
-    },
-    {
-     "id": "kakao-kenta-msg-06",
-     "title": "健太",
-     "body": "不在回归期也累？",
-     "senderId": "owner",
-     "time": "20xx.08.25 22:09"
-    },
-    {
-     "id": "kakao-kenta-msg-07",
-     "title": "健太",
-     "body": "riku最近总半夜打电话",
-     "senderId": "kenta",
-     "time": "20xx.08.25 22:12"
-    },
-    {
-     "id": "kakao-kenta-msg-08",
-     "title": "健太",
-     "body": "跟谁？",
-     "senderId": "owner",
-     "time": "20xx.08.25 22:13"
-    },
-    {
-     "id": "kakao-kenta-msg-09",
-     "title": "健太",
-     "body": "不知道 听不太清楚",
-     "senderId": "kenta",
-     "time": "20xx.08.25 22:16"
-    },
-    {
-     "id": "kakao-kenta-msg-10",
-     "title": "健太",
-     "body": "要跟我换房间吗",
-     "senderId": "owner",
-     "time": "20xx.08.25 22:18"
-    },
-    {
-     "id": "kakao-kenta-msg-11",
-     "title": "健太",
-     "body": "saku长大了",
-     "senderId": "kenta",
-     "time": "20xx.08.25 22:21"
-    },
-    {
-     "id": "kakao-kenta-msg-12",
-     "title": "健太",
-     "body": "不用啦",
-     "senderId": "kenta",
-     "time": "20xx.08.25 22:22"
-    },
-    {
-     "id": "kakao-kenta-msg-13",
-     "title": "健太",
-     "body": "好吧",
-     "senderId": "owner",
-     "time": "20xx.08.25 22:24"
-    },
-    {
-     "id": "kakao-kenta-msg-14",
-     "title": "健太",
-     "body": "跟riku在一起吗？",
-     "senderId": "kenta",
-     "time": "20xx.09.01 19:36"
-    },
-    {
-     "id": "kakao-kenta-msg-15",
-     "title": "健太",
-     "body": "嗯",
-     "senderId": "owner",
-     "time": "20xx.09.01 19:37"
-    },
-    {
-     "id": "kakao-kenta-msg-16",
-     "title": "健太",
-     "body": "经纪人哥找他",
-     "senderId": "kenta",
-     "time": "20xx.09.01 19:39"
-    },
-    {
-     "id": "kakao-kenta-msg-17",
-     "title": "健太",
-     "body": "ok",
-     "senderId": "owner",
-     "time": "20xx.09.01 19:40"
-    },
-    {
-     "id": "kakao-kenta-msg-18",
-     "title": "健太",
-     "body": "昨天riku在你房间",
-     "senderId": "kenta",
-     "time": "20xx.09.16 11:12"
-    },
-    {
-     "id": "kakao-kenta-msg-19",
-     "title": "健太",
-     "body": "嗯",
-     "senderId": "owner",
-     "time": "20xx.09.16 11:13"
-    },
-    {
-     "id": "kakao-kenta-msg-20",
-     "title": "健太",
-     "body": "你们和好了？",
-     "senderId": "kenta",
-     "time": "20xx.09.16 11:13"
-    },
-    {
-     "id": "kakao-kenta-msg-21",
-     "title": "健太",
-     "body": "我们哪有吵架",
-     "senderId": "owner",
-     "time": "20xx.09.16 11:14"
-    },
-    {
-     "id": "kakao-kenta-msg-22",
-     "title": "健太",
-     "body": "很明显好吗",
-     "senderId": "kenta",
-     "time": "20xx.09.16 11:14"
-    },
-    {
-     "id": "kakao-kenta-msg-23",
-     "title": "健太",
-     "body": "还以为你们要绝交了",
-     "senderId": "kenta",
-     "time": "20xx.09.16 11:15"
-    },
-    {
-     "id": "kakao-kenta-msg-24",
-     "title": "健太",
-     "body": "你不懂我们之间的感情",
-     "senderId": "owner",
-     "time": "20xx.09.16 11:16"
-    },
-    {
-     "id": "kakao-kenta-msg-25",
-     "title": "健太",
-     "body": "ㅗ",
-     "senderId": "kenta",
-     "time": "20xx.09.16 11:16"
-    }
-   ]
-  },
-  {
-   "id": "kakao-manager-chat",
-   "app": "kakao",
-   "title": "매니저 형",
-   "participants": [
-    "manager",
-    "owner"
-   ],
-   "messages": [
-    {
-     "id": "kakao-manager-msg-01",
-     "title": "매니저 형",
-     "body": "明天要录节目哦",
-     "senderId": "manager",
-     "time": "20xx.07.29 18:42",
-     "avatar": ""
-    },
-    {
-     "id": "kakao-manager-msg-02",
-     "title": "매니저 형",
-     "body": "ok",
-     "senderId": "owner",
-     "time": "20xx.07.29 18:44"
-    },
-    {
-     "id": "kakao-manager-msg-03",
-     "title": "매니저 형",
-     "body": "最近有点胖了",
-     "senderId": "manager",
-     "time": "20xx.08.01 14:16",
-     "avatar": ""
-    },
-    {
-     "id": "kakao-manager-msg-04",
-     "title": "매니저 형",
-     "body": "要注意饮食",
-     "senderId": "manager",
-     "time": "20xx.08.01 14:17",
-     "avatar": ""
-    },
-    {
-     "id": "kakao-manager-msg-05",
-     "title": "매니저 형",
-     "body": "好的哥",
-     "senderId": "owner",
-     "time": "20xx.08.01 14:21"
-    },
-    {
-     "id": "kakao-manager-msg-06",
-     "title": "매니저 형",
-     "body": "好好练舞 下次有机会让你出外勤",
-     "senderId": "manager",
-     "time": "20xx.08.11 19:08",
-     "avatar": ""
-    },
-    {
-     "id": "kakao-manager-msg-07",
-     "title": "매니저 형",
-     "body": "好 谢谢哥",
-     "senderId": "owner",
-     "time": "20xx.08.11 19:12"
-    },
-    {
-     "id": "kakao-manager-msg-08",
-     "title": "매니저 형",
-     "body": "riku在你身边吗",
-     "senderId": "manager",
-     "time": "20xx.09.01 16:37",
-     "avatar": ""
-    },
-    {
-     "id": "kakao-manager-msg-09",
-     "title": "매니저 형",
-     "body": "我联系不上他",
-     "senderId": "manager",
-     "time": "20xx.09.01 16:39",
-     "avatar": ""
-    },
-    {
-     "id": "kakao-manager-msg-10",
-     "title": "매니저 형",
-     "body": "你跟riku人去哪了",
-     "senderId": "manager",
-     "time": "20xx.09.09 23:00",
-     "avatar": ""
-    },
-    {
-     "id": "kakao-manager-msg-11",
-     "title": "매니저 형",
-     "body": "回来之后给我一个解释",
-     "senderId": "manager",
-     "time": "20xx.09.09 23:03",
-     "avatar": ""
-    },
-    {
-     "id": "kakao-manager-msg-12",
-     "title": "매니저 형",
-     "body": "哥 昨晚真的有原因",
-     "senderId": "owner",
-     "time": "20xx.09.10 08:00"
-    },
-    {
-     "id": "kakao-manager-msg-13",
-     "title": "매니저 형",
-     "body": "先来公司",
-     "senderId": "manager",
-     "time": "20xx.09.10 08:02",
-     "avatar": ""
-    },
-    {
-     "id": "kakao-manager-msg-14",
-     "title": "매니저 형",
-     "body": "好...",
-     "senderId": "owner",
-     "time": "20xx.09.10 08:04"
-    }
-   ]
-  }
- ],
- "variables": {},
- "events": [],
- "tests": [],
- "content": {
-  "music": [
-   {
-    "id": "music-track-01",
-    "title": "Happy End",
-    "body": "back number",
-    "sender": "back number",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "back number"
-    }
-   },
-   {
-    "id": "music-track-02",
-    "title": "スポンジ・ボブのテーマ",
-    "body": "RIP SLYME",
-    "sender": "RIP SLYME",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "RIP SLYME"
-    }
-   },
-   {
-    "id": "music-track-03",
-    "title": "Wish you were here",
-    "body": "B.I",
-    "sender": "B.I",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "B.I"
-    }
-   },
-   {
-    "id": "music-track-04",
-    "title": "drunk text",
-    "body": "Henry Moodie",
-    "sender": "Henry Moodie",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "Henry Moodie"
-    }
-   },
-   {
-    "id": "music-track-05",
-    "title": "거리에서",
-    "body": "leellamarz",
-    "sender": "leellamarz",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "leellamarz"
-    }
-   },
-   {
-    "id": "music-track-06",
-    "title": "歌うたいのバラッド",
-    "body": "斋藤和羲",
-    "sender": "斋藤和羲",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "斋藤和羲"
-    }
-   },
-   {
-    "id": "music-track-07",
-    "title": "あなたといたい",
-    "body": "Ayumulmazu",
-    "sender": "Ayumulmazu",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "Ayumulmazu"
-    }
-   },
-   {
-    "id": "music-track-08",
-    "title": "部屋",
-    "body": "Shytaupe",
-    "sender": "Shytaupe",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "Shytaupe"
-    }
-   },
-   {
-    "id": "music-track-09",
-    "title": "WA-R-R",
-    "body": "Colde",
-    "sender": "Colde",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "Colde"
-    }
-   },
-   {
-    "id": "music-track-10",
-    "title": "I'm In Love",
-    "body": "Colde",
-    "sender": "Colde",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "Colde"
-    }
-   },
-   {
-    "id": "music-track-11",
-    "title": "걘 아니야",
-    "body": "ZICO",
-    "sender": "ZICO",
-    "time": "资料库",
-    "folder": "歌曲",
-    "meta": {
-     "artist": "ZICO"
-    }
-   }
-  ],
-  "safari": [
-   {
-    "id": "safari-history-01",
-    "title": "东京迪士尼约会攻略",
-    "body": "东京迪士尼约会攻略",
-    "sender": "サクヤ",
-    "time": "16:32",
-    "folder": "历史记录",
-    "meta": {
-     "type": "search",
-     "query": "东京迪士尼约会攻略"
-    }
-   },
-   {
-    "id": "safari-history-02",
-    "title": "首尔约会餐厅",
-    "body": "首尔约会餐厅",
-    "sender": "サクヤ",
-    "time": "16:35",
-    "folder": "历史记录",
-    "meta": {
-     "type": "search",
-     "query": "首尔约会餐厅"
-    }
-   },
-   {
-    "id": "safari-history-03",
-    "title": "怎么跟巨蟹男和好",
-    "body": "怎么跟巨蟹男和好",
-    "sender": "サクヤ",
-    "time": "16:41",
-    "folder": "历史记录",
-    "meta": {
-     "type": "search",
-     "query": "怎么跟巨蟹男和好"
-    }
-   },
-   {
-    "id": "safari-history-04",
-    "title": "求和话术",
-    "body": "求和话术",
-    "sender": "サクヤ",
-    "time": "16:44",
-    "folder": "历史记录",
-    "meta": {
-     "type": "search",
-     "query": "求和话术"
-    }
-   },
-   {
-    "id": "safari-history-05",
-    "title": "巨蟹男喜欢年上还是年下",
-    "body": "巨蟹男喜欢年上还是年下",
-    "sender": "サクヤ",
-    "time": "16:49",
-    "folder": "历史记录",
-    "meta": {
-     "type": "search",
-     "query": "巨蟹男喜欢年上还是年下"
-    }
-   },
-   {
-    "id": "safari-history-06",
-    "title": "埼玉到福井线路推荐",
-    "body": "埼玉到福井线路推荐",
-    "sender": "サクヤ",
-    "time": "17:03",
-    "folder": "历史记录",
-    "meta": {
-     "type": "search",
-     "query": "埼玉到福井线路推荐"
-    }
-   },
-   {
-    "id": "safari-history-07",
-    "title": "天蝎座和巨蟹座的匹配指数",
-    "body": "天蝎座和巨蟹座的匹配指数",
-    "sender": "サクヤ",
-    "time": "17:08",
-    "folder": "历史记录",
-    "meta": {
-     "type": "search",
-     "query": "天蝎座和巨蟹座的匹配指数"
-    }
-   },
-   {
-    "id": "safari-history-08",
-    "title": "跟男生不小心亲嘴之后，心脏跳很快正常的吗？我也是男的",
-    "body": "跟男生不小心亲嘴之后，心脏跳很快正常的吗？我也是男的",
-    "sender": "サクヤ",
-    "time": "17:16",
-    "folder": "历史记录",
-    "meta": {
-     "type": "search",
-     "query": "跟男生不小心亲嘴之后，心脏跳很快正常的吗？我也是男的"
-    }
-   },
-   {
-    "id": "safari-history-09",
-    "title": "撞见合租的男生和男朋友亲热好尴尬",
-    "body": "撞见合租的男生和男朋友亲热好尴尬",
-    "sender": "サクヤ",
-    "time": "17:24",
-    "folder": "历史记录",
-    "meta": {
-     "type": "search",
-     "query": "撞见合租的男生和男朋友亲热好尴尬"
-    }
-   }
-  ],
-  "phone": [
-   {
-    "id": "recent-call-1",
-    "title": "+82 010 923 6683",
-    "body": "未接来电",
-    "sender": "+82 010 923 6683",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "missed",
-     "duration": ""
-    }
-   },
-   {
-    "id": "recent-call-2",
-    "title": "+82 043 537 1738",
-    "body": "未接来电",
-    "sender": "+82 043 537 1738",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "missed",
-     "duration": ""
-    }
-   },
-   {
-    "id": "recent-call-3",
-    "title": "ママ",
-    "body": "通话 1:24",
-    "sender": "ママ",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "answered",
-     "duration": "1:24"
-    }
-   },
-   {
-    "id": "recent-call-4",
-    "title": "매니저 형",
-    "body": "通话 0:12",
-    "sender": "매니저 형",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "answered",
-     "duration": "0:12"
-    }
-   },
-   {
-    "id": "recent-call-5",
-    "title": "매니저 형",
-    "body": "通话 1:56",
-    "sender": "매니저 형",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "answered",
-     "duration": "1:56"
-    }
-   },
-   {
-    "id": "recent-call-6",
-    "title": "매니저 형",
-    "body": "通话 0:32",
-    "sender": "매니저 형",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "answered",
-     "duration": "0:32"
-    }
-   },
-   {
-    "id": "recent-call-7",
-    "title": "+82 052 628 5783",
-    "body": "未接来电",
-    "sender": "+82 052 628 5783",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "missed",
-     "duration": ""
-    }
-   },
-   {
-    "id": "recent-call-8",
-    "title": "リク",
-    "body": "通话 2:08",
-    "sender": "リク",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "answered",
-     "duration": "2:08"
-    }
-   },
-   {
-    "id": "recent-call-9",
-    "title": "リク",
-    "body": "未接来电",
-    "sender": "リク",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "missed",
-     "duration": ""
-    }
-   },
-   {
-    "id": "recent-call-10",
-    "title": "+82 070 732 6473",
-    "body": "未接来电",
-    "sender": "+82 070 732 6473",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "missed",
-     "duration": ""
-    }
-   },
-   {
-    "id": "recent-call-11",
-    "title": "+82 070 732 6473",
-    "body": "未接来电",
-    "sender": "+82 070 732 6473",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "missed",
-     "duration": ""
-    }
-   },
-   {
-    "id": "recent-call-12",
-    "title": "ママ",
-    "body": "通话 0:46",
-    "sender": "ママ",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "answered",
-     "duration": "0:46"
-    }
-   },
-   {
-    "id": "recent-call-13",
-    "title": "매니저 형",
-    "body": "通话 1:01",
-    "sender": "매니저 형",
-    "time": "2026-10-25 21:41",
-    "kind": "text",
-    "meta": {
-     "callStatus": "answered",
-     "duration": "1:01"
-    }
-   },
-   {
-    "id": "phone-contact-mama-new",
-    "title": "ママ",
-    "body": "",
-    "sender": "ママ",
-    "time": "2026-10-25 21:41",
-    "folder": "通讯录",
-    "meta": {
-     "phone": ""
-    }
-   },
-   {
-    "id": "phone-contact-papa-new",
-    "title": "パパ",
-    "body": "",
-    "sender": "パパ",
-    "time": "2026-10-25 21:41",
-    "folder": "通讯录",
-    "meta": {
-     "phone": ""
-    }
-   },
-   {
-    "id": "phone-contact-rikku-new",
-    "title": "リク",
-    "body": "",
-    "sender": "リク",
-    "time": "2026-10-25 21:41",
-    "folder": "通讯录",
-    "meta": {
-     "phone": ""
-    }
-   },
-   {
-    "id": "phone-contact-takuya-new",
-    "title": "拓弥",
-    "body": "",
-    "sender": "拓弥",
-    "time": "2026-10-25 21:41",
-    "folder": "通讯录",
-    "meta": {
-     "phone": ""
-    }
-   },
-   {
-    "id": "phone-contact-kenta-new",
-    "title": "健太",
-    "body": "",
-    "sender": "健太",
-    "time": "2026-10-25 21:41",
-    "folder": "通讯录",
-    "meta": {
-     "phone": ""
-    }
-   },
-   {
-    "id": "phone-contact-manager-new",
-    "title": "매니저 형",
-    "body": "",
-    "sender": "매니저 형",
-    "time": "2026-10-25 21:41",
-    "folder": "通讯录",
-    "meta": {
-     "phone": ""
-    }
-   }
-  ],
-  "line": [
-   {
-    "id": "line-contact-riku",
-    "title": "陸",
-    "sender": "陸",
-    "body": "",
-    "time": "2026-10-26 21:10",
-    "folder": "好友",
-    "meta": {
-     "contact": "true"
-    }
-   },
-   {
-    "id": "line-contact-mama",
-    "title": "ママ",
-    "sender": "ママ",
-    "body": "",
-    "time": "2026-10-26 21:10",
-    "folder": "好友",
-    "meta": {
-     "contact": "true"
-    }
-   },
-   {
-    "id": "line-contact-papa",
-    "title": "パパ",
-    "sender": "パパ",
-    "body": "",
-    "time": "2026-10-26 21:10",
-    "folder": "好友",
-    "meta": {
-     "contact": "true"
-    }
-   },
-   {
-    "id": "line-contact-imouto",
-    "title": "イモウト",
-    "sender": "イモウト",
-    "body": "",
-    "time": "2026-10-26 21:10",
-    "folder": "好友",
-    "meta": {
-     "contact": "true"
-    }
-   }
-  ],
-  "messages": [
-   {
-    "id": "messages-contact-1",
-    "title": "+82 042 6293 6728",
-    "body": "",
-    "sender": "+82 042 6293 6728",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact-2",
-    "title": "+82 078 1933 0943",
-    "body": "",
-    "sender": "+82 078 1933 0943",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact-3",
-    "title": "+82 010 3150 0176",
-    "body": "",
-    "sender": "+82 010 3150 0176",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact-4",
-    "title": "+82 012 1234 5677",
-    "body": "",
-    "sender": "+82 012 1234 5677",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact-5",
-    "title": "+82 093 5271 9472",
-    "body": "",
-    "sender": "+82 093 5271 9472",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact-6",
-    "title": "+82 011 9373 5293",
-    "body": "",
-    "sender": "+82 011 9373 5293",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-riku-chat-1",
-    "title": "+82 042 6293 6728",
-    "body": "当粉丝都是傻子吗？",
-    "sender": "+82 042 6293 6728",
-    "time": "2026-10-26 21:11",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-riku-chat-2",
-    "title": "+82 042 6293 6728",
-    "body": "做错事了为什么不直接摊牌",
-    "sender": "+82 042 6293 6728",
-    "time": "2026-10-26 21:12",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-riku-chat-3",
-    "title": "+82 042 6293 6728",
-    "body": "你们俩做的这些事不会还瞒着公司吧？",
-    "sender": "+82 042 6293 6728",
-    "time": "2026-10-26 21:13",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact2-chat-1",
-    "title": "+82 078 1933 0943",
-    "body": "哥哥是你吧",
-    "sender": "+82 078 1933 0943",
-    "time": "2026-10-26 17:12",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact2-chat-2",
-    "title": "+82 078 1933 0943",
-    "body": "最近好帅 好想你",
-    "sender": "+82 078 1933 0943",
-    "time": "2026-10-26 17:14",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact2-chat-3",
-    "title": "+82 078 1933 0943",
-    "body": "以后也要多多见面～",
-    "sender": "+82 078 1933 0943",
-    "time": "2026-10-26 17:16",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact2-chat-4",
-    "title": "+82 078 1933 0943",
-    "body": "在东京的拼盘和巡演我都会去哦",
-    "sender": "+82 078 1933 0943",
-    "time": "2026-10-26 17:18",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact3-chat-1",
-    "title": "+82 010 3150 0176",
-    "body": "下次再装没看见我试试",
-    "sender": "+82 010 3150 0176",
-    "time": "2026-10-26 17:21",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact3-chat-2",
-    "title": "+82 010 3150 0176",
-    "body": "我会把你们的事全部说出去的",
-    "sender": "+82 010 3150 0176",
-    "time": "2026-10-26 17:22",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact4-chat-1",
-    "title": "+82 012 1234 5677",
-    "body": "打听到你的电话很不容易呢",
-    "sender": "+82 012 1234 5677",
-    "time": "2026-10-26 17:25",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact4-chat-2",
-    "title": "+82 012 1234 5677",
-    "body": "到今天这种程度真的很不容易吧",
-    "sender": "+82 012 1234 5677",
-    "time": "2026-10-26 17:26",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact4-chat-3",
-    "title": "+82 012 1234 5677",
-    "body": "爱豆好好做吧",
-    "sender": "+82 012 1234 5677",
-    "time": "2026-10-26 17:27",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact5-chat-1",
-    "title": "+82 093 5271 9472",
-    "body": "我爱你 我恨你",
-    "sender": "+82 093 5271 9472",
-    "time": "2026-10-26 17:30",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact6-chat-1",
-    "title": "+82 011 9373 5293",
-    "sender": "+82 011 9373 5293",
-    "body": "外卖已经放在门口了，客人记得取餐「照片」",
-    "time": "17:35",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact7",
-    "title": "+86 123 4567 8900",
-    "body": "",
-    "sender": "+86 123 4567 8900",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact8",
-    "title": "+82 030 2673 9739",
-    "body": "",
-    "sender": "+82 030 2673 9739",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact8-chat-1",
-    "body": "你站在舞台上的样子真的很耀眼",
-    "time": "17:40",
-    "title": "+82 030 2673 9739",
-    "sender": "+82 030 2673 9739",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact8-chat-2",
-    "body": "我会永远支持你",
-    "time": "17:41",
-    "title": "+82 030 2673 9739",
-    "sender": "+82 030 2673 9739",
-    "kind": "text",
-    "meta": {}
-   },
-   {
-    "id": "messages-contact7-chat-1",
-    "title": "+86 123 4567 8900",
-    "sender": "+86 123 4567 8900",
-    "body": "被我抓到了",
-    "time": "17:45",
-    "kind": "text",
-    "meta": {}
-   }
-  ],
-  "weather": [
-   {
-    "id": "weather-seoul",
-    "title": "首尔",
-    "body": "多云，天气晴冷。",
-    "sender": "天气",
-    "kind": "text",
-    "time": "09:41",
-    "meta": {
-     "locationLabel": "韩国 · 首尔",
-     "temperature": "16",
-     "high": "19",
-     "low": "11",
-     "condition": "多云",
-     "aqi": "42",
-     "aqiLabel": "空气优良",
-     "rain": "10%",
-     "wind": "12 km/h",
-     "sunrise": "06:45",
-     "hourly": "[{\"time\":\"现在\",\"temperature\":\"16\"},{\"time\":\"10时\",\"temperature\":\"17\"},{\"time\":\"11时\",\"temperature\":\"18\"},{\"time\":\"12时\",\"temperature\":\"19\"},{\"time\":\"13时\",\"temperature\":\"18\"},{\"time\":\"日落\",\"temperature\":\"16\"}]",
-     "daily": "[{\"label\":\"今天\",\"low\":\"11\",\"high\":\"19\"},{\"label\":\"周三\",\"low\":\"10\",\"high\":\"18\"},{\"label\":\"周四\",\"low\":\"9\",\"high\":\"17\"}]"
-    }
-   },
-   {
-    "id": "weather-saitama",
-    "title": "埼玉",
-    "body": "晴间多云。",
-    "sender": "天气",
-    "kind": "text",
-    "time": "09:41",
-    "meta": {
-     "locationLabel": "日本 · 埼玉",
-     "temperature": "18",
-     "high": "21",
-     "low": "12",
-     "condition": "晴间多云",
-     "aqi": "35",
-     "aqiLabel": "空气良好",
-     "rain": "10%",
-     "wind": "8 km/h",
-     "sunrise": "06:02",
-     "hourly": "[{\"time\":\"现在\",\"temperature\":\"18\"},{\"time\":\"10时\",\"temperature\":\"19\"},{\"time\":\"11时\",\"temperature\":\"20\"},{\"time\":\"12时\",\"temperature\":\"21\"},{\"time\":\"13时\",\"temperature\":\"20\"},{\"time\":\"日落\",\"temperature\":\"18\"}]",
-     "daily": "[{\"label\":\"今天\",\"low\":\"12\",\"high\":\"21\"},{\"label\":\"周三\",\"low\":\"11\",\"high\":\"20\"},{\"label\":\"周四\",\"low\":\"10\",\"high\":\"19\"}]"
-    }
-   },
-   {
-    "id": "weather-fukui",
-    "title": "福井",
-    "body": "阴，局部有阵雨。",
-    "sender": "天气",
-    "kind": "text",
-    "time": "09:41",
-    "meta": {
-     "locationLabel": "日本 · 福井",
-     "temperature": "14",
-     "high": "17",
-     "low": "10",
-     "condition": "阴，局部有阵雨",
-     "aqi": "28",
-     "aqiLabel": "空气良好",
-     "rain": "40%",
-     "wind": "16 km/h",
-     "sunrise": "06:05",
-     "hourly": "[{\"time\":\"现在\",\"temperature\":\"14\"},{\"time\":\"10时\",\"temperature\":\"15\"},{\"time\":\"11时\",\"temperature\":\"16\"},{\"time\":\"12时\",\"temperature\":\"17\"},{\"time\":\"13时\",\"temperature\":\"16\"},{\"time\":\"日落\",\"temperature\":\"14\"}]",
-     "daily": "[{\"label\":\"今天\",\"low\":\"10\",\"high\":\"17\"},{\"label\":\"周三\",\"low\":\"9\",\"high\":\"16\"},{\"label\":\"周四\",\"low\":\"8\",\"high\":\"15\"}]"
-    }
-   }
-  ],
-  "clock": [
-   {
-    "id": "alarm-0550",
-    "title": "闹钟 05:50",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "05:50",
-    "meta": {
-     "clock": "05:50",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0615",
-    "title": "闹钟 06:15",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "06:15",
-    "meta": {
-     "clock": "06:15",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0630",
-    "title": "闹钟 06:30",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "06:30",
-    "meta": {
-     "clock": "06:30",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0655",
-    "title": "闹钟 06:55",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "06:55",
-    "meta": {
-     "clock": "06:55",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0700",
-    "title": "闹钟 07:00",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "07:00",
-    "meta": {
-     "clock": "07:00",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0730",
-    "title": "闹钟 07:30",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "07:30",
-    "meta": {
-     "clock": "07:30",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0735",
-    "title": "闹钟 07:35",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "07:35",
-    "meta": {
-     "clock": "07:35",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0745",
-    "title": "闹钟 07:45",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "07:45",
-    "meta": {
-     "clock": "07:45",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0800",
-    "title": "闹钟 08:00",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "08:00",
-    "meta": {
-     "clock": "08:00",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0830",
-    "title": "闹钟 08:30",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "08:30",
-    "meta": {
-     "clock": "08:30",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0900",
-    "title": "闹钟 09:00",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "09:00",
-    "meta": {
-     "clock": "09:00",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0925",
-    "title": "闹钟 09:25",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "09:25",
-    "meta": {
-     "clock": "09:25",
-     "enabled": "false"
-    }
-   },
-   {
-    "id": "alarm-0945",
-    "title": "闹钟 09:45",
-    "body": "",
-    "sender": "时钟",
-    "kind": "text",
-    "time": "09:45",
-    "meta": {
-     "clock": "09:45",
-     "enabled": "false"
-    }
-   }
-  ],
-  "photos": [
-   {
-    "id": "photo-album-01",
-    "title": "baby-panda",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-01",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/baby-panda.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-02",
-    "title": "riku-selfie",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-02",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-selfie.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-03",
-    "title": "baby-cute",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-03",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/baby-cute.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-04",
-    "title": "photo-03",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-04",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-03.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-05",
-    "title": "photo-04",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-05",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-04.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-06",
-    "title": "photo-06",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-06",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-06.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-07",
-    "title": "photo-07",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-07",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-07.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-08",
-    "title": "photo-08",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-08",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-08.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-09",
-    "title": "photo-09",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-09",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-09.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-10",
-    "title": "photo-10",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-10",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-10.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-11",
-    "title": "photo-11",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-11",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-11.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-12",
-    "title": "photo-12",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-12",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-12.JPG",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-13",
-    "title": "photo-13",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-13",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-13.JPG",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-14",
-    "title": "photo-14",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-14",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-14.jpg",
-    "meta": {}
-   },
-   {
-    "id": "photo-album-15",
-    "title": "photo-15",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-15",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/photo-15.jpg",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-01",
-    "title": "pig-01",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-27",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-01.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-02",
-    "title": "pig-02",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-28",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-02.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-03",
-    "title": "pig-03",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-29",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-03.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-04",
-    "title": "pig-04",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-30",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-04.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-05",
-    "title": "pig-05",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-10-31",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-05.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-06",
-    "title": "pig-06",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-11-01",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-06.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-07",
-    "title": "pig-07",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-11-02",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-07.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-08",
-    "title": "pig-08",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-11-03",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-08.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-09",
-    "title": "pig-09",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-11-04",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-09.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   },
-   {
-    "id": "pig-album-10",
-    "title": "pig-10",
-    "body": "",
-    "sender": "相机",
-    "time": "2026-11-05",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/pig-010.jpg",
-    "folder": "🐽🐽",
-    "meta": {}
-   }
-  ],
-  "instagram": [
-   {
-    "id": "instagram-profile",
-    "title": "sakusakusaku_07",
-    "body": "个人主页",
-    "sender": "sakusakusaku_07",
-    "kind": "text",
-    "meta": {
-     "username": "sakusakusaku_07",
-     "handle": "sakusakusaku_07"
-    }
-   },
-   {
-    "id": "instagram-profile-riku",
-    "title": "ri_ku_03",
-    "body": "个人主页",
-    "sender": "ri_ku_03",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "text",
-    "meta": {
-     "username": "ri_ku_03",
-     "handle": "ri_ku_03",
-     "account": "ri_ku_03"
-    }
-   },
-   {
-    "id": "instagram-dm-momo_glow_",
-    "title": "momo_glow_",
-    "body": "",
-    "sender": "momo_glow_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-aoi_sugar",
-    "title": "aoi_sugar",
-    "body": "",
-    "sender": "aoi_sugar",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-haru_lily",
-    "title": "haru_lily",
-    "body": "",
-    "sender": "haru_lily",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-hina_",
-    "title": "hina_",
-    "body": "",
-    "sender": "hina_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-yuna_petal_",
-    "title": "yuna_petal_",
-    "body": "",
-    "sender": "yuna_petal_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-sakura_03",
-    "title": "sakura_03",
-    "body": "",
-    "sender": "sakura_03",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-koto",
-    "title": "koto",
-    "body": "",
-    "sender": "koto",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-post-saku-shiritai",
-    "title": "君たちが知りたいこと",
-    "body": "君たちが知りたいこと",
-    "sender": "sakusakusaku_07",
-    "time": "20xx-8-5 00:26",
-    "avatar": "./story-assets/instagram-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/saku-post-shiritai.jpg",
-    "likes": 1744,
-    "meta": {},
-    "comments": [
-     "soft_petal_01：？？？？？",
-     "moonlit.diary：是不是疯了",
-     "quiet_bloom_7：嫂子竟是队友",
-     "lilac_mood_：这人就在这里，不躲，不藏，不逃，稳稳地接住男友",
-     "cozy_echo_9：？？？？？认真的",
-     "dreamy_fern_03：媳妇开枪 我教过你的",
-     "cloudy_soda_8：我亲手养大的玫瑰你还真特么长出刺了",
-     "blushpetal：而我呢，只是一个唯粉，一座梦女，一片用户，一只老百姓，一粒普通人。"
-    ]
-   },
-   {
-    "id": "instagram-post-riku-redhair",
-    "title": "赤髪どう",
-    "body": "赤髪どう",
-    "sender": "ri_ku_03",
-    "time": "20xx-8-1 20:06",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-post-redhair.jpg",
-    "likes": 7,
-    "meta": {
-     "account": "ri_ku_03"
-    },
-    "comments": [
-     "sora_no_oto：イケメン",
-     "ri_ku_03回复sora_no_oto：😁"
-    ]
-   },
-   {
-    "id": "instagram-post-riku-sweets-shop",
-    "title": "将来、スイーツのお店を開くのはどう？",
-    "body": "将来、スイーツのお店を開くのはどう？",
-    "sender": "ri_ku_03",
-    "time": "20xx-7-30 13:07",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-post-sweets-shop.jpg",
-    "likes": 2,
-    "meta": {
-     "account": "ri_ku_03"
-    },
-    "comments": [
-     "sakusakusaku_07：僕が一番目の客だ！",
-     "ri_ku_03回复sakusakusaku_07：ㅋㅋㅋㅋ"
-    ]
-   },
-   {
-    "id": "instagram-post-saku-cake",
-    "title": "ケーキよりやっぱり…",
-    "body": "ケーキよりやっぱり…",
-    "sender": "sakusakusaku_07",
-    "time": "20xx-6-28 17:12",
-    "avatar": "./story-assets/instagram-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/saku-post-cake.jpg",
-    "likes": 5,
-    "meta": {},
-    "comments": [
-     "ri_ku_03：얼마나 좋아하냐 ㅋㅋㅋ",
-     "sakusakusaku_07回复ri_ku_03：우주"
-    ]
-   },
-   {
-    "id": "instagram-post-riku-thanks",
-    "title": "みんな、ありがとう!!!❤️",
-    "body": "みんな、ありがとう!!!❤️",
-    "sender": "ri_ku_03",
-    "time": "20xx-6-28 02:06",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-post-thanks.jpg",
-    "likes": 9,
-    "meta": {
-     "account": "ri_ku_03"
-    },
-    "comments": [
-     "itsuki_rain_：誕生日おめでとう！",
-     "ao_zora_：また成長したね",
-     "minato_fog_：lovelyちゃん お誕生日おめでとう～"
-    ]
-   },
-   {
-    "id": "instagram-post-saku-diet",
-    "title": "ダイエット ㅠㅠ",
-    "body": "ダイエット ㅠㅠ",
-    "sender": "sakusakusaku_07",
-    "time": "20xx-6-14 11:34",
-    "avatar": "./story-assets/instagram-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/saku-post-diet.jpg",
-    "likes": 1,
-    "meta": {},
-    "comments": [
-     "ri_ku_03：かわいそう",
-     "sakusakusaku_07回复ri_ku_03：😭"
-    ]
-   },
-   {
-    "id": "instagram-post-riku-rest",
-    "title": "休み",
-    "body": "休み",
-    "sender": "ri_ku_03",
-    "time": "20xx-6-11 18:03",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-post-rest.jpg",
-    "likes": 2,
-    "meta": {
-     "account": "ri_ku_03"
-    }
-   },
-   {
-    "id": "instagram-post-saku-similar",
-    "title": "私に似てる？へへへ",
-    "body": "私に似てる？へへへ",
-    "sender": "sakusakusaku_07",
-    "time": "20xx-5-20 12:26",
-    "avatar": "./story-assets/instagram-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/saku-post-similar.jpg",
-    "likes": 5,
-    "meta": {},
-    "comments": [
-     "ri_ku_03：똑같아"
-    ]
-   },
-   {
-    "id": "instagram-post-umai",
-    "title": "うまい",
-    "body": "うまい",
-    "sender": "sakusakusaku_07",
-    "time": "20xx-4-3 13:56",
-    "avatar": "./story-assets/instagram-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/umai-post.jpg",
-    "likes": 1,
-    "meta": {}
-   },
-   {
-    "id": "instagram-post-riku-04",
-    "title": "豚カツが美味しい",
-    "body": "豚カツが美味しい",
-    "sender": "ri_ku_03",
-    "time": "20xx-01-12 18:43",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-post-04.jpg",
-    "likes": 3,
-    "meta": {
-     "account": "ri_ku_03"
-    }
-   },
-   {
-    "id": "instagram-post-fukui",
-    "title": "fukui",
-    "body": "fukui",
-    "sender": "sakusakusaku_07",
-    "time": "20xx-1-12 17:03",
-    "avatar": "./story-assets/instagram-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/fukui-post.jpg",
-    "likes": 5,
-    "meta": {}
-   },
-   {
-    "id": "instagram-post-riku-03",
-    "title": "よろしく~~",
-    "body": "よろしく~~",
-    "sender": "ri_ku_03",
-    "time": "20xx-01-01 00:06",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-post-03.jpg",
-    "likes": 2,
-    "meta": {
-     "account": "ri_ku_03"
-    },
-    "comments": [
-     "sakusakusaku_07：来年も再来年も、未来もよろしくね😁",
-     "ri_ku_03回复sakusakusaku_07：피곤해"
-    ]
-   },
-   {
-    "id": "instagram-post-saku-santa",
-    "title": "今でもサンタクロースがいるって信じてる",
-    "body": "今でもサンタクロースがいるって信じてる",
-    "sender": "sakusakusaku_07",
-    "time": "20xx-12-25 22:06",
-    "avatar": "./story-assets/instagram-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/saku-post-santa.jpg",
-    "likes": 3,
-    "meta": {},
-    "comments": [
-     "ri_ku_03：まだ子どもじゃん",
-     "sakusakusaku_07回复ri_ku_03：大好き"
-    ]
-   },
-   {
-    "id": "instagram-post-riku-05",
-    "title": "🎂",
-    "body": "🎂",
-    "sender": "ri_ku_03",
-    "time": "20xx-11-18 02:45",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-post-05.jpg",
-    "likes": 2,
-    "meta": {
-     "account": "ri_ku_03"
-    }
-   },
-   {
-    "id": "instagram-post-saku-birthday",
-    "title": "誕生日が一番好き",
-    "body": "誕生日が一番好き",
-    "sender": "sakusakusaku_07",
-    "time": "20xx-11-18 01:26",
-    "avatar": "./story-assets/instagram-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/saku-post-birthday.jpg",
-    "likes": 10,
-    "meta": {},
-    "comments": [
-     "tsuki_tear_6：생일 축하해！",
-     "hikari_sole：体に気をつけてね",
-     "yoru_shizuku：🎂🎂"
-    ]
-   },
-   {
-    "id": "instagram-post-riku-02",
-    "title": "ディズニーランド💗",
-    "body": "ディズニーランド💗",
-    "sender": "ri_ku_03",
-    "time": "20xx-9-22 23:02",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-post-02.jpg",
-    "likes": 4,
-    "meta": {
-     "account": "ri_ku_03"
-    }
-   },
-   {
-    "id": "instagram-post-disney",
-    "title": "Disney",
-    "body": "Disney",
-    "sender": "sakusakusaku_07",
-    "time": "20xx-9-22 22:43",
-    "avatar": "./story-assets/instagram-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/disney-post.jpg",
-    "likes": 3,
-    "meta": {}
-   },
-   {
-    "id": "instagram-post-riku-01",
-    "title": "甘いもの好き",
-    "body": "甘いもの好き",
-    "sender": "ri_ku_03",
-    "time": "20xx-8-13 13:22",
-    "avatar": "./story-assets/riku-avatar.jpg",
-    "kind": "image",
-    "media": "/FoundPhone-Studio/story-assets/riku-post.jpg",
-    "likes": 6,
-    "meta": {
-     "account": "ri_ku_03"
-    }
-   },
-   {
-    "id": "instagram-dm-noa-pale",
-    "title": "noa.pale",
-    "body": "",
-    "sender": "noa.pale",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-shiho-gray",
-    "title": "shiho.gray",
-    "body": "",
-    "sender": "shiho.gray",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-suzu9",
-    "title": "suzu9",
-    "body": "",
-    "sender": "suzu9",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-akari_dark_4",
-    "title": "akari_dark_4",
-    "body": "",
-    "sender": "akari_dark_4",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-sena_mono_",
-    "title": "sena_mono_",
-    "body": "",
-    "sender": "sena_mono_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-rin_neutral_",
-    "title": "rin_neutral_",
-    "body": "",
-    "sender": "rin_neutral_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-_yua",
-    "title": "_yua",
-    "body": "",
-    "sender": "_yua",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {}
-   },
-   {
-    "id": "instagram-dm-message-noa-pale-01",
-    "title": "noa.pale",
-    "body": "666",
-    "sender": "noa.pale",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "noa.pale",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-noa-pale-02",
-    "title": "noa.pale",
-    "body": "你们俩要不要脸？",
-    "sender": "noa.pale",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "noa.pale",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-shiho-gray-01",
-    "title": "shiho.gray",
-    "body": "大哥你什么意思？",
-    "sender": "shiho.gray",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "shiho.gray",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-shiho-gray-02",
-    "title": "shiho.gray",
-    "body": "完全肆意",
-    "sender": "shiho.gray",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "shiho.gray",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-shiho-gray-03",
-    "title": "shiho.gray",
-    "body": "你不如直接公开怎么样？",
-    "sender": "shiho.gray",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "shiho.gray",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-suzu9-01",
-    "title": "suzu9",
-    "body": "飒飒飒",
-    "sender": "suzu9",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "suzu9",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-suzu9-02",
-    "title": "suzu9",
-    "body": "真当粉丝都是傻子",
-    "sender": "suzu9",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "suzu9",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-akari_dark_4-01",
-    "title": "akari_dark_4",
-    "body": "送个玩偶那副不值钱的样子",
-    "sender": "akari_dark_4",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "akari_dark_4",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-sena_mono_-01",
-    "title": "sena_mono_",
-    "body": "去迪士尼发发还不够",
-    "sender": "sena_mono_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "sena_mono_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-sena_mono_-02",
-    "title": "sena_mono_",
-    "body": "去福井还要炫",
-    "sender": "sena_mono_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "sena_mono_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-sena_mono_-03",
-    "title": "sena_mono_",
-    "body": "够了没",
-    "sender": "sena_mono_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "sena_mono_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-rin_neutral_-01",
-    "title": "rin_neutral_",
-    "body": "saku？",
-    "sender": "rin_neutral_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "rin_neutral_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-rin_neutral_-02",
-    "title": "rin_neutral_",
-    "body": "是你吧",
-    "sender": "rin_neutral_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "rin_neutral_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-rin_neutral_-03",
-    "title": "rin_neutral_",
-    "body": "想你🥰",
-    "sender": "rin_neutral_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "rin_neutral_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-_yua-01",
-    "title": "_yua",
-    "body": "这是第几个小号了ㅋㅋ",
-    "sender": "_yua",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "_yua",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-_yua-02",
-    "title": "_yua",
-    "body": "久しぶり～",
-    "sender": "_yua",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "_yua",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-momo_glow_-01",
-    "title": "momo_glow_",
-    "body": "误入大床房",
-    "sender": "momo_glow_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "momo_glow_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-momo_glow_-02",
-    "title": "momo_glow_",
-    "body": "小生这厢打扰了",
-    "sender": "momo_glow_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "momo_glow_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-aoi_sugar-01",
-    "title": "aoi_sugar",
-    "body": "美人嗔怒 爽哉爽哉",
-    "sender": "aoi_sugar",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "aoi_sugar",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-haru_lily-01",
-    "title": "haru_lily",
-    "body": "你特么让那群cpf爽死了好吧",
-    "sender": "haru_lily",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "haru_lily",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-haru_lily-02",
-    "title": "haru_lily",
-    "body": "爸爸 别这样",
-    "sender": "haru_lily",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "haru_lily",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-hina_-01",
-    "title": "hina_",
-    "body": "签售的时候不是说最爱我吗",
-    "sender": "hina_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "hina_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-hina_-02",
-    "title": "hina_",
-    "body": "还钱！",
-    "sender": "hina_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "hina_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-yuna_petal_-01",
-    "title": "yuna_petal_",
-    "body": "良心父母",
-    "sender": "yuna_petal_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "yuna_petal_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-yuna_petal_-02",
-    "title": "yuna_petal_",
-    "body": "你们俩继续不要停",
-    "sender": "yuna_petal_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "yuna_petal_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-yuna_petal_-03",
-    "title": "yuna_petal_",
-    "body": "亲嘴照有没有？",
-    "sender": "yuna_petal_",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "yuna_petal_",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-sakura_03-01",
-    "title": "sakura_03",
-    "body": "这几天我要仰天长笑了",
-    "sender": "sakura_03",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "sakura_03",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-sakura_03-02",
-    "title": "sakura_03",
-    "body": "父父我耐你们呀",
-    "sender": "sakura_03",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "sakura_03",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-koto-01",
-    "title": "koto",
-    "body": "给你俩扔把中药去调理一下吧",
-    "sender": "koto",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "koto",
-     "dmDirection": "incoming"
-    }
-   },
-   {
-    "id": "instagram-dm-message-koto-02",
-    "title": "koto",
-    "body": "🤢",
-    "sender": "koto",
-    "time": "",
-    "avatar": "",
-    "kind": "text",
-    "folder": "私信",
-    "meta": {
-     "dmContact": "koto",
-     "dmDirection": "incoming"
-    }
-   }
-  ]
- }
 }
