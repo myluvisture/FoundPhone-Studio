@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 92,
+  "revision": 93,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6599,23 +6599,6 @@
     ],
     "tiktok": [
       {
-        "id": "tiktok-post-rikusakuvibes",
-        "title": "RIKUSAKUVIBES",
-        "body": "RIKUSAKUVIBES",
-        "sender": "WISH",
-        "time": "20xx-5-10 16:08",
-        "avatar": "",
-        "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/rikusakuvibes.mp4",
-        "likes": 13000,
-        "comments": [],
-        "folder": "推荐",
-        "meta": {
-          "account": "WISH",
-          "caption": "RIKUSAKUVIBES"
-        }
-      },
-      {
         "id": "tiktok-post-just-stop-and-smile",
         "title": "JUST STOP AND SMILE",
         "body": "JUST STOP AND SMILE",
@@ -6630,6 +6613,23 @@
         "meta": {
           "account": "WISH",
           "caption": "JUST STOP AND SMILE"
+        }
+      },
+      {
+        "id": "tiktok-post-rikusakuvibes",
+        "title": "RIKUSAKUVIBES",
+        "body": "RIKUSAKUVIBES",
+        "sender": "WISH",
+        "time": "20xx-5-10 16:08",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/rikusakuvibes.mp4",
+        "likes": 13000,
+        "comments": [],
+        "folder": "推荐",
+        "meta": {
+          "account": "WISH",
+          "caption": "RIKUSAKUVIBES"
         }
       }
     ]
