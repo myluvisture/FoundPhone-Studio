@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 86,
+  "revision": 87,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6532,7 +6532,7 @@
       {
         "id": "note-dorm-takeout-address",
         "title": "宿舍外卖地址",
-        "body": "宿舍外卖地址",
+        "body": "1、首尔市-xx区-xx公寓-x号楼-1504\n\n2、首尔市-xx区-xx小区-1x号楼-305\n\n3、首尔市-xx区-xxx小区-x号楼-902",
         "sender": "サクヤ",
         "time": "",
         "folder": "备忘录",
@@ -6544,7 +6544,7 @@
       {
         "id": "note-password",
         "title": "密码",
-        "body": "密码",
+        "body": "xx网址：fjng20071118\n\nxx游戏：071118sky\n\nxxx网购：11187002fujinaga\n\nhttp://xxxxx.com：Sky07/1118fujinaga",
         "sender": "サクヤ",
         "time": "",
         "folder": "备忘录",
