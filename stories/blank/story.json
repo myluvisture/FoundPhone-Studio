@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 93,
+  "revision": 94,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6598,6 +6598,23 @@
       }
     ],
     "tiktok": [
+      {
+        "id": "tiktok-post-riku-saku-aug29",
+        "title": "RIKU**と SAKU**",
+        "body": "RIKU**と SAKU**",
+        "sender": "WISH",
+        "time": "20xx-8-29 15:00",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/riku-saku-aug29.mp4",
+        "likes": 40000,
+        "comments": [],
+        "folder": "推荐",
+        "meta": {
+          "account": "WISH",
+          "caption": "RIKU**と SAKU**"
+        }
+      },
       {
         "id": "tiktok-post-just-stop-and-smile",
         "title": "JUST STOP AND SMILE",
