@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 90,
+  "revision": 91,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6602,7 +6602,7 @@
         "id": "tiktok-post-rikusakuvibes",
         "title": "RIKUSAKUVIBES",
         "body": "RIKUSAKUVIBES",
-        "sender": "RIKUSAKUVIBES",
+        "sender": "WISH",
         "time": "20xx-5-10 16:08",
         "avatar": "",
         "kind": "video",
@@ -6611,7 +6611,7 @@
         "comments": [],
         "folder": "推荐",
         "meta": {
-          "account": "RIKUSAKUVIBES",
+          "account": "WISH",
           "caption": "RIKUSAKUVIBES"
         }
       }
