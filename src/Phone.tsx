@@ -159,6 +159,7 @@ function PhoneRuntime({
   const [recent, setRecent] = useState<string[]>([]);
   const appSnapshots = useRef(new Map<string, HTMLElement>());
   const [banner, setBanner] = useState("");
+  const [instagramDmQueue, setInstagramDmQueue] = useState<Array<{ id: string; contact: string; body: string }>>([]);
   const noticesSeen = useRef(0);
   const [contextApp, setContextApp] = useState("");
   const [deviceScale, setDeviceScale] = useState(0.84);
@@ -285,6 +286,31 @@ function PhoneRuntime({
   };
   const open = (id: string) => {
     if (!work.apps.some((a) => a.id === id && a.installed)) return;
+    if (id === "instagram" && app !== "instagram" && !creator && work.phone.notifications) {
+      const candidates = [
+        ...(work.data.instagram ?? []),
+        ...(runtimeRef.current.messages.instagram ?? []),
+      ];
+      const unique = new Set<string>();
+      const incoming = candidates
+        .filter(
+          (item) =>
+            item.folder === "私信" &&
+            item.body.trim().length > 0 &&
+            item.meta?.dmDirection !== "outgoing" &&
+            visible(item, runtimeRef.current) &&
+            !unique.has(item.id) &&
+            !!unique.add(item.id),
+        )
+        .map((item) => ({
+          id: item.id,
+          contact: item.title || item.sender,
+          body: item.body,
+        }));
+      setInstagramDmQueue(incoming);
+    } else if (id !== "instagram") {
+      setInstagramDmQueue([]);
+    }
     setApp(id);
     setKeyboard(false);
     setRecent((v) => [id, ...v.filter((a) => a !== id)].slice(0, 8));
@@ -319,6 +345,33 @@ function PhoneRuntime({
     }, 10000);
     return () => window.clearInterval(timer);
   }, []);
+  useEffect(() => {
+    if (!instagramDmQueue.length || app !== "instagram" || locked || !work.phone.notifications) return;
+    const timer = window.setTimeout(() => {
+      setInstagramDmQueue((current) => current.slice(1));
+    }, 3000);
+    return () => window.clearTimeout(timer);
+  }, [instagramDmQueue, app, locked, work.phone.notifications]);
+  useEffect(() => {
+    if (app !== "instagram" && instagramDmQueue.length) setInstagramDmQueue([]);
+  }, [app, instagramDmQueue.length]);
+  const openInstagramDmFromNotification = (contact: string) => {
+    setBanner("");
+    setPanel("");
+    if (app !== "instagram") open("instagram");
+    setInstagramDmQueue([]);
+    const current = runtimeRef.current;
+    update({
+      ...current,
+      ui: {
+        ...current.ui,
+        instagram: {
+          ...current.ui?.instagram,
+          dmJump: `${contact}|${Date.now()}`,
+        },
+      },
+    });
+  };
   const plugin = getApp(app);
   useEffect(() => {
     const count = s.notifications.length;
@@ -708,7 +761,20 @@ function PhoneRuntime({
               </div>
             </div>
           )}
-          {banner && !locked && (
+          {instagramDmQueue[0] && !locked && (
+            <button
+              className="device-banner instagram-dm-banner"
+              aria-label={`打开与 ${instagramDmQueue[0].contact} 的 Instagram 私信`}
+              onClick={() => openInstagramDmFromNotification(instagramDmQueue[0].contact)}
+            >
+              <AppIcon id="instagram" small />
+              <span>
+                <strong>{instagramDmQueue[0].contact}</strong>
+                <span>{instagramDmQueue[0].body}</span>
+              </span>
+            </button>
+          )}
+          {banner && !locked && !instagramDmQueue.length && (
             <button
               className="device-banner"
               onClick={() => {
