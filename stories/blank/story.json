@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 105,
+  "revision": 106,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6598,6 +6598,23 @@
       }
     ],
     "tiktok": [
+      {
+        "id": "tiktok-post-riku-im-gonna-be-a-bad-boy",
+        "title": "I’m gonna be a bad boy",
+        "body": "I’m gonna be a bad boy",
+        "sender": "RIKU",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/riku-im-gonna-be-a-bad-boy.mp4",
+        "likes": 156000,
+        "comments": [],
+        "folder": "Following",
+        "meta": {
+          "account": "RIKU",
+          "caption": "I’m gonna be a bad boy"
+        }
+      },
       {
         "id": "tiktok-post-riku-how-to-pass-volleyball",
         "title": "how to pass a volleyball",
