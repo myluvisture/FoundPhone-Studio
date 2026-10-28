@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 106,
+  "revision": 107,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6599,20 +6599,20 @@
     ],
     "tiktok": [
       {
-        "id": "tiktok-post-riku-im-gonna-be-a-bad-boy",
-        "title": "I’m gonna be a bad boy",
-        "body": "I’m gonna be a bad boy",
+        "id": "tiktok-post-riku-rikuuuuu",
+        "title": "rikuuuuu",
+        "body": "rikuuuuu",
         "sender": "RIKU",
         "time": "",
         "avatar": "",
         "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/riku-im-gonna-be-a-bad-boy.mp4",
-        "likes": 156000,
+        "media": "/FoundPhone-Studio/story-assets/riku-rikuuuuu.mp4",
+        "likes": 309000,
         "comments": [],
         "folder": "Following",
         "meta": {
           "account": "RIKU",
-          "caption": "I’m gonna be a bad boy"
+          "caption": "rikuuuuu"
         }
       },
       {
@@ -6633,23 +6633,6 @@
         }
       },
       {
-        "id": "tiktok-post-riku-a-a-a-a",
-        "title": "a a a a",
-        "body": "a a a a",
-        "sender": "RIKU",
-        "time": "",
-        "avatar": "",
-        "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/riku-a-a-a-a.mp4",
-        "likes": 219000,
-        "comments": [],
-        "folder": "Following",
-        "meta": {
-          "account": "RIKU",
-          "caption": "a a a a"
-        }
-      },
-      {
         "id": "tiktok-post-riku-i-want-nobody",
         "title": "I want nobody nobody but you",
         "body": "I want nobody nobody but you",
@@ -6667,20 +6650,37 @@
         }
       },
       {
-        "id": "tiktok-post-riku-rikuuuuu",
-        "title": "rikuuuuu",
-        "body": "rikuuuuu",
+        "id": "tiktok-post-riku-a-a-a-a",
+        "title": "a a a a",
+        "body": "a a a a",
         "sender": "RIKU",
         "time": "",
         "avatar": "",
         "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/riku-rikuuuuu.mp4",
-        "likes": 309000,
+        "media": "/FoundPhone-Studio/story-assets/riku-a-a-a-a.mp4",
+        "likes": 219000,
         "comments": [],
         "folder": "Following",
         "meta": {
           "account": "RIKU",
-          "caption": "rikuuuuu"
+          "caption": "a a a a"
+        }
+      },
+      {
+        "id": "tiktok-post-riku-im-gonna-be-a-bad-boy",
+        "title": "I’m gonna be a bad boy",
+        "body": "I’m gonna be a bad boy",
+        "sender": "RIKU",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/riku-im-gonna-be-a-bad-boy.mp4",
+        "likes": 156000,
+        "comments": [],
+        "folder": "Following",
+        "meta": {
+          "account": "RIKU",
+          "caption": "I’m gonna be a bad boy"
         }
       },
       {
