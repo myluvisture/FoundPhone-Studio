@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 97,
+  "revision": 98,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6598,6 +6598,23 @@
       }
     ],
     "tiktok": [
+      {
+        "id": "tiktok-post-sakuya-nothing-beats-jet2",
+        "title": "nothing beats a jet2 holidays！",
+        "body": "nothing beats a jet2 holidays！",
+        "sender": "SAKUYA",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/sakuya-jet2-holidays.mp4",
+        "likes": 529000,
+        "comments": [],
+        "folder": "个人主页",
+        "meta": {
+          "account": "SAKUYA",
+          "caption": "nothing beats a jet2 holidays！"
+        }
+      },
       {
         "id": "tiktok-post-sakuya-so-call-me-maybe",
         "title": "so call me maybe",
