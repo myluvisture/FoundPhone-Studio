@@ -6,7 +6,7 @@ import "../styles.css";
 import "./player.css";
 function StoryPlayer() {
   const pathSegments = location.pathname.split("/").filter(Boolean);
-  const publicEdition = pathSegments.includes("sari-sakuya-phone");
+  const publicEdition = pathSegments.includes("sari-sakuya-phone") && new URLSearchParams(location.search).get("template") !== "blank";
   const publicEditionAtRoot = publicEdition && pathSegments.length === 1;
   const [work, setWork] = useState<Work | null>(null),
     [error, setError] = useState("");
