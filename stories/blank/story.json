@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 78,
+  "revision": 79,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -4128,6 +4128,344 @@
         "folder": "聊天",
         "meta": {
           "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-riku-msg-01",
+        "title": "陸",
+        "body": "让健太别玩游戏了",
+        "sender": "陸",
+        "time": "20xx.03.12 18:21",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-02",
+        "title": "陸",
+        "body": "回房间把他的衣服收拾掉",
+        "sender": "陸",
+        "time": "20xx.03.12 18:22",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-03",
+        "title": "陸",
+        "body": "ok",
+        "sender": "我",
+        "time": "20xx.03.12 18:24",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-04",
+        "title": "陸",
+        "body": "吃夜宵吗",
+        "sender": "我",
+        "time": "20xx.04.07 23:18",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-05",
+        "title": "陸",
+        "body": "nono",
+        "sender": "陸",
+        "time": "20xx.04.07 23:20",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-06",
+        "title": "陸",
+        "body": "リク お誕生日おめでとう",
+        "sender": "我",
+        "time": "20xx.06.28 00:01",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-07",
+        "title": "陸",
+        "body": "ありがとう",
+        "sender": "陸",
+        "time": "20xx.06.28 00:03",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-08",
+        "title": "陸",
+        "body": "太累的话不要硬撑",
+        "sender": "陸",
+        "time": "20xx.07.08 21:16",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-09",
+        "title": "陸",
+        "body": "不会",
+        "sender": "我",
+        "time": "20xx.07.08 21:18",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-10",
+        "title": "陸",
+        "body": "舞蹈哪里不会可以来找我",
+        "sender": "陸",
+        "time": "20xx.07.08 21:19",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-11",
+        "title": "陸",
+        "body": "👌",
+        "sender": "我",
+        "time": "20xx.07.08 21:21",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-12",
+        "title": "陸",
+        "body": "在哪",
+        "sender": "我",
+        "time": "20xx.09.21 19:42",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-13",
+        "title": "陸",
+        "body": "城堡这边",
+        "sender": "陸",
+        "time": "20xx.09.21 19:43",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-14",
+        "title": "陸",
+        "body": "怎么自己走过去了",
+        "sender": "我",
+        "time": "20xx.09.21 19:44",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-15",
+        "title": "陸",
+        "body": "刚才人太多了",
+        "sender": "陸",
+        "time": "20xx.09.21 19:46",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-16",
+        "title": "陸",
+        "body": "等我过来",
+        "sender": "我",
+        "time": "20xx.09.21 19:47",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-17",
+        "title": "陸",
+        "body": "去哪了",
+        "sender": "陸",
+        "time": "20xx.09.22 08:16",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-18",
+        "title": "陸",
+        "body": "酒店的早餐自助",
+        "sender": "我",
+        "time": "20xx.09.22 08:18",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-19",
+        "title": "陸",
+        "body": "怎么不叫我",
+        "sender": "陸",
+        "time": "20xx.09.22 08:19",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-20",
+        "title": "陸",
+        "body": "看你太累了",
+        "sender": "我",
+        "time": "20xx.09.22 08:21",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-21",
+        "title": "陸",
+        "body": "给你带回来",
+        "sender": "我",
+        "time": "20xx.09.22 08:22",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-22",
+        "title": "陸",
+        "body": "いいよ～",
+        "sender": "陸",
+        "time": "20xx.09.22 08:24",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-23",
+        "title": "陸",
+        "body": "分开走吧",
+        "sender": "陸",
+        "time": "20xx.09.25 22:04",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-24",
+        "title": "陸",
+        "body": "机场人好多",
+        "sender": "陸",
+        "time": "20xx.09.25 22:05",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-25",
+        "title": "陸",
+        "body": "嗯",
+        "sender": "我",
+        "time": "20xx.09.25 22:07",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
+        }
+      },
+      {
+        "id": "line-riku-msg-26",
+        "title": "陸",
+        "body": "在休息室等你",
+        "sender": "我",
+        "time": "20xx.09.25 22:09",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {
+          "chat": "陸"
         }
       }
     ],
