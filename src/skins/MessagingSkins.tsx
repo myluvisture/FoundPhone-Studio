@@ -32,11 +32,13 @@ function Bubbles({
   items,
   className = "",
   showTime = false,
+  showAvatar = false,
 }: {
   p: Props;
   items: Item[];
   className?: string;
   showTime?: boolean;
+  showAvatar?: boolean;
 }) {
   return (
     <div className={`catalog-bubbles ${className}`}>
@@ -56,6 +58,11 @@ function Bubbles({
               <div className="bubble-date">{dateLabel}</div>
             )}
             <div className={`catalog-message ${i.outgoing ? "outgoing" : ""}`}>
+              {showAvatar && !i.outgoing && (
+                <span className="line-incoming-avatar">
+                  <Avatar name={i.sender || i.title || p.thread || "好友"} src={i.avatar} round />
+                </span>
+              )}
               <button onClick={() => (p.creator ? p.onItem(i) : p.onRead(i.id))}>
                 {["image", "video", "audio"].includes(i.kind) ? (
                   <Media item={i} />
@@ -405,6 +412,7 @@ export function LineSkin(p: Props) {
             items={items.filter((i) => i.title === p.thread && i.body.trim() !== "")}
             className="line-bubbles"
             showTime
+            showAvatar
           />
           <Composer p={p} />
         </>
