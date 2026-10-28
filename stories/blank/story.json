@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 80,
+  "revision": 81,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6222,6 +6222,18 @@
           "dmContact": "koto",
           "dmDirection": "incoming"
         }
+      },
+      {
+        "id": "instagram-post-saku-soba",
+        "title": "そば",
+        "body": "そば",
+        "sender": "sakusakusaku_07",
+        "time": "20xx-7-10 15:08",
+        "avatar": "./story-assets/instagram-avatar.jpg",
+        "kind": "image",
+        "media": "/FoundPhone-Studio/story-assets/saku-post-soba.jpg",
+        "likes": 3,
+        "meta": {}
       }
     ]
   }
