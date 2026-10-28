@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 91,
+  "revision": 92,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6613,6 +6613,23 @@
         "meta": {
           "account": "WISH",
           "caption": "RIKUSAKUVIBES"
+        }
+      },
+      {
+        "id": "tiktok-post-just-stop-and-smile",
+        "title": "JUST STOP AND SMILE",
+        "body": "JUST STOP AND SMILE",
+        "sender": "WISH",
+        "time": "20xx-6-17 15:00",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/just-stop-and-smile.mp4",
+        "likes": 134000,
+        "comments": [],
+        "folder": "推荐",
+        "meta": {
+          "account": "WISH",
+          "caption": "JUST STOP AND SMILE"
         }
       }
     ]
