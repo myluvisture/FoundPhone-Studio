@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 94,
+  "revision": 95,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6598,6 +6598,23 @@
       }
     ],
     "tiktok": [
+      {
+        "id": "tiktok-post-walking-with-you-sep05",
+        "title": "和你一起走在路上时",
+        "body": "和你一起走在路上时",
+        "sender": "WISH",
+        "time": "20xx—9-5 20:05",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/walking-with-you-sep05.mp4",
+        "likes": 129000,
+        "comments": [],
+        "folder": "推荐",
+        "meta": {
+          "account": "WISH",
+          "caption": "和你一起走在路上时"
+        }
+      },
       {
         "id": "tiktok-post-riku-saku-aug29",
         "title": "RIKU**と SAKU**",
