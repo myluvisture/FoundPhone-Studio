@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 101,
+  "revision": 102,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6598,6 +6598,23 @@
       }
     ],
     "tiktok": [
+      {
+        "id": "tiktok-post-riku-rikuuuuu",
+        "title": "rikuuuuu",
+        "body": "rikuuuuu",
+        "sender": "RIKU",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/riku-rikuuuuu.mp4",
+        "likes": 309000,
+        "comments": [],
+        "folder": "Following",
+        "meta": {
+          "account": "RIKU",
+          "caption": "rikuuuuu"
+        }
+      },
       {
         "id": "tiktok-post-sakuya-boy-in-luv",
         "title": "boy in luv",
