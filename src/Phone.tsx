@@ -350,15 +350,12 @@ function PhoneRuntime({
     return () => window.clearInterval(timer);
   }, []);
   useEffect(() => {
-    if (!instagramDmQueue.length || app !== "instagram" || locked || !work.phone.notifications) return;
+    if (!instagramDmQueue.length || locked || !work.phone.notifications) return;
     const timer = window.setTimeout(() => {
       setInstagramDmQueue((current) => current.slice(1));
-    }, 3000);
+    }, 800);
     return () => window.clearTimeout(timer);
-  }, [instagramDmQueue, app, locked, work.phone.notifications]);
-  useEffect(() => {
-    if (app !== "instagram" && instagramDmQueue.length) setInstagramDmQueue([]);
-  }, [app, instagramDmQueue.length]);
+  }, [instagramDmQueue, locked, work.phone.notifications]);
   const openInstagramDmFromNotification = (contact: string) => {
     setBanner("");
     setPanel("");
