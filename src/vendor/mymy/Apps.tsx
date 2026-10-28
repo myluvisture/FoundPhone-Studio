@@ -347,6 +347,18 @@ export function MymyInstagram(p: SkinProps) {
     [pop, setPop] = useState("");
   const [relationshipList, setRelationshipList] = useState<"粉丝" | "关注" | null>(null);
   const [profileUser, setProfileUser] = useState<"sakusakusaku_07" | "ri_ku_03">("sakusakusaku_07");
+  const dmJump = typeof p.ui?.dmJump === "string" ? p.ui.dmJump : "";
+  useEffect(() => {
+    if (!dmJump) return;
+    const splitAt = dmJump.lastIndexOf("|");
+    const contact = splitAt >= 0 ? dmJump.slice(0, splitAt) : dmJump;
+    if (!contact) return;
+    setSheet(null);
+    setSelected(null);
+    setTab("私信");
+    setSelectedDm(contact);
+    p.onUi?.("dmJump", "");
+  }, [dmJump]);
   // Profile records are metadata, not published posts.
   const posts = p.items.filter(
       (i) =>
