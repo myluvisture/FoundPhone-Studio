@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 83,
+  "revision": 84,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6355,8 +6355,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 1
+          "completed": "false",
+          "order": "1"
         }
       },
       {
@@ -6368,8 +6368,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 2
+          "completed": "false",
+          "order": "2"
         }
       },
       {
@@ -6381,8 +6381,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 3
+          "completed": "false",
+          "order": "3"
         }
       },
       {
@@ -6394,8 +6394,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 4
+          "completed": "false",
+          "order": "4"
         }
       },
       {
@@ -6407,8 +6407,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 5
+          "completed": "false",
+          "order": "5"
         }
       },
       {
@@ -6420,8 +6420,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 6
+          "completed": "false",
+          "order": "6"
         }
       },
       {
@@ -6433,8 +6433,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 7
+          "completed": "false",
+          "order": "7"
         }
       },
       {
@@ -6446,8 +6446,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 8
+          "completed": "false",
+          "order": "8"
         }
       },
       {
@@ -6459,8 +6459,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 9
+          "completed": "false",
+          "order": "9"
         }
       },
       {
@@ -6472,8 +6472,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 10
+          "completed": "false",
+          "order": "10"
         }
       },
       {
@@ -6485,8 +6485,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 11
+          "completed": "false",
+          "order": "11"
         }
       },
       {
@@ -6498,8 +6498,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 12
+          "completed": "false",
+          "order": "12"
         }
       },
       {
@@ -6511,8 +6511,8 @@
         "folder": "提醒事项",
         "kind": "text",
         "meta": {
-          "completed": false,
-          "order": 13
+          "completed": "false",
+          "order": "13"
         }
       }
     ]
