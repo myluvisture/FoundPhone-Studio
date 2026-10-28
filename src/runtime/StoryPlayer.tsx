@@ -5,14 +5,18 @@ import { validateWork, type Work } from "../schema";
 import "../styles.css";
 import "./player.css";
 function StoryPlayer() {
-  const publicEdition = location.pathname.split("/").includes("sari-sakuya-phone");
+  const pathSegments = location.pathname.split("/").filter(Boolean);
+  const publicEdition = pathSegments.includes("sari-sakuya-phone");
+  const publicEditionAtRoot = publicEdition && pathSegments.length === 1;
   const [work, setWork] = useState<Work | null>(null),
     [error, setError] = useState("");
   useEffect(() => {
     const abort = new AbortController();
     const params = new URLSearchParams(location.search);
     const workFile = publicEdition
-      ? "../blank-work.json"
+      ? publicEditionAtRoot
+        ? "./blank-work.json"
+        : "../blank-work.json"
       : params.get("preview") === "test"
         ? "./test-work.json"
         : params.get("template") === "blank"
@@ -36,7 +40,7 @@ function StoryPlayer() {
         if (e.name !== "AbortError") setError(String(e));
       });
     return () => abort.abort();
-  }, [publicEdition]);
+  }, [publicEdition, publicEditionAtRoot]);
   return (
     <main className="story-runtime">
       {work ? (
