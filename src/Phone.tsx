@@ -340,6 +340,13 @@ function PhoneRuntime({
   useEffect(() => {
     if (app && !work.apps.some((a) => a.id === app && a.installed)) setApp("");
   }, [app, work.apps]);
+  useEffect(() => {
+    if (app !== "tiktok" || locked) {
+      shell.current
+        ?.querySelectorAll<HTMLVideoElement>(".tiktok-ui video")
+        .forEach((video) => video.pause());
+    }
+  }, [app, locked]);
   const displayTime = creator ? work.phone.time : s.time || work.phone.time;
   const [systemClock, setSystemClock] = useState(() => getBeijingClock());
   useEffect(() => {
