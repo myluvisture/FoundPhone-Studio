@@ -199,6 +199,7 @@ export function ContactsSkin(p: Props) {
 export function PhotosSkin(p: Props) {
   const { tab, setTab, q, setQ, items } = useContent(p, "图库");
   const [album, setAlbum] = useState("");
+  // Use a stable shuffled order so photos do not jump around on each render.
   const galleryItems = (() => {
     const shuffled = [...items];
     let seed = 20261028;
