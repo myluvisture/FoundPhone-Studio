@@ -199,12 +199,24 @@ export function ContactsSkin(p: Props) {
 export function PhotosSkin(p: Props) {
   const { tab, setTab, q, setQ, items } = useContent(p, "图库");
   const [album, setAlbum] = useState("");
+  const galleryItems = (() => {
+    const shuffled = [...items];
+    let seed = 20261028;
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+      const j = seed % (i + 1);
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  })();
   const list =
     tab === "收藏"
       ? items.filter((i) => i.favorite)
       : album
         ? items.filter((i) => (i.folder || "未分类") === album)
-        : items;
+        : tab === "图库"
+          ? galleryItems
+          : items;
   return (
     <div className="catalog-skin native-photos">
       <Header p={p} />
