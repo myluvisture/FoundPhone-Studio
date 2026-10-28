@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 99,
+  "revision": 100,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6598,6 +6598,23 @@
       }
     ],
     "tiktok": [
+      {
+        "id": "tiktok-post-sakuya-heart",
+        "title": "💗",
+        "body": "💗",
+        "sender": "SAKUYA",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/sakuya-heart.mp4",
+        "likes": 552000,
+        "comments": [],
+        "folder": "个人主页",
+        "meta": {
+          "account": "SAKUYA",
+          "caption": "💗"
+        }
+      },
       {
         "id": "tiktok-post-sakuya-yi-zha-yi-zha",
         "title": "一眨一眨",
