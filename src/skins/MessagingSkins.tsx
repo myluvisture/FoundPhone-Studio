@@ -384,7 +384,7 @@ export function LineSkin(p: Props) {
           <h3 className="line-peer">{p.thread}</h3>
           <Bubbles
             p={p}
-            items={items.filter((i) => i.title === p.thread)}
+            items={items.filter((i) => i.title === p.thread && i.body.trim() !== "")}
             className="line-bubbles"
           />
           <Composer p={p} />
