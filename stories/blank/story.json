@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 62,
+  "revision": 63,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -1649,6 +1649,83 @@
           "body": "ㅗ",
           "senderId": "kenta",
           "time": "20xx.09.16 11:16"
+        },
+        {
+          "id": "kakao-kenta-msg-26",
+          "title": "健太",
+          "body": "你跟riku都飞东京？",
+          "senderId": "kenta",
+          "time": "20xx.09.19 12:30"
+        },
+        {
+          "id": "kakao-kenta-msg-27",
+          "title": "健太",
+          "body": "응응",
+          "senderId": "owner",
+          "time": "20xx.09.19 12:31"
+        },
+        {
+          "id": "kakao-kenta-msg-28",
+          "title": "健太",
+          "body": "放假他为什么不回福井",
+          "senderId": "kenta",
+          "time": "20xx.09.19 12:32"
+        },
+        {
+          "id": "kakao-kenta-msg-29",
+          "title": "健太",
+          "body": "你问他嘛",
+          "senderId": "owner",
+          "time": "20xx.09.19 12:33"
+        },
+        {
+          "id": "kakao-kenta-msg-30",
+          "title": "健太",
+          "body": "感觉问你才对￢_￢",
+          "senderId": "kenta",
+          "time": "20xx.09.19 12:34"
+        },
+        {
+          "id": "kakao-kenta-msg-31",
+          "title": "健太",
+          "body": "什么嘛",
+          "senderId": "owner",
+          "time": "20xx.09.19 12:35"
+        },
+        {
+          "id": "kakao-kenta-msg-32",
+          "title": "健太",
+          "body": "=_=",
+          "senderId": "kenta",
+          "time": "20xx.09.19 12:36"
+        },
+        {
+          "id": "kakao-kenta-msg-33",
+          "title": "健太",
+          "body": "谢谢哥~",
+          "senderId": "owner",
+          "time": "20xx.09.19 23:00"
+        },
+        {
+          "id": "kakao-kenta-msg-34",
+          "title": "健太",
+          "body": "回来自己跟公司说换房间",
+          "senderId": "kenta",
+          "time": "20xx.09.19 23:01"
+        },
+        {
+          "id": "kakao-kenta-msg-35",
+          "title": "健太",
+          "body": "ㅎㅎㅎㅎㅎㅎ",
+          "senderId": "owner",
+          "time": "20xx.09.19 23:02"
+        },
+        {
+          "id": "kakao-kenta-msg-36",
+          "title": "健太",
+          "body": "네~",
+          "senderId": "owner",
+          "time": "20xx.09.19 23:03"
         }
       ]
     },
