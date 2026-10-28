@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 89,
+  "revision": 90,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -30,7 +30,8 @@
     "clock",
     "instagram",
     "reminders",
-    "maps"
+    "maps",
+    "tiktok"
   ],
   "contacts": [
     {
@@ -6593,6 +6594,25 @@
         "meta": {
           "order": "3",
           "address": "首尔市-汉南洞- diesel"
+        }
+      }
+    ],
+    "tiktok": [
+      {
+        "id": "tiktok-post-rikusakuvibes",
+        "title": "RIKUSAKUVIBES",
+        "body": "RIKUSAKUVIBES",
+        "sender": "RIKUSAKUVIBES",
+        "time": "20xx-5-10 16:08",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/rikusakuvibes.mp4",
+        "likes": 13000,
+        "comments": [],
+        "folder": "推荐",
+        "meta": {
+          "account": "RIKUSAKUVIBES",
+          "caption": "RIKUSAKUVIBES"
         }
       }
     ]
