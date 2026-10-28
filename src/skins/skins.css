@@ -1831,11 +1831,27 @@
   background: #a8bfdb;
   --bubble-out: #9bea6d;
 }
+.line-bubbles .catalog-message:not(.outgoing) > button {
+  background: #fff;
+  color: #222;
+}
 .line-bubbles .catalog-message.outgoing > button {
+  background: #9bea6d;
   color: #28402a;
 }
-.line-bubbles .catalog-message > button {
-  background: #fff;
+.line-bubbles .line-message-time {
+  align-self: flex-end;
+  flex: 0 0 auto;
+  color: #5d6570;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1.2;
+  opacity: 1;
+  margin: 0 5px 3px;
+  white-space: nowrap;
+}
+.line-bubbles .catalog-message.outgoing .line-message-time {
+  order: -1;
 }
 .messenger-ui {
   --app-accent: #6262d8;
