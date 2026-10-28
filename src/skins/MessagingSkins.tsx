@@ -62,11 +62,11 @@ function Bubbles({
                 ) : (
                   i.body
                 )}
-                {showTime && (
-                  <small className="line-message-time">{timeLabel}</small>
-                )}
                 {i.read && <small className="message-read"><CheckCheck size={10} /></small>}
               </button>
+              {showTime && (
+                <small className="line-message-time">{timeLabel}</small>
+              )}
             </div>
           </Fragment>
         );
