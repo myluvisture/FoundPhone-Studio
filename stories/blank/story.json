@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 95,
+  "revision": 96,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6598,6 +6598,23 @@
       }
     ],
     "tiktok": [
+      {
+        "id": "tiktok-post-error-oct20",
+        "title": "error！",
+        "body": "error！",
+        "sender": "WISH",
+        "time": "20xx-10-20 18:00",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/error-oct20.mp4",
+        "likes": 106000,
+        "comments": [],
+        "folder": "推荐",
+        "meta": {
+          "account": "WISH",
+          "caption": "error！"
+        }
+      },
       {
         "id": "tiktok-post-walking-with-you-sep05",
         "title": "和你一起走在路上时",
