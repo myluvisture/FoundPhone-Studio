@@ -16,7 +16,7 @@ import {
   Users,
   Video,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { safeMedia, type Item } from "../schema";
 import {
   Avatar,
@@ -357,12 +357,22 @@ export function BilibiliSkin(p: Props) {
     </div>
   );
 }
-function VerticalVideo({ p, item }: { p: Props; item: Item }) {
+function VerticalVideo({
+  p,
+  item,
+  autoPlay = false,
+  active = false,
+}: {
+  p: Props;
+  item: Item;
+  autoPlay?: boolean;
+  active?: boolean;
+}) {
   const [liked, setLiked] = useSkinState<boolean>(p, `liked-${item.id}`, false),
     [saved, setSaved] = useSkinState<boolean>(p, `saved-${item.id}`, false);
   return (
-    <article className="vertical-video">
-      <Media item={item} />
+    <article className="vertical-video" data-video-id={item.id}>
+      <Media item={item} autoPlayVideo={autoPlay && item.kind === "video"} active={active} />
       <div className="vertical-actions">
         <button
           aria-label={`作者${item.sender}`}
@@ -433,12 +443,42 @@ export function DouyinSkin(p: Props) {
 }
 export function TikTokSkin(p: Props) {
   const { tab, setTab, items } = useContent(p, "For You");
+  const [activeId, setActiveId] = useState(items[0]?.id ?? "");
+  const feedRef = useRef<HTMLDivElement | null>(null);
   const list =
     tab === "For You"
       ? items
       : tab === "Following"
         ? items.filter((i) => i.folder === "关注" || i.folder === "Following")
         : items.filter((i) => i.folder === "个人主页");
+  const currentActiveId = list.some((item) => item.id === activeId)
+    ? activeId
+    : (list[0]?.id ?? "");
+  useEffect(() => {
+    setActiveId(list[0]?.id ?? "");
+    if (feedRef.current) feedRef.current.scrollTop = 0;
+  }, [tab]);
+  const syncActiveVideo = () => {
+    const feed = feedRef.current;
+    if (!feed) return;
+    const feedRect = feed.getBoundingClientRect();
+    const center = feedRect.top + feed.clientHeight / 2;
+    let nearestId = "";
+    let nearestDistance = Number.POSITIVE_INFINITY;
+    feed.querySelectorAll<HTMLElement>(".vertical-video[data-video-id]").forEach((card) => {
+      const rect = card.getBoundingClientRect();
+      const top = Math.max(rect.top, feedRect.top);
+      const bottom = Math.min(rect.bottom, feedRect.bottom);
+      if (bottom <= top) return;
+      const visibleCenter = (top + bottom) / 2;
+      const distance = Math.abs(visibleCenter - center);
+      if (distance < nearestDistance) {
+        nearestDistance = distance;
+        nearestId = card.dataset.videoId ?? "";
+      }
+    });
+    if (nearestId) setActiveId((current) => current === nearestId ? current : nearestId);
+  };
   return (
     <div className="catalog-skin tiktok-ui">
       <Header p={p} />
@@ -456,9 +496,21 @@ export function TikTokSkin(p: Props) {
           For You
         </button>
       </div>
-      <div className="vertical-feed">
+      <div
+        className="vertical-feed"
+        ref={feedRef}
+        onScroll={syncActiveVideo}
+        onTouchEnd={() => window.requestAnimationFrame(syncActiveVideo)}
+        onWheel={() => window.requestAnimationFrame(syncActiveVideo)}
+      >
         {list.map((i) => (
-          <VerticalVideo key={i.id} p={p} item={i} />
+          <VerticalVideo
+            key={i.id}
+            p={p}
+            item={i}
+            autoPlay
+            active={i.id === currentActiveId}
+          />
         ))}
         <Empty items={list} />
       </div>
