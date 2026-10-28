@@ -160,6 +160,7 @@ function PhoneRuntime({
   const appSnapshots = useRef(new Map<string, HTMLElement>());
   const [banner, setBanner] = useState("");
   const [instagramDmQueue, setInstagramDmQueue] = useState<Array<{ id: string; contact: string; body: string }>>([]);
+  const instagramDmTriggered = useRef(false);
   const noticesSeen = useRef(0);
   const [contextApp, setContextApp] = useState("");
   const [deviceScale, setDeviceScale] = useState(0.84);
@@ -286,34 +287,35 @@ function PhoneRuntime({
   };
   const open = (id: string) => {
     if (!work.apps.some((a) => a.id === id && a.installed)) return;
-    if (id === "instagram" && app !== "instagram" && !creator && work.phone.notifications) {
-      const candidates = [
-        ...(work.data.instagram ?? []),
-        ...(runtimeRef.current.messages.instagram ?? []),
-      ];
-      const unique = new Set<string>();
-      const incoming = candidates
-        .filter((item) => {
-          if (
-            item.folder !== "私信" ||
-            !item.body.trim() ||
-            item.meta?.dmDirection === "outgoing" ||
-            !visible(item, runtimeRef.current) ||
-            unique.has(item.id)
-          ) {
-            return false;
-          }
-          unique.add(item.id);
-          return true;
-        })
-        .map((item) => ({
-          id: item.id,
-          contact: item.title || item.sender,
-          body: item.body,
-        }));
-      setInstagramDmQueue(incoming);
-    } else if (id !== "instagram") {
-      setInstagramDmQueue([]);
+    if (id === "instagram" && app !== "instagram" && !instagramDmTriggered.current) {
+      instagramDmTriggered.current = true;
+      if (!creator && work.phone.notifications) {
+        const candidates = [
+          ...(work.data.instagram ?? []),
+          ...(runtimeRef.current.messages.instagram ?? []),
+        ];
+        const unique = new Set<string>();
+        const incoming = candidates
+          .filter((item) => {
+            if (
+              item.folder !== "私信" ||
+              !item.body.trim() ||
+              item.meta?.dmDirection === "outgoing" ||
+              !visible(item, runtimeRef.current) ||
+              unique.has(item.id)
+            ) {
+              return false;
+            }
+            unique.add(item.id);
+            return true;
+          })
+          .map((item) => ({
+            id: item.id,
+            contact: item.title || item.sender,
+            body: item.body,
+          }));
+        setInstagramDmQueue(incoming);
+      }
     }
     setApp(id);
     setKeyboard(false);
