@@ -359,12 +359,25 @@ function PhoneRuntime({
     return () => window.clearInterval(timer);
   }, []);
   useEffect(() => {
-    if (!instagramDmQueue.length || locked || !work.phone.notifications) return;
+    if (
+      !instagramDmQueue.length ||
+      app !== "instagram" ||
+      locked ||
+      !work.phone.notifications
+    ) return;
     const timer = window.setTimeout(() => {
       setInstagramDmQueue((current) => current.slice(1));
     }, 800);
     return () => window.clearTimeout(timer);
-  }, [instagramDmQueue, locked, work.phone.notifications]);
+  }, [instagramDmQueue, app, locked, work.phone.notifications]);
+
+  // Instagram DM banners are a one-time sequence. Leaving Instagram, returning
+  // to the Home Screen, or locking the phone cancels every queued banner.
+  useEffect(() => {
+    if (app !== "instagram" || locked) {
+      setInstagramDmQueue((current) => current.length ? [] : current);
+    }
+  }, [app, locked]);
   const openInstagramDmFromNotification = (contact: string) => {
     setBanner("");
     setPanel("");
@@ -771,7 +784,7 @@ function PhoneRuntime({
               </div>
             </div>
           )}
-          {instagramDmQueue[0] && !locked && (
+          {instagramDmQueue[0] && app === "instagram" && !locked && (
             <button
               className="device-banner instagram-dm-banner"
               aria-label={`打开与 ${instagramDmQueue[0].contact} 的 Instagram 私信`}
