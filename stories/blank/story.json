@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 77,
+  "revision": 78,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -3861,6 +3861,270 @@
         "body": "新歌 👍",
         "sender": "パパ",
         "time": "20xx.07.01 10:12",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-02",
+        "title": "パパ",
+        "body": "舞蹈 👍",
+        "sender": "パパ",
+        "time": "20xx.07.01 10:13",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-03",
+        "title": "パパ",
+        "body": "脸 👍",
+        "sender": "パパ",
+        "time": "20xx.07.01 10:14",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-04",
+        "title": "パパ",
+        "body": "😁",
+        "sender": "我",
+        "time": "20xx.07.01 10:16",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-05",
+        "title": "パパ",
+        "body": "最近怎么样",
+        "sender": "パパ",
+        "time": "20xx.08.01 19:42",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-06",
+        "title": "パパ",
+        "body": "挺好的！",
+        "sender": "我",
+        "time": "20xx.08.01 19:45",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-07",
+        "title": "パパ",
+        "body": "👍",
+        "sender": "パパ",
+        "time": "20xx.08.01 19:46",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-08",
+        "title": "パパ",
+        "body": "最近瘦了",
+        "sender": "パパ",
+        "time": "20xx.09.01 20:05",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-09",
+        "title": "パパ",
+        "body": "是有点",
+        "sender": "我",
+        "time": "20xx.09.01 20:07",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-10",
+        "title": "パパ",
+        "body": "辛苦了",
+        "sender": "パパ",
+        "time": "20xx.09.01 20:08",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-11",
+        "title": "パパ",
+        "body": "行程太忙了吗",
+        "sender": "パパ",
+        "time": "20xx.09.01 20:09",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-12",
+        "title": "パパ",
+        "body": "没有行程",
+        "sender": "我",
+        "time": "20xx.09.01 20:11",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-13",
+        "title": "パパ",
+        "body": "那因为什么",
+        "sender": "パパ",
+        "time": "20xx.09.01 20:12",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-14",
+        "title": "パパ",
+        "body": "心累",
+        "sender": "我",
+        "time": "20xx.09.01 20:14",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-15",
+        "title": "パパ",
+        "body": "不懂",
+        "sender": "パパ",
+        "time": "20xx.09.01 20:16",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-16",
+        "title": "パパ",
+        "body": "要跟爸爸聊聊吗",
+        "sender": "パパ",
+        "time": "20xx.09.01 20:17",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-17",
+        "title": "パパ",
+        "body": "我还是去找妹妹聊吧",
+        "sender": "我",
+        "time": "20xx.09.01 20:20",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-18",
+        "title": "パパ",
+        "body": "😭",
+        "sender": "パパ",
+        "time": "20xx.09.01 20:21",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-19",
+        "title": "パパ",
+        "body": "明天回日本不用来接我",
+        "sender": "我",
+        "time": "20xx.09.19 16:31",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-20",
+        "title": "パパ",
+        "body": "怎么了",
+        "sender": "パパ",
+        "time": "20xx.09.19 16:33",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-21",
+        "title": "パパ",
+        "body": "我在东京呆几天就回韩国了",
+        "sender": "我",
+        "time": "20xx.09.19 16:35",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-22",
+        "title": "パパ",
+        "body": "还想见见你",
+        "sender": "パパ",
+        "time": "20xx.09.19 16:37",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-23",
+        "title": "パパ",
+        "body": "下次全家一起出去玩吧",
+        "sender": "我",
+        "time": "20xx.09.19 16:39",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-24",
+        "title": "パパ",
+        "body": "👍",
+        "sender": "パパ",
+        "time": "20xx.09.19 16:40",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
+      },
+      {
+        "id": "line-papa-msg-25",
+        "title": "パパ",
+        "body": "长大了",
+        "sender": "パパ",
+        "time": "20xx.09.19 16:42",
         "folder": "聊天",
         "meta": {
           "chat": "パパ"
