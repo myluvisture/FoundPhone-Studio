@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 76,
+  "revision": 77,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -3854,6 +3854,17 @@
         "outgoing": true,
         "kind": "text",
         "meta": {}
+      },
+      {
+        "id": "line-papa-msg-01",
+        "title": "パパ",
+        "body": "新歌 👍",
+        "sender": "パパ",
+        "time": "20xx.07.01 10:12",
+        "folder": "聊天",
+        "meta": {
+          "chat": "パパ"
+        }
       }
     ],
     "messages": [
