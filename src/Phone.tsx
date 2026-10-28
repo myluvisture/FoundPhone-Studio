@@ -293,15 +293,19 @@ function PhoneRuntime({
       ];
       const unique = new Set<string>();
       const incoming = candidates
-        .filter(
-          (item) =>
-            item.folder === "私信" &&
-            item.body.trim().length > 0 &&
-            item.meta?.dmDirection !== "outgoing" &&
-            visible(item, runtimeRef.current) &&
-            !unique.has(item.id) &&
-            !!unique.add(item.id),
-        )
+        .filter((item) => {
+          if (
+            item.folder !== "私信" ||
+            !item.body.trim() ||
+            item.meta?.dmDirection === "outgoing" ||
+            !visible(item, runtimeRef.current) ||
+            unique.has(item.id)
+          ) {
+            return false;
+          }
+          unique.add(item.id);
+          return true;
+        })
         .map((item) => ({
           id: item.id,
           contact: item.title || item.sender,
