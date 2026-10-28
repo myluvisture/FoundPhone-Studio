@@ -40,13 +40,19 @@ function grouped(items: Item[]) {
 export function messageRun(items: Item[], index: number) {
   const m = items[index],
     previous = items[index - 1],
-    next = items[index + 1];
+    next = items[index + 1],
+    dateKey = (time: string) => time.match(/^20xx\.\d{2}\.\d{2}/)?.[0] || "";
   return {
     first:
       !previous ||
       previous.outgoing !== m.outgoing ||
-      previous.sender !== m.sender,
-    last: !next || next.outgoing !== m.outgoing || next.sender !== m.sender,
+      previous.sender !== m.sender ||
+      dateKey(previous.time) !== dateKey(m.time),
+    last:
+      !next ||
+      next.outgoing !== m.outgoing ||
+      next.sender !== m.sender ||
+      dateKey(next.time) !== dateKey(m.time),
   };
 }
 const read = (p: SkinProps, i: Item) =>
