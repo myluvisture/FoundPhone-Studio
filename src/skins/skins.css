@@ -1831,6 +1831,24 @@
   background: #a8bfdb;
   --bubble-out: #9bea6d;
 }
+.line-bubbles .catalog-message:not(.outgoing) {
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 6px;
+}
+.line-bubbles .line-incoming-avatar {
+  display: block;
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+.line-bubbles .line-incoming-avatar > * {
+  width: 30px;
+  height: 30px;
+}
 .line-bubbles .catalog-message:not(.outgoing) > button {
   background: #fff;
   color: #222;
