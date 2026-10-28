@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 61,
+  "revision": 62,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -1407,6 +1407,62 @@
           "body": "秘密哦😁",
           "senderId": "takuya",
           "time": "22:16"
+        },
+        {
+          "id": "kakao-takuya-msg-16",
+          "title": "拓弥",
+          "body": "你们俩好吵",
+          "senderId": "takuya",
+          "time": "20xx.09.17 13:00"
+        },
+        {
+          "id": "kakao-takuya-msg-17",
+          "title": "拓弥",
+          "body": "打游戏声音小点",
+          "senderId": "takuya",
+          "time": "20xx.09.17 13:01"
+        },
+        {
+          "id": "kakao-takuya-msg-18",
+          "title": "我",
+          "body": "ㅇㅋㅇㅋ",
+          "senderId": "owner",
+          "time": "20xx.09.17 13:02"
+        },
+        {
+          "id": "kakao-takuya-msg-19",
+          "title": "拓弥",
+          "body": "活该",
+          "senderId": "takuya",
+          "time": "20xx.09.17 17:32"
+        },
+        {
+          "id": "kakao-takuya-msg-20",
+          "title": "拓弥",
+          "body": "这么吵的代价",
+          "senderId": "takuya",
+          "time": "20xx.09.17 17:33"
+        },
+        {
+          "id": "kakao-takuya-msg-21",
+          "title": "我",
+          "body": "🙄️",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:34"
+        },
+        {
+          "id": "kakao-takuya-msg-22",
+          "title": "我",
+          "body": "下次打游戏别叫我",
+          "senderId": "owner",
+          "time": "20xx.09.17 17:35"
+        },
+        {
+          "id": "kakao-takuya-msg-23",
+          "title": "拓弥",
+          "body": "错了ㅜㅜ",
+          "senderId": "takuya",
+          "time": "20xx.09.17 17:36"
         }
       ]
     },
