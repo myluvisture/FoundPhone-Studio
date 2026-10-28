@@ -6,7 +6,7 @@ import {
   Plus,
   Search,
 } from "lucide-react";
-import { useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import type { SkinProps } from "../AppSkins";
 import { safeMedia, type Item } from "../schema";
 export type Props = SkinProps;
@@ -106,10 +106,15 @@ export function Avatar({
 export function Media({
   item,
   className = "",
+  autoPlayVideo = false,
+  active = false,
 }: {
   item: Item;
   className?: string;
+  autoPlayVideo?: boolean;
+  active?: boolean;
 }) {
+  const videoRef = useRef<HTMLVideoElement | null>(null);
   // Resolve known bundled photo filenames even when a legacy saved work item
   // has an empty/unsupported media field. The blank story's photo titles are
   // the asset basenames, so old local saves remain renderable.
@@ -128,16 +133,47 @@ export function Media({
       : knownAsset
         ? `${base}story-assets/${knownAsset}`
         : safeMedia(raw);
+  useEffect(() => {
+    if (!autoPlayVideo || item.kind !== "video") return;
+    const video = videoRef.current;
+    if (!video) return;
+    if (active) {
+      // Muted playback is allowed by browser autoplay policies.
+      video.muted = true;
+      const playback = video.play();
+      if (playback) void playback.catch(() => {});
+    } else {
+      video.pause();
+    }
+    return () => {
+      video.pause();
+    };
+  }, [active, autoPlayVideo, item.id, item.kind, src]);
   return src ? (
     item.kind === "audio" ? (
       <audio className={className} controls src={src} />
     ) : item.kind === "video" ? (
       <video
+        ref={videoRef}
         className={className}
-        controls
+        controls={!autoPlayVideo}
+        autoPlay={autoPlayVideo && active}
+        muted={autoPlayVideo}
+        loop={autoPlayVideo}
         playsInline
         src={src}
-        onClick={(e) => e.stopPropagation()}
+        onClick={(e) => {
+          e.stopPropagation();
+          if (!autoPlayVideo) return;
+          const video = e.currentTarget;
+          if (video.paused) {
+            video.muted = false;
+            const playback = video.play();
+            if (playback) void playback.catch(() => {});
+          } else {
+            video.pause();
+          }
+        }}
       />
     ) : (
       <img
