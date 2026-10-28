@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 74,
+  "revision": 75,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2895,6 +2895,39 @@
         "time": "20xx.09.19 18:45",
         "folder": "聊天",
         "outgoing": true,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-47",
+        "title": "ママ",
+        "body": "和好了呀",
+        "sender": "ママ",
+        "time": "20xx.09.19 18:46",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-48",
+        "title": "ママ",
+        "body": "嗯！",
+        "sender": "ママ",
+        "time": "20xx.09.19 18:47",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-49",
+        "title": "ママ",
+        "body": "要玩得开心哦",
+        "sender": "ママ",
+        "time": "20xx.09.19 18:49",
+        "folder": "聊天",
+        "outgoing": false,
         "kind": "text",
         "meta": {}
       }
