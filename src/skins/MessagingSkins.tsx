@@ -52,13 +52,14 @@ function Bubbles({
           ? `${Number(dateMatch[1])}月${Number(dateMatch[2])}日`
           : "";
         const timeLabel = i.time.match(/(\d{2}:\d{2})$/)?.[1] || i.time;
+        const outgoing = Boolean(i.outgoing) || (className === "line-bubbles" && i.sender === "我");
         return (
           <Fragment key={i.id}>
             {showTime && dateMatch && dateMatch[0] !== previousDate && (
               <div className="bubble-date">{dateLabel}</div>
             )}
-            <div className={`catalog-message ${i.outgoing ? "outgoing" : ""}`}>
-              {showAvatar && !i.outgoing && (
+            <div className={`catalog-message ${outgoing ? "outgoing" : ""}`}>
+              {showAvatar && !outgoing && (
                 <span className="line-incoming-avatar">
                   <Avatar name={i.sender || i.title || p.thread || "好友"} src={i.avatar} round />
                 </span>
