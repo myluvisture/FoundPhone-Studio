@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 88,
+  "revision": 89,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6567,6 +6567,32 @@
         "meta": {
           "order": "1",
           "address": "首尔市-麻浦区-INMYWISH_LAND"
+        }
+      },
+      {
+        "id": "map-seoul-yeongdeungpo-hangang-park",
+        "title": "汉江公园",
+        "body": "首尔市-永登浦-汉江公园",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "收藏地点",
+        "kind": "text",
+        "meta": {
+          "order": "2",
+          "address": "首尔市-永登浦-汉江公园"
+        }
+      },
+      {
+        "id": "map-seoul-hannam-diesel",
+        "title": "diesel",
+        "body": "首尔市-汉南洞- diesel",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "收藏地点",
+        "kind": "text",
+        "meta": {
+          "order": "3",
+          "address": "首尔市-汉南洞- diesel"
         }
       }
     ]
