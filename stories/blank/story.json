@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 102,
+  "revision": 103,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6598,6 +6598,23 @@
       }
     ],
     "tiktok": [
+      {
+        "id": "tiktok-post-riku-i-want-nobody",
+        "title": "I want nobody nobody but you",
+        "body": "I want nobody nobody but you",
+        "sender": "RIKU",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/riku-i-want-nobody.mp4",
+        "likes": 278000,
+        "comments": [],
+        "folder": "Following",
+        "meta": {
+          "account": "RIKU",
+          "caption": "I want nobody nobody but you"
+        }
+      },
       {
         "id": "tiktok-post-riku-rikuuuuu",
         "title": "rikuuuuu",
