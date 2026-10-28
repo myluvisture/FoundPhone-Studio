@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 104,
+  "revision": 105,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6598,6 +6598,23 @@
       }
     ],
     "tiktok": [
+      {
+        "id": "tiktok-post-riku-how-to-pass-volleyball",
+        "title": "how to pass a volleyball",
+        "body": "how to pass a volleyball",
+        "sender": "RIKU",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/riku-how-to-pass-a-volleyball.mp4",
+        "likes": 214000,
+        "comments": [],
+        "folder": "Following",
+        "meta": {
+          "account": "RIKU",
+          "caption": "how to pass a volleyball"
+        }
+      },
       {
         "id": "tiktok-post-riku-a-a-a-a",
         "title": "a a a a",
