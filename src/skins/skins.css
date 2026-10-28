@@ -4171,3 +4171,28 @@
 .catalog-slot[hidden] {
   display: none;
 }
+
+
+/* Public sari-sakuya-phone experiment: App Store is visibly locked and non-interactive. */
+.phone-shell.public-share-mode [data-app-id="appstore"] {
+  pointer-events: none !important;
+  opacity: 0.48 !important;
+  filter: grayscale(1);
+  cursor: not-allowed !important;
+}
+.phone-shell.public-share-mode .launcher-cell[data-app-id="appstore"]::after {
+  content: "🔒";
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(25, 25, 28, 0.86);
+  color: #fff;
+  font-size: 10px;
+  line-height: 1;
+}

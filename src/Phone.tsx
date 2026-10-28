@@ -150,6 +150,7 @@ function PhoneRuntime({
   runtime?: Runtime;
   onRuntime?: (s: Runtime) => void;
 }) {
+  const isPublicEdition = typeof window !== "undefined" && window.location.pathname.split("/").includes("sari-sakuya-phone");
   const [app, setApp] = useState("");
   const [homeRequest, setHomeRequest] = useState(0);
   const [locked, setLocked] = useState(!creator);
@@ -286,6 +287,7 @@ function PhoneRuntime({
       if (!recent.includes(id) && id !== app) appSnapshots.current.delete(id);
   };
   const open = (id: string) => {
+    if (isPublicEdition && id === "appstore") return;
     if (!work.apps.some((a) => a.id === id && a.installed)) return;
     if (id === "instagram" && app !== "instagram" && !instagramDmTriggered.current) {
       instagramDmTriggered.current = true;
@@ -418,7 +420,7 @@ function PhoneRuntime({
     <div
       ref={shell}
       style={{ "--phone-scale": deviceScale } as CSSProperties}
-      className={`phone-shell ios18 ${work.phone.theme === "dark" ? "dark-phone" : ""}`}
+      className={`phone-shell ios18 ${work.phone.theme === "dark" ? "dark-phone" : ""} ${isPublicEdition ? "public-share-mode" : ""}`}
     >
       <KeyboardContext.Provider value={setKeyboard}>
         <div

@@ -5,33 +5,38 @@ import { validateWork, type Work } from "../schema";
 import "../styles.css";
 import "./player.css";
 function StoryPlayer() {
+  const publicEdition = location.pathname.split("/").includes("sari-sakuya-phone");
   const [work, setWork] = useState<Work | null>(null),
     [error, setError] = useState("");
   useEffect(() => {
     const abort = new AbortController();
-    fetch(
-      new URLSearchParams(location.search).get("preview") === "test"
+    const params = new URLSearchParams(location.search);
+    const workFile = publicEdition
+      ? "../blank-work.json"
+      : params.get("preview") === "test"
         ? "./test-work.json"
-        : new URLSearchParams(location.search).get("template") === "blank"
+        : params.get("template") === "blank"
           ? "./blank-work.json"
-          : "./work.json",
-      { signal: abort.signal },
-    )
+          : "./work.json";
+    fetch(workFile, { signal: abort.signal })
       .then((r) => {
         if (!r.ok) throw Error("缺少作品文件，请运行 npm run story:build");
         return r.json();
       })
       .then((x) => {
         const w = validateWork(x);
-        document.title =
-          w.title === "捡手机" ? "捡手机" : w.title + " · 捡手机";
+        document.title = publicEdition
+          ? "sari-sakuya-phone · 捡手机"
+          : w.title === "捡手机"
+            ? "捡手机"
+            : w.title + " · 捡手机";
         setWork(w);
       })
       .catch((e) => {
         if (e.name !== "AbortError") setError(String(e));
       });
     return () => abort.abort();
-  }, []);
+  }, [publicEdition]);
   return (
     <main className="story-runtime">
       {work ? (

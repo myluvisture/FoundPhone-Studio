@@ -144,6 +144,11 @@ jobs:
       - run: npm run story:validate
       - run: npm run story:test
       - run: npm run build
+      - name: Publish the read-only sari-sakuya-phone player path
+        run: |
+          mkdir -p dist/sari-sakuya-phone
+          cp dist/index.html dist/sari-sakuya-phone/index.html
+          test -s dist/sari-sakuya-phone/index.html
       - name: Verify published story image assets are real JPEGs
         run: |
           for name in instagram-avatar.jpg baby-panda.jpg riku-selfie.jpg baby-cute.jpg photo-03.jpg photo-04.jpg photo-06.jpg photo-07.jpg photo-08.jpg photo-09.jpg photo-10.jpg photo-11.jpg photo-12.JPG photo-12.jpg photo-13.JPG photo-13.jpg photo-14.jpg photo-15.jpg pig-01.jpg pig-02.jpg pig-03.jpg pig-04.jpg pig-05.jpg pig-06.jpg pig-07.jpg pig-08.jpg pig-09.jpg pig-010.jpg; do
