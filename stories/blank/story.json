@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 109,
+  "revision": 110,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -5310,7 +5310,7 @@
         "sender": "相机",
         "time": "2026-10-12",
         "kind": "image",
-        "media": "/FoundPhone-Studio/story-assets/photo-12.JPG",
+        "media": "/FoundPhone-Studio/story-assets/photo-12.jpg",
         "meta": {}
       },
       {
@@ -5320,7 +5320,7 @@
         "sender": "相机",
         "time": "2026-10-13",
         "kind": "image",
-        "media": "/FoundPhone-Studio/story-assets/photo-13.JPG",
+        "media": "/FoundPhone-Studio/story-assets/photo-13.jpg",
         "meta": {}
       },
       {

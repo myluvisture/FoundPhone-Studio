@@ -121,6 +121,7 @@ export function Media({
   const raw = String(item.media || "").trim();
   const base = import.meta.env.BASE_URL;
   const basename = (raw || item.title).split("/").pop() || "";
+  const resolvedBasename = basename.replace(/\.(png|jpe?g|webp|gif)$/i, (extension) => extension.toLowerCase());
   const knownAsset = /^[a-zA-Z0-9._-]+\\.(png|jpe?g|webp|gif)$/i.test(basename)
     ? basename
     : /^[a-zA-Z0-9._-]+$/i.test(item.title)
@@ -129,7 +130,7 @@ export function Media({
   const src = raw.startsWith("data:")
     ? safeMedia(raw)
     : raw.includes("story-assets/")
-      ? `${base}story-assets/${basename}`
+      ? `${base}story-assets/${resolvedBasename}`
       : knownAsset
         ? `${base}story-assets/${knownAsset}`
         : safeMedia(raw);
