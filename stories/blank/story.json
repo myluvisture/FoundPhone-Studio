@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 79,
+  "revision": 80,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -1291,6 +1291,59 @@
           "body": "ㅋㅋ 네~",
           "senderId": "owner",
           "time": "20xx.09.19 20:37"
+        },
+        {
+          "id": "kakao-riku-msg-164",
+          "title": "リク",
+          "body": "好可怕",
+          "senderId": "rikku",
+          "time": "20xx.09.26 00:10",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-165",
+          "title": "リク",
+          "body": "这样也能认出我们吗",
+          "senderId": "rikku",
+          "time": "20xx.09.26 00:11",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-166",
+          "title": "我",
+          "body": "看来我们还是在韩国更有人气啊",
+          "senderId": "owner",
+          "time": "20xx.09.26 00:12"
+        },
+        {
+          "id": "kakao-riku-msg-167",
+          "title": "リク",
+          "body": "这样还能开玩笑",
+          "senderId": "rikku",
+          "time": "20xx.09.26 00:13",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-168",
+          "title": "我",
+          "body": "经纪人哥到了",
+          "senderId": "owner",
+          "time": "20xx.09.26 00:14"
+        },
+        {
+          "id": "kakao-riku-msg-169",
+          "title": "我",
+          "body": "上车再说吧",
+          "senderId": "owner",
+          "time": "20xx.09.26 00:15"
+        },
+        {
+          "id": "kakao-riku-msg-170",
+          "title": "リク",
+          "body": "うん",
+          "senderId": "rikku",
+          "time": "20xx.09.26 00:16",
+          "avatar": "./story-assets/p3.jpg"
         }
       ]
     },
@@ -1463,6 +1516,55 @@
           "body": "错了ㅜㅜ",
           "senderId": "takuya",
           "time": "20xx.09.17 17:36"
+        },
+        {
+          "id": "kakao-takuya-msg-24",
+          "title": "拓弥",
+          "body": "你去哪玩了",
+          "senderId": "takuya",
+          "time": "20xx.09.22 15:02"
+        },
+        {
+          "id": "kakao-takuya-msg-25",
+          "title": "拓弥",
+          "body": "这几天游戏都不上号",
+          "senderId": "takuya",
+          "time": "20xx.09.22 15:03"
+        },
+        {
+          "id": "kakao-takuya-msg-26",
+          "title": "我",
+          "body": "迪士尼",
+          "senderId": "owner",
+          "time": "20xx.09.22 15:05"
+        },
+        {
+          "id": "kakao-takuya-msg-27",
+          "title": "拓弥",
+          "body": "ええ？",
+          "senderId": "takuya",
+          "time": "20xx.09.22 15:06"
+        },
+        {
+          "id": "kakao-takuya-msg-28",
+          "title": "拓弥",
+          "body": "跟你妹妹？",
+          "senderId": "takuya",
+          "time": "20xx.09.22 15:07"
+        },
+        {
+          "id": "kakao-takuya-msg-29",
+          "title": "我",
+          "body": "跟riku",
+          "senderId": "owner",
+          "time": "20xx.09.22 15:09"
+        },
+        {
+          "id": "kakao-takuya-msg-30",
+          "title": "拓弥",
+          "body": "えーーーー？",
+          "senderId": "takuya",
+          "time": "20xx.09.22 15:10"
         }
       ]
     },
@@ -1726,6 +1828,48 @@
           "body": "네~",
           "senderId": "owner",
           "time": "20xx.09.19 23:03"
+        },
+        {
+          "id": "kakao-kenta-msg-37",
+          "title": "健太",
+          "body": "你们几点的飞机",
+          "senderId": "kenta",
+          "time": "20xx.09.25 13:02"
+        },
+        {
+          "id": "kakao-kenta-msg-38",
+          "title": "我",
+          "body": "十点多",
+          "senderId": "owner",
+          "time": "20xx.09.25 13:03"
+        },
+        {
+          "id": "kakao-kenta-msg-39",
+          "title": "健太",
+          "body": "我跟拓弥已经在宿舍了",
+          "senderId": "kenta",
+          "time": "20xx.09.25 13:05"
+        },
+        {
+          "id": "kakao-kenta-msg-40",
+          "title": "我",
+          "body": "好快",
+          "senderId": "owner",
+          "time": "20xx.09.25 13:06"
+        },
+        {
+          "id": "kakao-kenta-msg-41",
+          "title": "我",
+          "body": "到时候能帮我们先点上外卖吗",
+          "senderId": "owner",
+          "time": "20xx.09.25 13:08"
+        },
+        {
+          "id": "kakao-kenta-msg-42",
+          "title": "健太",
+          "body": "オッケー",
+          "senderId": "kenta",
+          "time": "20xx.09.25 13:10"
         }
       ]
     },
@@ -1881,6 +2025,29 @@
           "body": "好好休息吧",
           "senderId": "manager",
           "time": "20xx.09.19 20:58",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-20",
+          "title": "매니저 형",
+          "body": "我已经到了",
+          "senderId": "manager",
+          "time": "20xx.09.26 00:07",
+          "avatar": ""
+        },
+        {
+          "id": "kakao-manager-msg-21",
+          "title": "我",
+          "body": "马上来",
+          "senderId": "owner",
+          "time": "20xx.09.26 00:08"
+        },
+        {
+          "id": "kakao-manager-msg-22",
+          "title": "매니저 형",
+          "body": "빨리빨리",
+          "senderId": "manager",
+          "time": "20xx.09.26 00:09",
           "avatar": ""
         }
       ]
