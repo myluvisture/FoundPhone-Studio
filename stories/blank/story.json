@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 84,
+  "revision": 85,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6513,6 +6513,44 @@
         "meta": {
           "completed": "false",
           "order": "13"
+        }
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-tokyo-disney-must-do",
+        "title": "东京迪士尼必打卡",
+        "body": "东京迪士尼必打卡",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "备忘录",
+        "kind": "text",
+        "meta": {
+          "order": "1"
+        }
+      },
+      {
+        "id": "note-dorm-takeout-address",
+        "title": "宿舍外卖地址",
+        "body": "宿舍外卖地址",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "备忘录",
+        "kind": "text",
+        "meta": {
+          "order": "2"
+        }
+      },
+      {
+        "id": "note-password",
+        "title": "密码",
+        "body": "密码",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "备忘录",
+        "kind": "text",
+        "meta": {
+          "order": "3"
         }
       }
     ]
