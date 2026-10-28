@@ -64,6 +64,24 @@ import {
 } from "./schema";
 import { dispatch, choose, visible, advance } from "./engine";
 import { db } from "./persistence";
+function getBeijingClock(now: Date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(now);
+  const value = (type: string) =>
+    parts.find((part) => part.type === type)?.value ?? "00";
+  return {
+    date: `${value("year")}-${value("month")}-${value("day")}`,
+    time: `${value("hour")}:${value("minute")}`,
+  };
+}
+
 export function AppIcon({
   id,
   name,
@@ -291,6 +309,16 @@ function PhoneRuntime({
     if (app && !work.apps.some((a) => a.id === app && a.installed)) setApp("");
   }, [app, work.apps]);
   const displayTime = creator ? work.phone.time : s.time || work.phone.time;
+  const [systemClock, setSystemClock] = useState(() => getBeijingClock());
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      const next = getBeijingClock();
+      setSystemClock((current) =>
+        current.date === next.date && current.time === next.time ? current : next,
+      );
+    }, 10000);
+    return () => window.clearInterval(timer);
+  }, []);
   const plugin = getApp(app);
   useEffect(() => {
     const count = s.notifications.length;
@@ -400,7 +428,7 @@ function PhoneRuntime({
               className="status-time"
               aria-label="通知中心"
             >
-              {displayTime}
+              {systemClock.time}
               <StatusGlyph kind="silent" />
             </button>
             <div className="dynamic-island" />
@@ -422,12 +450,8 @@ function PhoneRuntime({
           <AnimatePresence mode="wait">
             {locked && !(quickCamera && app === "camera") ? (
               <DeviceLock
-                work={
-                  s.date
-                    ? { ...work, phone: { ...work.phone, date: s.date } }
-                    : work
-                }
-                time={displayTime}
+                work={{ ...work, phone: { ...work.phone, date: systemClock.date } }}
+                time={systemClock.time}
                 notices={s.notifications}
                 onDismiss={dismissNotice}
                 pinOpen={pinOpen}
