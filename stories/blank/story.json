@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 81,
+  "revision": 82,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2287,6 +2287,114 @@
         "meta": {
           "type": "search",
           "query": "撞见合租的男生和男朋友亲热好尴尬"
+        }
+      },
+      {
+        "id": "bookmark-japan-disney",
+        "title": "日本迪士尼官网",
+        "body": "https://日本迪士尼官网.com",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "书签",
+        "meta": {
+          "type": "bookmark",
+          "url": "https://日本迪士尼官网.com"
+        }
+      },
+      {
+        "id": "bookmark-tokyo-date-restaurants",
+        "title": "东京约会餐厅TOP3",
+        "body": "https://东京约会餐厅TOP3.com",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "书签",
+        "meta": {
+          "type": "bookmark",
+          "url": "https://东京约会餐厅TOP3.com"
+        }
+      },
+      {
+        "id": "bookmark-splatoon-guide",
+        "title": "Splatoon初学者指南",
+        "body": "https://splatoon初学者指南.com",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "书签",
+        "meta": {
+          "type": "bookmark",
+          "url": "https://splatoon初学者指南.com"
+        }
+      },
+      {
+        "id": "bookmark-cancer-at-home",
+        "title": "巨蟹座在家喜欢干什么",
+        "body": "https://巨蟹座在家喜欢干什么.com",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "书签",
+        "meta": {
+          "type": "bookmark",
+          "url": "https://巨蟹座在家喜欢干什么.com"
+        }
+      },
+      {
+        "id": "bookmark-netflix-top10",
+        "title": "Netflix Top 10",
+        "body": "https://Netflixtop10.com",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "书签",
+        "meta": {
+          "type": "bookmark",
+          "url": "https://Netflixtop10.com"
+        }
+      },
+      {
+        "id": "bookmark-best-spiderman",
+        "title": "蜘蛛侠哪一部最好看",
+        "body": "https://蜘蛛侠哪一部最好看.com",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "书签",
+        "meta": {
+          "type": "bookmark",
+          "url": "https://蜘蛛侠哪一部最好看.com"
+        }
+      },
+      {
+        "id": "bookmark-switch-cartridge",
+        "title": "Switch新卡带推荐",
+        "body": "https://switch新卡带推荐.com",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "书签",
+        "meta": {
+          "type": "bookmark",
+          "url": "https://switch新卡带推荐.com"
+        }
+      },
+      {
+        "id": "bookmark-seoul-sashimi",
+        "title": "首尔生鱼片推荐",
+        "body": "https://首尔生鱼片推荐.com",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "书签",
+        "meta": {
+          "type": "bookmark",
+          "url": "https://首尔生鱼片推荐.com"
+        }
+      },
+      {
+        "id": "bookmark-seoul-japanese-food",
+        "title": "首尔最全日料店",
+        "body": "https://首尔最全日料店.com",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "书签",
+        "meta": {
+          "type": "bookmark",
+          "url": "https://首尔最全日料店.com"
         }
       }
     ],
