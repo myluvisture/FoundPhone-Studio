@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 87,
+  "revision": 88,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -29,7 +29,8 @@
     "weather",
     "clock",
     "instagram",
-    "reminders"
+    "reminders",
+    "maps"
   ],
   "contacts": [
     {
@@ -6551,6 +6552,21 @@
         "kind": "text",
         "meta": {
           "order": "3"
+        }
+      }
+    ],
+    "maps": [
+      {
+        "id": "map-inmywish-land",
+        "title": "INMYWISH_LAND",
+        "body": "首尔市-麻浦区-INMYWISH_LAND",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "收藏地点",
+        "kind": "text",
+        "meta": {
+          "order": "1",
+          "address": "首尔市-麻浦区-INMYWISH_LAND"
         }
       }
     ]
