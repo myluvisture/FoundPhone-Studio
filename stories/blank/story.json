@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 107,
+  "revision": 108,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -6599,23 +6599,6 @@
     ],
     "tiktok": [
       {
-        "id": "tiktok-post-riku-rikuuuuu",
-        "title": "rikuuuuu",
-        "body": "rikuuuuu",
-        "sender": "RIKU",
-        "time": "",
-        "avatar": "",
-        "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/riku-rikuuuuu.mp4",
-        "likes": 309000,
-        "comments": [],
-        "folder": "Following",
-        "meta": {
-          "account": "RIKU",
-          "caption": "rikuuuuu"
-        }
-      },
-      {
         "id": "tiktok-post-riku-how-to-pass-volleyball",
         "title": "how to pass a volleyball",
         "body": "how to pass a volleyball",
@@ -6630,6 +6613,108 @@
         "meta": {
           "account": "RIKU",
           "caption": "how to pass a volleyball"
+        }
+      },
+      {
+        "id": "tiktok-post-walking-with-you-sep05",
+        "title": "和你一起走在路上时",
+        "body": "和你一起走在路上时",
+        "sender": "WISH",
+        "time": "20xx—9-5 20:05",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/walking-with-you-sep05.mp4",
+        "likes": 129000,
+        "comments": [],
+        "folder": "推荐",
+        "meta": {
+          "account": "WISH",
+          "caption": "和你一起走在路上时"
+        }
+      },
+      {
+        "id": "tiktok-post-riku-saku-aug29",
+        "title": "RIKU**と SAKU**",
+        "body": "RIKU**と SAKU**",
+        "sender": "WISH",
+        "time": "20xx-8-29 15:00",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/riku-saku-aug29.mp4",
+        "likes": 40000,
+        "comments": [],
+        "folder": "推荐",
+        "meta": {
+          "account": "WISH",
+          "caption": "RIKU**と SAKU**"
+        }
+      },
+      {
+        "id": "tiktok-post-rikusakuvibes",
+        "title": "RIKUSAKUVIBES",
+        "body": "RIKUSAKUVIBES",
+        "sender": "WISH",
+        "time": "20xx-5-10 16:08",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/rikusakuvibes.mp4",
+        "likes": 13000,
+        "comments": [],
+        "folder": "推荐",
+        "meta": {
+          "account": "WISH",
+          "caption": "RIKUSAKUVIBES"
+        }
+      },
+      {
+        "id": "tiktok-post-sakuya-nothing-beats-jet2",
+        "title": "nothing beats a jet2 holidays！",
+        "body": "nothing beats a jet2 holidays！",
+        "sender": "SAKUYA",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/sakuya-jet2-holidays.mp4",
+        "likes": 529000,
+        "comments": [],
+        "folder": "个人主页",
+        "meta": {
+          "account": "SAKUYA",
+          "caption": "nothing beats a jet2 holidays！"
+        }
+      },
+      {
+        "id": "tiktok-post-sakuya-so-call-me-maybe",
+        "title": "so call me maybe",
+        "body": "so call me maybe",
+        "sender": "SAKUYA",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/sakuya-so-call-me-maybe.mp4",
+        "likes": 156000,
+        "comments": [],
+        "folder": "个人主页",
+        "meta": {
+          "account": "SAKUYA",
+          "caption": "so call me maybe"
+        }
+      },
+      {
+        "id": "tiktok-post-sakuya-boy-in-luv",
+        "title": "boy in luv",
+        "body": "boy in luv",
+        "sender": "SAKUYA",
+        "time": "",
+        "avatar": "",
+        "kind": "video",
+        "media": "/FoundPhone-Studio/story-assets/sakuya-boy-in-luv.mp4",
+        "likes": 272000,
+        "comments": [],
+        "folder": "个人主页",
+        "meta": {
+          "account": "SAKUYA",
+          "caption": "boy in luv"
         }
       },
       {
@@ -6684,40 +6769,6 @@
         }
       },
       {
-        "id": "tiktok-post-sakuya-boy-in-luv",
-        "title": "boy in luv",
-        "body": "boy in luv",
-        "sender": "SAKUYA",
-        "time": "",
-        "avatar": "",
-        "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/sakuya-boy-in-luv.mp4",
-        "likes": 272000,
-        "comments": [],
-        "folder": "个人主页",
-        "meta": {
-          "account": "SAKUYA",
-          "caption": "boy in luv"
-        }
-      },
-      {
-        "id": "tiktok-post-sakuya-heart",
-        "title": "💗",
-        "body": "💗",
-        "sender": "SAKUYA",
-        "time": "",
-        "avatar": "",
-        "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/sakuya-heart.mp4",
-        "likes": 552000,
-        "comments": [],
-        "folder": "个人主页",
-        "meta": {
-          "account": "SAKUYA",
-          "caption": "💗"
-        }
-      },
-      {
         "id": "tiktok-post-sakuya-yi-zha-yi-zha",
         "title": "一眨一眨",
         "body": "一眨一眨",
@@ -6732,40 +6783,6 @@
         "meta": {
           "account": "SAKUYA",
           "caption": "一眨一眨"
-        }
-      },
-      {
-        "id": "tiktok-post-sakuya-nothing-beats-jet2",
-        "title": "nothing beats a jet2 holidays！",
-        "body": "nothing beats a jet2 holidays！",
-        "sender": "SAKUYA",
-        "time": "",
-        "avatar": "",
-        "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/sakuya-jet2-holidays.mp4",
-        "likes": 529000,
-        "comments": [],
-        "folder": "个人主页",
-        "meta": {
-          "account": "SAKUYA",
-          "caption": "nothing beats a jet2 holidays！"
-        }
-      },
-      {
-        "id": "tiktok-post-sakuya-so-call-me-maybe",
-        "title": "so call me maybe",
-        "body": "so call me maybe",
-        "sender": "SAKUYA",
-        "time": "",
-        "avatar": "",
-        "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/sakuya-so-call-me-maybe.mp4",
-        "likes": 156000,
-        "comments": [],
-        "folder": "个人主页",
-        "meta": {
-          "account": "SAKUYA",
-          "caption": "so call me maybe"
         }
       },
       {
@@ -6786,37 +6803,20 @@
         }
       },
       {
-        "id": "tiktok-post-walking-with-you-sep05",
-        "title": "和你一起走在路上时",
-        "body": "和你一起走在路上时",
-        "sender": "WISH",
-        "time": "20xx—9-5 20:05",
+        "id": "tiktok-post-riku-rikuuuuu",
+        "title": "rikuuuuu",
+        "body": "rikuuuuu",
+        "sender": "RIKU",
+        "time": "",
         "avatar": "",
         "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/walking-with-you-sep05.mp4",
-        "likes": 129000,
+        "media": "/FoundPhone-Studio/story-assets/riku-rikuuuuu.mp4",
+        "likes": 309000,
         "comments": [],
-        "folder": "推荐",
+        "folder": "Following",
         "meta": {
-          "account": "WISH",
-          "caption": "和你一起走在路上时"
-        }
-      },
-      {
-        "id": "tiktok-post-riku-saku-aug29",
-        "title": "RIKU**と SAKU**",
-        "body": "RIKU**と SAKU**",
-        "sender": "WISH",
-        "time": "20xx-8-29 15:00",
-        "avatar": "",
-        "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/riku-saku-aug29.mp4",
-        "likes": 40000,
-        "comments": [],
-        "folder": "推荐",
-        "meta": {
-          "account": "WISH",
-          "caption": "RIKU**と SAKU**"
+          "account": "RIKU",
+          "caption": "rikuuuuu"
         }
       },
       {
@@ -6837,20 +6837,20 @@
         }
       },
       {
-        "id": "tiktok-post-rikusakuvibes",
-        "title": "RIKUSAKUVIBES",
-        "body": "RIKUSAKUVIBES",
-        "sender": "WISH",
-        "time": "20xx-5-10 16:08",
+        "id": "tiktok-post-sakuya-heart",
+        "title": "💗",
+        "body": "💗",
+        "sender": "SAKUYA",
+        "time": "",
         "avatar": "",
         "kind": "video",
-        "media": "/FoundPhone-Studio/story-assets/rikusakuvibes.mp4",
-        "likes": 13000,
+        "media": "/FoundPhone-Studio/story-assets/sakuya-heart.mp4",
+        "likes": 552000,
         "comments": [],
-        "folder": "推荐",
+        "folder": "个人主页",
         "meta": {
-          "account": "WISH",
-          "caption": "RIKUSAKUVIBES"
+          "account": "SAKUYA",
+          "caption": "💗"
         }
       }
     ]
