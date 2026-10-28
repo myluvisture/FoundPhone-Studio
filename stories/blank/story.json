@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 110,
+  "revision": 111,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -1347,6 +1347,269 @@
           "senderId": "rikku",
           "time": "20xx.09.26 00:16",
           "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-171",
+          "title": "リク",
+          "body": "我一个人好无聊",
+          "senderId": "owner",
+          "time": "20xx.09.27 14:25"
+        },
+        {
+          "id": "kakao-riku-msg-172",
+          "title": "リク",
+          "body": "怎么不打游戏",
+          "senderId": "rikku",
+          "time": "20xx.09.27 14:26",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-173",
+          "title": "リク",
+          "body": "没人跟我玩",
+          "senderId": "owner",
+          "time": "20xx.09.27 14:27"
+        },
+        {
+          "id": "kakao-riku-msg-174",
+          "title": "リク",
+          "body": "怎么会",
+          "senderId": "rikku",
+          "time": "20xx.09.27 14:27",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-175",
+          "title": "リク",
+          "body": "他俩人呢？都出门了？",
+          "senderId": "rikku",
+          "time": "20xx.09.27 14:28",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-176",
+          "title": "リク",
+          "body": "不想跟他们俩玩了",
+          "senderId": "owner",
+          "time": "20xx.09.27 14:29"
+        },
+        {
+          "id": "kakao-riku-msg-177",
+          "title": "リク",
+          "body": "riku",
+          "senderId": "owner",
+          "time": "20xx.09.27 14:30"
+        },
+        {
+          "id": "kakao-riku-msg-178",
+          "title": "リク",
+          "body": "什么时候回来",
+          "senderId": "owner",
+          "time": "20xx.09.27 14:30"
+        },
+        {
+          "id": "kakao-riku-msg-179",
+          "title": "リク",
+          "body": "还在录节目呢",
+          "senderId": "rikku",
+          "time": "20xx.09.27 14:31",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-180",
+          "title": "リク",
+          "body": "刚拿到手机休息",
+          "senderId": "rikku",
+          "time": "20xx.09.27 14:32",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-181",
+          "title": "リク",
+          "body": "好想你",
+          "senderId": "owner",
+          "time": "20xx.09.27 14:33"
+        },
+        {
+          "id": "kakao-riku-msg-182",
+          "title": "リク",
+          "body": "나도 보고 싶어~",
+          "senderId": "rikku",
+          "time": "20xx.09.27 14:34",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-183",
+          "title": "リク",
+          "body": "说了叫你昨晚别那样",
+          "senderId": "rikku",
+          "time": "20xx.09.29 22:03",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-184",
+          "title": "リク",
+          "body": "怎么了嘛",
+          "senderId": "owner",
+          "time": "20xx.09.29 22:04"
+        },
+        {
+          "id": "kakao-riku-msg-185",
+          "title": "リク",
+          "body": "被看到了",
+          "senderId": "rikku",
+          "time": "20xx.09.29 22:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-186",
+          "title": "リク",
+          "body": "ㅋㅋㅋ",
+          "senderId": "owner",
+          "time": "20xx.09.29 22:05"
+        },
+        {
+          "id": "kakao-riku-msg-187",
+          "title": "リク",
+          "body": "那样才好嘛",
+          "senderId": "owner",
+          "time": "20xx.09.29 22:06"
+        },
+        {
+          "id": "kakao-riku-msg-188",
+          "title": "リク",
+          "body": "对着别的男生笑起来比跟我在一起的时候开心啊",
+          "senderId": "rikku",
+          "time": "20xx.10.03 20:27",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-189",
+          "title": "リク",
+          "body": "我哪里有",
+          "senderId": "owner",
+          "time": "20xx.10.03 20:28"
+        },
+        {
+          "id": "kakao-riku-msg-190",
+          "title": "リク",
+          "body": "亲眼所见",
+          "senderId": "rikku",
+          "time": "20xx.10.03 20:29",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-191",
+          "title": "リク",
+          "body": "冤枉",
+          "senderId": "owner",
+          "time": "20xx.10.03 20:30"
+        },
+        {
+          "id": "kakao-riku-msg-192",
+          "title": "リク",
+          "body": "😒",
+          "senderId": "rikku",
+          "time": "20xx.10.03 20:31",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-193",
+          "title": "リク",
+          "body": "我来找你嘛",
+          "senderId": "owner",
+          "time": "20xx.10.03 20:32"
+        },
+        {
+          "id": "kakao-riku-msg-194",
+          "title": "リク",
+          "body": "不要",
+          "senderId": "rikku",
+          "time": "20xx.10.03 20:32",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-195",
+          "title": "リク",
+          "body": "等下又说你玩游戏对我放水",
+          "senderId": "rikku",
+          "time": "20xx.10.03 20:33",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-196",
+          "title": "リク",
+          "body": "哪有",
+          "senderId": "owner",
+          "time": "20xx.10.03 20:34"
+        },
+        {
+          "id": "kakao-riku-msg-197",
+          "title": "リク",
+          "body": "你明明很强的嘛",
+          "senderId": "owner",
+          "time": "20xx.10.03 20:35"
+        },
+        {
+          "id": "kakao-riku-msg-198",
+          "title": "リク",
+          "body": "这么早就出门了",
+          "senderId": "rikku",
+          "time": "20xx.10.07 07:00",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-199",
+          "title": "リク",
+          "body": "嗯！",
+          "senderId": "owner",
+          "time": "20xx.10.07 07:01"
+        },
+        {
+          "id": "kakao-riku-msg-200",
+          "title": "リク",
+          "body": "第一次单独出外务很厉害嘛",
+          "senderId": "rikku",
+          "time": "20xx.10.07 07:02",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-201",
+          "title": "リク",
+          "body": "我会好好表现的",
+          "senderId": "owner",
+          "time": "20xx.10.07 07:03"
+        },
+        {
+          "id": "kakao-riku-msg-202",
+          "title": "リク",
+          "body": "相信你",
+          "senderId": "rikku",
+          "time": "20xx.10.07 07:04",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-203",
+          "title": "リク",
+          "body": "回来跟我说",
+          "senderId": "rikku",
+          "time": "20xx.10.07 07:05",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-204",
+          "title": "リク",
+          "body": "给你做好吃的",
+          "senderId": "rikku",
+          "time": "20xx.10.07 07:06",
+          "avatar": "./story-assets/p3.jpg"
+        },
+        {
+          "id": "kakao-riku-msg-205",
+          "title": "リク",
+          "body": "알았당~",
+          "senderId": "owner",
+          "time": "20xx.10.07 07:07"
         }
       ]
     },
