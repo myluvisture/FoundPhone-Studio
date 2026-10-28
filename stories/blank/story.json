@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 82,
+  "revision": 83,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -28,7 +28,8 @@
     "line",
     "weather",
     "clock",
-    "instagram"
+    "instagram",
+    "reminders"
   ],
   "contacts": [
     {
@@ -6342,6 +6343,177 @@
         "media": "/FoundPhone-Studio/story-assets/saku-post-soba.jpg",
         "likes": 3,
         "meta": {}
+      }
+    ],
+    "reminders": [
+      {
+        "id": "reminder-schedule-01",
+        "title": "画报拍摄",
+        "body": "画报拍摄",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 1
+        }
+      },
+      {
+        "id": "reminder-schedule-02",
+        "title": "声乐课",
+        "body": "声乐课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 2
+        }
+      },
+      {
+        "id": "reminder-schedule-03",
+        "title": "舞蹈课",
+        "body": "舞蹈课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 3
+        }
+      },
+      {
+        "id": "reminder-schedule-04",
+        "title": "舞蹈课",
+        "body": "舞蹈课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 4
+        }
+      },
+      {
+        "id": "reminder-schedule-05",
+        "title": "rap课",
+        "body": "rap课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 5
+        }
+      },
+      {
+        "id": "reminder-schedule-06",
+        "title": "rap课",
+        "body": "rap课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 6
+        }
+      },
+      {
+        "id": "reminder-schedule-07",
+        "title": "声乐课",
+        "body": "声乐课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 7
+        }
+      },
+      {
+        "id": "reminder-schedule-08",
+        "title": "拍challenge",
+        "body": "拍challenge",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 8
+        }
+      },
+      {
+        "id": "reminder-schedule-09",
+        "title": "rap课",
+        "body": "rap课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 9
+        }
+      },
+      {
+        "id": "reminder-schedule-10",
+        "title": "舞蹈课",
+        "body": "舞蹈课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 10
+        }
+      },
+      {
+        "id": "reminder-schedule-11",
+        "title": "物料拍摄",
+        "body": "物料拍摄",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 11
+        }
+      },
+      {
+        "id": "reminder-schedule-12",
+        "title": "声乐课",
+        "body": "声乐课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 12
+        }
+      },
+      {
+        "id": "reminder-schedule-13",
+        "title": "舞蹈课",
+        "body": "舞蹈课",
+        "sender": "サクヤ",
+        "time": "",
+        "folder": "提醒事项",
+        "kind": "text",
+        "meta": {
+          "completed": false,
+          "order": 13
+        }
       }
     ]
   }
