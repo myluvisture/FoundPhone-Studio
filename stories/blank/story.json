@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 71,
+  "revision": 72,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2785,6 +2785,72 @@
         "time": "20xx.09.06 19:11",
         "folder": "聊天",
         "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-37",
+        "title": "ママ",
+        "body": "最近跟riku吵架了吗？",
+        "sender": "ママ",
+        "time": "20xx.09.12 21:22",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-38",
+        "title": "ママ",
+        "body": "很明显吗",
+        "sender": "ママ",
+        "time": "20xx.09.12 21:23",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-39",
+        "title": "ママ",
+        "body": "怎么大家都这么说",
+        "sender": "ママ",
+        "time": "20xx.09.12 21:24",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-40",
+        "title": "ママ",
+        "body": "有什么事情要好好说呀",
+        "sender": "ママ",
+        "time": "20xx.09.12 21:25",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-41",
+        "title": "ママ",
+        "body": "不要吵架",
+        "sender": "ママ",
+        "time": "20xx.09.12 21:26",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-42",
+        "title": "ママ",
+        "body": "我会努力的",
+        "sender": "ママ",
+        "time": "20xx.09.12 21:28",
+        "folder": "聊天",
+        "outgoing": true,
         "kind": "text",
         "meta": {}
       }
