@@ -389,7 +389,7 @@ function VerticalVideo({
         </button>
         <button aria-label={`评论${item.title}`} onClick={() => p.onItem(item)}>
           <MessageCircle size={29} />
-          <small>{item.comments.length}</small>
+          <small>{Number(item.meta['commentCount'] || item.comments.length)}</small>
         </button>
         <button
           aria-label={`收藏${item.title}`}
