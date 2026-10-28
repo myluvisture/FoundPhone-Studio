@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 65,
+  "revision": 66,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2488,6 +2488,61 @@
         "time": "20xx.07.15 18:41",
         "folder": "聊天",
         "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-10",
+        "title": "ママ",
+        "body": "过两天会回日本表演哦",
+        "sender": "ママ",
+        "time": "20xx.08.02 10:12",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-11",
+        "title": "ママ",
+        "body": "我们要来吗？",
+        "sender": "ママ",
+        "time": "20xx.08.02 10:14",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-12",
+        "title": "ママ",
+        "body": "有时间的话！我让经纪人哥给你们票",
+        "sender": "ママ",
+        "time": "20xx.08.02 10:16",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-13",
+        "title": "ママ",
+        "body": "妹妹会开心的",
+        "sender": "ママ",
+        "time": "20xx.08.02 10:18",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-14",
+        "title": "ママ",
+        "body": "见到你们我也开心",
+        "sender": "ママ",
+        "time": "20xx.08.02 10:20",
+        "folder": "聊天",
+        "outgoing": true,
         "kind": "text",
         "meta": {}
       }
