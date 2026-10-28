@@ -2,6 +2,7 @@ import { localIconPlugin } from "./scripts/local-icon-plugin";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
+// Derive the Pages base path from the current repository slug, including after a rename.
 const repositoryName = process.env.GITHUB_REPOSITORY?.split("/")[1] || "FoundPhone-Studio";
 export default defineConfig(({ command }) => ({
   base: command === "build" ? `/${repositoryName}/` : "./",
