@@ -150,7 +150,7 @@ function PhoneRuntime({
   runtime?: Runtime;
   onRuntime?: (s: Runtime) => void;
 }) {
-  const isPublicEdition = typeof window !== "undefined" && window.location.pathname.split("/").includes("sari-sakuya-phone");
+  const isPublicEdition = typeof window !== "undefined" && window.location.pathname.split("/").includes("sari-sakuya-phone") && new URLSearchParams(window.location.search).get("template") !== "blank";
   const [app, setApp] = useState("");
   const [homeRequest, setHomeRequest] = useState(0);
   const [locked, setLocked] = useState(!creator);
