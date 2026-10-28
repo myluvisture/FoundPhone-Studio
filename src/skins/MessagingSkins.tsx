@@ -31,28 +31,46 @@ function Bubbles({
   p,
   items,
   className = "",
+  showTime = false,
 }: {
   p: Props;
   items: Item[];
   className?: string;
+  showTime?: boolean;
 }) {
   return (
     <div className={`catalog-bubbles ${className}`}>
-      {items.map((i) => (
-        <div
-          className={`catalog-message ${i.outgoing ? "outgoing" : ""}`}
-          key={i.id}
-        >
-          <button onClick={() => (p.creator ? p.onItem(i) : p.onRead(i.id))}>
-            {["image", "video", "audio"].includes(i.kind) ? (
-              <Media item={i} />
-            ) : (
-              i.body
+      {items.map((i, index) => {
+        const dateMatch = i.time.match(/^20xx\.(\d{2})\.(\d{2})/);
+        const previousDate =
+          index > 0
+            ? items[index - 1].time.match(/^20xx\.(\d{2})\.(\d{2})/)?.[0] || ""
+            : "";
+        const dateLabel = dateMatch
+          ? `${Number(dateMatch[1])}月${Number(dateMatch[2])}日`
+          : "";
+        const timeLabel = i.time.match(/(\d{2}:\d{2})$/)?.[1] || i.time;
+        return (
+          <Fragment key={i.id}>
+            {showTime && dateMatch && dateMatch[0] !== previousDate && (
+              <div className="bubble-date">{dateLabel}</div>
             )}
-            {i.read && <small className="message-read"><CheckCheck size={10} /></small>}
-          </button>
-        </div>
-      ))}
+            <div className={`catalog-message ${i.outgoing ? "outgoing" : ""}`}>
+              <button onClick={() => (p.creator ? p.onItem(i) : p.onRead(i.id))}>
+                {["image", "video", "audio"].includes(i.kind) ? (
+                  <Media item={i} />
+                ) : (
+                  i.body
+                )}
+                {showTime && (
+                  <small className="line-message-time">{timeLabel}</small>
+                )}
+                {i.read && <small className="message-read"><CheckCheck size={10} /></small>}
+              </button>
+            </div>
+          </Fragment>
+        );
+      })}
     </div>
   );
 }
@@ -386,6 +404,7 @@ export function LineSkin(p: Props) {
             p={p}
             items={items.filter((i) => i.title === p.thread && i.body.trim() !== "")}
             className="line-bubbles"
+            showTime
           />
           <Composer p={p} />
         </>
