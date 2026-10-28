@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 68,
+  "revision": 69,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2618,6 +2618,17 @@
         "body": "怎么了吗？",
         "sender": "ママ",
         "time": "20xx.08.26 22:09",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-22",
+        "title": "ママ",
+        "body": "工作吗？还是又有粉丝来骚扰你了？",
+        "sender": "ママ",
+        "time": "20xx.08.26 22:10",
         "folder": "聊天",
         "outgoing": false,
         "kind": "text",
