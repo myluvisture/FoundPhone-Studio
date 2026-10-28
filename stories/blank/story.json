@@ -3,7 +3,7 @@
   "id": "blank-phone",
   "title": "捡手机",
   "description": "",
-  "revision": 63,
+  "revision": 64,
   "phone": {
     "owner": "サクヤ",
     "date": "2026-10-25",
@@ -2391,6 +2391,61 @@
         "meta": {
           "contact": "true"
         }
+      },
+      {
+        "id": "line-mama-msg-01",
+        "title": "ママ",
+        "body": "新歌很好听哦！",
+        "sender": "ママ",
+        "time": "20xx.07.01 09:13",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-02",
+        "title": "ママ",
+        "body": "回归期还是要注意身体～",
+        "sender": "ママ",
+        "time": "20xx.07.01 09:14",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-03",
+        "title": "ママ",
+        "body": "会的",
+        "sender": "ママ",
+        "time": "20xx.07.01 09:16",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-04",
+        "title": "ママ",
+        "body": "想你们",
+        "sender": "ママ",
+        "time": "20xx.07.01 09:17",
+        "folder": "聊天",
+        "outgoing": true,
+        "kind": "text",
+        "meta": {}
+      },
+      {
+        "id": "line-mama-msg-05",
+        "title": "ママ",
+        "body": "我们也是",
+        "sender": "ママ",
+        "time": "20xx.07.01 09:19",
+        "folder": "聊天",
+        "outgoing": false,
+        "kind": "text",
+        "meta": {}
       }
     ],
     "messages": [
