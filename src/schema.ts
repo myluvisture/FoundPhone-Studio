@@ -198,8 +198,16 @@ export function validateWork(input: unknown): Work {
   return workSchema.parse(input);
 }
 export function safeMedia(value: string) {
-  return /^data:(image\/(png|jpeg|webp|gif)|audio\/(mpeg|mp3|wav|ogg|webm|mp4)|video\/(mp4|webm));base64,[a-zA-Z0-9+/=\s]+$/.test(value) ||
-    /^(?:\.?\/?story-assets\/|\/FoundPhone-Studio\/story-assets\/)[a-zA-Z0-9._-]+\.(png|jpe?g|webp|gif|mp3|wav|ogg|mp4|webm)$/i.test(value)
-    ? value
-    : "";
+  const inlineMedia = /^data:(image\/(png|jpeg|webp|gif)|audio\/(mpeg|mp3|wav|ogg|webm|mp4)|video\/(mp4|webm));base64,[a-zA-Z0-9+/=\s]+$/.test(value);
+  if (inlineMedia) return value;
+
+  // Story data may retain the old repository prefix after a GitHub Pages rename.
+  // Resolve every accepted story asset through Vite's current base URL instead.
+  const match = value.match(
+    /^(?:\.?\/?story-assets\/|\/(?:FoundPhone-Studio|sari-sakuya-phone)\/story-assets\/)([a-zA-Z0-9._-]+\.(?:png|jpe?g|webp|gif|mp3|wav|ogg|mp4|webm))$/i,
+  );
+  if (!match) return "";
+  const baseUrl = import.meta.env.BASE_URL || "/";
+  const base = baseUrl.endsWith("/") ? baseUrl : `${baseUrl}/`;
+  return `${base}story-assets/${match[1]}`;
 }
