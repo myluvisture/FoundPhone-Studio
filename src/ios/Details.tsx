@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState, type PointerEvent } from "react";
 import {
   ChevronLeft,
   MoreHorizontal,
@@ -27,16 +27,49 @@ export function NativeDetail({
   app,
   item,
   back,
+  items = [],
 }: {
   app: string;
   item: Item;
   back: () => void;
+  items?: Item[];
 }) {
   const [favorite, setFavorite] = useState(item.favorite),
     [copied, setCopied] = useState(false),
     [call, setCall] = useState(false);
-  const media = safeMedia(item.media),
-    name =
+  const photoItems = app === "photos" && items.length ? items : [item];
+  const [photoId, setPhotoId] = useState(item.id);
+  const photoItem =
+    app === "photos"
+      ? photoItems.find((photo) => photo.id === photoId) ?? item
+      : item;
+  const media = safeMedia(app === "photos" ? photoItem.media : item.media);
+  const photoTouchStart = useRef<{ x: number; y: number } | null>(null);
+  useEffect(() => {
+    setPhotoId(item.id);
+  }, [item.id]);
+  useEffect(() => {
+    if (app === "photos") setFavorite(photoItem.favorite);
+  }, [app, photoItem.id, photoItem.favorite]);
+  const goToPhoto = (direction: -1 | 1) => {
+    const index = photoItems.findIndex((photo) => photo.id === photoItem.id);
+    const next = photoItems[index + direction];
+    if (next) setPhotoId(next.id);
+  };
+  const onPhotoPointerDown = (event: PointerEvent<HTMLDivElement>) => {
+    photoTouchStart.current = { x: event.clientX, y: event.clientY };
+  };
+  const onPhotoPointerUp = (event: PointerEvent<HTMLDivElement>) => {
+    const start = photoTouchStart.current;
+    photoTouchStart.current = null;
+    if (!start) return;
+    const deltaX = event.clientX - start.x;
+    const deltaY = event.clientY - start.y;
+    if (Math.abs(deltaX) < 48 || Math.abs(deltaX) < Math.abs(deltaY) * 1.15)
+      return;
+    goToPhoto(deltaX < 0 ? 1 : -1);
+  };
+  const name =
       app === "notes"
         ? "备忘录"
         : app === "contacts"
@@ -50,9 +83,9 @@ export function NativeDetail({
                 : app === "files"
                   ? "浏览"
                   : "书签";
-  const copy = async () => {
+  const copy = async (text = item.body) => {
     try {
-      await navigator.clipboard.writeText(item.body);
+      await navigator.clipboard.writeText(text);
       setCopied(true);
     } catch {
       setCopied(false);
@@ -65,7 +98,7 @@ export function NativeDetail({
           <ChevronLeft size={24} />
           {name}
         </button>
-        <strong>{app === "photos" ? item.time.slice(0, 10) : ""}</strong>
+        <strong>{app === "photos" ? photoItem.time.slice(0, 10) : ""}</strong>
         <button aria-label="更多操作" onClick={() => setCopied(!copied)}>
           <MoreHorizontal size={23} />
         </button>
@@ -81,18 +114,27 @@ export function NativeDetail({
       )}
       {app === "photos" ? (
         <>
-          <div className="native-photo-stage">
+          <div
+            className="native-photo-stage"
+            onPointerDown={onPhotoPointerDown}
+            onPointerUp={onPhotoPointerUp}
+            onPointerCancel={() => {
+              photoTouchStart.current = null;
+            }}
+            style={{ touchAction: "pan-y", userSelect: "none" }}
+            aria-label={`照片 ${photoItems.findIndex((photo) => photo.id === photoItem.id) + 1} / ${photoItems.length}`}
+          >
             {media ? (
-              <img src={media} alt={item.title} />
+              <img src={media} alt={photoItem.title} draggable={false} />
             ) : (
               <div className="native-photo-caption">
-                <h2>{item.title}</h2>
-                <p>{item.body}</p>
+                <h2>{photoItem.title}</h2>
+                <p>{photoItem.body}</p>
               </div>
             )}
           </div>
           <footer className="native-detail-toolbar">
-            <button aria-label="分享照片说明" onClick={copy}>
+            <button aria-label="分享照片说明" onClick={() => copy(photoItem.body)}>
               <Share />
             </button>
             <button
@@ -101,7 +143,7 @@ export function NativeDetail({
             >
               <Heart fill={favorite ? "#007aff" : "none"} />
             </button>
-            <span>{copied ? "已复制" : item.title}</span>
+            <span>{copied ? "已复制" : photoItem.title}</span>
           </footer>
         </>
       ) : app === "contacts" || app === "phone" ? (
