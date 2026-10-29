@@ -426,7 +426,7 @@ function PhoneRuntime({
         <div
           className={`phone-screen wallpaper-${work.phone.wallpaper} ${locked ? "is-locked" : ""} ${app ? "in-app" : ""} ${keyboard ? "keyboard-open" : ""} ${work.phone.lockWallpaper || work.phone.homeWallpaper ? "custom-wallpaper" : ""}`}
           style={{
-            backgroundImage: `url("/story-assets/${locked ? (work.phone.lockWallpaper || work.phone.wallpaper) : (work.phone.homeWallpaper || work.phone.wallpaper)}.jpg")`,
+            backgroundImage: `url("${import.meta.env.BASE_URL}story-assets/${locked ? (work.phone.lockWallpaper || work.phone.wallpaper) : (work.phone.homeWallpaper || work.phone.wallpaper)}.jpg")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
