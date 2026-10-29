@@ -105,7 +105,7 @@ export function NativeDetail({
       </header>
       {copied && (
         <div className="native-action-sheet">
-          <button onClick={copy}>
+          <button onClick={() => copy()}>
             <Copy size={18} />
             复制文字
           </button>
@@ -194,7 +194,7 @@ export function NativeDetail({
               <Folder />
             </button>
             <span />
-            <button aria-label="复制备忘录" onClick={copy}>
+            <button aria-label="复制备忘录" onClick={() => copy()}>
               {copied ? <Check /> : <Share />}
             </button>
           </footer>
@@ -232,7 +232,7 @@ export function NativeDetail({
           <h2>{item.title}</h2>
           <p>{item.body}</p>
           <small>{item.time}</small>
-          <button onClick={copy}>复制内容</button>
+          <button onClick={() => copy()}>复制内容</button>
         </div>
       )}
     </div>
